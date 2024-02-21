@@ -1,0 +1,131 @@
+<div class="container" style="margin:0 auto;">
+  <h2 style="text-align:center;margin-bottom:20px;">{{ section.settings.heading }}</h2>
+  <div class="row">
+    
+    <div class="col-12 col-lg-6 col-sm-6">
+    <div class="yv-img-content wow fadeInDown" {% if section.settings.image != blank %}style="height:0;padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;"{% endif %}>
+      {% liquid
+    if section.settings.image != blank
+        		render 'lazy-image' image: section.settings.image
+      		else  
+       			echo 'image' | placeholder_svg_tag: 'placeholder-svg'
+      		endif 
+   %}
+    </div></div>
+      <div class="col-12 col-lg-6 col-sm-6">
+  {% include 'judgeme_widgets', widget_type: 'judgeme_featured_carousel', concierge_install: false %}
+  <a class="button wow fadeInUp" href="{{ pages['bewertungen'].url }}">{{ section.settings.button }}</a>
+      </div>
+  </div>
+</div>
+<style>
+  #shopify-section-{{ section.id }}.shopify-section {
+    background-color:#E3EFF5;
+    padding-top:{{ section.settings.top_space_desktop }}px;
+    padding-bottom:{{ section.settings.bottom_space_desktop }}px;
+  }
+  @media only screen and (max-width:575px) {
+    #shopify-section-{{ section.id }}.shopify-section{
+      padding-top:{{ section.settings.top_space_mobile }}px;
+      padding-bottom:{{ section.settings.bottom_space_mobile }}px;
+    }
+  }
+  .jdgm-carousel-title,.jdgm-carousel__arrows {display:none;}
+  .jdgm-carousel__item-container .jdgm-carousel-item {
+    height:160px!important;
+    padding: 5px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (min-width: 750px) {
+  .jdgm-carousel-wrapper .jdgm-carousel-item__review {
+    height: calc(100% - 4em);
+}}
+  #shopify-section-{{ section.id }}.shopify-section .jdgm-carousel-wrapper {width:100%;padding:0;}
+.jdgm-carousel--vertical-theme .jdgm-carousel-item__review-wrapper {background-color:#fff!important;}
+@media only screen and (max-width: 750px) {
+  .jdgm-carousel-item__review-body.jdgm-line-clamp {height:120px;}
+  .jdgm-carousel__item-container .jdgm-carousel-item {
+    height: 240px!important;
+  }
+}
+
+</style>
+{% schema %}
+  {
+    "name": "Custom Featured Reviews",
+    "settings": [
+      {
+        "type": "range",
+        "id": "maxwidth",
+        "min": 480,
+        "max": 1920,
+        "step": 40,
+        "unit": "px",
+        "label": "Maximum width",
+        "default": 1080,
+        "info": "For other settings please go to apps settings"
+      },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image1.label",
+      "info": "t:sections.image-with-text.settings.image1.info"
+    },
+      {
+      "type": "text",
+      "id": "heading",
+      "default": "Kundenbewertungen",
+      "label": "Überschrift"
+    },
+      {
+      "type": "text",
+      "id": "button",
+      "default": "Alle Bewertungen sehen",
+      "label": "Button"
+    },{
+      "type": "range",
+      "id": "top_space_desktop",
+      "label": "t:sections.apps.settings.top_space_desktop.label",
+      "default": 30,
+      "min": 0,
+      "max": 60,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "bottom_space_desktop",
+      "label": "t:sections.apps.settings.bottom_space_desktop.label",
+      "default": 30,
+      "min": 0,
+      "max": 60,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "top_space_mobile",
+      "label": "t:sections.apps.settings.top_space_mobile.label",
+      "default": 30,
+      "min": 0,
+      "max": 60,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "bottom_space_mobile",
+      "label": "t:sections.apps.settings.bottom_space_mobile.label",
+      "default": 30,
+      "min": 0,
+      "max": 60,
+      "step": 5
+    }
+    ],
+    "presets": [
+      {
+        "name": "Custom Featured Reviews",
+        "category": "Judge.me Sections"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,50 @@
+{% liquid
+      assign bodyfontbold = settings.type_base_font_family | font_modify: 'weight', 'bold'
+      assign bodyfontitalic = settings.type_body_font | font_modify: 'style', 'italic'
+      assign bodyfontbolditalic = bodyfontbold | font_modify: 'style', 'italic'
+%}
+{{ settings.type_base_font_family | font_face : font_display: 'swap' }}
+{{ bodyfontbold | font_face : font_display: 'swap' }}
+{{ bodyfontitalic | font_face : font_display: 'swap' }}
+{{ bodyfontbolditalic | font_face : font_display: 'swap' }}
+{% comment %}{{ settings.type_heading_font_family | font_face : font_display: 'swap' }}{% endcomment %}
+
+
+
+
+:root {
+  --black: #000000;
+  --white:#ffffff;
+  --gray: #ececec;
+  --dark-gray: #747474;
+  --green:#6cad61;
+  --red:#ec7c7c;
+  --heading-font-family:'Syncopate'{% comment %}{{ settings.type_heading_font_family.family }}{% endcomment %},{{ settings.type_heading_font_family.fallback_families }};
+  --font-family:{{ settings.type_base_font_family.family }},{{ settings.type_base_font_family.fallback_families }};
+  --thin:100;
+  --light:300;
+  --normal:400;
+  --medium:500;
+  --semibold:600;
+  --bold:700;
+  --extrabold:900;
+  --theme-color: {{ settings.color_base | default: '#9d6348' }};
+  --theme-light-color: {{ settings.color_base | default: '#a26749' | color_modify: 'alpha', 0.1 }};
+  --cartDotColor: {{ settings.color_cart_dot | default: '#9d6348' }};
+  --colorBtnPrimary: {{ settings.color_button | default: '#000' }};
+  --colorBtnPrimaryText: {{ settings.color_button_text | default: '#fff' }};  
+  --colorBtnSecondary: {{ settings.secondary_color_button | default: '#fff' }};
+  --colorBtnSecondaryText:{{ settings.secondary_color_button_text | default: '#000' }};  
+  --colorBody: {{ settings.color_body_bg | default: '#fff' }};
+  --secondaryColorBody: {{ settings.secondary_color_body_bg | default: '#f8f3eb' }};
+  --colorTextBody: {{ settings.color_body_text | default: '#000' }};
+  --colorImageBg: {{ settings.color_image_bg | default: '#f9f4e8' }};
+  --colorTextSavings: {{ settings.color_savings_text | default: '#E22120' }};
+  --colorBgSavings: {{ settings.bg_savings_text | default: '#ffe18c' }};
+  --heading_color: {{ settings.heading_color | default: '#000000' }};
+  --heading_spacing: {{ settings.type_header_spacing | default: "0" | divided_by: 1000.00 }}em;
+  --base_spacing: {{ settings.type_base_spacing | default: "50" | divided_by: 1000.00 }}em;
+  --base_line_height: {{ settings.type_base_line_height | default: 1.4 }};
+  --text_size: {{ settings.type_base_size | default: 13 }}px;
+}
+  

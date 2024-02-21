@@ -1,0 +1,170 @@
+<div class="yv-coupan-sidebar position-{{ section.settings.horizontal_position }}">
+{%- if section.settings.enable_sidebar -%} 
+<div class="yv-coupan-panel yv-coupan-panel-{{ section.id }}">
+  <h5 class="yv-coupan-panel-title">{{ section.settings.button_text | default: 'Coupon' }}</h5>
+</div>
+<div class="offer-sidebar">  
+  <div class="offer-section-wrapper">
+    <div class="container">
+      <div class="section-heading">
+        {%- if section.settings.subheading != blank -%}
+        <h6>{{ section.settings.subheading }}</h6>
+        {%- endif -%}
+        {%- if section.settings.heading != blank -%}
+        <h4>{{ section.settings.heading }}</h4>
+        {%- endif -%}
+      </div>
+      {%- if section.blocks.size > 0 -%}
+      <div class="yv-offers-outer">
+        <div class="row">
+          {%- for block in section.blocks -%}
+          <div class="col-10 {% if section.blocks.size > 1 %}col-sm-8 col-md-8{% else %} col-sm-12 col-md-12{% endif %}" {{ block.shopify_attributes }}>
+            <div class="yv-offer-item-box">
+            <{% if block.settings.link != blank %}a href="{{ block.settings.link }}"{% else %}div{% endif %} class="yv-offer-item">
+              {%- if block.settings.image != blank -%}
+              {%- render 'lazy-image' image: block.settings.image, width: '500x' -%}
+              {%- endif -%}
+              <div class="yv-offer-detail content-border-true ">
+                {%- if block.settings.heading != blank -%}
+                <h5>{{ block.settings.heading }}</h5>
+                {%- endif -%}
+                {%- if block.settings.highlight_text != blank -%}
+                <p><strong>{{ block.settings.highlight_text }}</strong></p>
+                {%- endif -%}
+              </div>
+            </{% if block.settings.link != blank %}a{% else %}div{% endif %}>
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+      {%- endif -%}
+    </div>
+  </div> 
+</div>
+<style>
+  #shopify-section-{{ section.id }}{
+    display:none;
+  }
+  #shopify-section-{{ section.id }} .yv-coupan-sidebar{
+  	top:{{ section.settings.vertical_position }}%;
+  }
+  .yv-coupan-sidebar.position-left {
+    left: 0;
+  transform: translate(-100%, -{{ section.settings.vertical_position }}%);
+}
+.yv-coupan-sidebar.position-left.open {
+    transform: translate(0%, -{{ section.settings.vertical_position }}%);
+}
+  .yv-coupan-sidebar.position-right {
+    right: 0;
+    left:unset;
+  transform: translate(100%, -{{ section.settings.vertical_position }}%) ;
+}
+.yv-coupan-sidebar.position-right.open {
+    transform: translate(0%, -{{ section.settings.vertical_position }}%);
+}
+</style>
+<script>
+  $(document).ready(function(){
+    
+    $("body").on('click','.yv-coupan-panel',function(){
+      $("body").toggleClass("offer-open");
+      $(".yv-coupan-sidebar").toggleClass("open");
+    });
+  })
+</script>
+{%- endif -%}
+</div>
+{% schema %}
+{
+  "name": "t:sections.offer-sidebar.name",
+  "class": "offer-sidebar-section",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_sidebar",
+      "default": false,
+      "label": "t:sections.offer-sidebar.settings.enable_sidebar.label"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Heading Here",
+      "label": "t:sections.offer-sidebar.settings.heading.label"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Sub Heading Here",
+      "label": "t:sections.offer-sidebar.settings.subheading.label"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "default": "Coupon",
+      "label": "t:sections.offer-sidebar.settings.button_text.label",
+      "info": "t:sections.offer-sidebar.settings.button_text.info"
+    },
+    {
+      "type": "select",
+      "id": "horizontal_position",
+      "label": "t:sections.offer-sidebar.settings.horizontal_position.label",
+      "default": "left",
+      "options": [
+        {
+          "label": "t:sections.offer-sidebar.settings.horizontal_position.left.label",
+          "value": "left"
+        },
+        {
+          "label": "t:sections.offer-sidebar.settings.horizontal_position.right.label",
+          "value": "right"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "vertical_position",
+      "label": "t:sections.offer-sidebar.settings.vertical_position.label",
+      "default": 50,
+      "min": 30,
+      "max": 100,
+      "unit": "%"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "offer",
+      "name": "t:sections.offer-sidebar.blocks.offer.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Offer Title",
+          "label": "t:sections.offer-sidebar.blocks.offer.settings.heading.label",
+          "info": "t:sections.offer-sidebar.blocks.offer.settings.heading.info"
+        },
+        {
+          "type": "text",
+          "id": "highlight_text",
+          "default": "Offer",
+          "label": "t:sections.offer-sidebar.blocks.offer.settings.highlight_text.label",
+          "info": "t:sections.offer-sidebar.blocks.offer.settings.highlight_text.info"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.offer-sidebar.blocks.offer.settings.image.label",
+          "info": "t:sections.offer-sidebar.blocks.offer.settings.image.info"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.offer-sidebar.blocks.offer.settings.link.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

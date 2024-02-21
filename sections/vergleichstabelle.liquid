@@ -1,0 +1,573 @@
+{% assign coloumn_1 = section.settings.coloumn_1 %}
+{% assign coloumn_2 = section.settings.coloumn_2 %}
+{% assign coloumn_3 = section.settings.coloumn_3 %}
+{% assign coloumn_4 = section.settings.coloumn_4 %}
+<div class="container">
+  <div style="margin-bottom:20px;">
+    {%- if section.settings.subheading != blank -%}
+          <h6 class="yv-collections-subtitle wow fadeInLeft">{{ section.settings.subheading }}</h6>
+          {%- endif %}
+    <h2 class="featured-blog-section-heading">
+      <span class="animate-heading wow fadeInRightBig d-block" data-wow-duration="0.8s" data-wow-delay="0.1s">
+        <span class="textFadeIn">
+          <span class="wow fadeInLeftBig" data-wow-duration="0.8s" data-wow-delay="0.2s"">{{ section.settings.heading }}</span>
+        </span>
+      </span></h2>
+    {%- if section.settings.description != blank -%}
+          <p class="yv-collections-desc">{{ section.settings.description }}</p>
+          {%- endif %}
+          {%- if section.settings.btntext != blank and section.settings.btnlink != blank -%}
+          <a class="button yv-collections-mainlink" href="{{ section.settings.btnlink }}">{{ section.settings.btntext }}</a>
+          {%- endif -%}
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-7">
+<table border="0" class=" o-pricing-table u-background--white">
+   <colgroup>
+      <col>
+      <col>
+      <col class="o-pricing-table__column v--plan">
+      <col class="o-pricing-table__spacer">
+      <col class="o-pricing-table__column v--plan">
+      <col class="o-pricing-table__spacer">
+     {% if coloumn_3 != blank %}
+      <col class="o-pricing-table__column v--plan">
+      <col class="o-pricing-table__spacer">
+     {% endif %}
+     {% if coloumn_4 != blank %}
+      <col class="o-pricing-table__column v--plan">
+      <col class="o-pricing-table__spacer v--last-column">
+     {% endif %}
+   </colgroup>
+   <thead>
+      <tr>
+         <th colspan="2" class="u-padding-top--x-large"></th>
+         <th class="u-padding-top--x-large o-pricing-table__header"><strong>{{ coloumn_1 }}</strong></th>
+         <th class="o-pricing-table__spacer"></th>
+         <th class="u-padding-top--x-large o-pricing-table__header"><strong>{{ coloumn_2 }}</strong></th>
+         <th class="o-pricing-table__spacer"></th>
+        {% if coloumn_3 != blank %}
+         <th class="u-padding-top--x-large o-pricing-table__header"><strong>{{ coloumn_3 }}</strong></th>
+         <th class="o-pricing-table__spacer"></th>
+        {% endif %}
+        {% if coloumn_4 != blank %}
+         <th class="u-padding-top--x-large o-pricing-table__header"><strong>{{ coloumn_4 }}</strong></th>
+         <th class="o-pricing-table__spacer v--last-column"></th>
+        {% endif %}
+      </tr>
+   </thead>
+   <tbody>
+      
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+        {% when 'header' %}
+          <tr class="o-pricing-table__row--header">
+         <td colspan="2"><strong>{{ block.settings.zwischenheading }}</strong></td>
+         <td></td>
+         <td class="o-pricing-table__spacer"></td>
+         <td></td>
+         
+         <td class="o-pricing-table__spacer"></td>
+         {% if coloumn_3 != blank %}
+        <td></td>
+         <td class="o-pricing-table__spacer"></td>
+         {% endif %}
+         {% if coloumn_4 != blank %}
+         <td></td>
+         <td class="o-pricing-table__spacer v--last-column"></td>
+        {% endif %}
+      </tr>
+        {% when 'row' %}
+        <tr class="o-pricing-table__row--feature">
+         <td colspan="2">
+            <span {% if block.settings.subheading != blank %}class="c-tooltip"{% endif %} data-js-tooltip-delay="0" role="button" tabindex="0">
+               <span {% if block.settings.subheading != blank %}class="c-tooltip__word"{% endif %} aria-describedby="message_history_desc">{{block.settings.heading}}</span>
+               <div class="c-tooltip__content v--south-east v--alternate">
+                  <p class="display-as-mini" id="message_history_desc">{{ block.settings.subheading }}</p>
+               </div>
+            </span>
+         </td>
+         <td style="text-align:center">{% if block.settings.text_1 != blank %}
+           {{ block.settings.text_1 }}
+           {% else %}{% if block.settings.checkmark_1 %}
+           <svg class="c-check" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="-255 347 100 100">
+               <title></title>
+               <path d="M-217.1 431.8c-1 1.2-2.6 2.2-4 2.3-1.4.1-3-.8-4.3-1.9l-27.5-24.5 7.8-8.7 23.2 20.6 54.6-61.7 8.6 7.9-58.4 66z"></path>
+            </svg>
+           {% endif %}{% endif %}</td>
+         <td class="o-pricing-table__spacer"></td>
+         <td style="text-align:center">{% if block.settings.text_2 != blank %}
+           {{ block.settings.text_2 }}
+           {% else %}{% if block.settings.checkmark_2 %}
+           <svg class="c-check" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="-255 347 100 100">
+               <title></title>
+               <path d="M-217.1 431.8c-1 1.2-2.6 2.2-4 2.3-1.4.1-3-.8-4.3-1.9l-27.5-24.5 7.8-8.7 23.2 20.6 54.6-61.7 8.6 7.9-58.4 66z"></path>
+            </svg>
+           {% endif %}{% endif %}</td>
+         <td class="o-pricing-table__spacer"></td>
+         {% if coloumn_3 != blank %}
+           <td style="text-align:center">{% if block.settings.text_3 != blank %}
+           {{ block.settings.text_3 }}
+           {% else %}{% if block.settings.checkmark_3 %}
+           <svg class="c-check" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="-255 347 100 100">
+               <title></title>
+               <path d="M-217.1 431.8c-1 1.2-2.6 2.2-4 2.3-1.4.1-3-.8-4.3-1.9l-27.5-24.5 7.8-8.7 23.2 20.6 54.6-61.7 8.6 7.9-58.4 66z"></path>
+            </svg>
+           {% endif %}{% endif %}</td>
+         <td class="o-pricing-table__spacer"></td>{% endif %}
+         {% if coloumn_4 != blank %}
+           <td  style="text-align:center">{% if block.settings.text_4 != blank %}
+           {{ block.settings.text_4 }}
+           {% else %}{% if block.settings.checkmark_4 %}
+           <svg class="c-check" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="-255 347 100 100">
+               <title></title>
+               <path d="M-217.1 431.8c-1 1.2-2.6 2.2-4 2.3-1.4.1-3-.8-4.3-1.9l-27.5-24.5 7.8-8.7 23.2 20.6 54.6-61.7 8.6 7.9-58.4 66z"></path>
+            </svg>
+           {% endif %}{% endif %}</td>
+         <td class="o-pricing-table__spacer v--last-column"></td>{% endif %}
+      </tr>
+          {% endcase %}
+        {% endfor %}
+      
+   </tbody>
+   <tfoot>
+      <tr>
+         <th colspan="2"></th>
+         <th></th>
+         <th class="o-pricing-table__spacer"></th>
+         <th></th>
+         <th class="o-pricing-table__spacer"></th>
+        {% if coloumn_3 != blank %}
+         <th></th>
+         <th class="o-pricing-table__spacer"></th>
+          {% endif %}
+        {% if coloumn_4 != blank %}
+         <th></th>
+         <th class="o-pricing-table__spacer"></th>
+        {% endif %}
+      </tr>
+      <tr class="o-pricing-table__footer">
+         <th colspan="2"></th>
+         <th>{{ section.settings.footer_1 }}</th>
+         <th class="o-pricing-table__spacer"></th>
+         <th>{{ section.settings.footer_2 }}</th>
+         <th class="o-pricing-table__spacer"></th>
+        {% if coloumn_3 != blank %}
+         <th>{{ section.settings.footer_3 }}</th>
+         <th class="o-pricing-table__spacer"></th>
+        {% endif %}
+         {% if coloumn_4 != blank %}
+        <th>{{ section.settings.footer_4 }}</th>
+         <th class="o-pricing-table__spacer"></th>
+           {% endif %}
+      </tr>
+   </tfoot>
+</table></div>
+   <div class="col-12 col-md-5">
+     <div class="yv-img-content wow fadeInDown" {% if section.settings.image != blank %}style="height:0;padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;"{% endif %}>
+      {% liquid
+    if section.settings.image != blank
+        		render 'lazy-image' image: section.settings.image
+      		else  
+       			echo 'image' | placeholder_svg_tag: 'placeholder-svg'
+      		endif 
+   %}
+    </div>
+   </div>
+</div>
+
+<style>
+  .o-pricing-table__column.v--plan {
+min-width: 1rem;
+max-width: 180px;
+    text-align:center;
+}
+  .o-pricing-table__spacer {
+width: 1.5rem;
+}
+  .o-pricing-table__spacer.v--last-column {
+width: 1rem;
+}
+.o-pricing-table td, .o-pricing-table th, .o-pricing-table tr {
+border: none!important;
+color: #000;
+}
+  .o-pricing-table thead th {
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+  .o-pricing-table td, .o-pricing-table th {
+padding: 1rem 1.25rem;
+}
+  .o-pricing-table td:first-child {
+border-left: none;
+text-align: left;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+padding: 1rem 1.25rem;
+}
+  .o-pricing-table__row--header td {
+padding-top: 2rem!important;
+padding-bottom: .5rem!important;
+}
+  .o-pricing-table {
+    border:none;
+    max-width: 800px;
+  }
+
+  .o-pricing-table td:last-child {
+border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+  .o-pricing-table td:first-child {
+border-left: none;
+text-align: left;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+padding: 1rem 1.25rem;
+}
+  .o-pricing-table__row--feature td, .o-pricing-table__row--feature td:first-child {
+padding: .7rem 1.25rem;
+}
+  .o-section__pricing-grid .c-tooltip, .o-section__pricing-table .c-tooltip {
+text-align: left;
+}
+  .o-pricing-table .c-tooltip {
+z-index: auto;
+}
+  .c-tooltip__word {
+border-bottom: 2px dotted #696969;
+}.o-section__pricing-grid .c-tooltip__content.v--south-east, .o-section__pricing-table .c-tooltip__content.v--south-east {
+padding: 1rem;
+margin-top: 1rem;
+}
+  .c-tooltip__content.v--south-east {
+    position: absolute;
+    background: white;
+    margin-top: 10px;
+    min-width: 200px;
+    max-width:40%;
+    box-shadow: 1px 1px 15px #00000017;
+}
+  .c-tooltip__content .display-as-mini {
+    padding:15px;
+  }
+  .o-pricing-table__row--feature td, .o-pricing-table__row--feature td:first-child {
+padding: .7rem 1.25rem;
+}
+  .o-pricing-table tfoot, .o-pricing-table thead {
+text-align: center;
+    background-color:transparent;
+    border-bottom:none;
+}
+  .o-pricing-table tfoot th {
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+  .o-pricing-table__row--feature:hover {
+background-color: rgba(105,105,105,.15);
+border-radius: 4px;
+}
+  .c-tooltip__content {display:none;transition: .5s;}
+  .o-pricing-table__header {
+box-shadow: 0 1px 0 0 rgba(0,0,0,.2);
+
+}
+  .c-tooltip {cursor:pointer;}
+  .c-tooltip:hover .c-tooltip__content {display:block;transition: .5s;z-index:1;}
+  .o-pricing-table__column {
+background-color:    var(--theme-light-color);
+}
+@media screen and (max-width: 767px){
+  .o-pricing-table__spacer {
+    padding: 0!important;
+    width: 0!important;
+}
+  .o-pricing-table colgroup col:nth-child(5) {
+    background-color:transparent
+  }
+  .o-pricing-table td:first-child {
+    padding-left:0;
+  }
+  .o-pricing-table .c-tooltip {line-height:1.5}
+}
+  tr.o-pricing-table__footer th:nth-child(2), .o-pricing-table thead > tr > th:nth-child(2), .o-pricing-table thead > tr > th:nth-child(4){
+    padding: 10px;
+  min-width: 102px;
+    text-align:center;
+  }
+}
+</style>
+
+
+
+
+
+  <style>
+    #shopify-section-{{ section.id }}.shopify-section {
+      padding-top:{{ section.settings.top_space_desktop }}px;
+      padding-bottom:{{ section.settings.bottom_space_desktop }}px;
+    }
+    @media only screen and (max-width:575px) {
+      #shopify-section-{{ section.id }}.shopify-section{
+        padding-top:{{ section.settings.top_space_mobile }}px;
+        padding-bottom:{{ section.settings.bottom_space_mobile }}px;
+      }
+    }
+   
+  </style>
+  {% schema %}
+  {
+    "name": "vergleichstabelle",
+    "tag": "section",
+    "class": "collection-list-section",
+    "max_blocks": 100,
+    "settings": [
+      {
+        "type":"header",
+        "content": "t:common.header.text_section.label"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "default": "Collection list",
+        "label": "t:sections.featured-collections-list.settings.heading.label"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "default": "New Collection",
+        "label": "t:sections.featured-collections-list.settings.subheading.label"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "default": "Share information about your collection with customers. Describe a collection, make announcements related to your collection.",
+        "label": "t:sections.featured-collections-list.settings.description.label"
+      },
+      {
+        "type":"header",
+        "content": "t:common.header.button_section.label"
+      },
+      {
+        "type": "text",
+        "id": "btntext",
+        "default": "View All",
+        "label": "t:sections.featured-collections-list.settings.btntext.label"
+      },
+      {
+        "type": "url",
+        "id": "btnlink",
+        "default": "/collections",
+        "label": "t:sections.featured-collections-list.settings.btnlink.label"
+      },
+      {
+        "type":"header",
+        "content": "Spaltenüberschriften"
+      },
+      {
+        "type": "text",
+        "id": "coloumn_1",
+        "label": "Spalte 1 Überschrift"
+      },
+      {
+        "type": "text",
+        "id": "coloumn_2",
+        "label": "Spalte 2 Überschrift"
+      },
+      {
+        "type": "text",
+        "id": "coloumn_3",
+        "label": "Spalte 3 Überschrift"
+      },
+      {
+        "type": "text",
+        "id": "coloumn_4",
+        "label": "Spalte 4 Überschrift"
+      },
+      {
+        "type": "text",
+        "id": "footer_1",
+        "label": "Spalte 1 Footer",
+        "default": "<a href='/'>Mehr Infos</a>"
+      },
+      {
+        "type": "text",
+        "id": "footer_2",
+        "label": "Spalte 2 Footer",
+        "default": "<a href='/'>Mehr Infos</a>"
+      },
+      {
+        "type": "text",
+        "id": "footer_3",
+        "label": "Spalte 3 Footer",
+        "default": "<a href='/'>Mehr Infos</a>"
+      },
+      {
+        "type": "text",
+        "id": "footer_4",
+        "label": "Spalte 4 Footer",
+        "default": "<a href='/'>Mehr Infos</a>"
+      },
+      {
+        "type":"header",
+        "content": "t:common.header.space_section.label"
+      },
+      {
+        "type": "range",
+        "id": "top_space_desktop",
+        "label": "t:common.top_space_desktop.label",
+        "default": 85,
+        "min": 0,
+        "max": 100,
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "bottom_space_desktop",
+        "label": "t:common.bottom_space_desktop.label",
+        "default": 40,
+        "min": 0,
+        "max": 100,
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "top_space_mobile",
+        "label": "t:common.top_space_mobile.label",
+        "default": 35,
+        "min": 0,
+        "max": 100,
+        "step": 5
+      },
+      {
+        "type": "range",
+        "id": "bottom_space_mobile",
+        "label": "t:common.bottom_space_mobile.label",
+        "default": 35,
+        "min": 0,
+        "max": 100,
+        "step": 5
+      },
+      {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-with-text.settings.image1.label",
+      "info": "t:sections.image-with-text.settings.image1.info"
+    }
+    ],
+    "blocks": [
+      {
+        "type": "row",
+        "name": "t:sections.featured-collections-list.blocks.collection.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "link",
+            "label": "Block Link"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.featured-collections-list.blocks.collection.settings.image.label",
+            "info": "t:sections.featured-collections-list.blocks.collection.settings.image.info"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "t:sections.featured-collections-list.blocks.collection.settings.heading.label"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Infotext on Hover",
+            "info": "Wird angezeigt, wenn man über Überschrift hovert"
+          },
+          {
+            "type": "checkbox",
+            "id": "checkmark_1",
+            "label": "Spalte 1 Haken",
+            "info": "Anklicken um Haken anzuzeigen"
+          },
+          {
+            "type": "text",
+            "id": "text_1",
+            "label": "Spalte 1 Infotext",
+            "info": "Wenn Text, wird kein Haken angezeigt"
+          },
+          {
+            "type": "checkbox",
+            "id": "checkmark_2",
+            "label": "Spalte 2 Haken",
+            "info": "Anklicken um Haken anzuzeigen"
+          },
+          {
+            "type": "text",
+            "id": "text_2",
+            "label": "Spalte 2 Infotext",
+            "info": "Wenn Text, wird kein Haken angezeigt"
+          },
+          {
+            "type": "checkbox",
+            "id": "checkmark_3",
+            "label": "Spalte 3 Haken",
+            "info": "Anklicken um Haken anzuzeigen"
+          },
+          {
+            "type": "text",
+            "id": "text_3",
+            "label": "Spalte 3 Infotext",
+            "info": "Wenn Text, wird kein Haken angezeigt"
+          },
+          {
+            "type": "checkbox",
+            "id": "checkmark_4",
+            "label": "Spalte 4 Haken",
+            "info": "Anklicken um Haken anzuzeigen"
+          },
+          {
+            "type": "text",
+            "id": "text_4",
+            "label": "Spalte 4 Infotext",
+            "info": "Wenn Text, wird kein Haken angezeigt"
+          }
+        ]
+      },
+      {
+      "type": "header",
+      "name": "Zwischenüberschrift",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "text",
+          "id": "zwischenheading",
+          "label": "Zwischenüberschrift",
+          "default": "Überschrift für die nächsten Zeilen"
+        }
+      ]
+    }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.featured-collections-list.presets.name",
+        "blocks": [
+          {
+            "type": "header"
+          },
+          {
+            "type": "row"
+          },
+          {
+            "type": "row"
+          },
+          {
+            "type": "row"
+          },
+          {
+            "type": "row"
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}

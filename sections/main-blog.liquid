@@ -1,0 +1,92 @@
+{%- paginate blog.articles by 6 -%}
+<div  id="main-blog-{{ section.id }}" class="top_page_title no-bg">
+  <div class="container">
+    <div class="contact-banner-text">
+      <div class="banner_title">
+        <h2>{{ blog.title | escape }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="yv-blog-listing">
+  <div class="container sm-container">
+    <div class="yv-blog-outer-box">  
+      <div class="row">
+        {%- for article in blog.articles -%}
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4"> 
+          <div class="post-information">
+            <a href="{{ article.url }}" class="post-information-image yv-blog-card-img" title="{{ article.title }}">
+            {%- if article.image -%}
+              {% render 'lazy-image' image: article.image %}  
+            {%- else -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- endif -%}
+              {%- if section.settings.show_date -%}
+              <span class="yv-blog-date">{{ article.published_at | date: "%d" }} {{ article.published_at | date: " %b %Y" }} </span>
+              {%- endif -%}
+            </a>                     
+            <div class="post-information-text yv-blog-card-text">
+              {%- if article.comments_count > 0 and blog.comments_enabled? and section.settings.show_comment_count -%}
+              <div class="post-date">
+                <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
+              </div>
+              {%- endif -%}
+              <div class="post-name">
+                <h6 class="yv-blog-title"><a href="{{ article.url }}">{{ article.title | truncatewords: 6 }}</a></h6>
+                {%- if section.settings.show_excerpt -%}
+                <p class="yv-blog-desc">{{ article.excerpt_or_content | strip_html | truncatewords: 30 }}</p>
+                {%- endif -%}   
+                {%- if section.settings.show_tags -%}
+                <ul class="list-unstyled article_tags yv-blog-tags">
+                  {%- for tag in article.tags -%}
+                  <li><a href="{{ blog.url }}/tagged/{{tag}}">{{tag}}</a></li>
+                  {%- endfor -%}
+                </ul>
+                {%- endif -%}                       
+              </div>
+              <a href="{{ article.url }}" class="yv-blog-link">{{ 'blogs.article.read_more' | t }}</a>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+{%- if paginate.pages > 1 -%}
+   {%- render 'pagination', paginate: paginate -%}
+{%- endif -%}
+{%- endpaginate -%}
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "main-blog-section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_date.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_tags.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_excerpt",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_excerpt.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_comment_count",
+      "default": true,
+      "label": "t:sections.main-blog.settings.show_comment_count.label"
+    }
+  ]
+}
+{% endschema %}

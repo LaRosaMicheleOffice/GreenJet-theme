@@ -1,0 +1,68 @@
+{% unless section.settings.full_width %}
+<div class="container sm-container">
+  {% endunless %}
+    <div class="map_box" id="mapContainer-{{ section.id }}" data-location="{{ section.settings.mapaddress }}" data-map-style="{{ section.settings.map_style }}" data-map-container style="height:500px">
+      <div class="map_box_placeholder">
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      </div>
+    </div>  
+  {% unless section.settings.full_width %}
+</div>
+{% endunless %}
+{% schema %}
+{
+  "name": "t:sections.map.name",
+  "settings": [
+    {
+      "id": "full_width",
+      "type": "checkbox",
+      "label": "t:sections.map.settings.full_width.label",
+      "default": true
+    },
+    {
+      "id": "mapaddress",
+      "type": "text",
+      "label": "t:sections.map.settings.mapaddress.label"
+    },
+    {
+      "type": "select",
+      "id": "map_style",
+      "label": "t:sections.map.settings.map_style.label",
+      "default": "roadmap",
+      "options": [
+        {
+          "label": "t:sections.map.settings.map_style.options.roadmap.label",
+          "value": "roadmap"
+        },
+        {
+          "label": "t:sections.map.settings.map_style.options.satellite.label",
+          "value": "satellite"
+        },
+        {
+          "label": "t:sections.map.settings.map_style.options.hybrid.label",
+          "value": "hybrid"
+        },
+        {
+          "label": "t:sections.map.settings.map_style.options.terrain.label",
+          "value": "terrain"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "t:sections.map.settings.paragraph.content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.map.presets.name"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

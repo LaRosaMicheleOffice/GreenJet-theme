@@ -1,0 +1,23 @@
+{% assign featuredImage =  collection.featured_image %}
+{% if collectionImage != blank %}
+{%- liquid 
+  assign featuredImage =  collectionImage
+-%}
+{% endif %}
+<div class="col-12 col-sm-6 col-md-4 col-lg-3"  {{ block.shopify_attributes }}>
+  <div class="yv-collection-card-box wow fadeInUp" data-wow-delay="{{delay}}s">
+    <a href="{{ collection.url }}" class="yv-collection-featured-img"  aria-label="{{- collection.title -}}">
+      {%- if featuredImage != blank -%}
+      <div class="image-wrapper" style="padding-bottom:{{ 1 | divided_by : featuredImage.aspect_ratio | times : 100 | plus : 1 }}%">
+      {% render 'lazy-image' image: featuredImage %}
+      </div>
+      {% else %}   
+      {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}  
+      {% endif %}
+    </a>
+    <div class="yv-collection-detail">
+      <a href="{{ collection.url }}" class="yv-collection-title" aria-label="{{- collection.title -}}">{{- collection.title -}}</a>
+    </div>
+    <a href="{{ collection.url }}" class="yv-collection-grid-hover"></a>
+  </div>
+</div>

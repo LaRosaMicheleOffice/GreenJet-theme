@@ -1,0 +1,210 @@
+<div class="container"> 
+  <div class="section-heading" >
+    <h2 class="featured-blog-section-heading">
+      <span class=" animate-heading wow fadeInRightBig d-block" data-wow-duration="0.8s"	data-wow-delay="0.1s">
+        <span class="textFadeIn">
+          <span class="wow fadeInLeftBig " data-wow-duration="0.8s" data-wow-delay="0.2s">{{ section.settings.heading }}</span>
+        </span>
+      </span>
+      {%- if section.settings.button != blank and section.settings.link != blank -%}
+      <a class="corner-view-all" href="{{ section.settings.link }}">{{ section.settings.button }}</a>
+      {%- endif -%}
+    </h2>
+  </div>
+  {%- if section.blocks.size > 0 -%}
+  <div class="yv-blogs-wrapper article-count-{{ section.blocks.size }}"> 
+    <div class="row align-items-center">       
+      <div class="col-10 col-sm-6 {% if section.blocks.size == 2 %}col-md-6 col-lg-6{%else%}col-md-5 col-lg-5{% endif %}">
+        {%- for block in section.blocks limit: 1 -%}
+        {%- if block.settings.article != blank -%}
+        {%- assign article = block.settings.article -%}
+        <div class="yv-blog-card featured-blog ">  
+          <a href="{{- article.url -}}" class="yv-blog-card-img focus-inside">                  
+            {%- if article.image != blank -%}
+            	{%- render 'lazy-image' image: article.image, sizes: '[240,310,550,700]' -%}
+            {%- else -%}
+            	{{- 'image' | placeholder_svg_tag : 'placeholder-svg' -}}
+            {%- endif -%}
+            <span class="yv-blog-date">{{ article.published_at | date: "%B %d, %Y" }}</span>
+          </a>
+          <div class="yv-blog-card-text">
+            <h6 class="yv-blog-title" >{{ article.title }}</h6>
+            {%- if article.image == blank -%}
+            <p class="yv-blog-desc">{{ article.excerpt_or_content | truncatewords: 60 | strip_html }}</p>
+            {%- endif -%}
+            <a href="{{- article.url -}}" class="yv-blog-link">{{ 'blogs.article.read_more' | t }}</a>
+          </div>
+        </div>
+        {%- else -%}
+        <div class="yv-blog-card featured-blog ">
+          <div class="yv-blog-card-img"> 
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            <span class="yv-blog-date">{{ 'sections.featured_article.onboarding_date' | t }}</span>
+          </div>
+          <div class="yv-blog-card-text">
+            <h6 class="yv-blog-title" >{{ 'sections.featured_article.onboarding_title' | t }}</h6>
+          </div>
+        </div>
+        {%- endif -%}
+        {%- endfor -%}
+      </div>
+      {%- if section.blocks.size > 1 -%}
+      <div class="col-10 col-sm-12 {% if section.blocks.size == 2 %}col-md-6 col-lg-6{%else%}col-md-7 col-lg-7{% endif %}">
+        <div class="row small-blog-outer">
+          {%- for block in section.blocks offset: 1 -%}
+          {%- if block.settings.article != blank -%}
+          {%- assign article = block.settings.article -%}
+          <div class="col-12 {% if section.blocks.size == 2 %}col-sm-12 col-md-12{%else%}col-sm-6 col-md-6{% endif %}">
+            <div class="yv-blog-card">
+              <h6 class="yv-blog-title d-none d-md-block">{{ article.title }}</h6> 
+              <a href="{{- article.url -}}" class="yv-blog-card-img">                 
+                {%- if article.image != blank -%}
+                	{%- render 'lazy-image' image: article.image, sizes: '[240,310,433]' -%} 
+                {%- else -%}
+                	{{- 'image' | placeholder_svg_tag : 'placeholder-svg' -}}
+                {%- endif -%}
+                <span class="yv-blog-date">{{ article.published_at | date: "%B %d, %Y" }}</span>
+              </a>
+              <div class="yv-blog-card-text">
+                <h6 class="yv-blog-title d-block d-md-none">{{ article.title }}</h6>   
+                <p class="yv-blog-desc">{{ article.excerpt_or_content | truncatewords: 20 | strip_html }}</p>
+                <a href="{{- article.url -}}" class="yv-blog-link">{{ 'blogs.article.read_more' | t }}</a>
+              </div>
+            </div>
+          </div>
+          {%- else -%}
+          <div class="col-12 {% if section.blocks.size == 2 %}col-sm-12 col-md-12{%else%}col-sm-6 col-md-6{% endif %}">
+            <div class="yv-blog-card">
+              <h6 class="yv-blog-title d-none d-md-block">{{ 'sections.featured_article.onboarding_title' | t }}</h6>
+              <div class="yv-blog-card-img"> 
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                <span class="yv-blog-date">{{ 'sections.featured_article.onboarding_date' | t }}</span>
+              </div>
+              <div class="yv-blog-card-text">
+                <h6 class="yv-blog-title d-block d-md-none">{{ 'sections.featured_article.onboarding_title' | t }}</h6>   
+                <p class="yv-blog-desc">{{ 'sections.featured_article.onboarding_content' | t }}</p>
+              </div>
+            </div>
+          </div>
+          {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </div>
+      {%- endif -%}
+    </div>
+  </div>
+  {%- endif -%}
+</div>
+<style>
+  #shopify-section-{{ section.id }}.shopify-section {
+    background-color:var(--secondaryColorBody);
+    padding-top:{{ section.settings.top_space_desktop }}px;
+    padding-bottom:{{ section.settings.bottom_space_desktop }}px;
+  }
+  @media only screen and (max-width:991px) {
+    #shopify-section-{{ section.id }}.shopify-section{
+      padding-top:{{ section.settings.top_space_mobile }}px;
+      padding-bottom:{{ section.settings.bottom_space_mobile }}px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "t:sections.featured-article.name",
+  "tag": "section",
+  "class": "blog-post featured-articles-section",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Add Blog posts here",
+      "label": "t:sections.featured-article.settings.heading.label"
+    },
+    {
+        "type": "header",
+        "content": "t:common.header.button_section.label"
+    },  
+    {
+      "type": "text",
+      "id": "button",
+      "default": "View all",
+      "label": "t:sections.featured-article.settings.button.label"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "t:sections.featured-article.settings.link.label"
+    },
+    {
+        "type": "header",
+        "content": "t:common.header.space_section.label"
+    },     
+    {
+      "type": "range",
+      "id": "top_space_desktop",
+      "label": "t:common.top_space_desktop.label",
+      "default": 70,
+      "min": 0,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "bottom_space_desktop",
+      "label": "t:common.bottom_space_desktop.label",
+      "default": 70,
+      "min": 0,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "top_space_mobile",
+      "label": "t:common.top_space_mobile.label",
+      "default": 40,
+      "min": 0,
+      "max": 100,
+      "step": 5
+    },
+    {
+      "type": "range",
+      "id": "bottom_space_mobile",
+      "label": "t:common.bottom_space_mobile.label",
+      "default": 40,
+      "min": 0,
+      "max": 100,
+      "step": 5
+    }
+  ],
+  "blocks": [
+    {
+      "type": "article",
+      "name": "t:sections.featured-article.blocks.article.name",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "t:sections.featured-article.blocks.article.settings.article.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.featured-article.presets.name",
+      "blocks": [
+        {
+          "type": "article"
+        },
+        {
+          "type": "article"
+        },
+        {
+          "type": "article"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

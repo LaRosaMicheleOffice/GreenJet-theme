@@ -1,0 +1,83 @@
+{%- comment -%}
+Set either or both to true, if you want
+to limit yourself to items with same vendor, and/or type.
+{%- endcomment -%}
+
+{%- assign same_vendor = true -%}
+{%- assign same_type = true -%}
+
+{%- comment -%}
+Collections to ignore.
+Never pick related items from those.
+{%- endcomment -%}
+
+{%- assign exclusions = 'frontpage' | split: ',' -%}
+
+{%- comment -%}
+Looking for a relevant collection.
+{%- endcomment -%}
+
+{%- liquid
+  assign found_a_collection = false
+  if collection and collection.all_products_count > 1
+    unless exclusions contains collection.handle
+    assign found_a_collection = true
+    endunless
+  endif
+  unless found_a_collection
+    for c in product.collections
+      unless exclusions contains c.handle or c.all_products_count < 2
+        assign found_a_collection = true
+        assign collection = c
+        break
+      endunless
+    endfor
+  endunless 
+-%}
+
+{%- comment -%}
+If we have a relevant collection.
+{%- endcomment -%}
+
+{%- if found_a_collection -%}
+
+{%- liquid 
+  assign counter = 0
+  assign current_product = product 
+-%}
+{%- comment -%} theme-check-disable LiquidTag{%- endcomment -%}
+{%- capture related_items -%}
+
+{%- for product in collection.products -%}
+  {%- unless product.handle == current_product.handle -%}
+    {%- unless same_vendor and current_product.vendor != product.vendor -%}
+      {%- unless same_type and current_product.type != product.type -%}
+
+        <li class="yv-similar-product-item">
+          {% render 'product-grid' product: product, productClasses: 'xsmall-product-card', hideRelated: true, hide_options: true , hideHoverImage: true, hideReviews: true %}
+        </li>
+
+        {%- assign counter = counter | plus: 1 -%}
+
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endunless -%}
+  {%- if counter == 10 -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+
+{%- endcapture -%}
+{%- endif -%}
+{%- comment -%} theme-check-enable LiquidTag{%- endcomment -%}
+
+
+<div id="similarItemContainer" style="display:none">
+  {%- if related_items.size > 20 -%}
+  <ul class="list-unstyled yv-similar-product-list">
+    {{ related_items }}
+  </ul>
+  {%- else- %}
+  <div class="yv-similar-notfound">
+  {% render 'not-found' similar: true %}
+  </div>
+  {%- endif -%}
+</div>

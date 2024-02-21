@@ -1,0 +1,202 @@
+<p>{{ 'gj_calculator.allgemein.title' | t }}</p>
+
+
+
+<div class="container-gj-calc" id="container-gj-calc">
+        <div class="user-input-gj-calc">
+          <h6>{{ 'gj_calculator.allgemein.inputs' | t }}</h6>
+            <!-- Input from user -->
+            <br>
+            <div class="gj-calc-mobile-wrapper">
+                <div class="user-input-description">
+                    <label for="shower">{{ 'gj_calculator.allgemein.duschen' | t }}</label>
+                </div>
+                <div class="shower-container">
+                    <div class="shower-modifier" id="minus-modi">-</div>
+                    <div><input type="text" name="shower" id="shower" value="1" size="1" class="user-input"></div>
+                    <div class="shower-modifier" id="plus-modi">+</div>
+                </div>
+            </div>
+            <div class="gj-calc-mobile-wrapper">
+                <div class="user-input-description">
+                    <label>{{ 'gj_calculator.allgemein.anschluss' | t }}</label>
+                </div>
+                <div class="checkbox-gj-calc gj-anschluesse">
+                    <div class="checkbox-option-gj-calc" id="checkbox_wrapper_connection1">
+                        <div><label class="checkbox-label-gj-calc" for="connection1"><img src="https://cdn.shopify.com/s/files/1/0633/5778/0153/files/Brausekopf.svg" alt="Brausekopf"></label></div>
+                        <div><label class="checkbox-label-gj-calc" id="checkbox_connection1" for="connection1">{{ 'gj_calculator.allgemein.brausekopf' | t }}</label></div>
+                    </div>
+                    <div class="checkbox-option-gj-calc" id="checkbox_wrapper_connection2">
+                        <div><label class="checkbox-label-gj-calc" for="connection2"><img src="https://cdn.shopify.com/s/files/1/0633/5778/0153/files/Regendusche_1.svg" alt="Regendusche"></label></div>
+                        <div><label class="checkbox-label-gj-calc" id="checkbox_connection2" for="connection2">{{ 'gj_calculator.allgemein.regendusche' | t }}</label></div>
+                    </div>
+                    <input type="checkbox" name="connection1" id="connection1" class="user-input-checkbox user-input-checkbox-all" checked>
+                    <input type="checkbox" name="connection2" id="connection2" class="user-input-checkbox user-input-checkbox-all">
+                </div>
+            </div>
+            <div class="gj-calc-mobile-wrapper">
+            <div class="user-input-description">
+                <label for="person">{{ 'gj_calculator.allgemein.personen' | t }}</label>
+            </div>
+            <div class="range-wrap">
+                <input type="range" class="range user-input" id="person" name="person" min="1" max="8" value="2">
+                <output class="bubble"></output>
+            </div>
+            </div>
+            <br>
+            <br>
+            <div class="user-input-description gj-calc-mobile-wrapper">
+              <div class="user-input-description">
+                <label for="fuel">{{ 'gj_calculator.heizmittel.title' | t }}</label><br></div>
+                <div class="custom-select-gj-calc" id="custom-select-gj-calc-id">
+                    <span id="select-option-gj-calc"></span>
+                </div>
+            </div>
+          <div id="select-selected-id"></div>
+            <br>
+            <div id="calculation_headline">
+                <div class="user-input-description"><label class="rich_text_button">{{ 'gj_calculator.berechnungsgrundlagen.title' | t }} <svg class="icon-signpost-arrow team__popup-trigger js-btn-item" data-modal-action="add" data-modal-rel="16568321444d97df25-0" href="#" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">      <path data-modal-action="add" data-modal-rel="16568321444d97df25-0" href="#" fill-rule="evenodd" clip-rule="evenodd" d="M14.7272 5.6364L10.3636 1.27279L11.6364 0L17.2728 5.6364L11.6364 11.2728L10.3636 10L14.7272 5.6364Z" fill="currentColor"></path>      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.73645L16 4.73645L16 6.53645L-1.57361e-07 6.53645L0 4.73645Z" fill="currentColor"></path>    </svg></label></div>
+                <div class="calculation-explanation" id="calculation_explanation">
+                    <div>
+                        <span id="expl_fuel"></span><br>
+                        <span id="expl_fuel_cost"></span><br>
+                        <span id="expl_fuel_co2"></span><br><br>
+                        
+                        <span id="expl_water_temp_cold"></span><br>
+                        <span id="expl_water_temp_warm"></span><br>
+                        <span id="expl_water_cost_cold"></span><br>
+                        <span id="expl_water_cost_waste"></span><br>
+                      <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    {{ 'gj_calculator.berechnungsgrundlagen.auslastung' | t }}
+                </div>
+                <div class="value-gj-calc">
+                    <span id="utilization"></span>
+                    <span> %</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    {{ 'gj_calculator.berechnungsgrundlagen.duschdauer' | t }}
+                </div>
+                <div class="value-gj-calc">
+                    <span id="duration"></span>
+                    <span> {{ 'gj_calculator.berechnungsgrundlagen.minuten' | t }}</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    {{ 'gj_calculator.berechnungsgrundlagen.wasserdurchfluss' | t }}
+                </div>
+                <div class="value-gj-calc">
+                    <span id="flow"></span>
+                    <span> {{ 'gj_calculator.berechnungsgrundlagen.liter' | t }}/{{ 'gj_calculator.berechnungsgrundlagen.minuten' | t }}</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    GREENJET:
+                </div>
+                <div class="value-gj-calc">
+                    <span id="greenjet_flow"></span>
+                    <span> {{ 'gj_calculator.berechnungsgrundlagen.liter' | t }}/{{ 'gj_calculator.berechnungsgrundlagen.minuten' | t }}</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    GREENJET:
+                </div>
+                <div class="value-gj-calc">
+                    <span id="greenjet_saving"></span>
+                    <span> % {{ 'gj_calculator.allgemein.einsparung' | t }}</span>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Input from system -->
+        <div class="result-gj-calc">
+          <h6>{{ 'gj_calculator.result.title' | t }}</h6>
+            <br>
+            
+            
+            <p>{{ 'gj_calculator.result.jahreseinsparung' | t }}</p>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="amount_saving"></span>
+                    <span> {{ cart.currency.symbol }}</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="water_saving"></span>
+                    <span> {{ 'gj_calculator.result.wasser' | t }}</span>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="co2_saving"></span>
+                    <span> {{ 'gj_calculator.result.co2' | t }}</span>
+                </div>
+            </div>
+            
+            <p>{{ 'gj_calculator.result.anschaffung' | t }}</p>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="price_unit"></span>
+                    <span> {{ cart.currency.symbol }} / {{ 'gj_calculator.result.stueck' | t }}</span><span id="unit-amount"></span>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="price_total"></span>
+                    <span> {{ cart.currency.symbol }} / {{ 'gj_calculator.result.gesamt' | t }}</span>
+                </div>
+            </div>
+            <br>
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                    {{ 'gj_calculator.result.amortisationszeit' | t }}
+                </div>
+                <div class="value-gj-calc">
+                    <span id="amotization_time"></span>
+                </div>
+              <small>{{ 'gj_calculator.result.amortisation_satz' | t }} <span id="amotization_time_2"></span></small>
+            </div>
+
+            <p>{{ 'gj_calculator.result.ersparnis_10j' | t }}</p>
+
+            <div class="info-panel-gj-calc">
+                <div class="description-gj-calc">
+                </div>
+                <div class="value-gj-calc">
+                    <span id="amotization_amount"></span>
+                    <span> {{ cart.currency.symbol }}</span>
+                    <hr>
+                    <hr>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>

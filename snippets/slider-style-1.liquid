@@ -1,0 +1,160 @@
+{% assign sectionId = section.id | remove: "-" | remove: "_" %}
+{% assign mainGroup = sectionId | append: "Main" %}
+{% assign thumbGroup = section.id | append: "Thumb" %}
+<div class="banner-big-slides banner-fullwidth-slides{% if section.blocks.size > 1 %} data-main-slider{% endif %} split-slider-section" id="main-slider-{{ sectionId }}" 
+      data-flickity-slider='{"fade":true,"selectedAttraction": 0.01,"friction": 0.15,"touchVerticalScroll": false,"contain": true, "pageDots": true,"prevNextButtons": false,"autoPlay":{%- if section.settings.rotate -%}{{ section.settings.interval | times: 1000}}{%- else -%}false{%- endif -%} }' data-animated-content-slider>
+  {% for block in section.blocks %}
+
+{%- if block.settings.videofile != blank -%}
+  <div id="yv-banner-item-{{ block.id }}" class="yv-banner-item" {{ block.shopify_attributes }} role="tabpanel" tabindex="0">
+    <div class="row no-gutters  split-slider">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-7">
+        <div style="background-color:transparent;" class="yv-banner-image" {% if section.blocks.first.settings.image != blank %}style="padding-bottom:10%"{% endif %}>
+
+
+  
+              {%- liquid
+                  assign videoUrl = block.settings.videofile 
+                  assign videoSource = 'mp4' 
+                  if videoUrl contains 'youtube.com/watch'
+                      assign videoSource = 'youtube' 
+                      assign video_id = videoUrl | split: 'v='
+                      assign video_id = video_id[1] | split: '&' | first
+                  elsif videoUrl contains 'youtu.be/'
+                      assign videoSource = 'youtube' 
+                      assign video_id = videoUrl | split: '.be/'
+                      assign video_id = video_id[1] | split: '&' | first
+                  elsif videoUrl contains 'vimeo.com/'
+                      assign videoSource = 'vimeo' 
+                      assign video_id = videoUrl | split: '.com/'
+                      assign video_id = video_id[1] | split: '/' | first
+                  endif
+              -%}
+              {%- if videoSource == 'youtube' -%}
+            {%- if block.settings.autoplay -%}
+            <div id="yvYoutTubeVideo-{{ section.id }}" data-id="{{ video_id }}" class="yvYoutubeAutoPlayvVideo" >
+            	{{- poster -}}
+            </div>
+            {%- else -%}
+              <iframe width="1915" height="720" src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1" class="video-banner-file yv-youtube-video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            {%- endif -%}  
+            {%- elsif videoSource == 'vimeo' -%}
+            {%- if section.settings.autoplay -%}
+              <iframe src="https://player.vimeo.com/video/{{ video_id }}?autopause=0&autoplay=1&background=1&byline=0&controls=0&loop=1&muted=1&playsinline=1&title=0&transparent=1" class="no-js-hidden" width="1915" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {%- else -%}
+             <iframe src="https://player.vimeo.com/video/{{ video_id }}?title=0&byline=0&portrait=0" class="video-banner-file yv-vimeo-video" width="1915" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            {%- endif -%} 
+            {%- elsif videoSource == 'mp4' -%}
+              <video style="max-width:100%;" id="videoFile-{{ block.id }}" class="videoBackgroundFile" autoplay muted loop playsinline >
+                <source src="{{ block.settings.videofile }}" type="video/mp4">
+              </video>
+              {%- endif -%}
+            
+        </div></div>
+
+      {% assign enableOverlay = false %}
+      {% capture sliderContent %}        
+        <div class="yv-banner-content">
+          {% if block.settings.banner_subtitle != blank %}
+          {% assign enableOverlay = true %}
+            <span class="yv-banner-subtitle wow {% if forloop.first %}fadeInUp{% endif %}" data-wow-delay="0.2s">{{ block.settings.banner_subtitle }}</span>
+          {% endif %}
+          {% if block.settings.banner_title != blank %}
+            {% assign enableOverlay = true %}
+            <h1 class="yv-banner-title wow {% if forloop.first %}fadeInRightBig{% endif %}" data-wow-delay="0.1s" data-wow-duration="1s">
+              <span class="textFadeIn">
+                <span class="wow {% if forloop.first %}fadeInLeftBig{% endif %}" data-wow-duration="1s" data-wow-delay="0.2s">{{ block.settings.banner_title }}</span>
+              </span>
+            </h1>
+          {% endif %}
+          {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+          {% assign enableOverlay = true %}
+            <a href="{{ block.settings.button_link }}" class="button wow {% if forloop.first %}fadeInUp{% endif %}" data-wow-duration="0.8s" data-wow-delay="0.8s">{{ block.settings.button_text }}</a>
+          {% endif %}
+        </div>
+      {% endcapture %}
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 split-slider-wrapper {% unless enableOverlay %}no-overlay{% endunless %}">
+        {{ sliderContent }}
+      </div>
+    </div>
+  </div>
+
+
+{%- else -%}
+
+  
+  {%- capture style -%}{% cycle mainGroup:1, 2, 3, 4 %}{%- endcapture -%}
+  <div id="yv-banner-item-{{ block.id }}" class="yv-banner-item" {{ block.shopify_attributes }} role="tabpanel" tabindex="0">
+    <div class="row no-gutters  split-slider">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-7">
+        <div class="yv-banner-image" {% if section.blocks.first.settings.image != blank %}style="padding-bottom:{{ 1 | divided_by : section.blocks.first.settings.image.aspect_ratio | times: 100 }}%"{% endif %}>
+          {%- liquid
+            assign mobileImage = false
+            if block.settings.image_mobile != blank
+              assign mobileImage = true
+              render 'lazy-image' image: block.settings.image_mobile, class: "mobile-img d-block d-md-none" 
+            endif
+            assign desktopClass = ""
+            if mobileImage
+              assign desktopClass = "d-none d-md-block"
+            endif
+            if block.settings.image != blank
+              render 'lazy-image' image: block.settings.image, class: desktopClass
+            elsif block.settings.image == blank and mobileImage         
+              echo 'collection-' | append: style | placeholder_svg_tag: 'placeholder-svg d-none d-md-block'
+            else         
+              echo 'collection-' | append: style | placeholder_svg_tag: 'placeholder-svg'
+            endif 
+          -%}
+        </div>
+      </div>
+     {% assign enableOverlay = false %}
+      {% capture sliderContent %}        
+        <div class="yv-banner-content">
+          {% if block.settings.banner_subtitle != blank %}
+          {% assign enableOverlay = true %}
+            <span class="yv-banner-subtitle wow {% if forloop.first %}fadeInUp{% endif %}" data-wow-delay="0.2s">{{ block.settings.banner_subtitle }}</span>
+          {% endif %}
+          {% if block.settings.banner_title != blank %}
+            {% assign enableOverlay = true %}
+            <h1 class="yv-banner-title wow {% if forloop.first %}fadeInRightBig{% endif %}" data-wow-delay="0.1s" data-wow-duration="1s">
+              <span class="textFadeIn">
+                <span class="wow {% if forloop.first %}fadeInLeftBig{% endif %}" data-wow-duration="1s" data-wow-delay="0.2s">{{ block.settings.banner_title }}</span>
+              </span>
+            </h1>
+          {% endif %}
+          {% if block.settings.button_text != blank and block.settings.button_link != blank %}
+          {% assign enableOverlay = true %}
+            <a href="{{ block.settings.button_link }}" class="button wow {% if forloop.first %}fadeInUp{% endif %}" data-wow-duration="0.8s" data-wow-delay="0.8s">{{ block.settings.button_text }}</a>
+          {% endif %}
+        </div>
+      {% endcapture %}
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 split-slider-wrapper {% unless enableOverlay %}no-overlay{% endunless %}">
+        {{ sliderContent }}
+      </div>
+    </div>
+  </div>
+  {%- endif -%}
+  {% endfor %}
+  
+</div>
+{%- if section.blocks.size > 1 -%}
+<div class="banner-small-slides-container">
+  <div class="banner-small-slides data-thumb-slider" id="main-thumb-slider-{{ sectionId }}" 
+       data-flickity-slider='{ "asNavFor": "#main-slider-{{ sectionId }}","touchVerticalScroll": false,"selectedAttraction": 0.01,"friction": 0.15, "contain": true, "pageDots": false,"prevNextButtons": false,"cellAlign": "left","dragThreshold":true }' data-desktop-only>
+    {% for block in section.blocks %}
+  {%- capture style -%}{% cycle thumbGroup:1, 2, 3, 4 %}{%- endcapture -%}
+    <div id="yv-banner-thumbnail-{{ block.id }}" class="yv-banner-thumbnail focus-inside flickity-slider-thumb-item" data-index="{{ forloop.index0 }}" role="tabpanel" tabindex="0" {{ block.shopify_attributes }}>
+      <div class="yv-banner-thumbnail-item">
+      {% if block.settings.image != blank %}
+      {% assign class = 'flickity-slider-thumb-item-image' %}
+      {% render 'lazy-image' class : class, image: block.settings.image, sizes: '[166]' %}
+      {% else %}
+          {{ 'collection-' | append: style | placeholder_svg_tag: 'placeholder-svg' }}
+      {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{%- endif -%}

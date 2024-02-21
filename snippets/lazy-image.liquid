@@ -1,0 +1,19 @@
+{% comment %}theme-check-disable ImgWidthAndHeight,ImgLazyLoading,DeprecateLazysizes,DeprecatedFilter{% endcomment %}
+{%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+<img {% if id != blank %} id="{{ id }}" {% endif %} class="lazyload no-js-hidden {{ class }}"
+     data-src="{{ img_url }}"
+     data-aspectratio="{{ image.aspect_ratio }}"
+     data-sizes="auto"
+     width="{{ image.width }}"
+     height="{{ image.height }}"
+     data-original="{{ image | image_url }}"
+     alt="{{ image.alt | escape }}"
+     lazyload="lazy">
+<span class="yuva-loader"></span>
+<noscript>
+  <img class="{{ class }}" src="{{ image | img_url: 'master' }}" alt="{{ image.alt | default: shop.name | strip_html }}" 
+       width="{{ image.width }}"
+       height="{{ image.height }}">
+</noscript>
+{% comment %}theme-check-enable ImgWidthAndHeight,ImgLazyLoading,DeprecateLazysizes,DeprecatedFilter{% endcomment %}
+

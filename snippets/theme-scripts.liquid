@@ -1,0 +1,96 @@
+{%- comment -%}theme-check-disable RemoteAsset,ParserBlockingJavaScript{%- endcomment -%}
+<script>
+  var focusElement = '';
+  var productSlider;
+  var productThumbSlider;
+  const moneyFormat = '{{ shop.money_format }}';
+  const moneyFormatWithoutCurrency = '{{ shop.money_format | remove: cart.currency.symbol | replace: 'amount_with_comma_separator', 'amount' }}';
+  const addToCartText = '{{ 'products.product.add_to_cart' | t }}';  
+  const preorderText = '{{ 'products.product.preorder' | t }}';   
+  const preorderStatus = {{ settings.enable_preorder }};                 
+  const soldOutText = '{{ 'products.product.sold_out' | t }}';             
+  const saleText = '{{ 'products.product.on_sale' | t }}';             
+  const saleOffText = '{{ 'products.product.off' | t }}';             
+  const regularPriceText = '{{ 'products.product.price.regular_price' | t }}';          
+  const comparePriceText = '{{ 'products.product.price.sale_price' | t }}';      
+  const savedPriceText = '{{ 'products.product.price.saved' | t }}';     
+  const unitPriceText = '{{ 'products.product.price.unit_price' | t }}';  
+  const priceVariText = '{{ 'products.product.price.from_price_html' | t : price : '[[price]]' }}';           
+  const cartTitleLabel = '{{ 'sections.cart.title' | t }}';           
+  const errorLabel = '{{ 'sections.cart.shipping_estimates.error' | t }}';   
+  const notAvailableLabel = '{{ 'sections.cart.shipping_estimates.not_available' | t }}';     
+  const variantStyle = '{{ settings.option_style }}';                
+  const unavailableText = '{{ 'products.product.unavailable' | t }}';       
+  const oneTimePurchaseText = '{{ 'products.product.one_time_purchase' | t }}';    
+  const showSavedAmount = {{ settings.show_saved_amount }};                 
+  const savedAmountStyle = '{{ settings.saved_amount_style }}';                
+  const quickViewHeading = '{{ 'general.quick_view_heading' | t }}';        
+  const searchPageResults = {{ settings.enable_page_result }} ; 
+  const searchArticleResults = {{ settings.enable_article_result }};   
+  const searchDrawerProductHead = '{{ 'templates.search.product' | t }}';  
+  const searchDrawerArticleHead = '{{ 'templates.search.article' | t }}'; 
+  const searchDrawerPageHead = '{{ 'templates.search.page' | t }}';  
+  const searchAllResultText = '{{ 'templates.search.drawer_all_results' | t }}';   
+  const searchRecentTitleText = '{{ 'templates.search.drawer_recent_title' | t }}';  
+  const searchNoResultText = '{{ 'templates.search.drawer_no_results' | t }}';   
+  const searchForText = '{{ 'templates.search.drawer_search' | t }}';   
+  const searchResultText = '{{ 'templates.search.drawer_results' | t }}';    
+  const searchNoSuggestionText = '{{ 'templates.search.no_suggestion' | t }}';  
+  const showMoreText = '{{ 'sections.collection_template.filter_show_more' | t }}'; 
+  const showLessText = '{{ 'sections.collection_template.filter_show_less' | t }}';  
+  const readMoreText = '{{ 'blogs.article.read_more' | t }}'; 
+  const rootUrl = '{{ routes.root_url }}';
+  const cartUrl = '{{ routes.cart_url }}.js';  
+  const mainCartUrl = '{{ routes.cart_url }}'; 
+  const cartAdd = '{{ routes.cart_add_url }}';  
+  const cartAddUrl = '{{ routes.cart_add_url }}.js';  
+  const cartUpdateUrl = '{{ routes.cart_update_url }}.js'; 
+  const cartChangeUrl = '{{ routes.cart_change_url }}.js'; 
+  const cartClearUrl = '{{ routes.cart_clear_url }}.js';
+  const cartChangeError = "{{ 'sections.cart.cart_quantity_error_html' | t : quantity : '[qty]' }}";
+  const productRecommendationUrl = '{{ routes.product_recommendations_url }}';
+  const googleMapApiKey = '{{ settings.googlemapapi }}';
+  const searchUrl = '{{ routes.search_url }}';  
+  const preLoadLoadGif = `<div class="yv_load">     
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+               style="margin: auto; display: block; shape-rendering: auto;" 
+               width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="svg-loader" >
+            <circle cx="50" cy="50" fill="none" stroke="#dddddd" stroke-width="6" r="35" stroke-dasharray="164.93361431346415 56.97787143782138">
+              <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" dur="1s" values="0 50 50;360 50 50" keyTimes="0;1"/>
+            </circle>
+          </svg>
+    </div>`;
+  const noImage = `{{ 'image' | placeholder_svg_tag : 'placeholder-svg' }}`;
+  const noProductImage = `{{ 'product-1' | placeholder_svg_tag : 'placeholder-svg' }}`;
+  const noResultFound = `{%- render 'not-found' -%}`;
+</script>
+<script src="{{ 'jquery.min.js' | asset_url }}"></script> 
+<script src="{{ 'cookies.min.js' | asset_url }}"></script> 
+<script src="{{ 'flickity.min.js' | asset_url }}" defer="defer"></script> 
+<script src="{{ 'common.min.js' | asset_url }}" defer="defer"></script> 
+<script src="{{ 'modernizr.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'lazysizes.min.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'wow.min.js' | asset_url }}" defer></script> 
+{% if template == 'collection' or template == 'search' %}
+<script src="{{ 'nouislider.min.js' | asset_url }}" defer="defer" ></script> 
+<script src="{{ 'filters.min.js' | asset_url }}" defer="defer" ></script> 
+{% endif %}
+{% if template == 'product' or page.handle == 'greenjet-kalkulator' %}
+  {% if request.locale.iso_code == 'fr' %} 
+    <script src="{{ 'greenjet_calculator_fr.js' | asset_url }}" defer="defer" ></script>
+  {% elsif request.locale.iso_code == 'en' %}
+    <script src="{{ 'greenjet_calculator_en.js' | asset_url }}" defer="defer" ></script>
+  {% elsif request.locale.iso_code == 'it' %}
+    <script src="{{ 'greenjet_calculator_it.js' | asset_url }}" defer="defer" ></script>
+  {% elsif request.locale.iso_code == 'es' %}
+    <script src="{{ 'greenjet_calculator_es.js' | asset_url }}" defer="defer" ></script>
+  {% elsif request.locale.iso_code == 'hr' %}
+    <script src="{{ 'greenjet_calculator_hr.js' | asset_url }}" defer="defer" ></script>
+  {% else %}
+    <script src="{{ 'greenjet_calculator.js' | asset_url }}" defer="defer" ></script>
+  {% endif %}
+{% endif %}
+{%- if settings.enable_cart_drawer and template != 'cart' -%} 
+<script src="{{ 'cart-ajax.min.js' | asset_url }}" defer="defer"></script> 
+{%- endif -%}
+{%- comment -%}theme-check-enable RemoteAsset,ParserBlockingJavaScript{%- endcomment -%}

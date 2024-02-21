@@ -1,0 +1,27 @@
+<div class="top-header header_3">
+  <div class="container">
+    <div class="navbar navbar-expand-md">
+      {%- if section.settings.menu != blank or section.blocks.size > 0 -%}
+      <div class="hamburger-content" style="display: flex;align-items: center;">
+      	<div class="nav__btn">
+        <a href="#sidemenu" class="hamburger" role="button" aria-expanded="false"  aria-label="Toggle navigation">
+          <span class="hamburger-line hamburger-line-1"></span>
+          <span class="hamburger-line hamburger-line-2"></span>
+          <span class="hamburger-line hamburger-line-3"></span>
+        </a>
+      </div>
+      	{% render 'hamburger-menu' section : section %}
+        <a class="header-business-button" style="font-family: var(--heading-font-family);text-transform:uppercase;" href="{{ pages['business'].url }}">Business</a>
+      </div>
+      
+      {%- endif -%}
+      <a class="header__heading-link {% if section.settings.logo == blank %}yv-heading-shop-link{% endif %}" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
+        {%- render 'header-logo' section : section -%}
+      </a>
+      <div class="form-inline">
+        {% render 'header-icons' section : section %}
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{{ 'hamburger.js' | asset_url }}" defer="defer"></script> 
