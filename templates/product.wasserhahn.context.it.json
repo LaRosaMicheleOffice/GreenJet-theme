@@ -1,1 +1,68 @@
-{"parent":"product.wasserhahn.json","context":{"market":"it"},"sections":{"166281115660554f37":{"settings":{"poster":"shopify:\/\/shop_images\/niklas.png"},"blocks":{}},"1662802161d63a84ff":{"settings":{},"blocks":{"166280216180a6bdb4-1":{"settings":{"heading":"Riduci le emissioni di CO2"}}}}},"order":["main-product","1662802161d63a84ff","166264624639b819bd","166281115660554f37","product_recommendations"]}
+{
+  "parent": "product.wasserhahn.json",
+  "context": {
+    "market": "it"
+  },
+  "sections": {
+    "1662802161d63a84ff": {
+      "settings": {
+      },
+      "blocks": {
+        "166280216180a6bdb4-1": {
+          "settings": {
+            "heading": "Riduci le emissioni di CO2"
+          }
+        }
+      }
+    },
+    "166281115660554f37": {
+      "settings": {
+        "poster": "shopify:\/\/shop_images\/niklas.png"
+      },
+      "blocks": {
+      }
+    },
+    "main-product": {
+      "settings": {
+      },
+      "blocks": {
+      },
+      "block_order": [
+        "fe3c09d6-15d2-4555-a0f5-c87ab0cf370f",
+        "4e187f46-fd88-4ef6-b490-37714898b8dd",
+        "9db1533f-9baf-4eb6-869d-dd2b494b6990",
+        "5540566c-63cd-4a90-b9b6-7707e45d7066",
+        "fbfe8bf4-92da-4eb8-812f-02ecb70f20f9",
+        "1d9e8279-0562-4957-916b-09c7671cdca3",
+        "6efe18ec-4d64-43a5-ac82-094cec89abe3",
+        "8658b9a0-c9c5-4055-a2e1-56a8f49d0b68",
+        "16819786-9d1e-449d-966d-08d21e1c91af",
+        "e1d06aa1-2be2-434b-8d5e-855d40839ba9"
+      ]
+    },
+    "166264624639b819bd": {
+      "settings": {
+      },
+      "blocks": {
+        "judge_me_reviews_review_widget_EiJLd": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-4749a4839b86a1a52ab6d55161872d69": null,
+            "paragraph-b298db319327f113a9d907a71b3aa94b": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_EiJLd"
+      ]
+    }
+  },
+  "order": [
+    "main-product",
+    "166264624639b819bd",
+    "1662802161d63a84ff",
+    "166281115660554f37",
+    "product_recommendations"
+  ]
+}
