@@ -1,1 +1,107 @@
-{"parent":"page.hotel-calculator.json","context":{"market":"it"},"sections":{"image_gallery_UEVg3":{"type":"image-gallery","disabled":false,"settings":{"heading":"i nostri partner soddisfatti!","show_border":false,"header-e7ec3e628ad752fbc5a8f5c57cad3abc":null,"top_space_desktop":45,"bottom_space_desktop":45,"top_space_mobile":35,"bottom_space_mobile":0},"blocks":{"image_eGN47":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/xemtsxwf.png","link":"https:\/\/ibis.accor.com\/discovering\/ibis-styles-hotel\/index.de.shtml"}},"image_MC8UA":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/d15pj4gg.png","link":"https:\/\/utokulm.ch\/de"}},"image_HcMaM":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/repvnmni.png","link":"https:\/\/www.thedoldergrand.com\/"}},"image_7MbTt":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/xgzo95vx.png","link":"https:\/\/www.hyatt.com\/de-DE\/hotel\/austria\/park-hyatt-vienna\/vieph"}},"image_DRfVb":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/f9mvlwgh.png","link":"https:\/\/www.monopolluzern.ch\/de"}},"image_PkwfX":{"type":"image","disabled":false,"settings":{"heading":"","subheading":"","image":"shopify:\/\/shop_images\/4loc34ud.png","link":"https:\/\/www.europehotel.ch\/de"}}},"block_order":["image_eGN47","image_MC8UA","image_HcMaM","image_7MbTt","image_DRfVb","image_PkwfX"]},"main-page":{"settings":{"bgcolor":"#e3eff5"},"blocks":{}}},"order":["main-page","4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea","af15e627-2a1e-4f53-855c-725f9d9f79c7","1d106cc8-e3a4-4ba6-9a71-a67c309a7f15","image_gallery_UEVg3"]}
+{
+  "parent": "page.hotel-calculator.json",
+  "context": {
+    "market": "it"
+  },
+  "sections": {
+    "image_gallery_UEVg3": {
+      "type": "image-gallery",
+      "disabled": false,
+      "settings": {
+        "heading": "i nostri partner soddisfatti!",
+        "show_border": false,
+        "header-80fca2f3aeb7ad933b8a9c02d1b246d2": null,
+        "top_space_desktop": 45,
+        "bottom_space_desktop": 45,
+        "top_space_mobile": 35,
+        "bottom_space_mobile": 0
+      },
+      "blocks": {
+        "image_eGN47": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/xemtsxwf.png",
+            "link": "https:\/\/ibis.accor.com\/discovering\/ibis-styles-hotel\/index.de.shtml"
+          }
+        },
+        "image_MC8UA": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/d15pj4gg.png",
+            "link": "https:\/\/utokulm.ch\/de"
+          }
+        },
+        "image_HcMaM": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/repvnmni.png",
+            "link": "https:\/\/www.thedoldergrand.com\/"
+          }
+        },
+        "image_7MbTt": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/xgzo95vx.png",
+            "link": "https:\/\/www.hyatt.com\/de-DE\/hotel\/austria\/park-hyatt-vienna\/vieph"
+          }
+        },
+        "image_DRfVb": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/f9mvlwgh.png",
+            "link": "https:\/\/www.monopolluzern.ch\/de"
+          }
+        },
+        "image_PkwfX": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "",
+            "subheading": "",
+            "image": "shopify:\/\/shop_images\/4loc34ud.png",
+            "link": "https:\/\/www.europehotel.ch\/de"
+          }
+        }
+      },
+      "block_order": [
+        "image_eGN47",
+        "image_MC8UA",
+        "image_HcMaM",
+        "image_7MbTt",
+        "image_DRfVb",
+        "image_PkwfX"
+      ]
+    },
+    "main-page": {
+      "settings": {
+        "bgcolor": "#e3eff5",
+        "banner": "shopify:\/\/shop_images\/rain-coming-down-window.jpg",
+        "textcolor": "#ffffff"
+      },
+      "blocks": {
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea",
+    "af15e627-2a1e-4f53-855c-725f9d9f79c7",
+    "1d106cc8-e3a4-4ba6-9a71-a67c309a7f15",
+    "image_gallery_UEVg3"
+  ]
+}
