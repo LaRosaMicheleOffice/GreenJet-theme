@@ -633,6 +633,16 @@ width: auto;
   cursor:pointer;
 }
 
+.white-rectangle {
+  border: 3px solid white; /* Adjusts the border thickness and color */
+  padding: 5px;
+  display: inline; /* Optional: Adds some space inside the div, between the border and content */
+   /* Optional: Sets the background color of the div */
+  /* Additional styling for visibility */
+   /* Sets the text color, adjust as needed */
+}
+
+
 
 @media screen and (max-width: 1110px) {
   .container-gj-calc {

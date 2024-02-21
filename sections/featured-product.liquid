@@ -10,11 +10,13 @@
         <div class="col-md-6 col-lg-6">
           <div class="yv-feature-product-image wow fadeInUp" data-wow-offeset="5" data-wow-delay="0.3s">
             {%- if featured_image != blank -%}
-            <div class="featured-product-image active" data-id="featuredImage-{{ featured_image.id }}">
-              <div class="image-wrapper" style="padding-bottom:{{ 1 | divided_by : featured_image.preview_image.aspect_ratio | times: 100 | minus : 1 }}%">
-                {%- render 'lazy-image' image: featured_image.preview_image -%} 
-              </div>
-            </div> 
+            <a href="/products/greenjet-kit-salvalacqua">
+              <div class="featured-product-image active" data-id="featuredImage-{{ featured_image.id }}">
+                <div class="image-wrapper" style="padding-bottom:{{ 1 | divided_by : featured_image.preview_image.aspect_ratio | times: 100 | minus : 1 }}%">
+                  {%- render 'lazy-image' image: featured_image.preview_image -%} 
+                </div>
+              </div> 
+            </a>
             {%- else -%}
             {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
