@@ -12,9 +12,28 @@
       "blocks": {
       }
     },
+    "166264624639b819bd": {
+      "settings": {
+      },
+      "blocks": {
+        "judge_me_reviews_review_widget_rHRkN": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-5df9ac50f7f69dc86b917b5cff8496fe": null,
+            "paragraph-df3729cca400a51adb74c61b3e3951aa": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_rHRkN"
+      ]
+    },
     "166281115660554f37": {
       "settings": {
-        "poster": "shopify:\/\/shop_images\/niklas.png"
+        "poster": "shopify:\/\/shop_images\/niklas.png",
+        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e60843761fc449fa9b04e3aee47ebc1b.mov",
+        "subtitle": "l'innovazione inizia con una visione"
       },
       "blocks": {
       }
@@ -44,23 +63,6 @@
           }
         }
       }
-    },
-    "166264624639b819bd": {
-      "settings": {
-      },
-      "blocks": {
-        "judge_me_reviews_review_widget_rHRkN": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": false,
-          "settings": {
-            "paragraph-729fb315418d9cc47ba91017c3c6e1b4": null,
-            "paragraph-0bf7b7a9b3cf970f1ad636dadfcfcdbb": null
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_rHRkN"
-      ]
     }
   },
   "order": [
