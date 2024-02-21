@@ -1,1 +1,73 @@
-{"parent":"product.json","context":{"market":"it"},"sections":{"main-product":{"settings":{"heading_produktfotos":"Foto del prodotto","content_heading":"Calcolatore"},"blocks":{}},"166281115660554f37":{"settings":{"poster":"shopify:\/\/shop_images\/niklas.png"},"blocks":{}},"16622702436ef5b6c3":{"settings":{},"blocks":{"166227024396449b00-0":{"settings":{"image":"shopify:\/\/shop_images\/6b00ax7e.png"}},"166227024396449b00-1":{"settings":{"image":"shopify:\/\/shop_images\/x8i6kpzc.png"}},"166227024396449b00-2":{"settings":{"image":"shopify:\/\/shop_images\/rhms2llk.png"}},"166227024396449b00-3":{"settings":{"image":"shopify:\/\/shop_images\/gmkcyc2q.png"}}}}},"order":["main-product","166264624639b819bd","166281115660554f37","16622702436ef5b6c3","product_recommendations"]}
+{
+  "parent": "product.json",
+  "context": {
+    "market": "it"
+  },
+  "sections": {
+    "main-product": {
+      "settings": {
+        "heading_produktfotos": "Foto del prodotto",
+        "content_heading": "Calcolatore"
+      },
+      "blocks": {
+      }
+    },
+    "166281115660554f37": {
+      "settings": {
+        "poster": "shopify:\/\/shop_images\/niklas.png"
+      },
+      "blocks": {
+      }
+    },
+    "16622702436ef5b6c3": {
+      "settings": {
+      },
+      "blocks": {
+        "166227024396449b00-0": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6b00ax7e.png"
+          }
+        },
+        "166227024396449b00-1": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/x8i6kpzc.png"
+          }
+        },
+        "166227024396449b00-2": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rhms2llk.png"
+          }
+        },
+        "166227024396449b00-3": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gmkcyc2q.png"
+          }
+        }
+      }
+    },
+    "166264624639b819bd": {
+      "settings": {
+      },
+      "blocks": {
+        "judge_me_reviews_review_widget_rHRkN": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-729fb315418d9cc47ba91017c3c6e1b4": null,
+            "paragraph-0bf7b7a9b3cf970f1ad636dadfcfcdbb": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_rHRkN"
+      ]
+    }
+  },
+  "order": [
+    "main-product",
+    "166264624639b819bd",
+    "166281115660554f37",
+    "16622702436ef5b6c3",
+    "product_recommendations"
+  ]
+}
