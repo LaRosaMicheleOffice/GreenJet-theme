@@ -4,13 +4,37 @@
     "market": "it"
   },
   "sections": {
+    "170854013283e22991": {
+      "type": "apps",
+      "disabled": false,
+      "settings": {
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      },
+      "blocks": {
+        "judge_me_reviews_featured_carousel_Vrt7d": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": false,
+          "settings": {
+            "paragraph-40f13c5dc29a703c84dc72200f92fbb1": null,
+            "maxwidth": 1080,
+            "paragraph-886ce891773d0996771db643dc7d5df2": null
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_Vrt7d"
+      ]
+    },
     "testimonials_cdyz3": {
       "type": "testimonials",
       "disabled": false,
       "settings": {
         "style": "style1",
         "nav_style": "arrow",
-        "header-0479515cc81bac7033a5df19b2b69ba6": null,
+        "header-f928711b9f523eecf8cc9fe837b6f0d8": null,
         "top_space_desktop": 60,
         "bottom_space_desktop": 60,
         "top_space_mobile": 30,
@@ -359,28 +383,43 @@
         }
       }
     },
-    "170854013283e22991": {
-      "type": "apps",
+    "image_gallery_MEGta": {
+      "type": "image-gallery",
       "disabled": false,
       "settings": {
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
+        "heading": "i nostri partner",
+        "show_border": true,
+        "header-e94543a16e8af2a53403f33ae79163f8": null,
+        "top_space_desktop": 45,
+        "bottom_space_desktop": 45,
+        "top_space_mobile": 35,
+        "bottom_space_mobile": 0
       },
       "blocks": {
-        "judge_me_reviews_featured_carousel_Vrt7d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "image_xTCDi": {
+          "type": "image",
           "disabled": false,
           "settings": {
-            "paragraph-93a118a6a8f4fd09794e238b8b77920b": null,
-            "maxwidth": 1080,
-            "paragraph-74820ef4eb0b4da9a3f774af027c509a": null
+            "heading": "Partner",
+            "subheading": "OPI SRL",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "image_kbHD3": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "Sponsor ufficiale",
+            "subheading": "Marsala FC",
+            "image": "shopify:\/\/shop_images\/marsala.png",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_Vrt7d"
+        "image_xTCDi",
+        "image_kbHD3"
       ]
     }
   },
@@ -397,6 +436,7 @@
     "16571143161c273279",
     "16624469807973c962",
     "166219685159fd8837",
-    "16622702436ef5b6c3"
+    "16622702436ef5b6c3",
+    "image_gallery_MEGta"
   ]
 }
