@@ -18,9 +18,9 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": false,
           "settings": {
-            "paragraph-40f13c5dc29a703c84dc72200f92fbb1": null,
+            "paragraph-94c0ec4561e301ea073ed4f92e90d9aa": null,
             "maxwidth": 1080,
-            "paragraph-886ce891773d0996771db643dc7d5df2": null
+            "paragraph-96e4ab58a1a1c6b2babbe752117a4d91": null
           }
         }
       },
@@ -34,7 +34,7 @@
       "settings": {
         "style": "style1",
         "nav_style": "arrow",
-        "header-f928711b9f523eecf8cc9fe837b6f0d8": null,
+        "header-f8743b14de8f36b1e35e711357d1f3d5": null,
         "top_space_desktop": 60,
         "bottom_space_desktop": 60,
         "top_space_mobile": 30,
@@ -103,6 +103,48 @@
         "quote_ihLiG",
         "quote_Lx9th",
         "quote_8KG7e"
+      ]
+    },
+    "image_gallery_MEGta": {
+      "type": "image-gallery",
+      "disabled": false,
+      "custom_css": [
+        "div.container {background-color:transparent !important;}"
+      ],
+      "settings": {
+        "heading": "i nostri partner",
+        "show_border": true,
+        "header-144c5776ebba0d95eb7cf72ded8bbbff": null,
+        "top_space_desktop": 45,
+        "bottom_space_desktop": 45,
+        "top_space_mobile": 35,
+        "bottom_space_mobile": 0
+      },
+      "blocks": {
+        "image_xTCDi": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "Partner",
+            "subheading": "OPI SRL",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "link": ""
+          }
+        },
+        "image_kbHD3": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "heading": "Sponsor ufficiale",
+            "subheading": "Marsala FC",
+            "image": "shopify:\/\/shop_images\/marsala.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xTCDi",
+        "image_kbHD3"
       ]
     },
     "slider_PwkFpW": {
@@ -382,45 +424,6 @@
           }
         }
       }
-    },
-    "image_gallery_MEGta": {
-      "type": "image-gallery",
-      "disabled": false,
-      "settings": {
-        "heading": "i nostri partner",
-        "show_border": true,
-        "header-e94543a16e8af2a53403f33ae79163f8": null,
-        "top_space_desktop": 45,
-        "bottom_space_desktop": 45,
-        "top_space_mobile": 35,
-        "bottom_space_mobile": 0
-      },
-      "blocks": {
-        "image_xTCDi": {
-          "type": "image",
-          "disabled": false,
-          "settings": {
-            "heading": "Partner",
-            "subheading": "OPI SRL",
-            "image": "shopify:\/\/shop_images\/2.png",
-            "link": ""
-          }
-        },
-        "image_kbHD3": {
-          "type": "image",
-          "disabled": false,
-          "settings": {
-            "heading": "Sponsor ufficiale",
-            "subheading": "Marsala FC",
-            "image": "shopify:\/\/shop_images\/marsala.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_xTCDi",
-        "image_kbHD3"
-      ]
     }
   },
   "order": [
