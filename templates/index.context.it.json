@@ -18,9 +18,9 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": false,
           "settings": {
-            "paragraph-94c0ec4561e301ea073ed4f92e90d9aa": null,
+            "paragraph-eaaa46be58f7c27cf0895ea58eabbb52": null,
             "maxwidth": 1080,
-            "paragraph-96e4ab58a1a1c6b2babbe752117a4d91": null
+            "paragraph-54ebcb4a4d8a890a441b49e09a6b1d50": null
           }
         }
       },
@@ -34,7 +34,7 @@
       "settings": {
         "style": "style1",
         "nav_style": "arrow",
-        "header-f8743b14de8f36b1e35e711357d1f3d5": null,
+        "header-b3ce84066893adeeceae6035204b42f0": null,
         "top_space_desktop": 60,
         "bottom_space_desktop": 60,
         "top_space_mobile": 30,
@@ -109,12 +109,12 @@
       "type": "image-gallery",
       "disabled": false,
       "custom_css": [
-        "div.container {background-color:transparent !important;}"
+        "div.container {background-color: transparent !important;}"
       ],
       "settings": {
         "heading": "i nostri partner",
         "show_border": true,
-        "header-144c5776ebba0d95eb7cf72ded8bbbff": null,
+        "header-1cc20bb0cafc6863c89649a877c5501b": null,
         "top_space_desktop": 45,
         "bottom_space_desktop": 45,
         "top_space_mobile": 35,
@@ -125,8 +125,8 @@
           "type": "image",
           "disabled": false,
           "settings": {
-            "heading": "Partner",
-            "subheading": "OPI SRL",
+            "heading": "Servizi per le aziende",
+            "subheading": "OPI SRLs",
             "image": "shopify:\/\/shop_images\/2.png",
             "link": ""
           }
