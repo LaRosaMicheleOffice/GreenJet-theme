@@ -23,7 +23,7 @@
             {{ 'product-' | append: style | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
             {%- unless block.settings.heading == blank and block.settings.subheading == blank -%}
-            <div class="yv-offer-detail bottom-left content-border-true ">
+            <div class="yv-offer-detail bottom-left content-border-false ">
               {%- if block.settings.heading != blank -%}
               <h5>{{ block.settings.heading }}</h5>
               {%- endif -%}
