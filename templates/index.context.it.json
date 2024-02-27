@@ -165,8 +165,17 @@
             "image": "shopify:\/\/shop_images\/marsala_3.png",
             "image_mobile": "shopify:\/\/shop_images\/marsala_2.png",
             "banner_subtitle": "Greenjet è lo sponsor ufficiale del",
-            "subtitle_color_m": "#f5fcff",
             "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#f5fcff"
+          }
+        },
+        "slide_QYG7Aq": {
+          "settings": {
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
             "subtitle_bgcolor_m": "#7cb39e",
             "btn_bg_m": "#2183a3",
             "btn_text_m": "#f5fcff"
