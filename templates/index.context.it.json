@@ -160,6 +160,15 @@
             "btn_text_m": "#ffffff"
           }
         },
+        "slide_QYG7Aq": {
+          "settings": {
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#f5fcff"
+          }
+        },
         "slide_g9cEyw": {
           "settings": {
             "image": "shopify:\/\/shop_images\/marsala_3.png",
@@ -172,11 +181,18 @@
             "btn_text_m": "#f5fcff"
           }
         },
-        "slide_QYG7Aq": {
+        "slide_bmjqhj": {
           "settings": {
+            "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
+            "banner_subtitle": "Risparmia fino al 66% d'acqua sulle bollette!",
+            "banner_title": "Risparmia subito con la nuova tecnologia GREENJET!",
+            "subtitle_color": "#f5fcff",
+            "title_color": "#000000",
+            "subtitle_bgcolor": "#7cb39e",
             "title_color_m": "#000000",
             "subtitle_color_m": "#f5fcff",
             "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg": "#2183a3",
             "btn_bg_m": "#2183a3",
             "btn_text_m": "#f5fcff"
           }
