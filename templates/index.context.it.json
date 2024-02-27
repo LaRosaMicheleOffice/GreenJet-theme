@@ -18,9 +18,9 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": false,
           "settings": {
-            "paragraph-eaaa46be58f7c27cf0895ea58eabbb52": null,
+            "paragraph-21a59738c83dbfb34f42507a0fbb42cc": null,
             "maxwidth": 1080,
-            "paragraph-54ebcb4a4d8a890a441b49e09a6b1d50": null
+            "paragraph-d8efac00d0e84cc4f40a5c989c86de0f": null
           }
         }
       },
@@ -34,7 +34,7 @@
       "settings": {
         "style": "style1",
         "nav_style": "arrow",
-        "header-b3ce84066893adeeceae6035204b42f0": null,
+        "header-64c0d3df5c0ec14ae5861bbb6cbca7a9": null,
         "top_space_desktop": 60,
         "bottom_space_desktop": 60,
         "top_space_mobile": 30,
@@ -114,7 +114,7 @@
       "settings": {
         "heading": "i nostri partner",
         "show_border": true,
-        "header-1cc20bb0cafc6863c89649a877c5501b": null,
+        "header-4fff5f791ee7a4b7b73aafc27561c6bd": null,
         "top_space_desktop": 45,
         "bottom_space_desktop": 45,
         "top_space_mobile": 35,
@@ -158,6 +158,12 @@
             "subtitle_bgcolor_m": "#7cb39e",
             "btn_bg_m": "#2183a3",
             "btn_text_m": "#ffffff"
+          }
+        },
+        "slide_g9cEyw": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marsala_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/marsala_2.png"
           }
         }
       }
