@@ -5,7 +5,10 @@
         <a class="skip-to-content-link button yv-visually-hidden focus-inside" href="#ProductData-{{ section.id }}">
             {{ "accessibility.skip_to_product_info" | t }}
           </a>
-        <script>alert(section.settings.gallery_style);</script>
+        <script>
+          alert(section.settings.gallery_style);
+          console.log(section.settings.gallery_style);
+        </script>
           {%- liquid
            if section.settings.gallery_style == 'slider'
               render 'product-page-images-slider' section : section , product : product 
