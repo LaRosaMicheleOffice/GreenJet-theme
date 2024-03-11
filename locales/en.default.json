@@ -573,6 +573,9 @@
           "header": {
             "many": "No delivery available for %{count} items"
           }
+        },
+        "item_label": {
+          "many": "{{count}} articles"
         }
       },
       "payment": {
@@ -584,6 +587,9 @@
         },
         "order_covered_by_gift_cards_notice": {
           "many": "Your order is covered by your gift cards."
+        },
+        "order_edit_banner_items_added": {
+          "many": "%{count} added"
         }
       },
       "shipping_errors": {
@@ -655,6 +661,20 @@
       "order_summary": {
         "collapse_component_information": {
           "many": "Hide %{count} articles"
+        },
+        "expand_component_information": {
+          "many": "Show %{count} items"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "many": "%{count} articles"
+          }
+        },
+        "discount_title_stacking": {
+          "many": "Discounts"
+        },
+        "discount_order_stacking": {
+          "many": "Discounts on the order"
         }
       },
       "shipping": {
@@ -670,6 +690,23 @@
           },
           "free_for_first_n_order": {
             "many": "For the first %{count} orders"
+          },
+          "prepaid_delivery_frequency": {
+            "many": "for %{count} deliveries"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "many": "every %{count} days"
+            },
+            "week": {
+              "many": "every %{count} weeks"
+            },
+            "month": {
+              "many": "every %{count} months"
+            },
+            "year": {
+              "many": "every %{count} years"
+            }
           }
         }
       },
@@ -687,6 +724,20 @@
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
             "many": "subsequently %{count} payments, each at the price of %{total_price}"
+          }
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "many": "%{count} days"
+          },
+          "week": {
+            "many": "%{count} weeks"
+          },
+          "month": {
+            "many": "%{count} months"
+          },
+          "year": {
+            "many": "%{count} years"
           }
         }
       },
@@ -723,11 +774,25 @@
         "reveal_more_label": {
           "many": "Show more %{count} locations"
         }
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "many": "%{count} added"
+          }
+        }
       }
     },
     "page_titles": {
       "search_results": {
         "many": "Search: %{count} results found for \"%{terms}\""
+      }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "many": "Other"
+        }
       }
     }
   },
@@ -757,10 +822,24 @@
         },
         "gift_resend_success": {
           "many": "Gift cards resent"
+        },
+        "gift_card_label": {
+          "many": "Gift Vouchers"
+        },
+        "gift_card_resend": {
+          "many": "Repeat sending email"
+        },
+        "gift_card_resend_text": {
+          "many": "Repeat sending messages"
         }
       },
       "if_not_received": {
         "many": "If they have not been received,"
+      },
+      "order_list": {
+        "items": {
+          "many": "{{count}} articles"
+        }
       }
     },
     "B2B": {
@@ -794,6 +873,9 @@
     "ui_components": {
       "autocompleteOptionsAvailable": {
         "many": "{{count}} items available"
+      },
+      "month": {
+        "many": "months"
       }
     }
   }
