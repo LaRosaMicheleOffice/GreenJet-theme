@@ -1,1 +1,736 @@
-{"sections":{"slider_PwkFpW":{"type":"slider","blocks":{"slide_CQTYBQ":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/xemtsxwf.png","image_mobile":"shopify:\/\/shop_images\/xemtsxwf.png","videofile":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4","banner_subtitle":"Risparmia fino al 66% d'acqua sulle bollette!","banner_title":"Risparmia subito con la nuova tecnologia GREENJET!","button_text":"SCOPRI DI PIÙ","button_link":"shopify:\/\/collections\/all","title_color":"#000000","subtitle_color":"#e3eff5","subtitle_bgcolor":"#7cb39e","btn_bg":"#2183a3","btn_text":"#ffffff","title_color_m":"#000000","subtitle_color_m":"#e3eff5","subtitle_bgcolor_m":"#7cb39e","btn_bg_m":"#2183a3","btn_text_m":"#ffffff"}},"slide_bmjqhj":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/download.png","image_mobile":"shopify:\/\/shop_images\/download.png","videofile":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4","banner_subtitle":"Risparmia fino al 66% d'acqua sulle bollette!","banner_title":"Risparmia subito con la nuova tecnologia GREENJET!","button_text":"","button_link":"shopify:\/\/collections\/all","title_color":"#000000","subtitle_color":"#f5fcff","subtitle_bgcolor":"#7cb39e","btn_bg":"#2183a3","btn_text":"#ffffff","title_color_m":"#000000","subtitle_color_m":"#f5fcff","subtitle_bgcolor_m":"#7cb39e","btn_bg_m":"#2183a3","btn_text_m":"#ffffff"}},"slide_QYG7Aq":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/opi_2.png","image_mobile":"shopify:\/\/shop_images\/opi_2.png","videofile":"","banner_subtitle":"I NOSTRI PARTNER","banner_title":"OPi Servizi per le aziende","button_text":"Visita il loro sito","button_link":"shopify:\/\/collections\/all","title_color":"#000000","subtitle_color":"#f5fcff","subtitle_bgcolor":"#7cb39e","btn_bg":"#2183a3","btn_text":"#ffffff","title_color_m":"#000000","subtitle_color_m":"#f5fcff","subtitle_bgcolor_m":"#7cb39e","btn_bg_m":"#2183a3","btn_text_m":"#ffffff"}},"slide_g9cEyw":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/marsala_2.png","image_mobile":"shopify:\/\/shop_images\/marsala_2.png","videofile":"","banner_subtitle":"Greenjet è lo sponsor ufficiale del","banner_title":"Marsala FC","button_text":"","button_link":"shopify:\/\/collections\/all","title_color":"#000000","subtitle_color":"#f5fcff","subtitle_bgcolor":"#7cb39e","btn_bg":"#2183a3","btn_text":"#ffffff","title_color_m":"#000000","subtitle_color_m":"#f5fcff","subtitle_bgcolor_m":"#7cb39e","btn_bg_m":"#2183a3","btn_text_m":"#ffffff"}}},"block_order":["slide_CQTYBQ","slide_bmjqhj","slide_QYG7Aq","slide_g9cEyw"],"settings":{"style":"style1","rotate":false,"interval":5}},"1657114339018f27d3":{"type":"text-with-icons","blocks":{"1657114339bd1b6c3f-0":{"type":"column","settings":{"icon":"user","heading":"Adatto a tutte le docce","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Regendusche_1.svg"}},"1657114339bd1b6c3f-1":{"type":"column","settings":{"icon":"Spedizione","heading":"ECO-sostenibile","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Nachhaltiges_Zuhause.svg"}},"2bc8444f-2596-4eba-92ca-51ba52bd783c":{"type":"column","settings":{"icon":"Spedizione","heading":"Facile da montare","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Werkzeug.svg"}},"1657114339bd1b6c3f-2":{"type":"column","settings":{"icon":"Spedizione","heading":"Risparmi fino al 66%","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Sparschwein.svg"}},"1657114339bd1b6c3f-3":{"type":"column","settings":{"icon":"Spedizione","heading":"Spedizione gratuita","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Versand.svg"}},"22e079ca-fe7c-406b-9303-c321e25dd36a":{"type":"column","settings":{"icon":"Spedizione","heading":"Riduce le emissioni di CO2","text":"","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Erderwaermung.svg?v=1662045484"}}},"block_order":["1657114339bd1b6c3f-0","1657114339bd1b6c3f-1","2bc8444f-2596-4eba-92ca-51ba52bd783c","1657114339bd1b6c3f-2","1657114339bd1b6c3f-3","22e079ca-fe7c-406b-9303-c321e25dd36a"],"settings":{"top_space_desktop":30,"heading":"OLTRE 10.000.000 DI LITRI D'ACQUA RISPARMIATA","bottom_space_desktop":30,"top_space_mobile":15,"bottom_space_mobile":30}},"4354f16b-8940-4410-a5a4-5c7f166b733d":{"type":"custom-html","settings":{"custom_html":"<div class=\"rich_box\">\n<h2>Risparmia con GREENJET<\/h2>\n<p>Una <b>famiglia di 3 persone<\/b> risparmia in media ogni anno<br><span style=\"font-size:200%\">340€<\/span><br> sulla bolletta dell'acqua*<br><span style=\"font-size:150%\">520 kg CO₂<\/span><\/p>\n<a class=\"rich_text_button\" href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><span style=\"font-size:150%\"><b>Calcola adesso il tuo risparmio<\/b><\/span><svg class=\"icon-signpost-arrow team__popup-trigger js-btn-item\" data-modal-action=\"add\" data-modal-rel=\"16568321444d97df25-0\" href=\"#\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"18\" height=\"12\" viewbox=\"0 0 18 12\" fill=\"none\">      <path data-modal-action=\"add\" data-modal-rel=\"16568321444d97df25-0\" href=\"#\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.7272 5.6364L10.3636 1.27279L11.6364 0L17.2728 5.6364L11.6364 11.2728L10.3636 10L14.7272 5.6364Z\" fill=\"currentColor\"><\/path>      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 4.73645L16 4.73645L16 6.53645L-1.57361e-07 6.53645L0 4.73645Z\" fill=\"currentColor\"><\/path>    <\/svg><\/a>\n<\/div>","content_alignment":"center","top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"1708540102fade48e6":{"type":"apps","settings":{"top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"1657114306ddec8d35":{"type":"featured-product","blocks":{"16571143051ab3d9d8-0":{"type":"title","settings":{}},"d283f17c-5f5d-4dae-be58-7e12e52d51e8":{"type":"text","settings":{"text":"{{ section.settings.product.metafields.descriptors.subtitle.value }}"}},"7ae841fe-4f8b-4d57-9135-1ac5e4a3a713":{"type":"jdgm-reviews","settings":{}},"16571143051ab3d9d8-2":{"type":"price","settings":{}},"16571143051ab3d9d8-3":{"type":"variant","settings":{}},"a20b855c-cdfe-44a5-a665-f62729f5f63f":{"type":"custom_liquid","settings":{"custom_liquid":"","custom_html":"<div class=\"icon-and-text\">\n        <span class=\"icon icon--inventory\"><\/span>\n        <span style=\"color:#7cb39e;min-width: 60px;\">Disponibile<\/span> - in 24\/48 ore lavorative<\/div>"}},"16571143051ab3d9d8-5":{"type":"button","settings":{"dynamic_checkout_btn":false}},"da466d58-3029-4450-a25d-06911a908d5e":{"type":"custom_liquid","settings":{"custom_liquid":"{% render 'payment-icons' %}","custom_html":""}},"4316dc4c-2a57-4475-9c76-7af386090b23":{"type":"custom_liquid","disabled":true,"settings":{"custom_liquid":"<span style=\"padding-top:20px\" class=\"page-viewers icon-and-text\">\n  <div><span style=\"padding-right:2px;\">🔥 Es sehen sich gerade \n <\/span>\n  <span class=\"js-page-viewers\"  style=\"font-weight:bold;\" data-min=\"39\" data-max=\"49\" data-duration=\"{{\"5\" | times:1000}}\"><\/span>\n  <span style=\"padding-left:2px;\"> <b>Personen<\/b> dieses Produkt an!<\/span><\/div>\n<\/span>\n\n\n<script src=\"https:\/\/code.jquery.com\/jquery-3.6.0.slim.min.js\"\n  integrity=\"sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=\" crossorigin=\"anonymous\"><\/script>\n<script>\nwindow.onload = function() {\n  var $fakeViewClass = $('.js-page-viewers'),\n      minValue = $fakeViewClass.data('min'),\n      maxValue = $fakeViewClass.data('max'),\n      duration = $fakeViewClass.data('duration');\n  function randomInRange(start,end){\n    var value = Math.floor(Math.random() * (end - start + 1) + start);\n    $fakeViewClass.text(value);\n  }\n\n  if (minValue !== undefined && maxValue !== undefined){\n    randomInRange(minValue,maxValue);\n    setInterval(function() {\n      randomInRange(minValue,maxValue);\n    },duration);\n  }\n\n};\n<\/script>","custom_html":""}}},"block_order":["16571143051ab3d9d8-0","d283f17c-5f5d-4dae-be58-7e12e52d51e8","7ae841fe-4f8b-4d57-9135-1ac5e4a3a713","16571143051ab3d9d8-2","16571143051ab3d9d8-3","a20b855c-cdfe-44a5-a665-f62729f5f63f","16571143051ab3d9d8-5","da466d58-3029-4450-a25d-06911a908d5e","4316dc4c-2a57-4475-9c76-7af386090b23"],"settings":{"heading":"Bestseller","product":"greenjet-kit-salvalacqua","top_space_desktop":70,"bottom_space_desktop":70,"top_space_mobile":40,"bottom_space_mobile":0}},"1662195553963b460f":{"type":"image-with-text","blocks":{"1662195552246dc0ba-0":{"type":"heading","settings":{"heading":"Un piacere della doccia unico con un consumo minore"}},"482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c":{"type":"text","settings":{"content":"<p>Grazie alla tecnologia certificata TÜV di GREENJET, è possibile ottenere un risparmio <strong>fino al 66%<\/strong> fin dal momento dell'installazione!<\/p>"}},"1662195552246dc0ba-1":{"type":"icon-with-text","settings":{"icon":"Spedizione","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Wasser.svg","heading":"Tecnologia esclusiva","content":"<p>La tecnologia brevettata GREENJET circonda l'acqua con l'aria, garantendo così un consumo minore con lo stesso piacere della doccia.<\/p>"}},"1662195552246dc0ba-2":{"type":"icon-with-text","settings":{"icon":"Spedizione","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Dusche.svg","heading":"Nessun compromesso sul comfort","content":"<p>Con GREENJET puoi risparmiare molta acqua, ma non devi rinunciare al comfort della doccia.<\/p>"}}},"block_order":["1662195552246dc0ba-0","482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c","1662195552246dc0ba-1","1662195552246dc0ba-2"],"settings":{"image1":"shopify:\/\/shop_images\/9j2u5v3m.png","image_alignment":"right","top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"1662196963c246b272":{"type":"image-with-text","blocks":{"1662196963f2f40103-0":{"type":"heading","settings":{"heading":"Montaggio semplice"}},"297f9181-4a4c-4761-85a6-3df957b847b4":{"type":"text","settings":{"content":"<p>Installa GREENJET tra il raccordo della doccia e il tubo della doccia o sopra la doccia a pioggia.<\/p>"}},"1662196963f2f40103-1":{"type":"icon-with-text","settings":{"icon":"Spedizione","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Werkzeug.svg","heading":"Non sono necessari attrezzi","content":"<p>È sufficiente avvitare il salvagente a mano tra il tubo e il rubinetto.<\/p>"}},"1662196963f2f40103-2":{"type":"icon-with-text","settings":{"icon":"Spedizione","svg_url":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Taschenrechner.svg","heading":"Non è necessario l'aiuto di professionisti","content":"<p>Puoi installare GREENJET in modo economico senza bisogno di un idraulico. In questo modo si risparmiano nervi e denaro!<\/p>"}}},"block_order":["1662196963f2f40103-0","297f9181-4a4c-4761-85a6-3df957b847b4","1662196963f2f40103-1","1662196963f2f40103-2"],"settings":{"image1":"shopify:\/\/shop_images\/315628732_191660373424329_1734078354436328140_n.png","image_alignment":"left","top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"166265254429354889":{"type":"image-with-text","blocks":{"1662652544e13c8927-0":{"type":"heading","settings":{"heading":"Tecnologia innovativa"}},"16bfcb36-f837-4f60-b960-6a8188da18f5":{"type":"text","settings":{"content":"<p>Dopo un'intensa attività di ricerca e sviluppo, la nuova tecnologia è stata <strong>brevettata <\/strong>con il supporto dell'Agenzia austriaca per la promozione della ricerca.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/TUeV_Austria_Zertifikat_GREENJET.pdf?v=1665509755\" target=\"_blank\" title=\"Certificato TÜV \">Visualizza il certificato TÜV -&gt;<\/a><\/p>"}},"061d91b4-ccc5-4a49-b601-841926f33c5e":{"type":"html","settings":{"html":"<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/TUeV_Austria_Zertifikat_GREENJET.pdf?v=1665509755\"><img style=\"max-height:100px;max-width:50%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/2542_mit_QR.jpg?v=1665509543\"><\/a>\n<a href=\"https:\/\/www.ffg.at\/\"><img style=\"max-height:100px;max-width:50%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/FFG_Logo_DE_RGB_1500px.webp\"><\/a>"}}},"block_order":["1662652544e13c8927-0","16bfcb36-f837-4f60-b960-6a8188da18f5","061d91b4-ccc5-4a49-b601-841926f33c5e"],"settings":{"image1":"shopify:\/\/shop_images\/4h8wy5zp.png","image_alignment":"right","top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"16571143161c273279":{"type":"featured-collection","settings":{"collection":"frontpage","products_count":3,"heading":"I nostri prodotti","subheading":"Risparmia sulle spese di spedizione!","collection_heading":"","collection_desc":"","top_space_desktop":80,"bottom_space_desktop":75,"top_space_mobile":40,"bottom_space_mobile":20}},"16624469807973c962":{"type":"vergleichstabelle","blocks":{"1758a668-1d94-4453-91e7-3f5af3b4e6fc":{"type":"row","settings":{"link":"","heading":"Riduce il consumo d'acqua","subheading":"","checkmark_1":true,"text_1":"","checkmark_2":true,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"97c6a70c-61c1-4c30-8d06-4e16a38ad9da":{"type":"row","settings":{"link":"","heading":"Riduce il consumo d'energia","subheading":"","checkmark_1":true,"text_1":"","checkmark_2":true,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"7b7f3b76-fda2-4a3a-96e2-88587a9f699b":{"type":"row","settings":{"link":"","heading":"Risparmia acqua fino al 66%","subheading":"","checkmark_1":true,"text_1":"","checkmark_2":false,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"4875aefd-fc97-4731-a72c-fd4f1e514d69":{"type":"row","settings":{"link":"","heading":"Prodotto in Austria","subheading":"<span style=\"line-height:1.4\">GREENJET è stato sviluppato in collaborazione con esperti austriaci di meccanica dei fluidi e prodotto in uno stabilimento di produzione di precisione a Salisburgo. <br><br>La produzione è al 100% neutra in termini di emissioni di CO. Questo porta alla vera sostenibilità.<\/span>","checkmark_1":true,"text_1":"","checkmark_2":false,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"56a6185c-ca98-4ef3-8d86-323f968655ff":{"type":"row","settings":{"link":"","heading":"Certificato TÜV","subheading":"","checkmark_1":true,"text_1":"","checkmark_2":false,"text_2":"Parzialmente","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"eb2b31f3-70eb-4a13-9b23-0405edaa2111":{"type":"row","settings":{"link":"","heading":"Funziona anche con soffioni economici","subheading":"<span style=\"line-height:1.4\">Rispetto ad altri produttori, il nostro ugello per la doccia funziona anche con soffioni che hanno già una funzione di risparmio idrico integrata. Così la pressione è leggermente ridotta, ma il piacere della doccia rimane invariato!<\/span>","checkmark_1":true,"text_1":"","checkmark_2":false,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"70860fb6-6eea-4b08-bf04-8dedf05fcc7c":{"type":"row","settings":{"link":"","heading":"Numero di fori d'aria","subheading":"<span style=\"line-height:1.4\">Attraverso i 3 fori esterni, l'aria viene aspirata e convogliata in una camera nella parte interna. All'interno della camera, l'aria viene poi convogliata all'acqua in modo circolare attraverso 6 fori, in modo da avvolgere in modo ottimale il getto d'acqua con l'aria.<\/span>","checkmark_1":false,"text_1":"9","checkmark_2":false,"text_2":"2","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}},"2c8251d2-0365-424a-be26-784afea730ab":{"type":"row","settings":{"link":"","heading":"Tecnologia innovativa e brevettata","subheading":"<span style=\"line-height:1.4\">Dopo un lungo periodo di ricerca e sviluppo, con il sostegno della società austriaca di finanziamento della ricerca, è stata brevettata la nuova tecnologia GREENJET. <\/span>","checkmark_1":true,"text_1":"","checkmark_2":false,"text_2":"","checkmark_3":false,"text_3":"","checkmark_4":false,"text_4":""}}},"block_order":["1758a668-1d94-4453-91e7-3f5af3b4e6fc","97c6a70c-61c1-4c30-8d06-4e16a38ad9da","7b7f3b76-fda2-4a3a-96e2-88587a9f699b","4875aefd-fc97-4731-a72c-fd4f1e514d69","56a6185c-ca98-4ef3-8d86-323f968655ff","eb2b31f3-70eb-4a13-9b23-0405edaa2111","70860fb6-6eea-4b08-bf04-8dedf05fcc7c","2c8251d2-0365-424a-be26-784afea730ab"],"settings":{"heading":"Risparmia subito con la nuova tecnologia GREENJET!","subheading":"QUESTO È IL NOSTRO VALORE AGGIUNTO","description":"La nostra tecnologia è unica. Nella tabella sottostante puoi scoprire cosa contraddistingue GREENJET dal resto","btntext":"","btnlink":"","coloumn_1":"GREENJET","coloumn_2":"concorrenza","coloumn_3":"","coloumn_4":"","footer_1":"<a href=\"\/products\/greenjet-kit-salvalacqua\">Compra subito<\/a>","footer_2":"","footer_3":"<a href=\"\/\">Più info<\/a>","footer_4":"<a href=\"\/\">Più info<\/a>","top_space_desktop":85,"bottom_space_desktop":40,"top_space_mobile":35,"bottom_space_mobile":35,"image":"shopify:\/\/shop_images\/bm858g34.png"}},"166219685159fd8837":{"type":"faq-section","blocks":{"3d616203-50f9-44e3-984b-96f87e923c12":{"type":"faq","settings":{"heading":"Come funziona GREENJET?","answer":"<p>La forma complessa della parte interna crea una forte pressione negativa, che porta ad un elevato effetto di aspirazione. Il cosiddetto effetto Venturi, utilizzato ad esempio in Formula 1 per generare carico aerodinamico.<\/p><p>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Il <strong>getto d'acqua è così ottimamente racchiuso nell'aria<\/strong> .<\/p>"}},"1662196851d081d4cc-0":{"type":"faq","settings":{"heading":"Come funziona l'assemblaggio?","answer":"<p>GREENJET si <strong>integra facilmente e rapidamente in qualsiasi doccia<\/strong> .<\/p><p>​GREENJET è fissato al raccordo come adattatore intermedio. Il tubo della doccia viene quindi avvitato e inizia il risparmio idrico ed energetico. Nelle docce a pioggia, GREENJET è montato sopra il soffione.<\/p><p>Anche in questo caso, durante lo sviluppo è stata prestata attenzione per garantire che GREENJET possa essere installato rapidamente e facilmente da chiunque.<\/p><p><\/p><p>Qui troverai istruzioni dettagliate su come installare il prodotto nella tua doccia:<\/p><p><strong>1. Controllo del soffione della doccia<\/strong><\/p><p>Controlla se il tuo soffione doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il filtro (utilizzando una pinza) o <span style=\"text-decoration:underline\">pulirlo accuratamente<\/span> . Un filtro che ha una guarnizione integrata (spesso in caso di pioggia) dovrebbe essere assolutamente pulito ma non rimosso.<\/p><p><\/p><p><strong>2. Smontare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Staccare<\/span> il flessibile della doccia dal raccordo o il soffione a pioggia dal <span style=\"text-decoration:underline\">tubo di collegamento<\/span> . Se il tubo o la doccia a pioggia non possono essere staccati a mano, è meglio usare guanti da lavoro o pinze (con un panno o una pinza di gomma per evitare graffi).<\/p><p><\/p><p><strong>3. Monta Greenjet<\/strong><\/p><p><span style=\"text-decoration:underline\">Attaccare ora Greenjet al raccordo o al tubo di collegamento<\/span> . È sufficiente montare Greenjet a mano, non sono necessarie pinze. In caso di danni causati da pinze, non possiamo più ritirare il prodotto!<\/p><p><\/p><p><strong>4. Installare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Ora monta il flessibile doccia<\/span> o il soffione a pioggia su Greenjet e inizia il risparmio idrico ed energetico!<\/p>"}},"1662196851d081d4cc-1":{"type":"faq","settings":{"heading":"Quanto costa la spedizione?","answer":"<p>I costi di spedizione vengono calcolati al momento dell'acquisto.<\/p><p>Puoi restituire il prodotto a tue spese entro 14 giorni senza fornire una motivazione e ti rimborseremo l'intero importo.<br\/>Si prega di notare che non possiamo emettere un rimborso per <strong>danni visibili<\/strong> (causati da pinze o simili) al nostro prodotto!<\/p>"}},"1662196851d081d4cc-2":{"type":"faq","settings":{"heading":"Quanta acqua posso risparmiare?","answer":"<p>Con GREENJET tutti possono dare un importante contributo alla tutela dell'ambiente e allo stesso tempo ridurre sensibilmente i costi.<\/p><p>I risparmi sono individuali e dipendono dalla pressione dell'acqua. In media, i risparmi sono compresi tra il 30 e il 66%.<\/p>"}},"52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4":{"type":"faq","settings":{"heading":"La pressione cambia quando fai la doccia?","answer":"<p>I tradizionali soffioni doccia economici presentano un grosso svantaggio: meno acqua significa anche meno comfort durante la doccia.<\/p><p>Con la tecnologia GREENJET abbiamo la soluzione:<br\/>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Pertanto, il getto d'acqua viene avvolto in modo ottimale dall'aria e più morbido.<\/p><p>E la parte migliore:<br\/><strong>Con GREENJET, nulla ostacola il piacere della doccia!<\/strong><\/p>"}},"a1aa6d27-9651-45fc-8fdd-35721d6bd0a5":{"type":"faq","settings":{"heading":"Greenjet mi fa risparmiare denaro?","answer":"<p>SÌ! Meno consumo di acqua (calda) significa minori costi per energia, acqua potabile e fognature. In media, una famiglia di quattro persone risparmia circa 440 euro all'anno.<\/p><p>Una <strong>famiglia media di 3 persone<\/strong> risparmia <strong>340 € di acqua ed energia e 520 kg di CO₂<\/strong> all'anno<\/p><p><a href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\" target=\"_blank\" title=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><strong>Al calcolatore di Risparmio -&gt;<\/strong><\/a><\/p>"}},"5a43b8fc-e472-4b11-ace0-aa7f654c3376":{"type":"faq","settings":{"heading":"L'acqua dura è un problema?","answer":"<p>Il calcare non è un problema per GREENJET, poiché i 9 fori d'aria aspirano solo aria attraverso i fori e quindi non si potrà mai depositare calcare.<\/p><p>In caso di depositi di calcare, Greenjet può essere inserito in un qualsiasi anticalcare disponibile in commercio e riutilizzato sotto la doccia.<\/p>"}}},"block_order":["3d616203-50f9-44e3-984b-96f87e923c12","1662196851d081d4cc-0","1662196851d081d4cc-1","1662196851d081d4cc-2","52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4","a1aa6d27-9651-45fc-8fdd-35721d6bd0a5","5a43b8fc-e472-4b11-ace0-aa7f654c3376"],"settings":{"heading":"Domande frequenti","image":"shopify:\/\/shop_images\/t3lfo7pk.png","top_space_desktop":30,"bottom_space_desktop":30,"top_space_mobile":30,"bottom_space_mobile":30}},"16622702436ef5b6c3":{"type":"montageanleitung","blocks":{"166227024396449b00-0":{"type":"collection","settings":{"link":"google.at","image":"shopify:\/\/shop_images\/6b00ax7e.png","heading":"Controllo del soffione della doccia","subheading":"Controlla se il soffione della tua doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il setaccio (utilizzando una pinza) o pulirlo accuratamente. Un filtro integrato in una guarnizione (spesso durante gli acquazzoni) deve essere assolutamente pulito ma non rimosso."}},"166227024396449b00-1":{"type":"collection","settings":{"link":"","image":"shopify:\/\/shop_images\/x8i6kpzc.png","heading":"Smontare il flessibile della doccia\/a pioggia","subheading":"Scollegare il flessibile della doccia dal raccordo o la doccia a pioggia dal tubo di collegamento. Se non è possibile rimuovere manualmente il tubo o il soffione a pioggia, è meglio utilizzare guanti da lavoro o una pinza (con un panno o una pinza in gomma per evitare graffi)."}},"166227024396449b00-2":{"type":"collection","settings":{"link":"","image":"shopify:\/\/shop_images\/rhms2llk.png","heading":"Avvita il Greenjet","subheading":"Ora collega GREENJET al raccordo o al tubo di collegamento. È sufficiente assemblare GREENJET serrandolo a mano, non sono necessarie pinze."}},"166227024396449b00-3":{"type":"collection","settings":{"link":"","image":"shopify:\/\/shop_images\/gmkcyc2q.png","heading":"Montare il flessibile\/soffione a pioggia","subheading":"Ora collega il tubo doccia o la doccia a pioggia a GREENJET e inizia a risparmiare acqua ed energia!"}}},"block_order":["166227024396449b00-0","166227024396449b00-1","166227024396449b00-2","166227024396449b00-3"],"settings":{"style":"style1","heading":"Ecco come funziona","subheading":"istruzioni di montaggio","description":"qui puoi scaricare le istruzioni su come montare GREENJET","btntext":"SCARICA LE ISTRUZIONI","btnlink":"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Einbauanleitung_DE_A4.pdf","top_space_desktop":85,"bottom_space_desktop":40,"top_space_mobile":35,"bottom_space_mobile":35}}},"order":["slider_PwkFpW","1657114339018f27d3","4354f16b-8940-4410-a5a4-5c7f166b733d","1708540102fade48e6","1657114306ddec8d35","1662195553963b460f","1662196963c246b272","166265254429354889","16571143161c273279","16624469807973c962","166219685159fd8837","16622702436ef5b6c3"]}
+{
+  "sections": {
+    "slider_PwkFpW": {
+      "type": "slider",
+      "blocks": {
+        "slide_CQTYBQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/xemtsxwf.png",
+            "image_mobile": "shopify:\/\/shop_images\/xemtsxwf.png",
+            "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
+            "banner_subtitle": "Risparmia fino al 66% d'acqua sulle bollette!",
+            "banner_title": "Risparmia subito con la nuova tecnologia GREENJET!",
+            "button_text": "SCOPRI DI PIÙ",
+            "button_link": "shopify:\/\/collections\/all",
+            "title_color": "#000000",
+            "subtitle_color": "#e3eff5",
+            "subtitle_bgcolor": "#7cb39e",
+            "btn_bg": "#2183a3",
+            "btn_text": "#ffffff",
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#e3eff5",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#ffffff"
+          }
+        },
+        "slide_bmjqhj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download.png",
+            "image_mobile": "shopify:\/\/shop_images\/download.png",
+            "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
+            "banner_subtitle": "Risparmia fino al 66% d'acqua sulle bollette!",
+            "banner_title": "Risparmia subito con la nuova tecnologia GREENJET!",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "title_color": "#000000",
+            "subtitle_color": "#f5fcff",
+            "subtitle_bgcolor": "#7cb39e",
+            "btn_bg": "#2183a3",
+            "btn_text": "#ffffff",
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#ffffff"
+          }
+        },
+        "slide_QYG7Aq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/opi_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/opi_2.png",
+            "videofile": "",
+            "banner_subtitle": "I NOSTRI PARTNER",
+            "banner_title": "OPi Servizi per le aziende",
+            "button_text": "Visita il loro sito",
+            "button_link": "shopify:\/\/collections\/all",
+            "title_color": "#000000",
+            "subtitle_color": "#f5fcff",
+            "subtitle_bgcolor": "#7cb39e",
+            "btn_bg": "#2183a3",
+            "btn_text": "#ffffff",
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#ffffff"
+          }
+        },
+        "slide_g9cEyw": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marsala_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/marsala_2.png",
+            "videofile": "",
+            "banner_subtitle": "Greenjet è lo sponsor ufficiale del",
+            "banner_title": "Marsala FC",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/all",
+            "title_color": "#000000",
+            "subtitle_color": "#f5fcff",
+            "subtitle_bgcolor": "#7cb39e",
+            "btn_bg": "#2183a3",
+            "btn_text": "#ffffff",
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "slide_CQTYBQ",
+        "slide_bmjqhj",
+        "slide_QYG7Aq",
+        "slide_g9cEyw"
+      ],
+      "settings": {
+        "style": "style1",
+        "rotate": false,
+        "interval": 5
+      }
+    },
+    "1657114339018f27d3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1657114339bd1b6c3f-0": {
+          "type": "column",
+          "settings": {
+            "icon": "user",
+            "heading": "Adatto a tutte le docce",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Regendusche_1.svg"
+          }
+        },
+        "1657114339bd1b6c3f-1": {
+          "type": "column",
+          "settings": {
+            "icon": "Spedizione",
+            "heading": "ECO-sostenibile",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Nachhaltiges_Zuhause.svg"
+          }
+        },
+        "2bc8444f-2596-4eba-92ca-51ba52bd783c": {
+          "type": "column",
+          "settings": {
+            "icon": "Spedizione",
+            "heading": "Facile da montare",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Werkzeug.svg"
+          }
+        },
+        "1657114339bd1b6c3f-2": {
+          "type": "column",
+          "settings": {
+            "icon": "Spedizione",
+            "heading": "Risparmi fino al 66%",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Sparschwein.svg"
+          }
+        },
+        "1657114339bd1b6c3f-3": {
+          "type": "column",
+          "settings": {
+            "icon": "Spedizione",
+            "heading": "Spedizione gratuita",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Versand.svg"
+          }
+        },
+        "22e079ca-fe7c-406b-9303-c321e25dd36a": {
+          "type": "column",
+          "settings": {
+            "icon": "Spedizione",
+            "heading": "Riduce le emissioni di CO2",
+            "text": "",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Erderwaermung.svg?v=1662045484"
+          }
+        }
+      },
+      "block_order": [
+        "1657114339bd1b6c3f-0",
+        "1657114339bd1b6c3f-1",
+        "2bc8444f-2596-4eba-92ca-51ba52bd783c",
+        "1657114339bd1b6c3f-2",
+        "1657114339bd1b6c3f-3",
+        "22e079ca-fe7c-406b-9303-c321e25dd36a"
+      ],
+      "settings": {
+        "top_space_desktop": 30,
+        "heading": "OLTRE 10.000.000 DI LITRI D'ACQUA RISPARMIATA",
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 15,
+        "bottom_space_mobile": 30
+      }
+    },
+    "4354f16b-8940-4410-a5a4-5c7f166b733d": {
+      "type": "custom-html",
+      "settings": {
+        "custom_html": "<div class=\"rich_box\">\n<h2>Risparmia con GREENJET<\/h2>\n<p>Una <b>famiglia di 3 persone<\/b> risparmia in media ogni anno<br><span style=\"font-size:200%\">340€<\/span><br> sulla bolletta dell'acqua*<br><span style=\"font-size:150%\">520 kg CO₂<\/span><\/p>\n<a class=\"rich_text_button\" href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><span style=\"font-size:150%\"><b>Calcola adesso il tuo risparmio<\/b><\/span><svg class=\"icon-signpost-arrow team__popup-trigger js-btn-item\" data-modal-action=\"add\" data-modal-rel=\"16568321444d97df25-0\" href=\"#\" aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"18\" height=\"12\" viewbox=\"0 0 18 12\" fill=\"none\">      <path data-modal-action=\"add\" data-modal-rel=\"16568321444d97df25-0\" href=\"#\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14.7272 5.6364L10.3636 1.27279L11.6364 0L17.2728 5.6364L11.6364 11.2728L10.3636 10L14.7272 5.6364Z\" fill=\"currentColor\"><\/path>      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 4.73645L16 4.73645L16 6.53645L-1.57361e-07 6.53645L0 4.73645Z\" fill=\"currentColor\"><\/path>    <\/svg><\/a>\n<\/div>",
+        "content_alignment": "center",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "1708540102fade48e6": {
+      "type": "apps",
+      "settings": {
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "1657114306ddec8d35": {
+      "type": "featured-product",
+      "blocks": {
+        "16571143051ab3d9d8-0": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "d283f17c-5f5d-4dae-be58-7e12e52d51e8": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
+          }
+        },
+        "7ae841fe-4f8b-4d57-9135-1ac5e4a3a713": {
+          "type": "jdgm-reviews",
+          "settings": {
+          }
+        },
+        "16571143051ab3d9d8-2": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16571143051ab3d9d8-3": {
+          "type": "variant",
+          "settings": {
+          }
+        },
+        "a20b855c-cdfe-44a5-a665-f62729f5f63f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "",
+            "custom_html": "<div class=\"icon-and-text\">\n        <span class=\"icon icon--inventory\"><\/span>\n        <span style=\"color:#7cb39e;min-width: 60px;\">Disponibile<\/span> - in 24\/48 ore lavorative<\/div>"
+          }
+        },
+        "16571143051ab3d9d8-5": {
+          "type": "button",
+          "settings": {
+            "dynamic_checkout_btn": false
+          }
+        },
+        "da466d58-3029-4450-a25d-06911a908d5e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% render 'payment-icons' %}",
+            "custom_html": ""
+          }
+        },
+        "4316dc4c-2a57-4475-9c76-7af386090b23": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<span style=\"padding-top:20px\" class=\"page-viewers icon-and-text\">\n  <div><span style=\"padding-right:2px;\">🔥 Es sehen sich gerade \n <\/span>\n  <span class=\"js-page-viewers\"  style=\"font-weight:bold;\" data-min=\"39\" data-max=\"49\" data-duration=\"{{\"5\" | times:1000}}\"><\/span>\n  <span style=\"padding-left:2px;\"> <b>Personen<\/b> dieses Produkt an!<\/span><\/div>\n<\/span>\n\n\n<script src=\"https:\/\/code.jquery.com\/jquery-3.6.0.slim.min.js\"\n  integrity=\"sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=\" crossorigin=\"anonymous\"><\/script>\n<script>\nwindow.onload = function() {\n  var $fakeViewClass = $('.js-page-viewers'),\n      minValue = $fakeViewClass.data('min'),\n      maxValue = $fakeViewClass.data('max'),\n      duration = $fakeViewClass.data('duration');\n  function randomInRange(start,end){\n    var value = Math.floor(Math.random() * (end - start + 1) + start);\n    $fakeViewClass.text(value);\n  }\n\n  if (minValue !== undefined && maxValue !== undefined){\n    randomInRange(minValue,maxValue);\n    setInterval(function() {\n      randomInRange(minValue,maxValue);\n    },duration);\n  }\n\n};\n<\/script>",
+            "custom_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "16571143051ab3d9d8-0",
+        "d283f17c-5f5d-4dae-be58-7e12e52d51e8",
+        "7ae841fe-4f8b-4d57-9135-1ac5e4a3a713",
+        "16571143051ab3d9d8-2",
+        "16571143051ab3d9d8-3",
+        "a20b855c-cdfe-44a5-a665-f62729f5f63f",
+        "16571143051ab3d9d8-5",
+        "da466d58-3029-4450-a25d-06911a908d5e",
+        "4316dc4c-2a57-4475-9c76-7af386090b23"
+      ],
+      "settings": {
+        "heading": "Bestseller",
+        "product": "greenjet-kit-salvalacqua",
+        "top_space_desktop": 70,
+        "bottom_space_desktop": 70,
+        "top_space_mobile": 40,
+        "bottom_space_mobile": 0
+      }
+    },
+    "1662195553963b460f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1662195552246dc0ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un piacere della doccia unico con un consumo minore"
+          }
+        },
+        "482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Grazie alla tecnologia certificata TÜV di GREENJET, è possibile ottenere un risparmio <strong>fino al 66%<\/strong> fin dal momento dell'installazione!<\/p>"
+          }
+        },
+        "1662195552246dc0ba-1": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "Spedizione",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Wasser.svg",
+            "heading": "Tecnologia esclusiva",
+            "content": "<p>La tecnologia brevettata GREENJET circonda l'acqua con l'aria, garantendo così un consumo minore con lo stesso piacere della doccia.<\/p>"
+          }
+        },
+        "1662195552246dc0ba-2": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "Spedizione",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Dusche.svg",
+            "heading": "Nessun compromesso sul comfort",
+            "content": "<p>Con GREENJET puoi risparmiare molta acqua, ma non devi rinunciare al comfort della doccia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662195552246dc0ba-0",
+        "482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c",
+        "1662195552246dc0ba-1",
+        "1662195552246dc0ba-2"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/9j2u5v3m.png",
+        "image_alignment": "right",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "1662196963c246b272": {
+      "type": "image-with-text",
+      "blocks": {
+        "1662196963f2f40103-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Montaggio semplice"
+          }
+        },
+        "297f9181-4a4c-4761-85a6-3df957b847b4": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Installa GREENJET tra il raccordo della doccia e il tubo della doccia o sopra la doccia a pioggia.<\/p>"
+          }
+        },
+        "1662196963f2f40103-1": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "Spedizione",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Werkzeug.svg",
+            "heading": "Non sono necessari attrezzi",
+            "content": "<p>È sufficiente avvitare il salvagente a mano tra il tubo e il rubinetto.<\/p>"
+          }
+        },
+        "1662196963f2f40103-2": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "Spedizione",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Taschenrechner.svg",
+            "heading": "Non è necessario l'aiuto di professionisti",
+            "content": "<p>Puoi installare GREENJET in modo economico senza bisogno di un idraulico. In questo modo si risparmiano nervi e denaro!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1662196963f2f40103-0",
+        "297f9181-4a4c-4761-85a6-3df957b847b4",
+        "1662196963f2f40103-1",
+        "1662196963f2f40103-2"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/315628732_191660373424329_1734078354436328140_n.png",
+        "image_alignment": "left",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "166265254429354889": {
+      "type": "image-with-text",
+      "blocks": {
+        "1662652544e13c8927-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tecnologia innovativa"
+          }
+        },
+        "16bfcb36-f837-4f60-b960-6a8188da18f5": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Dopo un'intensa attività di ricerca e sviluppo, la nuova tecnologia è stata <strong>brevettata <\/strong>con il supporto dell'Agenzia austriaca per la promozione della ricerca.<\/p><p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/TUeV_Austria_Zertifikat_GREENJET.pdf?v=1665509755\" target=\"_blank\" title=\"Certificato TÜV \">Visualizza il certificato TÜV -&gt;<\/a><\/p>"
+          }
+        },
+        "061d91b4-ccc5-4a49-b601-841926f33c5e": {
+          "type": "html",
+          "settings": {
+            "html": "<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/TUeV_Austria_Zertifikat_GREENJET.pdf?v=1665509755\"><img style=\"max-height:100px;max-width:50%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/2542_mit_QR.jpg?v=1665509543\"><\/a>\n<a href=\"https:\/\/www.ffg.at\/\"><img style=\"max-height:100px;max-width:50%\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/FFG_Logo_DE_RGB_1500px.webp\"><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "1662652544e13c8927-0",
+        "16bfcb36-f837-4f60-b960-6a8188da18f5",
+        "061d91b4-ccc5-4a49-b601-841926f33c5e"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/4h8wy5zp.png",
+        "image_alignment": "right",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "16571143161c273279": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products_count": 3,
+        "heading": "I nostri prodotti",
+        "subheading": "Risparmia sulle spese di spedizione!",
+        "collection_heading": "",
+        "collection_desc": "",
+        "top_space_desktop": 80,
+        "bottom_space_desktop": 75,
+        "top_space_mobile": 40,
+        "bottom_space_mobile": 20
+      }
+    },
+    "16624469807973c962": {
+      "type": "vergleichstabelle",
+      "blocks": {
+        "1758a668-1d94-4453-91e7-3f5af3b4e6fc": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Riduce il consumo d'acqua",
+            "subheading": "",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": true,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "97c6a70c-61c1-4c30-8d06-4e16a38ad9da": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Riduce il consumo d'energia",
+            "subheading": "",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": true,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "7b7f3b76-fda2-4a3a-96e2-88587a9f699b": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Risparmia acqua fino al 66%",
+            "subheading": "",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": false,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "4875aefd-fc97-4731-a72c-fd4f1e514d69": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Prodotto in Austria",
+            "subheading": "<span style=\"line-height:1.4\">GREENJET è stato sviluppato in collaborazione con esperti austriaci di meccanica dei fluidi e prodotto in uno stabilimento di produzione di precisione a Salisburgo. <br><br>La produzione è al 100% neutra in termini di emissioni di CO. Questo porta alla vera sostenibilità.<\/span>",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": false,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "56a6185c-ca98-4ef3-8d86-323f968655ff": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Certificato TÜV",
+            "subheading": "",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": false,
+            "text_2": "Parzialmente",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "eb2b31f3-70eb-4a13-9b23-0405edaa2111": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Funziona anche con soffioni economici",
+            "subheading": "<span style=\"line-height:1.4\">Rispetto ad altri produttori, il nostro ugello per la doccia funziona anche con soffioni che hanno già una funzione di risparmio idrico integrata. Così la pressione è leggermente ridotta, ma il piacere della doccia rimane invariato!<\/span>",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": false,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "70860fb6-6eea-4b08-bf04-8dedf05fcc7c": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Numero di fori d'aria",
+            "subheading": "<span style=\"line-height:1.4\">Attraverso i 3 fori esterni, l'aria viene aspirata e convogliata in una camera nella parte interna. All'interno della camera, l'aria viene poi convogliata all'acqua in modo circolare attraverso 6 fori, in modo da avvolgere in modo ottimale il getto d'acqua con l'aria.<\/span>",
+            "checkmark_1": false,
+            "text_1": "9",
+            "checkmark_2": false,
+            "text_2": "2",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        },
+        "2c8251d2-0365-424a-be26-784afea730ab": {
+          "type": "row",
+          "settings": {
+            "link": "",
+            "heading": "Tecnologia innovativa e brevettata",
+            "subheading": "<span style=\"line-height:1.4\">Dopo un lungo periodo di ricerca e sviluppo, con il sostegno della società austriaca di finanziamento della ricerca, è stata brevettata la nuova tecnologia GREENJET. <\/span>",
+            "checkmark_1": true,
+            "text_1": "",
+            "checkmark_2": false,
+            "text_2": "",
+            "checkmark_3": false,
+            "text_3": "",
+            "checkmark_4": false,
+            "text_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "1758a668-1d94-4453-91e7-3f5af3b4e6fc",
+        "97c6a70c-61c1-4c30-8d06-4e16a38ad9da",
+        "7b7f3b76-fda2-4a3a-96e2-88587a9f699b",
+        "4875aefd-fc97-4731-a72c-fd4f1e514d69",
+        "56a6185c-ca98-4ef3-8d86-323f968655ff",
+        "eb2b31f3-70eb-4a13-9b23-0405edaa2111",
+        "70860fb6-6eea-4b08-bf04-8dedf05fcc7c",
+        "2c8251d2-0365-424a-be26-784afea730ab"
+      ],
+      "settings": {
+        "heading": "Risparmia subito con la nuova tecnologia GREENJET!",
+        "subheading": "QUESTO È IL NOSTRO VALORE AGGIUNTO",
+        "description": "La nostra tecnologia è unica. Nella tabella sottostante puoi scoprire cosa contraddistingue GREENJET dal resto",
+        "btntext": "",
+        "btnlink": "",
+        "coloumn_1": "GREENJET",
+        "coloumn_2": "concorrenza",
+        "coloumn_3": "",
+        "coloumn_4": "",
+        "footer_1": "<a href=\"\/products\/greenjet-kit-salvalacqua\">Compra subito<\/a>",
+        "footer_2": "",
+        "footer_3": "<a href=\"\/\">Più info<\/a>",
+        "footer_4": "<a href=\"\/\">Più info<\/a>",
+        "top_space_desktop": 85,
+        "bottom_space_desktop": 40,
+        "top_space_mobile": 35,
+        "bottom_space_mobile": 35,
+        "image": "shopify:\/\/shop_images\/bm858g34.png"
+      }
+    },
+    "166219685159fd8837": {
+      "type": "faq-section",
+      "blocks": {
+        "3d616203-50f9-44e3-984b-96f87e923c12": {
+          "type": "faq",
+          "settings": {
+            "heading": "Come funziona GREENJET?",
+            "answer": "<p>La forma complessa della parte interna crea una forte pressione negativa, che porta ad un elevato effetto di aspirazione. Il cosiddetto effetto Venturi, utilizzato ad esempio in Formula 1 per generare carico aerodinamico.<\/p><p>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Il <strong>getto d'acqua è così ottimamente racchiuso nell'aria<\/strong> .<\/p>"
+          }
+        },
+        "1662196851d081d4cc-0": {
+          "type": "faq",
+          "settings": {
+            "heading": "Come funziona l'assemblaggio?",
+            "answer": "<p>GREENJET si <strong>integra facilmente e rapidamente in qualsiasi doccia<\/strong> .<\/p><p>​GREENJET è fissato al raccordo come adattatore intermedio. Il tubo della doccia viene quindi avvitato e inizia il risparmio idrico ed energetico. Nelle docce a pioggia, GREENJET è montato sopra il soffione.<\/p><p>Anche in questo caso, durante lo sviluppo è stata prestata attenzione per garantire che GREENJET possa essere installato rapidamente e facilmente da chiunque.<\/p><p><\/p><p>Qui troverai istruzioni dettagliate su come installare il prodotto nella tua doccia:<\/p><p><strong>1. Controllo del soffione della doccia<\/strong><\/p><p>Controlla se il tuo soffione doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il filtro (utilizzando una pinza) o <span style=\"text-decoration:underline\">pulirlo accuratamente<\/span> . Un filtro che ha una guarnizione integrata (spesso in caso di pioggia) dovrebbe essere assolutamente pulito ma non rimosso.<\/p><p><\/p><p><strong>2. Smontare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Staccare<\/span> il flessibile della doccia dal raccordo o il soffione a pioggia dal <span style=\"text-decoration:underline\">tubo di collegamento<\/span> . Se il tubo o la doccia a pioggia non possono essere staccati a mano, è meglio usare guanti da lavoro o pinze (con un panno o una pinza di gomma per evitare graffi).<\/p><p><\/p><p><strong>3. Monta Greenjet<\/strong><\/p><p><span style=\"text-decoration:underline\">Attaccare ora Greenjet al raccordo o al tubo di collegamento<\/span> . È sufficiente montare Greenjet a mano, non sono necessarie pinze. In caso di danni causati da pinze, non possiamo più ritirare il prodotto!<\/p><p><\/p><p><strong>4. Installare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Ora monta il flessibile doccia<\/span> o il soffione a pioggia su Greenjet e inizia il risparmio idrico ed energetico!<\/p>"
+          }
+        },
+        "1662196851d081d4cc-1": {
+          "type": "faq",
+          "settings": {
+            "heading": "Quanto costa la spedizione?",
+            "answer": "<p>I costi di spedizione vengono calcolati al momento dell'acquisto.<\/p><p>Puoi restituire il prodotto a tue spese entro 14 giorni senza fornire una motivazione e ti rimborseremo l'intero importo.<br\/>Si prega di notare che non possiamo emettere un rimborso per <strong>danni visibili<\/strong> (causati da pinze o simili) al nostro prodotto!<\/p>"
+          }
+        },
+        "1662196851d081d4cc-2": {
+          "type": "faq",
+          "settings": {
+            "heading": "Quanta acqua posso risparmiare?",
+            "answer": "<p>Con GREENJET tutti possono dare un importante contributo alla tutela dell'ambiente e allo stesso tempo ridurre sensibilmente i costi.<\/p><p>I risparmi sono individuali e dipendono dalla pressione dell'acqua. In media, i risparmi sono compresi tra il 30 e il 66%.<\/p>"
+          }
+        },
+        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4": {
+          "type": "faq",
+          "settings": {
+            "heading": "La pressione cambia quando fai la doccia?",
+            "answer": "<p>I tradizionali soffioni doccia economici presentano un grosso svantaggio: meno acqua significa anche meno comfort durante la doccia.<\/p><p>Con la tecnologia GREENJET abbiamo la soluzione:<br\/>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Pertanto, il getto d'acqua viene avvolto in modo ottimale dall'aria e più morbido.<\/p><p>E la parte migliore:<br\/><strong>Con GREENJET, nulla ostacola il piacere della doccia!<\/strong><\/p>"
+          }
+        },
+        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5": {
+          "type": "faq",
+          "settings": {
+            "heading": "Greenjet mi fa risparmiare denaro?",
+            "answer": "<p>SÌ! Meno consumo di acqua (calda) significa minori costi per energia, acqua potabile e fognature. In media, una famiglia di quattro persone risparmia circa 440 euro all'anno.<\/p><p>Una <strong>famiglia media di 3 persone<\/strong> risparmia <strong>340 € di acqua ed energia e 520 kg di CO₂<\/strong> all'anno<\/p><p><a href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\" target=\"_blank\" title=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><strong>Al calcolatore di Risparmio -&gt;<\/strong><\/a><\/p>"
+          }
+        },
+        "5a43b8fc-e472-4b11-ace0-aa7f654c3376": {
+          "type": "faq",
+          "settings": {
+            "heading": "L'acqua dura è un problema?",
+            "answer": "<p>Il calcare non è un problema per GREENJET, poiché i 9 fori d'aria aspirano solo aria attraverso i fori e quindi non si potrà mai depositare calcare.<\/p><p>In caso di depositi di calcare, Greenjet può essere inserito in un qualsiasi anticalcare disponibile in commercio e riutilizzato sotto la doccia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3d616203-50f9-44e3-984b-96f87e923c12",
+        "1662196851d081d4cc-0",
+        "1662196851d081d4cc-1",
+        "1662196851d081d4cc-2",
+        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4",
+        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5",
+        "5a43b8fc-e472-4b11-ace0-aa7f654c3376"
+      ],
+      "settings": {
+        "heading": "Domande frequenti",
+        "image": "shopify:\/\/shop_images\/t3lfo7pk.png",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "16622702436ef5b6c3": {
+      "type": "montageanleitung",
+      "blocks": {
+        "166227024396449b00-0": {
+          "type": "collection",
+          "settings": {
+            "link": "google.at",
+            "image": "shopify:\/\/shop_images\/6b00ax7e.png",
+            "heading": "Controllo del soffione della doccia",
+            "subheading": "Controlla se il soffione della tua doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il setaccio (utilizzando una pinza) o pulirlo accuratamente. Un filtro integrato in una guarnizione (spesso durante gli acquazzoni) deve essere assolutamente pulito ma non rimosso."
+          }
+        },
+        "166227024396449b00-1": {
+          "type": "collection",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/x8i6kpzc.png",
+            "heading": "Smontare il flessibile della doccia\/a pioggia",
+            "subheading": "Scollegare il flessibile della doccia dal raccordo o la doccia a pioggia dal tubo di collegamento. Se non è possibile rimuovere manualmente il tubo o il soffione a pioggia, è meglio utilizzare guanti da lavoro o una pinza (con un panno o una pinza in gomma per evitare graffi)."
+          }
+        },
+        "166227024396449b00-2": {
+          "type": "collection",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/rhms2llk.png",
+            "heading": "Avvita il Greenjet",
+            "subheading": "Ora collega GREENJET al raccordo o al tubo di collegamento. È sufficiente assemblare GREENJET serrandolo a mano, non sono necessarie pinze."
+          }
+        },
+        "166227024396449b00-3": {
+          "type": "collection",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/gmkcyc2q.png",
+            "heading": "Montare il flessibile\/soffione a pioggia",
+            "subheading": "Ora collega il tubo doccia o la doccia a pioggia a GREENJET e inizia a risparmiare acqua ed energia!"
+          }
+        }
+      },
+      "block_order": [
+        "166227024396449b00-0",
+        "166227024396449b00-1",
+        "166227024396449b00-2",
+        "166227024396449b00-3"
+      ],
+      "settings": {
+        "style": "style1",
+        "heading": "Ecco come funziona",
+        "subheading": "istruzioni di montaggio",
+        "description": "qui puoi scaricare le istruzioni su come montare GREENJET",
+        "btntext": "SCARICA LE ISTRUZIONI",
+        "btnlink": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Einbauanleitung_DE_A4.pdf",
+        "top_space_desktop": 85,
+        "bottom_space_desktop": 40,
+        "top_space_mobile": 35,
+        "bottom_space_mobile": 35
+      }
+    }
+  },
+  "order": [
+    "slider_PwkFpW",
+    "1657114339018f27d3",
+    "4354f16b-8940-4410-a5a4-5c7f166b733d",
+    "1708540102fade48e6",
+    "1657114306ddec8d35",
+    "1662195553963b460f",
+    "1662196963c246b272",
+    "166265254429354889",
+    "16571143161c273279",
+    "16624469807973c962",
+    "166219685159fd8837",
+    "16622702436ef5b6c3"
+  ]
+}
