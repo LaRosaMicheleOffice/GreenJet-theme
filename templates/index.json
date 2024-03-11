@@ -288,9 +288,9 @@
     },
     "video_section_nxcPaP": {
       "type": "video-section",
+      "disabled": true,
       "settings": {
-        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a942609978474aee9c1d72021a758371.mp4",
-        "poster": "shopify:\/\/shop_images\/niklas.png",
+        "videofile": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "fullwidth": true,
         "autoplay": true,
         "title": "Video Banner Heading Here",
