@@ -1,11 +1,54 @@
 {
   "sections": {
+    "video_section_MNDRqG": {
+      "type": "video-section",
+      "settings": {
+        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
+        "fullwidth": true,
+        "autoplay": true,
+        "title": "risparmia adesso CON GREENJET",
+        "subtitle": "",
+        "title_color": "#ffffff",
+        "subtitle_color": "#ffffff",
+        "btn_color": "#ffffff"
+      }
+    },
     "main-page": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "banner": "shopify:\/\/shop_images\/rain-coming-down-window.jpg",
         "bgcolor": "#f5efec",
         "textcolor": "#ffffff"
+      }
+    },
+    "image_with_text_kYa7Nx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hyRq39": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tecnologia Innovativa"
+          }
+        },
+        "text_dDrNRz": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Grazie alla tecnologia certificata TÜV di GREENJET, risparmio <strong>fino al 66%<\/strong><\/p><p>​La forma complessa della parte interna crea una forte pressione negativa, che porta ad un elevato effetto di aspirazione. Il cosiddetto effetto Venturi, utilizzato ad esempio in Formula 1 per generare deportanza.<\/p><p>​L'aria viene aspirata attraverso i 3 fori esterni e convogliata in una camera posta nella parte interna. Nella camera, l'aria viene poi fornita all'acqua in modo circolare attraverso 6 fori. Ciò significa che il getto d'acqua è circondato in modo ottimale dall'aria.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hyRq39",
+        "text_dDrNRz"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/4h8wy5zp.png",
+        "image_alignment": "right",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
       }
     },
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea": {
@@ -43,7 +86,9 @@
     }
   },
   "order": [
+    "video_section_MNDRqG",
     "main-page",
+    "image_with_text_kYa7Nx",
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea",
     "af15e627-2a1e-4f53-855c-725f9d9f79c7",
     "1d106cc8-e3a4-4ba6-9a71-a67c309a7f15"
