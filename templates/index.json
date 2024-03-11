@@ -286,23 +286,6 @@
         "bottom_space_mobile": 30
       }
     },
-    "video_section_nxcPaP": {
-      "type": "video-section",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "videofile": "https:\/\/youtu.be\/qvWVPXHOnow",
-        "poster": "shopify:\/\/shop_images\/niklas.png",
-        "fullwidth": true,
-        "autoplay": true,
-        "title": "Video Banner Heading Here",
-        "subtitle": "Video Banner Sub Heading Here",
-        "title_color": "#ffffff",
-        "subtitle_color": "#ffffff",
-        "btn_color": "#ffffff"
-      }
-    },
     "1662195553963b460f": {
       "type": "image-with-text",
       "blocks": {
@@ -752,7 +735,6 @@
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "1657114306ddec8d35",
     "1708540102fade48e6",
-    "video_section_nxcPaP",
     "1662195553963b460f",
     "1662196963c246b272",
     "166265254429354889",
