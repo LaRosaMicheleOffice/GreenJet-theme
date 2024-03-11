@@ -79,7 +79,7 @@
           "settings": {
             "icon": "shipping",
             "heading": "Energia",
-            "text": "Costi energetici medi annui risparmiati hotel (100 camere):  24.000 €",
+            "text": "Costi energetici medi annui risparmiati hotel (100 camere):  <b>24.000€<\/b>",
             "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Sparen.svg?v=1662045484"
           }
         },
@@ -98,10 +98,13 @@
         "column_aGPNxW",
         "column_XaiABi"
       ],
+      "custom_css": [
+        ".yv-services-box {display: block;}"
+      ],
       "settings": {
         "top_space_desktop": 30,
         "heading": "",
-        "bottom_space_desktop": 30,
+        "bottom_space_desktop": 40,
         "top_space_mobile": 30,
         "bottom_space_mobile": 30
       }
