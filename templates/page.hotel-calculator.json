@@ -68,10 +68,10 @@
         "column_eTPfTY": {
           "type": "column",
           "settings": {
-            "icon": "shipping",
-            "heading": "Add Heading here",
-            "text": "",
-            "svg_url": ""
+            "icon": "chat",
+            "heading": "Acqua",
+            "text": "Risparmio idrico medio annuo hotel (100 camere): 3,2 milioni di litri",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Wasser_1.svg?v=1662045484"
           }
         },
         "column_aGPNxW": {
@@ -91,22 +91,12 @@
             "text": "",
             "svg_url": ""
           }
-        },
-        "column_dAxmJF": {
-          "type": "column",
-          "settings": {
-            "icon": "shipping",
-            "heading": "Add Heading here",
-            "text": "",
-            "svg_url": ""
-          }
         }
       },
       "block_order": [
         "column_eTPfTY",
         "column_aGPNxW",
-        "column_XaiABi",
-        "column_dAxmJF"
+        "column_XaiABi"
       ],
       "settings": {
         "top_space_desktop": 30,
