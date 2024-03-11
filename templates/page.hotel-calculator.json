@@ -8,28 +8,6 @@
         "textcolor": "#ffffff"
       }
     },
-    "rich_text_nmwpTE": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_yHUFx4": {
-          "type": "richtext",
-          "settings": {
-            "heading": "",
-            "content": "<h2>Calcolate i risparmi nella vostra azienda:<\/h2>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_yHUFx4"
-      ],
-      "settings": {
-        "content_alignment": "center",
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      }
-    },
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea": {
       "type": "custom-liquid",
       "settings": {
@@ -66,7 +44,6 @@
   },
   "order": [
     "main-page",
-    "rich_text_nmwpTE",
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea",
     "af15e627-2a1e-4f53-855c-725f9d9f79c7",
     "1d106cc8-e3a4-4ba6-9a71-a67c309a7f15"
