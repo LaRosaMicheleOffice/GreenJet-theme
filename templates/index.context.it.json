@@ -4,107 +4,6 @@
     "market": "it"
   },
   "sections": {
-    "170854013283e22991": {
-      "type": "apps",
-      "disabled": false,
-      "settings": {
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      },
-      "blocks": {
-        "judge_me_reviews_featured_carousel_Vrt7d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": false,
-          "settings": {
-            "paragraph-21a59738c83dbfb34f42507a0fbb42cc": null,
-            "maxwidth": 1080,
-            "paragraph-d8efac00d0e84cc4f40a5c989c86de0f": null
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_Vrt7d"
-      ]
-    },
-    "testimonials_cdyz3": {
-      "type": "testimonials",
-      "disabled": false,
-      "settings": {
-        "style": "style1",
-        "nav_style": "arrow",
-        "header-64c0d3df5c0ec14ae5861bbb6cbca7a9": null,
-        "top_space_desktop": 60,
-        "bottom_space_desktop": 60,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      },
-      "blocks": {
-        "quote_XMazL": {
-          "type": "quote",
-          "disabled": false,
-          "settings": {
-            "heading": "Proprio il prodotto giusto per gli attuali prezzi elevati dell'energia!!!",
-            "message": "Stavo cercando un prodotto per risparmiare acqua perché sto pagando più del doppio per il riscaldamento\nOra ho comprato il Green Jet e mi piace davvero!  ho provato a usare un secchio per vedere se potevo risparmiare acqua. Funziona e fa risparmiare circa la metà dell'acqua! L'assemblaggio è stato completato in 2 minuti.",
-            "author": "dt",
-            "author_city": "Svizzera",
-            "image": null
-          }
-        },
-        "quote_ikhzj": {
-          "type": "quote",
-          "disabled": false,
-          "settings": {
-            "heading": "Contento",
-            "message": "sembra che funzioni -> penso che la fattura dell'acqua lo confermerà. La cosa migliore: nessuna reale differenza nell'esperienza della doccia.",
-            "author": "SM",
-            "author_city": "",
-            "image": null
-          }
-        },
-        "quote_ihLiG": {
-          "type": "quote",
-          "disabled": false,
-          "settings": {
-            "heading": "Fantastico prodotto",
-            "message": "Lo proverò per un po' e poi probabilmente lo ordinerò per la seconda doccia e la rubinetteria. Ho testato i consumi: con 15 secondi di autonomia invece di 2100 ml (senza Greenjet) sono stati utilizzati 1200 ml (con Greenjet). È tanto Bene.",
-            "author": "Manfred Loibingdorfer",
-            "author_city": "Germania",
-            "image": null
-          }
-        },
-        "quote_Lx9th": {
-          "type": "quote",
-          "disabled": false,
-          "settings": {
-            "heading": "Ottimo!",
-            "message": "Mia moglie l'ha comprato e ho pensato che fosse decisamente un fallimento, come quell'altro prodotto per il risparmio idrico in TV. Ma fa quello che promette. Eccellente",
-            "author": "Tommaso Brenner",
-            "author_city": "Italia",
-            "image": null
-          }
-        },
-        "quote_8KG7e": {
-          "type": "quote",
-          "disabled": false,
-          "settings": {
-            "heading": "Funziona perfettamente",
-            "message": "L'ho testato con un grande bicchiere d'acqua perché non me ne sono accorto. In realtà passa molta meno acqua senza che tu te ne accorga",
-            "author": "Bella L.",
-            "author_city": "Austria",
-            "image": null
-          }
-        }
-      },
-      "block_order": [
-        "quote_XMazL",
-        "quote_ikhzj",
-        "quote_ihLiG",
-        "quote_Lx9th",
-        "quote_8KG7e"
-      ]
-    },
     "image_gallery_MEGta": {
       "type": "image-gallery",
       "disabled": false,
@@ -114,7 +13,7 @@
       "settings": {
         "heading": "i nostri partner",
         "show_border": true,
-        "header-4fff5f791ee7a4b7b73aafc27561c6bd": null,
+        "header-3d19165e15f5e4cd6bae82f102543116": null,
         "top_space_desktop": 45,
         "bottom_space_desktop": 45,
         "top_space_mobile": 35,
@@ -160,6 +59,22 @@
             "btn_text_m": "#ffffff"
           }
         },
+        "slide_bmjqhj": {
+          "settings": {
+            "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
+            "banner_subtitle": "Risparmia fino al 66% d'acqua sulle bollette!",
+            "banner_title": "Risparmia subito con la nuova tecnologia GREENJET!",
+            "title_color": "#000000",
+            "subtitle_color": "#f5fcff",
+            "subtitle_bgcolor": "#7cb39e",
+            "btn_bg": "#2183a3",
+            "title_color_m": "#000000",
+            "subtitle_color_m": "#f5fcff",
+            "subtitle_bgcolor_m": "#7cb39e",
+            "btn_bg_m": "#2183a3",
+            "btn_text_m": "#f5fcff"
+          }
+        },
         "slide_QYG7Aq": {
           "settings": {
             "title_color_m": "#000000",
@@ -177,22 +92,6 @@
             "title_color_m": "#000000",
             "subtitle_color_m": "#f5fcff",
             "subtitle_bgcolor_m": "#7cb39e",
-            "btn_bg_m": "#2183a3",
-            "btn_text_m": "#f5fcff"
-          }
-        },
-        "slide_bmjqhj": {
-          "settings": {
-            "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8013606975d44fcfa5a7ed9b42f4319e.mp4",
-            "banner_subtitle": "Risparmia fino al 66% d'acqua sulle bollette!",
-            "banner_title": "Risparmia subito con la nuova tecnologia GREENJET!",
-            "subtitle_color": "#f5fcff",
-            "title_color": "#000000",
-            "subtitle_bgcolor": "#7cb39e",
-            "title_color_m": "#000000",
-            "subtitle_color_m": "#f5fcff",
-            "subtitle_bgcolor_m": "#7cb39e",
-            "btn_bg": "#2183a3",
             "btn_bg_m": "#2183a3",
             "btn_text_m": "#f5fcff"
           }
@@ -467,9 +366,7 @@
     "slider_PwkFpW",
     "1657114339018f27d3",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
-    "170854013283e22991",
     "1657114306ddec8d35",
-    "testimonials_cdyz3",
     "1662195553963b460f",
     "1662196963c246b272",
     "166265254429354889",
