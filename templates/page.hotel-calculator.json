@@ -3,8 +3,9 @@
     "main-page": {
       "type": "main-page",
       "settings": {
+        "banner": "shopify:\/\/shop_images\/rain-coming-down-window.jpg",
         "bgcolor": "#f5efec",
-        "textcolor": "#181818"
+        "textcolor": "#fff"
       }
     },
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea": {
