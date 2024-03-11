@@ -78,18 +78,18 @@
           "type": "column",
           "settings": {
             "icon": "shipping",
-            "heading": "Add Heading here",
-            "text": "",
-            "svg_url": ""
+            "heading": "Energia",
+            "text": "Costi energetici medi annui risparmiati hotel (100 camere):  24.000 €",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Sparen.svg?v=1662045484"
           }
         },
         "column_XaiABi": {
           "type": "column",
           "settings": {
             "icon": "shipping",
-            "heading": "Add Heading here",
-            "text": "",
-            "svg_url": ""
+            "heading": "CO₂",
+            "text": "Risparmio medio annuo di CO2 hotel (100 camere): 35.000 kg CO2",
+            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Baum.svg?v=1662045483"
           }
         }
       },
