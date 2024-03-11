@@ -1,8 +1,1 @@
-{
-  "parent": "product.json",
-  "context": {
-    "market": "resto-del-mondo"
-  },
-  "sections": {
-  }
-}
+{"parent":"product.json","context":{"market":"resto-del-mondo"},"sections":{}}

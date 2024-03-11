@@ -1,8 +1,1 @@
-{
-  "parent": "product.wasserhahn.json",
-  "context": {
-    "market": "resto-del-mondo"
-  },
-  "sections": {
-  }
-}
+{"parent":"product.wasserhahn.json","context":{"market":"resto-del-mondo"},"sections":{}}

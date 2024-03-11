@@ -1,8 +1,1 @@
-{
-  "parent": "page.hotel-calculator.json",
-  "context": {
-    "market": "resto-del-mondo"
-  },
-  "sections": {
-  }
-}
+{"parent":"page.hotel-calculator.json","context":{"market":"resto-del-mondo"},"sections":{}}

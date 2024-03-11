@@ -1,8 +1,1 @@
-{
-  "parent": "collection.json",
-  "context": {
-    "market": "resto-del-mondo"
-  },
-  "sections": {
-  }
-}
+{"parent":"collection.json","context":{"market":"resto-del-mondo"},"sections":{}}
