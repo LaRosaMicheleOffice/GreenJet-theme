@@ -5,7 +5,7 @@
       "settings": {
         "banner": "shopify:\/\/shop_images\/rain-coming-down-window.jpg",
         "bgcolor": "#f5efec",
-        "textcolor": "#fff"
+        "textcolor": "#ffffff"
       }
     },
     "4f8f5e9d-23f5-4b7f-b0b7-ae62bc17d2ea": {
@@ -17,6 +17,7 @@
         "bottom_space_desktop": 5,
         "top_space_mobile": 5,
         "bottom_space_mobile": 5
+
       }
     },
     "af15e627-2a1e-4f53-855c-725f9d9f79c7": {
@@ -24,10 +25,13 @@
       "settings": {
         "custom_liquid": "<script src={{ 'hotel-gj-calculator-script.js' | asset_url }}><\/script>",
         "content_alignment": "center",
+
         "top_space_desktop": 5,
         "bottom_space_desktop": 5,
         "top_space_mobile": 5,
         "bottom_space_mobile": 5
+
+
       }
     },
     "1d106cc8-e3a4-4ba6-9a71-a67c309a7f15": {
