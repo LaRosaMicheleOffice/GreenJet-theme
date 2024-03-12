@@ -203,9 +203,10 @@
             "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
           }
         },
-        "7ae841fe-4f8b-4d57-9135-1ac5e4a3a713": {
-          "type": "jdgm-reviews",
+        "text_NbqLYd": {
+          "type": "text",
           "settings": {
+            "text": "<h6>pagala in 3-5 rate, il risparmio mensile copre praticamente il costo. <b>È come averla gratis!<\/b> <\/h6>"
           }
         },
         "16571143051ab3d9d8-2": {
@@ -250,7 +251,7 @@
       "block_order": [
         "16571143051ab3d9d8-0",
         "d283f17c-5f5d-4dae-be58-7e12e52d51e8",
-        "7ae841fe-4f8b-4d57-9135-1ac5e4a3a713",
+        "text_NbqLYd",
         "16571143051ab3d9d8-2",
         "16571143051ab3d9d8-3",
         "a20b855c-cdfe-44a5-a665-f62729f5f63f",
