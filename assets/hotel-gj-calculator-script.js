@@ -154,13 +154,14 @@ function setupElements(local_view_id) {
 
   document.addEventListener("click", function(event){
     newel = document.getElementById(`custom-select-gj-calc-params${local_view_id}`);
-    allthecalculator = document.getElementById(`container-gj-calc-mob${local_view_id}`);
     settings_icon_clicked = event.target.closest(`#custom-select-gj-calc-personalized-settings-icon${local_view_id}`);
     box_clicked = event.target.closest(`#custom-select-gj-calc-params${local_view_id}`)
     if( settings_icon_clicked || box_clicked ){
       newel.style.visibility = "visible";
       newel.style.display="flex";
-      allthecalculator.style.height="auto";
+      newel.style.display="flex";
+      newel.style.zIndex="100";
+      newel.style.position="relative";
     } else {
       newel.style.visibility = "hidden";
       newel.display="none";
