@@ -159,7 +159,7 @@ function setupElements(local_view_id) {
     if( settings_icon_clicked || box_clicked ){
       newel.style.visibility = "visible";
       newel.display="flex";
-      newel.zIndex=100;
+      newel.zIndex="100";
       newel.position="relative";
     } else {
       newel.style.visibility = "hidden";
