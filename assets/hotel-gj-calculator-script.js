@@ -158,9 +158,9 @@ function setupElements(local_view_id) {
     box_clicked = event.target.closest(`#custom-select-gj-calc-params${local_view_id}`)
     if( settings_icon_clicked || box_clicked ){
       newel.style.visibility = "visible";
-      newel.display="flex";
-      newel.zIndex="100";
-      newel.position="relative";
+      newel.style.display="flex";
+      newel.style.zIndex="100";
+      newel.style.position="relative";
     } else {
       newel.style.visibility = "hidden";
       newel.display="none";
