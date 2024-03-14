@@ -179,54 +179,6 @@
         "bottom_space_mobile": 30
       }
     },
-    "1662195553963b460f": {
-      "type": "image-with-text",
-      "blocks": {
-        "1662195552246dc0ba-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Piacere unico sotto la doccia con meno consumi"
-          }
-        },
-        "482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c": {
-          "type": "text",
-          "settings": {
-            "content": "<p>Grazie alla tecnologia certificata TÜV di GREENJET, si ottiene un risparmio <strong>fino al 66%.<\/strong><\/p>"
-          }
-        },
-        "1662195552246dc0ba-1": {
-          "type": "icon-with-text",
-          "settings": {
-            "icon": "shipping",
-            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Wasser.svg",
-            "heading": "Tecnologia unica",
-            "content": "<p>La tecnologia brevettata di GREENJET avvolge l'acqua con aria, garantendo minori consumi con lo stesso piacere di sempre<\/p>"
-          }
-        },
-        "1662195552246dc0ba-2": {
-          "type": "icon-with-text",
-          "settings": {
-            "icon": "shipping",
-            "svg_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Dusche.svg",
-            "heading": "Nessun compromesso sul comfort",
-            "content": "<p>Con GREENJET puoi risparmiare molta acqua, ma non devi rinunciare al comfort della doccia.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1662195552246dc0ba-0",
-        "482e0e7b-f9a8-4bf8-b6f5-4a80cfb27a4c",
-        "1662195552246dc0ba-1",
-        "1662195552246dc0ba-2"
-      ],
-      "settings": {
-        "image_alignment": "right",
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      }
-    },
     "166281115660554f37": {
       "type": "video-section",
       "settings": {
@@ -311,7 +263,6 @@
     "main-product",
     "166264624639b819bd",
     "1662802161d63a84ff",
-    "1662195553963b460f",
     "166281115660554f37",
     "16622702436ef5b6c3",
     "product_recommendations"
