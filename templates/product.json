@@ -248,6 +248,7 @@
           "type": "collection",
           "settings": {
             "link": "google.at",
+            "image": "shopify:\/\/shop_images\/6b00ax7e.png",
             "heading": "Controllo soffione doccia",
             "subheading": "Controlla se il tuo soffione\/doccia a pioggia ha un filtro. In tal caso, rimuovere il filtro (usando una pinza) o pulirlo accuratamente. Un setaccio integrato in una guarnizione (spesso in caso di pioggia) deve essere assolutamente pulito, ma non rimosso."
           }
@@ -256,7 +257,8 @@
           "type": "collection",
           "settings": {
             "link": "",
-            "heading": "Installazione del tubo doccia\/doccia a pioggia",
+            "image": "shopify:\/\/shop_images\/x8i6kpzc.png",
+            "heading": "scollegare tubo doccia\/doccia a pioggia",
             "subheading": "Scollegare il tubo della doccia dal rubinetto o la doccia a pioggia dal tubo di collegamento. Se il tubo o la doccia a pioggia non possono essere rimossi a mano, è meglio utilizzare guanti da lavoro o pinze (con un panno o una pinza di gomma per evitare graffi)."
           }
         },
@@ -264,6 +266,7 @@
           "type": "collection",
           "settings": {
             "link": "",
+            "image": "shopify:\/\/shop_images\/rhms2llk.png",
             "heading": "GREENJET",
             "subheading": "Ora collegare GREENJET al rubinetto o al tubo di collegamento. E' sufficiente montare GREENJET a mano, non sono necessarie pinze."
           }
@@ -272,6 +275,7 @@
           "type": "collection",
           "settings": {
             "link": "",
+            "image": "shopify:\/\/shop_images\/gmkcyc2q.png",
             "heading": "Installare il tubo della doccia \/ doccia a pioggia",
             "subheading": "Collega subito il tubo doccia o la doccia a pioggia a GREENJET e inizia il risparmio idrico ed energetico!"
           }
