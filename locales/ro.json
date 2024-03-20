@@ -1,0 +1,1959 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " Și ",
+      "last_word_connector": "Și "
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Verifică",
+        "error_page_title": "Greşeală",
+        "skip_to_content": "Sari la conținut",
+        "breadcrumb": "Calea de navigare",
+        "continue_button_label": "Continuă",
+        "complete_purchase_button_label": "Comanda completa",
+        "pay_now_button_label": "Plătește acum",
+        "authenticate_purchase_button_label": "Autentificați plata",
+        "edit_link_label": "Editați | ×",
+        "all_rights_reserved": "Toate drepturile rezervate %{shop_name}",
+        "print_policies_link_label": "presa",
+        "cart": "Cart",
+        "close_modal_label": "Închide",
+        "close_notice_label": "Închide",
+        "expand_notice_label": "Vezi mai mult",
+        "continue_to_shipping_method": "Du-te la expediere",
+        "continue_to_payment_method": "Treci la plată",
+        "continue_to_review": "verifica-ti comanda",
+        "back_to_cart": "Întoarce-te la coș",
+        "back_to_contact_information": "Înapoi la informații",
+        "back_to_shipping_method": "Înapoi la expediere",
+        "back_to_payment_method": "Întoarcerea la plată",
+        "choose_shipping_method": "Alegeți o metodă de livrare",
+        "choose_payment_method": "Alegeți o metodă de plată",
+        "choose_billing_address": "Alegeți adresa dvs. de facturare",
+        "contact_us_html": "Schimbați adresa de facturare",
+        "autocomplete_title": "Sugestii",
+        "autocomplete_single_item": "1 articol disponibil",
+        "autocomplete_multi_item": "{{number}} articole disponibile",
+        "autocomplete_close": "Închideți sugestiile",
+        "forwarding_indicator": {
+          "new_window": "Se deschide într-o fereastră nouă.",
+          "external": "Deschide un site extern.",
+          "external_and_new_window": "Deschide un site extern într-o fereastră nouă."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Verificați"
+        },
+        "tooltip_accessibility_label": "Mai multe informatii",
+        "errors": {
+          "session_identifier_not_unique_error": "A apărut o eroare la comanda dvs., vă rugăm să încercați să verificați din nou.",
+          "line_item_limit_reached": "Numărul maxim de intrări atins.",
+          "only_empty_terms_accepted": "Această politică acceptă doar termeni necompleți.",
+          "session_is_already_finished": "Această sesiune de plată a fost deja finalizată.",
+          "merchandise": {
+            "only_value_constraint": "În introducerea mărfurilor sunt permise doar valori exacte.",
+            "merchandise_not_found": "Produsul nu a fost găsit.",
+            "merchandise_variant_not_found": "Varianta de produs nu a fost găsită.",
+            "merchandise_not_applicable": "Nu se poate achiziționa varianta de produs.",
+            "bundle_products_not_supported_for_b2b": "Articolele din pachete nu pot fi adăugate la comenzile B2B pentru această locație.",
+            "gift_card_quantity_mismatch": "Când specificați codurile cardului cadou, cantitatea articolului și numărul codurilor cardului cadou trebuie să se potrivească.",
+            "gift_card_not_supported": "Cardurile cadou nu sunt acceptate la această casă.",
+            "gift_card_not_unique": "Voucherul cadou cu codul {{code}} este prezent de mai multe ori în această casă. Codurile sunt formatate înainte de comparare.",
+            "gift_card_used": "Codul cardului cadou {{code}} este deja atribuit unui card cadou. Codurile sunt formatate înainte de comparare.",
+            "gift_card_invalid": "Codul cardului cadou {{code}} este nevalid.",
+            "gift_card_code_changed": "Codul cardului cadou {{proposed_code}} a fost modificat în {{formatted_code}} pentru a respecta regulile de formatare.",
+            "gift_card_with_attributes_not_supported": "Cardurile cadou cu atribute personalizate nu sunt acceptate la această finalizare.",
+            "gift_card_with_components_not_supported": "Cardurile cadou cu componente nu sunt acceptate la această casă.",
+            "selling_plan_mismatch": "Abonamentul dvs. a fost actualizat.",
+            "selling_plan_not_supported": "Abonamentele nu sunt acceptate.",
+            "selling_plan_not_supported_b2b": "Abonamentele nu sunt acceptate pentru plata B2B.",
+            "price_mismatch": "Prețul propus anterior pentru acest produs a fost nevalid și a fost actualizat.",
+            "inventory_not_found": "Nu s-a găsit stoc pentru această marfă.",
+            "product_not_published": "Produs nepublicat.",
+            "duplicated_stable_id": "Această intrare de marfă are același ID stabil ca o altă intrare.",
+            "minimum_quantity_not_met": "Cantitatea acestor bunuri nu îndeplinește cantitatea minimă de {{min}} necesară.",
+            "maximum_quantity_exceeded": "Cantitatea acestei mărfuri nu întrunește cantitatea maximă permisă de {{max}} .",
+            "quantity_increment_not_met": "Trebuie să aplicați creșterea cantității de {{increment}} acestui produs.",
+            "quantity_rules_not_met": "Cantitate nevalidă de mărfuri.",
+            "bundle_requires_components": "Acest produs ambalat nu are componente.",
+            "title_too_long": "Titlul mărfurilor este prea lung.",
+            "title_empty": "Titlul mărfurilor este necompletat."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Contactul companiei nu are acces la companie.",
+            "customer_account_required": "Clientul trebuie să se autentifice pentru a continua.",
+            "contact_info_does_not_match_customer_account": "Informațiile specificate despre client trebuie să se potrivească cu contul de client conectat.",
+            "phone_number_does_not_match_expected_pattern": "Numărul de telefon specificat nu se potrivește cu modelul așteptat.",
+            "email_required": "Când mărfurile sunt achiziționate folosind un abonament, este necesar un e-mail.",
+            "email_domain_is_invalid": "Domeniul specificat nu a putut fi rezolvat.",
+            "missing_contact_method": "Metoda de contact validă lipsește.",
+            "checkout_completion_target_is_missing": "Lipsește obiectivul de finalizare a plății.",
+            "invalid_customer_profile": "Profilul de client furnizat este nevalid.",
+            "customer_profile_access_restricted": "Checkout nu are permisiunea de a accesa profilul clientului.",
+            "checkout_completion_target_is_invalid_proc": "Destinație de finalizare a comenzii nevalidă."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Coșul trebuie să aibă un singur articol de livrare.",
+            "wrong_number_of_delivery_lines": "Trebuie specificat un articol de livrare pentru fiecare grup de marfuri.",
+            "external_delivery_promise_error": "Eroare la preluarea unei promisiuni de livrare externă.",
+            "options_instructions_invalid": "Instrucțiunile specificate nu se potrivesc cu modelul așteptat.",
+            "destination_address_required": "Pentru a continua, este necesară o adresă de destinație.",
+            "pickup_points_unavailable": "Punctele de preluare sunt momentan indisponibile.",
+            "local_pickup_delivery_line_detail_changed": "Pentru a continua este necesar să se schimbe strategia actuală de livrare cu colectare locală.",
+            "local_pickup_no_delivery_strategy_available": "Nu s-au găsit strategii locale de livrare pentru ridicare.",
+            "origin_location_id_required": "ID-ul locației de origine este necesar atunci când solicitați metoda de livrare RETAIL.",
+            "invalid_origin_location_id": "Imposibil de găsit o locație care să se potrivească cu ID-ul locației de origine.",
+            "origin_location_id_not_allowed": "Metodele de livrare solicitate nu acceptă un ID de locație sursă.",
+            "auto_fulfill_not_allowed": "Această sesiune nu este autorizată să înlocuiască comportamentul de evaziune.",
+            "auto_fulfill_required": "Îndeplinirea automată este obligatorie atunci când se solicită metoda de livrare RETAIL.",
+            "prefetch_shipping_rates_used": "Tarifele de expediere prestabilite nu trebuie să returneze niciodată tarifele.",
+            "fulfillment_constraints_not_satisfied": "Una sau mai multe constrângeri de îndeplinire nu au fost respectate.",
+            "must_fulfill_from_constraint_not_satisfied": "Constrângerile de îndeplinire nu au fost îndeplinite deoarece articolele nu au putut fi îndeplinite din locațiile solicitate.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Constrângerile de îndeplinire nu au fost respectate deoarece articolele nu pot fi îndeplinite din aceeași locație.",
+            "delivery_strategy_conditions_not_satisfied": "Sunt disponibile strategii de livrare pentru această locație, dar condițiile acestora nu sunt îndeplinite.",
+            "out_of_stock_at_origin_location": "Fără escorte la locul de origine.",
+            "invalid_signature": "Semnătura nu este valabilă pentru reducere."
+          }
+        },
+        "choose_delivery_strategy": "Alegeți o metodă de livrare",
+        "autocomplete_zero_item": "Nu există articole disponibile",
+        "autocomplete_powered_by_google": "Funcționat de tehnologia {{brandName}}",
+        "submit": "Trimite",
+        "processing": "In prelucrare…",
+        "stepper": {
+          "increase": "Creșteți {{type}}",
+          "decrease": "Reduceți {{type}}",
+          "minimum_reached": "S-a atins minimul de {{value}}",
+          "maximum_reached": "Maximul de {{value}} a fost atins"
+        },
+        "remove_item": "Eliminați %{label}",
+        "remove_tag": "Eliminați etichetele",
+        "dates": {
+          "weekdays": {
+            "monday": "luni",
+            "tuesday": "marţi",
+            "wednesday": "miercuri",
+            "thursday": "joi",
+            "friday": "vineri",
+            "saturday": "sâmbătă",
+            "sunday": "duminică"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "mier",
+            "thursday": "joi",
+            "friday": "vineri",
+            "saturday": "sat",
+            "sunday": "Soare"
+          },
+          "months": {
+            "january": "ianuarie",
+            "february": "februarie",
+            "march": "Martie",
+            "april": "Aprilie",
+            "june": "iunie",
+            "july": "iulie",
+            "august": "August",
+            "september": "Septembrie",
+            "october": "octombrie",
+            "november": "noiembrie",
+            "december": "decembrie"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Afișați luna anterioară, {{month}} {{year}}",
+          "show_next_month": "Afișați luna viitoare, {{month}} {{year}}",
+          "range_start": "Începutul intervalului",
+          "in_range": "Interval",
+          "range_end": "Sfârșitul intervalului"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Evidențiator de grupare {{number}}",
+            "other": "Se grupează {{number}} elemente de evidențiere",
+            "many": "Se grupează {{number}} elemente de evidențiere"
+          }
+        }
+      },
+      "contact": {
+        "title": "informație",
+        "address_title": "Abordare",
+        "delivery_option_title": "Metoda de livrare",
+        "contact_method_title": "Contacte",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "E-mail sau număr de telefon mobil",
+        "email_or_phone_placeholder": "E-mail sau număr de telefon mobil",
+        "stored_addresses_label": "Adrese stocate",
+        "new_address_label": "Utilizați o nouă adresă",
+        "first_name_label": "Nume",
+        "optional_first_name_label": "Nume (opțional)",
+        "last_name_label": "Nume de familie",
+        "company_label": "Agenţie",
+        "optional_company_label": "companie (optional)",
+        "address1_label": "Abordare",
+        "address2_label": "Intern",
+        "optional_address2_label": "Interior, scara etc. (optional)",
+        "city_label": "Oraș",
+        "country_label": "Țara\/Regiune",
+        "country_code": "Cod de țară\/regiune",
+        "province_label": "Provincie",
+        "province_placeholder": "Provincie",
+        "county_label": "judetul",
+        "county_placeholder": "judetul",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "region_label": "Zona geografica",
+        "region_placeholder": "Zona geografica",
+        "prefecture_label": "Prefectura",
+        "prefecture_placeholder": "Prefectura",
+        "governorate_label": "Guvernator",
+        "governorate_placeholder": "Guvernator",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "state_and_territory_label": "Stat\/Teritoriu",
+        "state_and_territory_placeholder": "Stat\/Teritoriu",
+        "phone_label": "Telefon",
+        "optional_phone_label": "Telefon (optional)",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "În cazul în care trebuie să vă contactăm cu privire la comanda dumneavoastră",
+        "zip_code_label": "COD POȘTAL",
+        "zip_code_placeholder": "COD POȘTAL",
+        "postal_code_label": "COD POȘTAL",
+        "postal_code_placeholder": "COD POȘTAL",
+        "postcode_label": "Cod poștal",
+        "postcode_placeholder": "Cod poștal",
+        "pincode_label": "Cod PIN",
+        "pincode_placeholder": "Cod PIN",
+        "region_none": "Nimic selectat",
+        "civic_number_warning": "Adăugați un număr de casă, dacă există",
+        "optional_last_name_label": "Nume (opțional)",
+        "optional_recipient_label": "În atenția (opțional)",
+        "different_shipping_address_label": "Expediați la o altă adresă",
+        "different_shipping_address_text": "Vă rugăm să utilizați adresa temporară pentru această comandă"
+      },
+      "order_summary": {
+        "group_title_label": "Parte din „%{group_title}”",
+        "discount_title_stacking": {
+          "one": "Reducere",
+          "other": "Reduceri",
+          "many": "Reduceri"
+        },
+        "discount_order_stacking": {
+          "one": "Reducere la comanda",
+          "other": "Reduceri la comanda",
+          "many": "Reduceri la comanda"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} per articol",
+          "label": "%{pretul fiecaruia"
+        },
+        "updated_shipping_method": "Actualizați metoda de expediere: %{shipping_method}",
+        "discount_not_found": "Nu se poate găsi o reducere validă care să se potrivească cu codul introdus",
+        "total_savings": "economii totale",
+        "return_restocking_fee_label": "Taxă de restocare",
+        "return_shipping_fee_label": "Transport de retur",
+        "enter_shipping_address": "Introdu adresa de livrare",
+        "shipping_discount_title": "Reducere de transport",
+        "discount_code_applied": "Cod de reducere aplicat",
+        "gift_card_applied": "Voucher cadou aplicat",
+        "duties_included_label": "Suma totală include toate taxele și taxele vamale aplicabile, fără costuri suplimentare la livrare",
+        "gift_card_has_been_removed": "Cardul cadou a fost eliminat",
+        "discount_already_applied": "La această comandă a fost deja aplicată o reducere, deci nu este posibilă adăugarea alta.",
+        "cart_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este valabil pentru articolele din coș",
+        "discount_requires_customer_notice": "Introduceți detaliile de expediere pentru a aplica codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este disponibil pentru dvs. în acest moment",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este disponibil pentru adresa dvs. de expediere",
+        "customer_already_used_once_per_customer_discount_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> a fost deja folosit",
+        "subtotal_label": "Subtotal",
+        "shipping_label": "Transport",
+        "tip_label": "Bacsis",
+        "shipping_default_value": "Introdu adresa de livrare",
+        "shipping_pending_message": "Nu este disponibil încă",
+        "shipping_policy_link": "Cost de expediere",
+        "taxes_label": "Impozite",
+        "total_label": "Total",
+        "total_outstanding_label": "Suma de plată",
+        "partial_total_label": "Total",
+        "free_total_label": "Gratuit",
+        "paid_label": "Plătit",
+        "payment_due_label": "Plată datorată",
+        "vat_label_html": "Inclusiv taxe în valoare de %{amount}",
+        "discount_and_gift_card_savings_notice": "Net de %{discount_amount} de reducere și de %{gift_card_amount} de carduri cadou",
+        "discount_savings_notice": "Netă de %{discount_amount} reducere",
+        "gift_card_savings_notice": "Net de %{gift_card_amount} de carduri cadou",
+        "cost_table_title": "Rezumatul cheltuielilor",
+        "description_label": "Descriere",
+        "price_label": "Preț",
+        "quantity_label": "Cantitate",
+        "product_change_label": "Schimbare",
+        "product_image_label": "Imaginea produsului",
+        "scroll_order_summary": "Derulați pentru mai multe articole",
+        "expand_order_summary_short": "Spectacol",
+        "collapse_order_summary_short": "Ascunde",
+        "expand_order_summary": "Afișați rezumatul comenzii",
+        "collapse_order_summary": "Ascunde rezumatul comenzii",
+        "total_updated_label": "Total actualizat:",
+        "order_total_updated_label": "Total actualizat",
+        "total_already_paid_label": "Plătit",
+        "unit_price": {
+          "accessible_separator": "Pentru"
+        },
+        "pickup_label": "Retrage",
+        "no_pickup_location": "Ridicarea nu este disponibilă pentru această comandă. Vă rugăm să alegeți o altă metodă de livrare.",
+        "calculating_shipping": "De calculat…",
+        "estimated_taxes_label": "Taxe estimative",
+        "information_estimated_taxes_label": "Taxe (estimate)",
+        "gift_card_ending": "Card cadou care se termină cu %{last_characters}",
+        "estimated_tax_label": "Taxe estimative",
+        "multiple_shipping_lines_label": "Transport total",
+        "applied_free_shipping_discount_label": "Aplicat",
+        "original_price": "Pret original",
+        "sale_price": "Pret redus",
+        "recurring_subtotal_label": "Subtotal recurent",
+        "recurring_total_label": "Total recurent",
+        "recurring_total_tooltip": "Nu include transportul, taxele, taxele sau orice reduceri aplicabile.",
+        "gift_card_subscriptions_notice": "Voucherele cadou vor fi aplicate numai la prima plată",
+        "confirmation_number_label": "Confirmare nr. %{număr de confirmare}",
+        "estimated_taxes_finalization_tooltip_content": "Taxa finală și totalul vor fi confirmate prin e-mail sau mesaj după plasarea comenzii.",
+        "deferred_payment_info": {
+          "title": "Plata de %{amount_due} expiră pe %{due_at}",
+          "description_html": "Pentru întrebări despre comanda dvs., %{contact_us}.",
+          "paid_today": "Total plătit astăzi",
+          "due_on_fulfillment_title": "Plata de %{amount_due} se datorează îndeplinirii",
+          "due_on_receipt_title": "Plata de %{amount_due} este datorată la primirea facturii"
+        },
+        "percent_off_shipping": "%{percent}% mai puțin la livrare",
+        "amount_off_shipping": "%{amount} mai puțin la livrare",
+        "payment_terms_totals": {
+          "due_today": "Total datorat astăzi",
+          "due_later": "Total scadent în ziua %{due_at}",
+          "due_later_checkout_to_draft": "Total datorat mai târziu",
+          "due_on_fulfillment": "Total din cauza evaziunii fiscale",
+          "due_on_receipt": "Total datorat la primirea facturii",
+          "total_paid": "Plata totala"
+        },
+        "higher_value_discount_applied": "Nu se poate folosi <strong style=\"text-transform:uppercase\">%{code}<\/strong> cu reducerile existente.",
+        "maximum_discount_code_limit_reached": "Ați atins numărul maxim de coduri de reducere. Eliminați codul existent pentru a utiliza <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "order_total_label": "Comanda totala",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nu funcționează momentan. Contactați-ne pentru asistență.",
+        "due_on_fulfillment": "Din cauza evadării",
+        "subscriptions": "Abonamente",
+        "duties_label": "Atribuțiile",
+        "duties_and_taxes_label": "Taxe și impozite",
+        "error_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așa că se pot aplica taxe și taxe la livrare.",
+        "may_be_charged_on_delivery": "Acestea pot fi taxate la livrare",
+        "total_updated_label_with_price": "Preț total actualizat: %{totalPrice}",
+        "recurring_payments": "Plăți recurente",
+        "recurring_total_multiple_label": "Mai multe articole din această ordine au o taxă recurentă.",
+        "deferred_total_due_date_label": "Total scadent pe {{date}}",
+        "full_price": "Preț integral: %{price}",
+        "custom_discount": "Reducere personalizata",
+        "expand_component_information": {
+          "one": "Afișați %{count} articol",
+          "other": "Afișați %{count} articole",
+          "many": "Afișați %{count} articole"
+        },
+        "collapse_component_information": {
+          "one": "Ascunde %{count} articol",
+          "other": "Ascunde %{count} articole",
+          "many": "Ascunde %{count} articole"
+        },
+        "discount_discovery": {
+          "add_code": "Adaugă reducere",
+          "merchandise_quantity_label": {
+            "one": "%{count} articol",
+            "other": "%{count} articole",
+            "many": "%{count} articole"
+          }
+        },
+        "alternative_payment_currency_total": "Debitat cu %{amount_due}",
+        "calculating": "De calculat…"
+      },
+      "shipping": {
+        "title": "Livrare",
+        "shipping_method_title": "Metode de expediere",
+        "waiting_on_rate_notice": "Tarifele de expediere disponibile sunt în curs de recuperare...",
+        "waiting_on_pickup_location_notice": "Achiziția locurilor de colectare disponibile este în curs...",
+        "no_rates_for_cart_or_destination_notice": "Nu există metode de livrare disponibile pentru coșul sau adresa dvs",
+        "no_pickup_location_notice": "Cel puțin unul dintre produsele dvs. nu este disponibil pentru colectare",
+        "no_rates_for_country_notice": "Nu s-au găsit tarife de expediere pentru această adresă.",
+        "no_rates_contact_notice": "Contactați-ne pentru mai multe informații",
+        "free_rate_label": "Gratuit",
+        "cheapest_rate_label": "Cele mai ieftine",
+        "please_enter_your_shipping_information_notice": "Introduceți informațiile de expediere.",
+        "estimated_delivery_date": {
+          "one": "%{count} zi lucrătoare",
+          "other": "%{count} zile lucrătoare",
+          "many": "%{count} zile lucrătoare"
+        },
+        "estimated_delivery_date_range": "De la %{minimum} la %{maximum} zile lucrătoare",
+        "shipping_line_phone_label": "Număr de mobil (câmp obligatoriu)",
+        "shipping_line_phone": "Acest număr poate fi folosit de curier pentru a vă contacta",
+        "other_method": {
+          "zero": "Alte metode de expediere nu sunt disponibile",
+          "one": "%{count} altă metodă disponibilă a",
+          "other": "%{count} alte metode disponibile începând de la",
+          "many": "%{count} alte metode disponibile începând de la"
+        },
+        "shipping_rate_discounted_amount": "Înainte: %{original_amount}. Acum: %{amount}",
+        "shipping_line_delivery_phone": "Ei vă pot contacta pentru a vă oferi actualizări privind livrarea.",
+        "optional_shipping_line_delivery_instructions_label": "Instructiuni de livrare (optional)",
+        "shipping_line_delivery_phone_label": "Număr de telefon",
+        "shipping_line_delivery_instructions": "Introduceți informațiile necesare, cum ar fi codurile de deschidere a ușilor sau instrucțiunile de livrare.",
+        "local_delivery": "Livrare locală",
+        "subscription_shipping": "Livrare prin abonament",
+        "shipping_method_one_time_purchase_group_title": "Achiziție unică",
+        "shipping_method_subscription_group_title": "Abonament",
+        "one_time_purchase_shipping": "Livrare unică",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pentru %{count} livrare",
+            "other": "pentru %{count} livrări",
+            "many": "pentru %{count} livrări"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "în fiecare zi",
+              "other": "la fiecare %{count} zile",
+              "many": "la fiecare %{count} zile"
+            },
+            "week": {
+              "one": "în fiecare săptămână",
+              "other": "la fiecare %{count} săptămâni",
+              "many": "la fiecare %{count} săptămâni"
+            },
+            "month": {
+              "one": "in fiecare luna",
+              "other": "la fiecare %{count} luni",
+              "many": "la fiecare %{count} luni"
+            },
+            "year": {
+              "one": "in fiecare an",
+              "other": "la fiecare %{count} ani",
+              "many": "la fiecare %{count} ani"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per livrare",
+          "prepaid_shipping_price_label": "%{shipping_price} per livrare pentru %{delivery_interval_count}",
+          "initial_order_discounted": "Primul cost de expediere %{discounted_shipping_cost}, apoi %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primul cost de livrare %{discounted_shipping_price}\/%{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency}, apoi %{shipping_price}\/%{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), apoi %{shipping_price}\/%{billing_cycle}",
+          "shipping_price_included": "Inclus",
+          "recurring_order_shipping_price": "urmat de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Inclus pentru prima comandă, după prețul de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pentru livrare), după prețul de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Prima comandă gratuită",
+            "other": "Primele %{count} comenzi gratuite",
+            "many": "Primele %{count} comenzi gratuite"
+          },
+          "free_for_first_n_order": {
+            "one": "Pentru prima comandă",
+            "other": "Pentru primele %{count} comenzi",
+            "many": "Pentru primele %{count} comenzi"
+          }
+        },
+        "estimated_delivery_time": "Livrare estimată la %{time}",
+        "estimated_delivery_time_range": "Interval de livrare estimat: %{min_time}–%{max_time}",
+        "arrives_time": "Sosește la %{time}",
+        "arrives_time_range": "Interval de sosire: %{min_time}–%{max_time}",
+        "estimated_time": "Livrare estimată: %{time}",
+        "estimated_time_range": "Livrare estimată: %{min_time} - %{max_time}",
+        "subscription_local_delivery": "Livrare abonament local",
+        "subscription_pickup": "Retragerea abonamentului",
+        "delivery_today": "Livrare în aceeași zi: %{time}",
+        "delivery_tomorrow": "Livrare în ziua următoare: %{time}",
+        "two_day_delivery": "Livrare în două zile %{time}",
+        "delivery": "Timpul de livrare}",
+        "address2_add_label": "Adăugați interior, scară etc.",
+        "duties_and_taxes_title": "Taxe și impozite",
+        "shipping_information_required_notice": "Sunt necesare informații de livrare. {{link}} .",
+        "shipping_information_redirect_link": "Introduceți informațiile dvs. aici",
+        "loading_progressive_rates": "Se caută alte tarife în curs..."
+      },
+      "payment": {
+        "vaulting_agreement_label": "Salvați informațiile mele de plată cu %{company} pentru o finalizare mai rapidă.",
+        "business_customer_vaulting_payment_label": "Salvați acest card la finalizarea comenzii și autorizați %{company} să debiteze acest card pentru achiziții viitoare pentru această locație. Fiecare client alocat acestei locații va fi autorizat să folosească acest card.",
+        "purchase_options_and_vaulting_agreement_label": "Unul sau mai multe articole din coșul dvs. sunt o achiziție amânată sau prin abonament. Continuând să plătiți, sunteți de acord că metoda dvs. de plată va fi taxată automat la prețul și frecvența stabilite aici, până la reziliere sau anulare. Toate anulările sunt supuse %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "informații de anulare",
+        "use_different_credit_card_label": "Folosiți un alt card",
+        "saved_credit_card": "Cardul dvs. de credit salvat",
+        "saved_credit_card_info": "Ultimele patru cifre",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Vedeți toate cardurile salvate",
+          "done": "Terminat",
+          "cancel": "Anulare"
+        },
+        "expired_cards_info": {
+          "one": "Există %{count} card expirat, pe care îl puteți vedea și modifica în contul dvs.",
+          "other": "Există %{count} carduri expirate, pe care le puteți vizualiza și edita în contul dvs.",
+          "many": "Există %{count} carduri expirate, pe care le puteți vizualiza și edita în contul dvs."
+        },
+        "local_payment_method_receiver_notice": "Veți primi detaliile de plată odată ce comanda dvs. a fost plasată. Plătiți online sau la un bancomat în termen de {{dueDays}} zile.",
+        "order_edit_banner_title": "Este necesară o plată de {{amount_owed}}",
+        "order_edit_banner_subtitle": "Comanda dvs. {{order_number}} a fost actualizată. Examinați modificările, apoi plătiți pentru a vă confirma comanda.",
+        "order_edit_banner_single_item_added": "Adăugat",
+        "order_edit_banner_multiple_items_added": "{{amount}} adăugat",
+        "order_edit_banner_single_item_removed": "Îndepărtat",
+        "order_edit_banner_multiple_items_removed": "{{amount}} eliminat",
+        "gift_card_wrapper": {
+          "heading": "Voucher cadou",
+          "apply_gift_card_label": "Aplicați un card cadou",
+          "payment_tag": "Voucher cadou",
+          "apply_another_gift_card_label": "Aplicați un alt card cadou",
+          "gift_card_label": "Voucher cadou %{identifier}",
+          "add_label": "Adăugați un card cadou",
+          "manage_label": "Gestionați cardurile cadou"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Confirmați plata pe site-ul personalizat"
+        },
+        "markets_pro_disclaimer_label": "Făcând clic mai jos și finalizand comanda, sunteți de acord să achiziționați articolele de la Global-e în calitate de vânzător oficial pentru această tranzacție, conform %{markets_pro_terms} și %{privacy_policy} Global-e. Global-e este un furnizor internațional de servicii de onorare pentru %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "Termeni și condiții",
+        "markets_pro_disclaimer_privacy_policy": "Politica de confidențialitate",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Termenii și condițiile vânzătorului oficial",
+        "markets_pro_disclaimer_privacy_policy_title": "Politica oficială de confidențialitate a vânzătorului",
+        "purchase_order_number": {
+          "title": "Numărul de ordine de cumpărare",
+          "label": "Numărul comenzii de achiziție (opțional)"
+        },
+        "alternative_payment_currency_total_notice": "Notă: veți fi taxat(ă) cu %{amount_due}.",
+        "waiting_on_taxes_message": "Dacă taxele nu sunt calculate în câteva secunde, reîmprospătați pagina.",
+        "waiting_on_taxes_notice": "Calculul impozitului în curs",
+        "order_edit_banner_single_item_returned": "Returnare finalizată",
+        "order_edit_banner_multiple_items_returned": "{{amount}} returnat",
+        "shop_pay_installments_label": "Rate de plată la magazin",
+        "add_credit_card_modal": {
+          "title": "Adăugați hârtie",
+          "cancel": "Anulare",
+          "save": "Salvați"
+        },
+        "delete_credit_card_modal": {
+          "title": "Ștergeți hârtia",
+          "confirmation": "Sigur doriți să ștergeți {{brandName}} care se termină cu {{lastDigits}} ?",
+          "cancel": "Anulare",
+          "delete": "Șterge"
+        },
+        "order_edit_banner_items_added": {
+          "one": "Adăugat",
+          "other": "%{count} adăugat",
+          "many": "%{count} adăugat"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "Îndepărtat",
+          "with_quantities": "{{delta}} din {{quantity}} eliminate"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Returnare finalizată",
+          "with_quantities": "{{delta}} din {{quantity}} returnat"
+        },
+        "saved_credit_card_actions": {
+          "edit": "Editați | ×",
+          "delete": "Șterge"
+        },
+        "edit_credit_card_modal": {
+          "title": "Editați cardul",
+          "done": "Terminat",
+          "cancel": "Anulare",
+          "description": "Puteți schimba doar adresa de facturare a cardului dvs.",
+          "fields": {
+            "default": "Setați ca implicit",
+            "card_number": "Numărul de card",
+            "expiry": "Data expirării",
+            "security_code": "Cod de securitate",
+            "name": "Numele de pe card",
+            "billing": "Adresa de facturare"
+          }
+        },
+        "payment_method": "Modalitate de plată",
+        "expired_payment_method": "Metoda de plată selectată a expirat",
+        "subscription_heading": "Acord de abonament",
+        "use_order_billing_address_label": "Utilizați adresa de facturare a comenzii",
+        "use_location_billing_address_label": "Utilizați adresa de facturare a biroului",
+        "use_location_shipping_address_label": "Utilizați adresa de expediere a locației",
+        "purchase_options_agreement_label_wallets": "Procedând cu plata, acceptați taxele viitoare indicate pe această pagină și sunteți de acord cu politica de anulare.",
+        "gift_card_store_credit": {
+          "add_label": "Adăugați un card cadou sau credit de magazin",
+          "manage_label": "Gestionați cardurile cadou sau creditul magazinului"
+        },
+        "saved_credit_card_cvv_verification": "Introduceți codul de securitate al cardului dvs. în scopuri de verificare.",
+        "order_edit_banner_updated_order_label": "Comanda actualizată",
+        "afterpay_label": "Plata ulterioară",
+        "card_nickname_label": "Pseudonim (opțional)",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Scos din retur",
+          "with_quantities": "{{delta}} eliminat din retur"
+        },
+        "order_edit_banner_single_item_return_line_item_removed": "Scos din retur",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} eliminat din returnare",
+        "proposed_gateway_unavailable": "Canalul de plată propus nu este disponibil",
+        "pay_in_installments_split_pay_short": "Patru plăți de %{amount}"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Sold curent %{amount}",
+        "credit_card_expires_on_notice": "Expiră în %{month}\/%{year}",
+        "express_payment_gateway_label": "Express (Rapid)",
+        "manual_payment_gateway_label": "Manual",
+        "billing_address_title": "Adresa de facturare",
+        "free_label": "Gratuit"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Va rugam sa introduceti un numar de telefon valid",
+        "handle_email_invalid": "Introduceți o adresă de email validă",
+        "email_invalid": "Introduceți o adresă de email validă",
+        "email_or_phone_blank": "Introdu adresa ta de e-mail sau numarul tau de telefon",
+        "email_or_phone_invalid": "Vă rugăm să introduceți o adresă de e-mail sau un număr de mobil valid",
+        "address_first_name_blank": "Introdu numele tau",
+        "address_last_name_blank": "Introduceți numele dvs. de familie"
+      },
+      "payment_gateway": {
+        "fixed_payment_label": "Plata este așteptată pe {{dueDate}} .",
+        "fixed_direct_payment_terms": "Cardul dvs. va fi debitat pe {{dueDate}} ."
+      },
+      "thank_you": {
+        "title": "Multumesc pentru cumparaturile facute!",
+        "confirmation_email_sent_text": "Un e-mail de confirmare a fost trimis la %{email}",
+        "return_to_store_link_label": "Du-te înapoi la magazin",
+        "print_link_label": "Chitanță tipărită",
+        "payment_information_title": "detaliile platii",
+        "shipping_information_title": "Date de livrare",
+        "page_title": "Mulțumesc, %{display_name}!",
+        "page_title_no_name": "Mulțumesc!",
+        "cancelled_page_title": "Comanda anulata",
+        "customer_information_title": "Comanda Detalii",
+        "contact_information_title": "Detalii de contact",
+        "billing_address_title": "Adresa de facturare",
+        "shipping_address_title": "Adresa de transport",
+        "shipping_address_map_title": "Harta Google care arată punctul exact corespunzător adresei de expediere: %{address}",
+        "payment_method_title": "Modalitate de plată",
+        "shipping_method_title": "Metode de expediere",
+        "tracking_number": "Număr de urmărire:",
+        "company_tracking_number": "Număr de urmărire %{company}:",
+        "estimated_arrival": "Estimată Data de livrare: ",
+        "re-order": "Reordonați aceleași articole",
+        "confirmed": "Confirmat",
+        "thank_you_title": "Comanda dvs. este confirmată",
+        "thank_you_confirmed_order_with_email": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_confirmed_order_with_phone": "În scurt timp veți primi un mesaj de confirmare cu numărul comenzii dvs.",
+        "thank_you_confirmed_order_with_email_and_phone": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_confirmed_order_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_confirmed_order_with_email": "Veți primi un e-mail când comanda dvs. este gata.",
+        "order_status_confirmed_order_with_phone": "Este posibil să primiți un mesaj când comanda dvs. este gata.",
+        "order_status_confirmed_order_with_email_and_phone": "Veți primi un e-mail când comanda dvs. este gata.",
+        "order_status_updates_with_email": "Veți primi actualizări de livrare și livrare prin e-mail.",
+        "order_status_updates_with_phone": "Este posibil să primiți actualizări cu privire la starea expedierii și a livrării prin mesaj.",
+        "order_status_updates_with_email_and_phone": "Veți primi actualizări de livrare și livrare prin e-mail.",
+        "order_status_updates_with_missing": "Alegeți cum preferați să primiți actualizări cu privire la starea expedierii dvs.",
+        "confirmed_title": "Comanda dvs. este confirmată",
+        "confirmed_description": "Am acceptat comanda dumneavoastră și o pregătim. Reveniți la această pagină pentru actualizări privind starea expedierii dvs.",
+        "order_updates_title": "Comanda actualizări",
+        "order_updates_description_html": "O confirmare a fost trimisă către %{customer_contact}",
+        "order_updates_current_step_prefix": "Pasul curent: ",
+        "order_updates_past_step_prefix": "Pasul anterior: ",
+        "order_updates_upcoming_step_prefix": "Urmatorul pas: ",
+        "in_transit": "Sosind",
+        "in_transit_title": "Comanda ta este pe drum",
+        "in_transit_description": "Veți primi actualizări despre progresul acestuia.",
+        "in_transit_description_days": "Ar trebui să primiți comanda în următoarele %{number} zile.",
+        "in_transit_description_today": "Ar trebui să primiți comanda astăzi.",
+        "in_transit_description_tomorrow": "Ar trebui să primiți comanda până a doua zi.",
+        "no_tracking_number": "Nu există un număr de urmărire pentru această comandă.",
+        "out_for_delivery": "Livrarea",
+        "out_for_delivery_title": "Comanda dumneavoastră este în curs de livrare",
+        "out_for_delivery_description_html": "Comanda dvs. este în tranzit și ar trebui să sosească astăzi. Dacă nu îl primiți în următoarele 2 zile, %{contact_us}.",
+        "attempted_delivery": "Incercare de livrare",
+        "attempted_delivery_title": "S-a încercat livrarea comenzii",
+        "attempted_delivery_description_html": "S-a încercat livrarea comenzii, dar nu a reușit. %{contact_us} pentru a programa o altă încercare de livrare.",
+        "delivered": "Livrat",
+        "delivered_title": "Comanda dvs. a fost livrată",
+        "delivered_description_html": "Comanda dvs. a fost livrată la adresa pe care ați furnizat-o. În cazul în care nu l-ați primit sau aveți alte probleme, %{contact_us}.",
+        "contact_us": "Contactaţi-ne",
+        "contact_us_lowercase": "contactaţi-ne",
+        "contact_us_html": "Ai nevoie de ajutor? %{contactaţi-ne}",
+        "updated_time": "Actualizat acum %{time_ago}",
+        "failure": "Nelivrat",
+        "failed_title": "Comanda dvs. nu a putut fi livrată",
+        "failed_contact_merchant": "Contactați %{company} pentru a aranja livrarea.",
+        "failed_contact_merchant_no_company": "Contactați-ne pentru a aranja livrarea.",
+        "non_shippable_title": "Comanda dvs. este finalizată",
+        "login_title": "Conectați-vă pentru a vedea toate detaliile comenzii",
+        "login_description": "Puteți găsi numărul comenzii în chitanța pe care ați primit-o prin e-mail.",
+        "login_description_phone": "Numărul comenzii îl găsiți în chitanța pe care ați primit-o prin SMS.",
+        "login_not_customer_html": "Nu %{name}? Puteți %{link}",
+        "login_reorder_link_text": {
+          "one": "cumpara si acest produs",
+          "other": "achiziționați și aceste produse",
+          "many": "achiziționați și aceste produse"
+        },
+        "customer_information_hidden_fields_message": "Conectați-vă pentru a vedea toate datele clienților.",
+        "cancelled_title": "Comanda dvs. a fost anulată",
+        "cancelled_description": "Comanda dvs. a fost anulată pe %{date}. Contactați-ne dacă aveți întrebări.",
+        "order_number_label": "Număr de ordine",
+        "customer_validation_error": "Vă rugăm să introduceți o adresă de e-mail validă sau un număr de comandă.",
+        "customer_validation_error_phone": "Vă rugăm să introduceți un număr de telefon sau de comandă valid.",
+        "login": "Log in",
+        "unfulfilled_items_title": "Pregătirea pentru expediere în curs",
+        "unfulfilled_items_description": "Pregătim articolele pentru expediere.",
+        "marker": {
+          "current": "Locația curentă a livrării",
+          "shipping": "Adresa de transport"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articole din acest transport",
+          "unfulfilled_table_title": "Articole în curs de pregătire pentru expediere",
+          "product_image_label": "Imaginea produsului",
+          "description_label": "Descriere",
+          "quantity_label": "Cantitate"
+        },
+        "order_updates_description_missing": "Nu primiți actualizări cu privire la starea expedierii dvs.",
+        "order_updates_subscribe_to_email_notifications": "Primiți actualizări de livrare prin e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Primiți actualizări de livrare prin e-mail sau mesaj.",
+        "order_updates_subscribe_to_phone_notifications": "Primiți actualizări cu privire la starea expedierii dvs. prin mesaj.",
+        "order_updates_submit_subscription": "Trimite",
+        "track_shipment": "Urmăriți expedierea",
+        "order_status_confirmed_order_with_email_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "order_status_confirmed_order_with_phone_pick_up": "Veți primi un mesaj când comanda dumneavoastră este gata de ridicare.",
+        "order_status_confirmed_order_with_email_and_phone_pick_up": "Veți primi un e-mail și un mesaj când comanda dvs. este gata pentru ridicare.",
+        "pick_up_in_store_marker": {
+          "current": "Locația curentă a livrării",
+          "shipping": "Locația de ridicare"
+        },
+        "thank_you_confirmed_order_with_email_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Veți primi un mesaj când comanda dumneavoastră este gata de ridicare.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Veți primi un e-mail când comanda dumneavoastră este gata pentru ridicare.",
+        "ready_for_pickup_title": "Comanda dvs. este gata de colectare",
+        "ready_for_pickup_description": "Comanda dvs. este gata de colectare. Aduceți confirmarea comenzii când vii să o ridici.",
+        "picked_up_title": "Comanda dvs. a fost colectată",
+        "picked_up_description_html": "Comanda dvs. a fost ridicată la %{location_name} pe %{date}.",
+        "other_options": "Mai multe opțiuni",
+        "ready_for_delivery_title": "Comanda dvs. este gata de livrare",
+        "ready_for_delivery_description": "Ți-am pregătit comanda.",
+        "shop_phone_description": "Veți primi un mesaj cu un link către aplicația Shop pentru a vă ajuta să urmăriți comanda.",
+        "order_status_confirmed_order_local": "Pregătim comanda pentru livrare.",
+        "delivery_information_label": "Informații de livrare:",
+        "gift_card_sent_confirmation": "Carduri cadou trimise",
+        "out_for_delivery_local_title": "Comanda dumneavoastră este în curs de livrare",
+        "out_for_delivery_local_description_html": "Comanda dvs. va sosi în curând.",
+        "delivered_local_title": "Comanda dvs. a fost livrată",
+        "delivered_local_description_html": "Nu ați primit comanda dvs.? %{anunță-ne}.",
+        "let_us_know": "anunță-ne",
+        "qr_code": {
+          "title": "Monitorizați pe telefonul dvs",
+          "send_link_to_phone": "Sau trimiteți un link către telefon"
+        },
+        "gift_card_confirmation_by_text": "Dacă nu l-ați primit, vă rugăm să retrimiteți SMS-ul sau să ne contactați.",
+        "gift_card_confirmation_by_email": "Dacă nu l-ați primit, vă rugăm să retrimiteți e-mailul sau să ne contactați.",
+        "gift_card_title": "Vouchere cadou",
+        "resend_gift_cards": "Retrimiteți cardurile cadou",
+        "attempted_delivery_local_title": "Expediere esuata",
+        "attempted_delivery_local_description_html": "Nu am reușit să vă livrăm comanda. Pentru a programa o altă livrare, %{contact_us}.",
+        "thank_you_title_payment": "Plata este confirmata",
+        "thank_you_confirmed_order_with_email_payment": "Ați efectuat o plată la comanda %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Ați efectuat o plată la comanda %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ați efectuat o plată la comanda %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Ați efectuat o plată la comanda %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Ați efectuat o plată la comanda %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Ați efectuat o plată la comanda %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scanează cu telefonul tău"
+          },
+          "sms": {
+            "title": "Sau trimiteți un link către telefon"
+          }
+        },
+        "estimated_delivery": "Data actuală de livrare estimată: ",
+        "view_business_customer_account": "Vizualizați conturile",
+        "company_location_title": "Site",
+        "thank_you_title_review": "Comanda dvs. a fost revizuită",
+        "thank_you_confirmed_order_with_draft": "Vă vom anunța dacă avem nevoie de mai multe informații sau vă vom anunța când comanda dvs. este confirmată.",
+        "payment_method_draft_order": "Datorită după revizuirea comenzii",
+        "breadcrumbs_submitted": "Trimis",
+        "breadcrumbs_in_review": "În curs de revizuire",
+        "breadcrumbs_confirmed": "Confirmat",
+        "missing_shipping_address_banner": {
+          "title": "Adresa de livrare lipsește din comandă",
+          "text_html": "%{contact_us} pentru a vă adăuga adresa",
+          "contact_us": "Contactaţi-ne"
+        },
+        "order_status_confirmed_with_installments_payment_return": "Contactați din nou persoana de vânzări.",
+        "order_status_confirmed_with_installments_payment_confirm": "Veți primi în scurt timp un e-mail de confirmare cu numărul comenzii și detaliile planului de rate.",
+        "first_payment_complete": "Prima plată finalizată",
+        "in_store_purchase": "Cumpărați în magazin",
+        "choose_payment_method_later": "Alegeți metoda de plată mai târziu",
+        "purchase_order_number_title": "Numărul comenzii de achiziție #%{purchase_order_number}",
+        "location_title": "Locație",
+        "thank_you_ready_for_picked_up": "Comanda dvs. a fost ridicată de la %{address}.",
+        "ready_for_delivery": "Gata de livrare",
+        "order_updates_subscribe_to_email_notifications_failed": "Nu putem stoca această adresă de e-mail pentru actualizări. Vă rugăm să încercați din nou sau să utilizați o altă adresă de e-mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Adresa de e-mail introdusă există deja.",
+        "subscriptions_management": {
+          "title": "Abonament",
+          "description": "Accesați contul dvs. pentru a vedea și gestiona abonamentele.",
+          "button_label": "Gestionați abonamentul"
+        },
+        "manage_order_label": "Gestionați-vă comanda",
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Vei primi un SMS cu voucherul cadou in cateva minute.",
+          "other": "Vei primi în câteva minute un SMS cu tichetele cadou.",
+          "many": "Vei primi în câteva minute un SMS cu tichetele cadou."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Vei primi un email cu voucherul cadou in cateva minute.",
+          "other": "Veți primi un e-mail cu cardurile cadou în câteva minute.",
+          "many": "Veți primi un e-mail cu cardurile cadou în câteva minute."
+        },
+        "gift_card_email_title": {
+          "one": "Voucher cadou trimis prin email",
+          "other": "Vouchere cadou trimise prin e-mail",
+          "many": "Voucherele cadou trimise prin e-mail"
+        },
+        "gift_card_text_title": {
+          "one": "Voucher cadou trimis prin SMS",
+          "other": "Vouchere cadou trimise prin SMS",
+          "many": "Voucherele cadou trimise prin SMS"
+        },
+        "resend_gift_cards_by_email": "Repetați trimiterea e-mailului",
+        "resend_gift_cards_by_text": "Repetați trimiterea mesajului SMS",
+        "gift_card_resent_confirmation": {
+          "one": "Voucherul cadou a fost retrimis.",
+          "other": "Tichetele cadou au fost trimise din nou.",
+          "many": "Tichetele cadou au fost trimise din nou."
+        },
+        "gift_card_resend_failure": {
+          "one": "A apărut o problemă la retrimiterea cardului cadou. Vă rugăm să încercați din nou sau să ne contactați.",
+          "other": "A apărut o problemă la retrimiterea cardurilor cadou. Vă rugăm să încercați din nou sau să ne contactați.",
+          "many": "A apărut o problemă la retrimiterea cardurilor cadou. Vă rugăm să încercați din nou sau să ne contactați."
+        },
+        "failed_pending_payment_page_title": "A apărut o problemă cu plata dvs",
+        "thank_you_title_payments_app_pending_default": "Plata dvs. este în curs de procesare",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Comanda dvs. a fost primită",
+        "thank_you_title_payments_app_failed_pending_payment": "Nu se poate procesa plata",
+        "thank_you_payments_app_failed_pending_payment": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coș pentru a verifica comanda și a reîncerca plata.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone": "Veți primi un mesaj de confirmare în scurt timp. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Odată ce plata este finalizată, veți primi un mesaj de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_failed_pending_payment": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coș pentru a verifica comanda și a reîncerca plata.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "thank_you_confirmed_order_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_confirmed_order_with_draft_payment": "Vă vom anunța dacă avem nevoie de mai multe informații sau vă vom anunța când comanda dvs. este confirmată."
+      },
+      "wallets": {
+        "return_to_store": "Întoarce-te la magazin",
+        "redirect_hint": "Vi se va cere să vă conectați utilizând {{walletName}} .",
+        "logged_in": "Conectat la {{email}}",
+        "shipping_line_label": "Transport",
+        "payment_in_progress_title": "Plata in curs",
+        "payment_in_progress_body": "Plata dvs. este în curs de procesare. Comanda va fi finalizată în curând.",
+        "call_to_action": "Plătiți cu {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nu este disponibil",
+            "description": "{{walletName}} nu este disponibil. Utilizați o altă metodă de plată sau încercați din nou mai târziu.",
+            "instructions": "A apărut o problemă cu Cumpărați cu {{walletName}} . Reveniți la magazin pentru a încerca din nou sau verificați cu o altă metodă."
+          },
+          "generic": "Există o problemă cu {{walletName}} . Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+          "terminal": "Există o problemă cu {{walletName}} . Utilizați o altă metodă de plată.",
+          "detour": {
+            "stock_problems": "Unele articole nu mai sunt disponibile. Închideți {{walletName}} și încercați din nou.",
+            "price_change": "Prețul unor articole s-a schimbat. Închideți {{walletName}} pentru a vă verifica comanda și încercați din nou.",
+            "queue": "Ați fost la coadă pentru a verifica. Închideți {{walletName}} pentru a continua."
+          },
+          "unsupported": {
+            "address": "Comerciantul nu poate livra la adresa de expediere selectată.",
+            "postal_code": "Această locație nu este acceptată"
+          },
+          "outdated": {
+            "shipping_method": "Opțiunile de livrare pentru comanda dumneavoastră s-au schimbat. Verificați selecția dvs."
+          },
+          "invalid": {
+            "shipping_address": "Vă rugăm să introduceți o adresă de expediere validă",
+            "billing_address": "Vă rugăm să introduceți o adresă de facturare validă",
+            "shipping_option": "Vă rugăm să alegeți o opțiune de livrare validă",
+            "email": "Introduceți o adresă de email validă",
+            "zone": "Vă rugăm să introduceți un stat\/province validă",
+            "postal_code": "Vă rugăm să introduceți un cod poștal valid",
+            "reduction_code": "Introduceți un cod de reducere sau un voucher cadou valid",
+            "billing_must_match_shipping": "Trebuie să se potrivească cu adresa de expediere"
+          },
+          "missing": {
+            "first_name": "Introdu numele tau",
+            "last_name": "Introduceți numele dvs. de familie",
+            "address1": "Introdu adresa",
+            "address2": "Introduceți scara, interiorul etc.",
+            "city": "Intră în oraș",
+            "province": "Selectați un stat\/provinție",
+            "country": "Selectați o țară\/regiune",
+            "zip": "Introdu codul poștal",
+            "phone": "Introduceti un numar de telefon"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eliminați emoji-ul din numele dvs",
+            "postal_code_contains_emoji": "Ștergeți emoji-ul din codul poștal",
+            "first_name_too_long": "Numele conține prea multe litere",
+            "last_name_too_long": "Numele de familie conține prea multe litere"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Adresa de livrare este nevalidă. Selectați o altă adresă sau utilizați una nouă."
+        },
+        "redirection_notice": "După ce faceți clic pe „ {{buttonLabel}} ”, veți fi redirecționat către {{walletName}} pentru a finaliza achiziția în siguranță."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Vă rugăm să vă verificați informațiile de contact înainte de a finaliza plata"
+      },
+      "store_credit_errors": {
+        "generic_error": "A apărut o problemă cu creditul din magazin. Vă rugăm să încercați din nou sau să reîncărcați pagina."
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduceți dimensiunea notei la maximum 5000 de caractere."
+      },
+      "billing": {
+        "billing_address_title": "Destinatarul facturii",
+        "same_as_shipping": "La fel ca adresa de expediere",
+        "add_address": "Vă rugăm să utilizați o altă adresă",
+        "edit": "Editați | ×",
+        "delete": "Șterge",
+        "address_more": "Alte acțiuni pentru această adresă",
+        "address_edit": "Schimba adresa",
+        "address_delete": "Ștergeți adresa",
+        "address_confirm": "Sigur doriți să ștergeți această adresă din contul dvs.?",
+        "address_form": {
+          "add_address": "Adaugă adresă",
+          "save": "Salvați",
+          "cancel": "Anulare"
+        }
+      },
+      "address_management": {
+        "confirm_address_deletion": "Sigur doriți să ștergeți adresa {{address}} ?"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Voucherul cadou a fost deja aplicat comenzii tale",
+          "insufficient_funds": "Acest card cadou nu mai are fonduri",
+          "expired": "Acest voucher cadou a expirat",
+          "not_available": "Acest voucher cadou nu mai este disponibil",
+          "invalid": "Vă rugăm să introduceți un card cadou valid",
+          "currency_mismatch": "Sunt acceptate numai tichetele cadou în %{shop_currency}",
+          "generic": "Nu se poate adăuga cardul cadou la finalizarea comenzii",
+          "throttle_limit_exceeded": "Ați depășit numărul maxim de încercări. Încercați mai târziu."
+        }
+      },
+      "vaulted": {
+        "change_button": "Editați | ×"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "A apărut o problemă la încărcarea Shop Pay",
+          "try_again_later": "Verificați-vă conexiunea sau închideți această fereastră și încercați din nou peste câteva minute.",
+          "checkout_has_expired": "Ora dvs. de plată este întârziată. Închideți fereastra și încercați să verificați din nou la {{shopName}} ."
+        },
+        "return_to_store": "Reveniți la {{shopName}}"
+      },
+      "company_location": {
+        "location_title": "Locație"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Prețul cardului cadou trebuie să fie mai mare de 0.",
+            "subtotal_limit_reached": "Valoarea maximă a intrărilor a fost atinsă."
+          }
+        }
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "A intrat",
+            "other": "%{count} adăugat",
+            "many": "%{count} adăugat"
+          },
+          "removed": "Îndepărtat",
+          "subtracted": "%{count} eliminat",
+          "returned": "%{count} returnate",
+          "return_line_item_removed": "%{count} eliminat din returnare"
+        },
+        "additional_payment_requested": "Este necesară o plată de %{total_outstanding}",
+        "checkout_review_and_pay": "Comanda dvs. %{order_name} a fost actualizată. Examinați modificările, apoi plătiți pentru a vă confirma comanda.",
+        "order_updated_on": "Comanda dvs. a fost actualizată pe %{last_edited_at}.",
+        "order_review_and_pay": "Comanda dvs. a fost actualizată. Verificați și plătiți pentru a vă confirma comanda.",
+        "pay_now": "Plătește acum"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Suma egală cu %{amount} va fi debitată de pe cardul dvs. de credit",
+        "payment_total_label": "Plată totală",
+        "change_currency_link": "Accesați %{currency_name}",
+        "card_provider_fx_charges_warning": "Furnizorul dvs. de card poate percepe comisioane pentru tranzacțiile %{currency_code}.",
+        "currency_not_supported_by_shop": "Moneda selectată nu mai este disponibilă. Toate prețurile sunt acum disponibile în %{currency_code}."
+      },
+      "tips": {
+        "title": "Adăugați pont",
+        "description": "Arată-ți sprijinul echipei %{shop_name}",
+        "presets_description": "Selectați un procentaj de bacșiș",
+        "custom_label": "Sfat personalizat",
+        "add_tip": "Adăugați pont",
+        "update_tip": "Actualizați sfatul",
+        "message": "Multumesc pentru ajutor.",
+        "no_tip_label": "Nimeni"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Cumpărați %{product_name}",
+          "one": "Cumpărați %{product_name} și %{count} alt articol",
+          "other": "Cumpărați %{product_name} și %{count} alte articole",
+          "many": "Cumpărați %{product_name} și %{count} alte articole"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Informații suplimentare"
+        }
+      },
+      "post_purchase": {
+        "page_title": "După cumpărare",
+        "title": "După cumpărare",
+        "escape_confirmation": "Ați plătit pentru comanda dvs.",
+        "escape_action": "Vizualizați confirmările comenzii ›",
+        "components": {
+          "close": "Închide",
+          "expand": "Vezi mai mult",
+          "processing": "In prelucrare...",
+          "submit": "Trimite"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Coșul de cumpărături a fost actualizat în funcție de țara de destinație.",
+        "cart_and_currency_updated_based_on_country": "Coșul și moneda au fost actualizate în funcție de țara dvs. de expediere."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} fiecare %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Prima plată: %{total_price}",
+            "other": "Primele %{count} plăți: %{total_price} fiecare",
+            "many": "Primele %{count} plăți: %{total_price} fiecare"
+          },
+          "following_cycles": "ulterior %{total_price} fiecare %{interval}"
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "zi",
+            "other": "%{count} zile",
+            "many": "%{count} zile"
+          },
+          "week": {
+            "one": "săptămână",
+            "other": "%{count} săptămâni",
+            "many": "%{count} săptămâni"
+          },
+          "month": {
+            "one": "lună",
+            "other": "%{count} luni",
+            "many": "%{count} luni"
+          },
+          "year": {
+            "one": "an",
+            "other": "%{count} ani",
+            "many": "%{count} ani"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Prima plată %{total_price_with_discount}, ulterior %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": "ulterior %{count} plată la prețul de %{total_price}",
+            "other": "ulterior %{count} plăți, fiecare la prețul de %{total_price}",
+            "many": "ulterior %{count} plăți, fiecare la prețul de %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Metode de plata",
+        "title": "Metode de plata",
+        "update_card_button_label": "Actualizați cardul",
+        "delete_customer_mandate": {
+          "generic_error": "A apărut o problemă la procesarea solicitării dvs.",
+          "success_message": "Metoda de plată a fost ștearsă cu succes"
+        }
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Termenii și condițiile vânzătorului oficial",
+        "privacy_policy": "Politica oficială de confidențialitate a vânzătorului"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produsul nu este disponibil",
+          "other": "Produsele nu sunt disponibile",
+          "many": "Produsele nu sunt disponibile"
+        },
+        "products_not_available": {
+          "one": "Acest produs va fi eliminat din coș, deoarece nu este disponibil în țara\/regiunea dumneavoastră.",
+          "other": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara\/regiunea dvs.",
+          "many": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara\/regiunea dvs."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Acest produs nu este disponibil în țara\/regiunea dvs.",
+          "other": "Aceste produse nu sunt disponibile în țara\/regiunea dvs.",
+          "many": "Aceste produse nu sunt disponibile în țara\/regiunea dvs."
+        },
+        "unavailable_label": "Nu este disponibil"
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Țara\/regiunea dvs. a fost actualizată. Introdu adresa ta de expediere pentru a continua plata."
+      },
+      "throttle": {
+        "line_to_check_out": "Sunteți la coadă pentru a verifica",
+        "cart_summary_heading": "Coșul tău",
+        "merchandise": {
+          "sold_out": "Uzat",
+          "available": "Disponibil"
+        },
+        "inventory": {
+          "partial_inventory_banner": "O parte din coșul dvs. este epuizată și nu va fi disponibilă pentru cumpărare la finalizarea comenzii.",
+          "sold_out": {
+            "heading": "Coșul tău este epuizat",
+            "storefront_body": "Reveniți la magazin pentru a continua cumpărăturile",
+            "no_storefront_body": "Din păcate, articolul pe care doriți să-l cumpărați nu mai este disponibil.",
+            "link": "Du-te înapoi la magazin"
+          }
+        },
+        "title": "Coadă",
+        "time_to_checkout_title": "E timpul să verifici: {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Calculul timpului de așteptare estimat este în curs",
+          "less_than_one": "Timp de așteptare estimat: mai puțin de un minut",
+          "one": "Timp de așteptare estimat: {{count}} minut",
+          "other": "Timp de așteptare estimat: {{count}} minute",
+          "many": "Timp de așteptare estimat: {{count}} minute"
+        },
+        "last_checked": "(Ultima verificare la: {{time}} )",
+        "footer": {
+          "heading": "Nu actualizați această pagină: actualizarea va avea loc automat."
+        }
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "zero_to_two_hours": "De obicei, gata în 2 ore",
+        "two_to_four_hours": "De obicei gata în 4 ore",
+        "immediately": "Gata acum pentru colectare",
+        "next_day": "Gata de colectare a doua zi"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Disponibil",
+          "out_of_stock": "Uzat"
+        }
+      },
+      "boolean": {
+        "true_label": "da",
+        "false_label": "Nu"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevanţă",
+        "price_ascending": "Preț în creștere",
+        "price_descending": "Preț în scădere"
+      }
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Ca urmare a"
+    },
+    "links": {
+      "powered_by_shopify": "Produs de Shopify",
+      "learn_more": "Mai multe informatii"
+    },
+    "feed": {
+      "more": "Alte"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "parola",
+      "password_confirmation": "Confirmarea parolei",
+      "first_name": "Nume",
+      "last_name": "nume de familie",
+      "body": "text",
+      "signature": "Abordare"
+    },
+    "addresses": {
+      "zip_code": "COD POȘTAL",
+      "postal_code": "COD POȘTAL",
+      "postcode": "COD POȘTAL",
+      "pincode": "COD POȘTAL",
+      "region": "Zona geografica",
+      "prefecture": "Prefectura",
+      "province": "Provincie",
+      "state": "Stat",
+      "state_and_territory": "Stat\/Teritoriu",
+      "county": "judetul",
+      "emirate": "Emirat",
+      "governorate": "Guvernator",
+      "confirm": "Sigur doriți să ștergeți această adresă?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "În prim-plan",
+        "best_selling": "cel mai vândut",
+        "az": "În ordine alfabetică, AZ",
+        "za": "În ordine alfabetică, ZA",
+        "price_ascending": "Preț în creștere",
+        "price_descending": "Preț în scădere",
+        "date_ascending": "Data, de la cel mai puțin la cel mai recent",
+        "date_descending": "Data, de la cea mai recentă la cea mai puțin recentă"
+      }
+    },
+    "errors": {
+      "blank": "nu poate rămâne goală",
+      "credit_card_session_expired": "Autorizarea cardului dvs. de credit a expirat, vă rugăm să reintroduceți informațiile de plată. Nu a fost debitat nimic de pe cardul dvs.",
+      "empty": "nu poate rămâne goală",
+      "invalid_email": "adresa de e-mail trebuie să fie validă",
+      "discount_disabled": "Acest cod de reducere a fost dezactivat",
+      "discount_expired": "Acest cod de reducere nu mai este valabil",
+      "discount_limit_reached": "Acest cod de reducere a atins limita de utilizare",
+      "discount_not_found": "Nu se poate găsi o reducere validă care să se potrivească cu codul introdus",
+      "customer_already_used_once_per_customer_discount_notice": "Acest cod de reducere a atins limita de utilizare",
+      "gift_card_already_applied": "Codul a fost deja aplicat plății",
+      "gift_card_code_invalid": "Cod invalid",
+      "gift_card_currency_mismatch": "Cardul dvs. cadou este în %{gift_card_currency}. Contactați-ne pentru a-l reemite în %{checkout_currency}.",
+      "gift_card_depleted": "Nu mai există fonduri în acest card cadou",
+      "gift_card_disabled": "Cardul cadou nu este valabil",
+      "gift_card_expired": "Voucherul cadou a expirat",
+      "invalid": "nu este valabil",
+      "bad_domain": "conține un nume de domeniu nevalid",
+      "taken": "a fost deja ales",
+      "contains_html_tags": "nu poate conține etichete HTML",
+      "too_short": "este prea scurt (trebuie să conțină cel puțin %{count} caractere)",
+      "too_long": "este prea lung (trebuie să conțină maximum %{count} caractere)",
+      "password_mismatch": "trebuie să fie identică cu parola deja introdusă",
+      "contains_spaces": "începe sau se termină cu spații.",
+      "email_domain_invalid": "furnizorul nu este acceptat",
+      "invalid_for_country": "nu este valabil în %{country}",
+      "invalid_for_country_and_province": "nu este valabil pentru provincia %{province} din %{country}",
+      "invalid_province_in_country": "provincie nevalidă în %{country}",
+      "invalid_state_in_country": "stare nevalidă în %{country}",
+      "invalid_region_in_country": "zonă geografică nevalidă în %{country}",
+      "less_than_or_equal_to": "trebuie să fie mai mic sau egal cu %{count}",
+      "not_supported": "nu este suportat",
+      "full_name_required": "Introduceți numele și prenumele dvs",
+      "invalid_for_card_type": "nu este valabil",
+      "invalid_type": "Ne pare rău, dar nu acceptăm carduri de acest tip",
+      "invalid_format": "formatul este invalid",
+      "expired": "expirat",
+      "invalid_start_date_or_issue_number_for_debit": "Trebuie să introduceți o dată de începere validă sau un număr de emisiune",
+      "invalid_expiry_year": "nu este valabil ca an de expirare",
+      "reset_password_html": "Această adresă de e-mail este deja asociată unui cont. Dacă contul este al tău, îți poți <a href=\"\/account\/login#recover\">reseta parola<\/a>",
+      "verify_email": "Am trimis un e-mail către %{customer_email} - trebuie să faceți clic pe linkul inclus pentru a vă verifica adresa de e-mail.",
+      "blocked_address": "Această locație nu este acceptată.",
+      "product_not_available": "produsul nu a fost publicat pentru acest client.",
+      "shop_404": {
+        "title": "Creează un site de comerț electronic și vinde online! Software de comerț electronic de la Shopify",
+        "heros": {
+          "store_unavailable": "Ne pare rău, acest magazin nu este disponibil momentan.",
+          "store_not_exist": "Acest magazin nu există.",
+          "no_storefront": "Acest magazin nu are încă un site web."
+        },
+        "links": {
+          "explore_other_stores": "Explorați alte magazine",
+          "start_free_trial": "Începe perioada gratuită de testare"
+        },
+        "owner_ctas": {
+          "header": "Sunteți proprietarul magazinului?",
+          "fix_domain": "Finalizați configurarea noii adrese web, accesați %{domain_settings_link}. Faceți clic pe „Conectați domeniul” și introduceți: %{domain}.<br> Dacă întâmpinați probleme la conectarea la magazinul dvs., încercați pagina %{forgot_your_store_link}.",
+          "fix_domain_link_text": "setările domeniului",
+          "forgot_your_store_link_text": "ai uitat magazinul",
+          "add_storefront": "Vă puteți configura site-ul web adăugând canalul magazinului online în %{admin_link}. Dacă întâmpinați probleme la conectarea la magazinul dvs., încercați pagina %{forgot_your_store_link}.",
+          "admin_link_text": "panou de control"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vinde personal",
+            "caption": "Obțineți funcțiile de care aveți nevoie pentru a vă gestiona magazinul fizic, indiferent dacă ați început sau vă extindeți.",
+            "link_text": "Începe perioada gratuită de testare"
+          },
+          "open_a_store": {
+            "header": "Deschideți un nou magazin Shopify",
+            "caption": "Începeți o perioadă de încercare gratuită de trei zile, apoi continuați cu 1 USD\/lună pentru următoarele trei luni.",
+            "link_text": "Abonează-te acum"
+          },
+          "editions": {
+            "header": "Consultați edițiile Shopify",
+            "caption": "Cu peste 100 de actualizări ale produselor, veți avea mai multă productivitate, creativitate și eficiență în afaceri decât credeați că este posibil.",
+            "link_text": "Explorați cele mai recente ediții"
+          },
+          "store_owner": {
+            "header": "Sunteți proprietarul magazinului?",
+            "caption": "Întâmpinați probleme la conectarea la magazinul dvs.? Încercați funcția %{forgot_your_store_link}. Dacă doriți să vă reactivați magazinul, contactați %{shopify_support_link}.",
+            "shopify_support_link_text": "Asistență Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Eroare la resetarea parolei",
+        "no_account_found": "Nu a fost găsit niciun cont cu această adresă de e-mail.",
+        "invalid_credentials": "Adresă de e-mail sau parolă incorecte.",
+        "denylisted_reset_password": "Nu ați putut să vă accesați contul deoarece parola dvs. actuală nu este sigură. Veți primi un e-mail pentru a-l actualiza.",
+        "signup_disabled": "Crearea contului de client a fost dezactivată."
+      },
+      "address": {
+        "updated": "Adresa a fost actualizată cu succes.",
+        "error_updating": "Eroare la actualizarea adresei",
+        "created": "Adresă creată cu succes",
+        "error_creating": "Eroare la crearea adresei.\"",
+        "deleted": "Adresa a fost ștearsă cu succes",
+        "error_deleting": "Eroare la ștergerea adresei."
+      },
+      "order": {
+        "not_available": "Această comandă nu este disponibilă",
+        "financial_status": {
+          "authorized": "Autorizat",
+          "pending": "In asteptarea",
+          "paid": "Plătit",
+          "unpaid": "Neplatit",
+          "voided": "Anulat",
+          "partially_paid": "Plătit parțial",
+          "partially_refunded": "Rambursat parțial",
+          "refunded": "Rambursat",
+          "expired": "Expirat"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Scăpat",
+          "complete": "Complet",
+          "partial": "Parțial",
+          "unfulfilled": "Neîmplinit",
+          "restocked": "Reaprovizionat"
+        },
+        "transaction_status": {
+          "success": "S-a întâmplat",
+          "pending": "In asteptarea"
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ascunde meniul contului",
+        "label": "Conturi",
+        "show_accessibility_label": "Afișează meniul contului",
+        "nav_accessibility_label": "Navigare în cont",
+        "open_menu_accessibility_label": "Deschideți navigarea în cont",
+        "close_menu_accessibility_label": "Închideți navigarea în cont",
+        "loading_message": "Se încarcă navigarea în contul dvs"
+      },
+      "action_menu_accessibility_label": "Alte actiuni",
+      "close_menu_accessibility_label": "Închide meniul principal",
+      "contact_email_subject": "Contactați magazinul online {{shopName}}",
+      "contact_link": "Contactaţi-ne",
+      "delete_confirmation": {
+        "cancel": "Anulare",
+        "delete": "Șterge"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - Cont",
+      "go_to_store_link": "Mergi la magazin",
+      "loading_message": "Se încarcă",
+      "log_out_link": "Deconectați-vă",
+      "logout_overlay_label": "Se deconectează...",
+      "nav_label_accessibility_label": "Meniu principal",
+      "navigation_accessibility_message": "Sunteți în secțiunea {{sectionName}}",
+      "open_menu_accessibility_label": "Deschide meniul principal",
+      "orders_link_label": "Comenzi",
+      "shop_logo_accessibility_label": "Sigla {{shopName}}",
+      "subscriptions_link_label": "Abonamente",
+      "settings_link": "Setări"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Se încarcă informații despre cont",
+      "loading_finished_accessibility_message": "Informații despre cont încărcate",
+      "profile_card": {
+        "cancel": "Anulare",
+        "cancel_accessibility_label": "Anulați editarea profilului",
+        "edit": "Editați | ×",
+        "edit_accessibility_label": "Editează profilul",
+        "email_help_text": "Nu se poate schimba adresa de e-mail folosită pentru autentificare",
+        "first_name": "Nume",
+        "last_name": "Nume de familie",
+        "phone_number_help_text": "Nu se poate schimba numărul de telefon utilizat pentru autentificare",
+        "save": "Salvați",
+        "save_accessibility_label": "Salveaza profilul",
+        "title": "Profil",
+        "no_name_provided_accessibility_label": "Nu s-au adăugat nume"
+      },
+      "profile_update_confirmation_message": "profil actualizat",
+      "title": "Profil",
+      "people": {
+        "pagination": {
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe subiecte",
+          "loading_accessibility_label": "Se încarcă subiecte"
+        }
+      },
+      "add_button": "adăuga"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opțiuni de aspect",
+      "list_title": "Comenzi",
+      "order_list": {
+        "column_headers": {
+          "total": "Total",
+          "items": "Articole",
+          "order": "Ordin"
+        },
+        "delivered": "Livrat pe {{date}}",
+        "empty_state_order_source_description": "Doar comenzile plasate până la {{email}} vor fi afișate aici.",
+        "empty_state_subtitle": "Mergeți la magazin pentru a plasa o comandă.",
+        "empty_state_title": "Încă nu există comenzi",
+        "estimated_delivery": "Livrare programată pentru {{date}}",
+        "items": {
+          "one": "{{count}} articol",
+          "other": "{{count}} articole",
+          "many": "{{count}} articole"
+        },
+        "list_view": "Afișează vizualizarea listă",
+        "order_link": "Vizualizați comanda {{name}}",
+        "order_number": "Comanda {{name}}",
+        "orders_title": "Confirmat",
+        "pagination": {
+          "nav_accessibility_label": "Comanda butoane de navigare",
+          "next": "Ca urmare a",
+          "next_accessibility_label": "Comenzile ulterioare",
+          "previous": "Anterior",
+          "previous_accessibility_label": "Comenzi anterioare",
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe comenzi"
+        },
+        "sort_by": "Sortați după: {{option}}",
+        "sort_hide_options_accessibility_label": "Ascundeți opțiunile de sortare pentru comenzile confirmate.",
+        "sort_show_options_accessibility_label": "Afișați opțiunile de sortare pentru comenzile confirmate.",
+        "sort_title": "Ordin",
+        "sort": {
+          "date": {
+            "newest": "De la cel mai recent la cel mai vechi",
+            "oldest": "De la cel mai vechi la cel mai recent"
+          },
+          "location": {
+            "ascending": "Sediul central (AZ)",
+            "descending": "Sediul central (ZA)"
+          },
+          "order_number": {
+            "ascending": "Număr de comandă (crescător)",
+            "descending": "Număr de comandă (descrescător)"
+          },
+          "order_total": {
+            "ascending": "Total comandă (crescător)",
+            "descending": "Total comandă (descrescător)"
+          }
+        },
+        "table_view": "Afișează vizualizarea tabelului",
+        "one_images_accessibility_label": "Comanda include {{lineItemName1}}",
+        "two_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "no_filtered_results_description": "Eliminați sau ajustați filtrele pentru a vă vedea comenzile",
+        "no_filtered_results_title": "Niciun rezultat filtrat"
+      }
+    },
+    "order_details": {
+      "returns": {
+        "ineligible_return_message_when_returned": "Articolele suplimentare din această comandă nu sunt eligibile pentru returnare."
+      },
+      "request_return_failed": "A apărut o problemă la procesarea solicitării dvs. Încearcă din nou.",
+      "mobile_summary_toggle_button": {
+        "open": "Afișați rezumatul comenzii",
+        "closed": "Ascunde rezumatul comenzii"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Arata detaliile",
+        "expand_events_accessibility_label": "Afișați detaliile de livrare a comenzii",
+        "hide_events_label": "Ascunde detaliile",
+        "hide_events_accessibility_label": "Ascundeți detaliile de livrare a comenzii"
+      },
+      "show_order_summary": "Afișați rezumatul comenzii",
+      "hide_order_summary": "Ascunde rezumatul comenzii",
+      "company": "Agenţie",
+      "no_data_provided_accessibility_label": "{{fieldName}} este gol",
+      "marketing_section_title": "Noutăți și oferte",
+      "marketing_description": "Veți primi e-mailuri de marketing. Vă puteți dezabona în orice moment.",
+      "marketing_checkbox_label": "Trimite-mi e-mailuri cu noutăți și oferte",
+      "marketing_checkmark_label": "Te-ai înscris pentru a primi noutăți și oferte pe e-mail",
+      "image_gallery": {
+        "product_name_and_quantity": "Cantitatea de {{productName}} : {{quantity}}",
+        "next": "Afișați articolele următoare",
+        "previous": "Afișați articolele anterioare"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descărcați Magazin pentru a vă urmări pachetul",
+        "track_order_with_shop": "Urmăriți comanda cu Shop",
+        "title_header": "Scanați cu telefonul dvs",
+        "real_time_delivery_updates": "Magazinul vă va trimite actualizări de livrare în timp real odată ce comanda dvs. a fost expediată."
+      },
+      "shop_pay": {
+        "order_completed_with": "Comanda finalizata cu",
+        "learn_more": "Mai multe informatii"
+      },
+      "edit_summary": {
+        "added": "Adăugat",
+        "added_with_quantity": "{{quantity}} adăugată",
+        "removed": "Îndepărtat",
+        "removed_with_quantity": "{{quantity}} eliminat",
+        "updated_at": "Comanda dvs. a fost actualizată pe {{date}}",
+        "returned": "Retur completat",
+        "returned_with_quantities": "{{delta}} din {{total}} returnate",
+        "removed_with_quantities": "{{delta}} din {{total}} eliminate",
+        "return_line_item_removed": "Scos din retur",
+        "return_line_item_removed_with_quantities": "S-a eliminat {{delta}} din retur"
+      },
+      "pickup": {
+        "pickup": "Retrage",
+        "pickup_location": "Locația de ridicare",
+        "pickup_point": "Punct de ridicare"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Plata efectuată cu Shop Pay rate",
+        "description": "Rămâneți la curent cu programul de plată cu mementouri în aplicația Shop.",
+        "payment_reminders_button": "Primiți mementouri de plată",
+        "desktop_qr_code_content": {
+          "title": "Scanați mementouri",
+          "description": "Primiți mementouri de rate cu Shop."
+        }
+      },
+      "order_details": "Comanda Detalii",
+      "contact_information": "Detalii de contact",
+      "login_to_view_all_order_details": "Conectați-vă pentru a vedea toate detaliile comenzii.",
+      "log_in": "Log in",
+      "paid_amount": "Plătit",
+      "remaining_amount": "Reziduu",
+      "order_details_skeleton_accessibility_label": "Conectați-vă pentru a vedea toate detaliile comenzii.",
+      "tip": "Bacsis",
+      "logged_in_account_no_permission_to_order": "Sunteți conectat ca {{email}} . Acest cont nu are permisiunea de a gestiona această comandă.",
+      "log_in_to_a_different_account": "Conectați-vă la alt cont",
+      "duties": "Atribuțiile",
+      "ok_duties_tooltip": "Deoarece această comandă este expediată din altă țară, s-au aplicat taxe la totalul comenzii.",
+      "error_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așa că se pot aplica taxe și taxe la livrare.",
+      "zero_duties_tooltip": "Această comandă este expediată din altă țară. Nu se percep taxe pentru comenzile de această valoare.",
+      "group_title_label": "Parte din: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Taxă de restocare",
+        "return_shipping_fee": "Transport de retur"
+      }
+    },
+    "addresses": {
+      "add_button": "Adaugă adresă",
+      "address_deleted_notification": "Adresa a fost ștearsă",
+      "cancel_adding_address_accessibility_label": "Anulați adăugarea adresei",
+      "cancel_deletion_button": "Anulare",
+      "cancel_deletion_button_accessibility_label": "Anulați ștergerea {{address}}",
+      "default_address": {
+        "title": "Adresă implicită",
+        "title_accessibility_label": "Adresă implicită: {{address}}"
+      },
+      "delete_button": "Șterge",
+      "delete_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_button": "Ștergeți adresa",
+      "delete_confirmation_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_message": "Ștergeți adresa? Comenzile existente nu vor fi afectate.",
+      "edit_button": "Editați | ×",
+      "edit_button_accessibility_label": "Editați {{address}}",
+      "edit_section_accessibility_label": "Editați {{address}}",
+      "loading_accessibility_message": "Se încarcă adresa în curs",
+      "loading_addresses_accessibility_message": "Se încarcă adrese",
+      "loading_billing_accessibility_message": "Se încarcă adresa de facturare",
+      "loading_finished_accessibility_message": "S-a încărcat o nouă pagină de adresă",
+      "loading_shipping_accessibility_message": "Se încarcă adresa de expediere",
+      "pagination": {
+        "load_more": "Incarca mai mult",
+        "load_more_accessibility_label": "Încărcați mai multe adrese"
+      },
+      "save_new_address_accessibility_label": "Salvați adresa",
+      "title": "Adrese",
+      "delete_confirmation_title": "Ștergeți adresa?",
+      "delete_confirmation_description": "Comenzile existente nu vor fi afectate.",
+      "edit_modal_title": {
+        "default": "Schimba adresa",
+        "billing": "Schimbați adresa de facturare",
+        "shipping": "schimbă adresa livrăii"
+      },
+      "add_address_banner": "Adăugați adrese pe care să le utilizați atunci când faceți check-out",
+      "billing_address_dropdown_placeholder": "Adresa de facturare",
+      "add_button_text": "adăuga",
+      "add_button_accessibility_label": "Adaugă adresă",
+      "back_button": "Înapoi",
+      "back_button_accessibility_label": "Reveniți la schimbarea adresei {{address}}",
+      "no_addresses_banner": "Nu au fost adăugate adrese"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Închideți sugestiile",
+      "auto_complete_title": "Sugestii",
+      "billing_address": "Utilizați ca adresă de facturare",
+      "cancel": "Anulare"
+    },
+    "payment_method_brands": {
+      "maestro": "Maestru"
+    },
+    "enable_javascript": "Pentru a vă vizualiza contul, activați JavaScript în setările browserului sau conectați-vă prin alt browser.",
+    "ui_components": {
+      "closeNotification": "Închide",
+      "expandNotification": "Vezi mai mult",
+      "closeModal": "Închide",
+      "submit": "Trimite",
+      "processing": "In prelucrare…",
+      "increase": "Creșteți {{type}}",
+      "decrease": "Reduceți {{type}}",
+      "minimumReached": "S-a atins minimul de {{value}}",
+      "maximumReached": "Maximul de {{value}} a fost atins",
+      "january": "ianuarie",
+      "february": "februarie",
+      "march": "Martie",
+      "april": "Aprilie",
+      "may": "Mai",
+      "june": "iunie",
+      "july": "iulie",
+      "august": "August",
+      "september": "Septembrie",
+      "october": "octombrie",
+      "november": "noiembrie",
+      "december": "decembrie",
+      "monday": "luni",
+      "tuesday": "marţi",
+      "wednesday": "miercuri",
+      "thursday": "joi",
+      "friday": "vineri",
+      "saturday": "sâmbătă",
+      "sunday": "duminică",
+      "wednesdayAbbreviation": "mier",
+      "thursdayAbbreviation": "joi",
+      "fridayAbbreviation": "vineri",
+      "saturdayAbbreviation": "sat",
+      "sundayAbbreviation": "Soare",
+      "showNextMonth": "Afișați luna viitoare, {{month}} {{year}}",
+      "showPreviousMonth": "Afișați luna anterioară, {{month}} {{year}}",
+      "rangeStart": "Începutul intervalului",
+      "inRange": "Interval",
+      "rangeEnd": "Sfârșitul intervalului",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} articol disponibil",
+        "other": "{{count}} articole disponibile",
+        "many": "{{count}} articole disponibile"
+      },
+      "removeItem": "Eliminați {{label}}",
+      "removeTag": "Eliminați etichetele",
+      "month": {
+        "one": "lună",
+        "other": "luni",
+        "many": "luni"
+      }
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personalizați",
+      "hide_bar": "Ascunde bara",
+      "navigate_to_admin": "Accesați panoul de control",
+      "previewing": "Previzualizați:",
+      "saved_at": "Se salvează: {{date}} la {{time}}",
+      "viewing": "Vizionați:",
+      "not_available": "Datele de profil nu sunt disponibile",
+      "close_preview": "Închide previzualizarea",
+      "actions_button": "Acțiuni"
+    },
+    "settings": {
+      "title": "Setări",
+      "log_out_everywhere": {
+        "title": "Deconectați-vă de la toate sesiunile",
+        "description": "Dacă ați pierdut un dispozitiv sau aveți o problemă de securitate, vă rugăm să deconectați-vă de la toate sesiunile pentru a vă proteja securitatea contului.",
+        "button": "Deconectați-vă de la toate sesiunile",
+        "warning_message": "Acest dispozitiv va fi, de asemenea, deconectat."
+      },
+      "loading_accessibility_message": "Se încarcă pagina de setări"
+    }
+  },
+  "sections": {
+    "cart": {
+      "headings": {
+        "quantity": "Cantitate",
+        "product": "Produs",
+        "price": "Preț",
+        "total": "Total"
+      },
+      "update": "Actualizați",
+      "login": {
+        "title": "Ai un cont?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Conectați-vă<\/a> pentru a verifica mai rapid."
+      },
+      "shipping_estimates": {
+        "heading": "Obțineți o cotație de livrare pentru comanda dvs",
+        "country": "Sat",
+        "province": "Provincie",
+        "zip": "Cod poștal",
+        "button": "Obține citate",
+        "error": "Greşeală",
+        "not_available": "Nu livrăm către această destinație."
+      },
+      "title": "Coșul tău",
+      "heading_html": "În geantă <span data-cart-item-count=\"\">{{itemCount}}<\/span> articole",
+      "caption": "Articole din coș",
+      "price_detail": "Detalii pret",
+      "remove_title": "Eliminați {{ title }}",
+      "remove": "A sterge",
+      "subtotal": "Total",
+      "discount": "Reducere",
+      "discount_label": "Cod cupon",
+      "new_subtotal": "Subtotal",
+      "note": "Instrucțiuni speciale pentru vânzător",
+      "note_heading": "Lăsați o notă cu comanda dvs",
+      "checkout": "Câștiguri",
+      "empty": "Căruciorul este gol",
+      "view_cart": "Cart",
+      "payment": "Metode de plata",
+      "cart_error": "A apărut o eroare la actualizarea coșului. Vă rugăm să încercați din nou.",
+      "cart_quantity_error_html": "Puteți adăuga în coș numai {{ quantity }} din acest articol.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">transportul<\/a> sunt calculate la finalizare",
+      "taxes_included_but_shipping_at_checkout": "Taxa inclusă și transportul calculat la finalizare",
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Livrare<\/a> calculată la checkout.",
+      "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la finalizare"
+    },
+    "footer": {
+      "payment": "Metode de plata"
+    },
+    "featured_article": {
+      "view_all": "A vedea tot",
+      "onboarding_date": "ZZ LL AAAA",
+      "onboarding_title": "Postare pe blog",
+      "onboarding_content": "Oferă clienților tăi un rezumat al postării pe blog"
+    },
+    "featured_product": {
+      "heading": "În prim-plan"
+    },
+    "collection_list": {
+      "view_all": "A vedea tot",
+      "view": "A explora"
+    },
+    "collection_template": {
+      "apply": "A aplica",
+      "clear": "Gratuit",
+      "clear_all": "Șterge totul",
+      "empty": "Nu s-au găsit produse",
+      "from": "Din",
+      "filter_and_sort": "Filtrați și sortați",
+      "filter_by_label": "Filtru",
+      "filter_button": "A aplica",
+      "filter_cancel_button": "Anulare",
+      "filter_show_more": "Afișați mai multe",
+      "filter_show_less": "Arata mai putin",
+      "filters_selected": {
+        "one": "{{ count }} selectat",
+        "other": "{{ count }} selectat"
+      },
+      "max_price": "Cel mai mare preț este {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} din {{ count }} produs",
+        "other": "{{ product_count }} din {{ count }} produse"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produs",
+        "other": "{{ count }} produse"
+      },
+      "reset": "Resetați",
+      "sort_button": "Triere",
+      "sort_by_label": "Filtrează după",
+      "title": "Colectie",
+      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Ștergeți tot<\/a>"
+    },
+    "video": {
+      "load_video": "Încărcați videoclipul: {{ description }}"
+    },
+    "contact": {
+      "name": "Nume",
+      "number": "Numar de contact",
+      "message": "Mesaj"
+    },
+    "localization": {
+      "language_label": "A FACE"
+    },
+    "announcement": {
+      "heading": "Anunţ",
+      "close": "Anunț de închidere"
+    },
+    "header": {
+      "menu": "Meniul",
+      "cart_count": {
+        "one": "{{ count }} articol",
+        "other": "{{ count }} articole"
+      }
+    }
+  },
+  "general": {
+    "days": "Zile",
+    "hours": "Ore",
+    "password_page": {
+      "login_form_heading": "Intra in magazin cu parola:",
+      "login_password_button": "Introduceți parola",
+      "login_form_password_label": "Parola",
+      "login_form_password_placeholder": "Parola Dvs",
+      "login_form_error": "Parola gresita!",
+      "login_form_submit": "introduce",
+      "modal": "Parolă modală",
+      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"\/admin\" class=\"link underlined-link\">Autentifică-te aici<\/a>",
+      "powered_by_shopify_html": "Acest magazin va fi alimentat de {{ shopify }}",
+      "opening_soon": "A FACE"
+    },
+    "view_detail": "Vedeți detaliul",
+    "quick_view_heading": "Vizualizare rapidă",
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Distribuiți pe Facebook",
+        "share_on_twitter": "Distribuie pe X",
+        "share_on_pinterest": "Distribuie pe Pinterest"
+      },
+      "links": {
+        "twitter": "Stare de nervozitate",
+        "linkedin": "LinkedIn",
+        "tiktok": "TIC-tac"
+      }
+    },
+    "continue_shopping": "Continua cumparaturile",
+    "go_to_products": "Accesați produse",
+    "no_similar_found": "Ne pare rău, nu s-au găsit rezultate!",
+    "pagination": {
+      "label": "Paginare",
+      "page": "{{ number }}",
+      "next": "Pagina următoare",
+      "previous": "Pagina anterioară"
+    },
+    "search": {
+      "search": "Cercetare"
+    },
+    "video": {
+      "button": "Redare - Pauză"
+    },
+    "cart": {
+      "view": "Vizualizați coșul meu ( {{ count }} )",
+      "item_added": "Articol adăugat în coș"
+    },
+    "share": {
+      "close": "Pret de inchidere",
+      "copy_to_clipboard": "Copiați linkul",
+      "share_url": "Conexiune",
+      "success_message": "Link copiat în clipboard"
+    },
+    "socil": {
+      "links": {
+        "facebook": "A FACE",
+        "twitter": "A FACE",
+        "linkedin": "A FACE",
+        "instagram": "A FACE"
+      }
+    }
+  },
+  "date_formats": {
+    "month_year": "%DE"
+  },
+  "newsletter": {
+    "label": "Email-ul tau",
+    "success": "Mulțumesc pentru înscriere",
+    "button_label": "Abonati-va",
+    "email_placeholder": "Adresa de e-mail",
+    "popup_dont_show": "Nu mai arăta acest dialog din nou"
+  },
+  "customer": {
+    "recover_password": {
+      "success": "V-am trimis un e-mail cu un link pentru a vă actualiza parola."
+    },
+    "register": {
+      "title": "Creați un cont",
+      "subtext": "Dacă doriți să vă creați un cont la noi, vă rugăm să vă conectați.",
+      "full_name": "Numele și prenumele",
+      "first_name": "Nume",
+      "last_name": "Nume de familie",
+      "password": "Parola",
+      "submit": "Abonati-va",
+      "login_heading": "Ai deja un cont?",
+      "login_button": "Acces",
+      "login_subtext": "Înregistrarea pe acest site vă permite să accesați starea și istoricul comenzilor dvs. Vă vom pune să creați un cont nou în cel mai scurt timp. Din acest motiv, vă vom cere doar informațiile necesare pentru a face procesul de cumpărare mai rapid și mai ușor."
+    },
+    "reset_password": {
+      "title": "Resetați parola contului dvs",
+      "subtext": "Introduceți o nouă parolă pentru {{ email }}",
+      "password": "Parola",
+      "password_confirm": "Confirmați parola",
+      "submit": "reseteaza parola"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Iată cardul tău cadou de {{ value }} pentru {{ shop }} !",
+      "subtext": "Cardul dvs. cadou",
+      "gift_card_code": "Cod card cadou",
+      "shop_link": "Continua cumparaturile",
+      "remaining_html": "{{ balance }} rămas",
+      "add_to_apple_wallet": "Adăugați în portofelul Apple",
+      "qr_image_alt": "Cod QR: scanați pentru a valorifica cardul cadou",
+      "copy_code": "Copiați codul",
+      "expired": "Expirat",
+      "copy_code_success": "Cod copiat cu succes",
+      "print_gift_card": "presa"
+    }
+  },
+  "gj_calculator": {
+    "personalizzato": {
+      "energy-cost": "Costul energiei (c\/KWh)",
+      "pollution-rate": "Poluare pe litru (CO²g\/litru)",
+      "t_cold": "Temperatura (rece) (°C)",
+      "t_warm": "Temperatura (fierbinte) (°C)",
+      "cold-water-circuit": "Circuit de apă rece (€\/m³)",
+      "waste-water-cost": "Prețul apei uzate (€\/m³)",
+      "shower-duration": "Durata dușului (minute)",
+      "water-rate": "Debit de apă (l\/min)",
+      "close_popup": "Închide",
+      "GREENJET-l-min": "Economii GREENJET (L\/min)",
+      "GREENJET-saving-perc": "Economii GREENJET (%)"
+    },
+    "allgemein": {
+      "title": "Calculează-ți economiile la casă:",
+      "title_hotel": "Calculați economiile în compania dvs",
+      "inputs": "intrare:",
+      "duschen": "Averse:",
+      "anschluss": "Conexiuni:",
+      "brausekopf": "Cap de dus",
+      "regendusche": "Ploaie de ploaie",
+      "personen": "Membrii familiei:",
+      "personen_2": "oameni pentru duș",
+      "auslastung": "volumul de muncă",
+      "einsparung": "Economii",
+      "hotel": "han",
+      "fitnessstudio": "Sală de gimnastică",
+      "betrieb": "Operațiune",
+      "bad": "baie",
+      "besucher": "Vizitatori pe zi",
+      "termin": "Vom fi bucuroși să efectuăm o măsurătoare fără caracter obligatoriu la locația dvs. și să vă sfătuim:",
+      "termin_button": "Programează o întâlnire pentru consultație"
+    },
+    "heizmittel": {
+      "title": "Medii de încălzire:"
+    },
+    "berechnungsgrundlagen": {
+      "title": "Baza de calcul:",
+      "auslastung": "Capacitate de utilizare:",
+      "duschdauer": "Durata dus:",
+      "wasserdurchfluss": "Flux de apă:"
+    },
+    "result": {
+      "title": "Economii:",
+      "jahreseinsparung": "Economii anuale",
+      "wasser": "Litri de apă",
+      "co2": "Kilograme de CO₂",
+      "anschaffung": "Costuri unice de achiziție",
+      "stueck": "bucată",
+      "gesamt": "total",
+      "amortisationszeit": "Perioada de rambursare:",
+      "amortisation_satz": "Investiția în GREENJET se va amortiza în interior",
+      "ersparnis_10j": "ECONOMII DUPĂ 10 ANI"
+    }
+  }
+}
