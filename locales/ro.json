@@ -1090,7 +1090,55 @@
         "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
         "thank_you_confirmed_order_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
         "thank_you_confirmed_order_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
-        "thank_you_confirmed_order_with_draft_payment": "Vă vom anunța dacă avem nevoie de mai multe informații sau vă vom anunța când comanda dvs. este confirmată."
+        "thank_you_confirmed_order_with_draft_payment": "Vă vom anunța dacă avem nevoie de mai multe informații sau vă vom anunța când comanda dvs. este confirmată.",
+        "thank_you_confirmed_order_with_draft_pick_up": "Vă vom anunța dacă avem nevoie de mai multe informații sau vă vom anunța când comanda dvs. este confirmată.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coș pentru a verifica comanda și a reîncerca plata.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coș pentru a verifica comanda și a reîncerca plata.",
+        "order_status_payments_app_pending_payment_description_default_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_default_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email_payment": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_email_pick_up": "Veți primi un e-mail de confirmare în curând. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_payment": "Veți primi un mesaj de confirmare în scurt timp. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_default_with_phone_pick_up": "Veți primi un mesaj de confirmare în scurt timp. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Odată ce plata este finalizată, veți primi un e-mail de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Odată ce plata este finalizată, veți primi un mesaj de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Odată ce plata este finalizată, veți primi un mesaj de confirmare. Urmăriți comanda cu aplicația Shop.",
+        "order_status_payments_app_failed_pending_payment_payment": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coșul tău pentru a verifica comanda și a reîncerca plata.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Nu ați fost taxat pentru comanda dvs. Întoarce-te în coșul tău pentru a verifica comanda și a reîncerca plata.",
+        "order_status_confirmed_order_local_pick_up": "Vă pregătim comanda.",
+        "order_status_confirmed_order_local_payment": "Vă pregătim comanda.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "În scurt timp veți primi un e-mail de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "În scurt timp veți primi un mesaj de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "În scurt timp veți primi un mesaj de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "În scurt timp veți primi un mesaj de confirmare cu numărul comenzii dvs.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Contactați-ne prin e-mail sau telefon pentru a primi confirmarea comenzii.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "După finalizarea plății, veți primi un e-mail de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "După finalizarea plății, veți primi un mesaj de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "După finalizarea plății, veți primi un mesaj de confirmare cu numărul comenzii dumneavoastră.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "După finalizarea plății, veți primi un mesaj de confirmare cu numărul comenzii dumneavoastră."
       },
       "wallets": {
         "return_to_store": "Întoarce-te la magazin",
@@ -1229,7 +1277,8 @@
         "checkout_review_and_pay": "Comanda dvs. %{order_name} a fost actualizată. Examinați modificările, apoi plătiți pentru a vă confirma comanda.",
         "order_updated_on": "Comanda dvs. a fost actualizată pe %{last_edited_at}.",
         "order_review_and_pay": "Comanda dvs. a fost actualizată. Verificați și plătiți pentru a vă confirma comanda.",
-        "pay_now": "Plătește acum"
+        "pay_now": "Plătește acum",
+        "custom_line_item_description": "Suma de plătit pentru comanda %{order_name}"
       },
       "change_currency": {
         "credit_card_will_be_charged_html": "Suma egală cu %{amount} va fi debitată de pe cardul dvs. de credit",
@@ -1483,6 +1532,75 @@
         "payment_not_processed_title": "Nu se poate procesa plata",
         "payment_not_processed_text": "Nu ai fost taxat. Întoarceți-vă la coș pentru a finaliza achiziția.",
         "return_to_cart_button_label": "Întoarce-te la coș"
+      },
+      "review": {
+        "title": "Decide",
+        "review_title": "Verificați și plătiți",
+        "checkout_as_guest": "Check-out fără înregistrare",
+        "blocks": {
+          "contact_method_title": "a lua legatura",
+          "billing_address_title": "Facturare",
+          "shipping_address_title": "Îmbarca spre",
+          "shipping_method_title": "Metode de expediere",
+          "payment_method_title": "Modalitate de plată",
+          "change_link_label": "Schimbare",
+          "change_contact_method_link_label": "Schimbați-vă adresa",
+          "change_billing_address_link_label": "Schimbați adresa de facturare",
+          "change_shipping_address_link_label": "Schimbați adresa de expediere",
+          "change_shipping_method_link_label": "Schimbați metoda de expediere",
+          "change_payment_method_link_label": "Schimbați metoda de plată",
+          "pick_up_in_store_shipping_method_html": "Ridicare din magazin · %{location_name}",
+          "purchase_order_number_title": "Numărul de ordine de cumpărare",
+          "change_purchase_order_number_label": "Schimbați numărul comenzii de achiziție",
+          "change_delivery_method_link_label": "Schimbați metoda de livrare",
+          "no_address": "(Fără adresă)",
+          "no_purchase_order_number": "(Fără număr de comandă)",
+          "due_after_order_reviewed_html": "Datorită după revizuirea comenzii",
+          "review_title_free_order": "Examinați și finalizați comanda",
+          "payment_method_saved_company_location": "Economisiți hârtie pentru această locație"
+        },
+        "block_title": "Verificați informațiile",
+        "checkout_a_different_way": "Verificați cu o altă metodă"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Trimite-mi e-mailuri cu noutăți și oferte",
+        "unsubscribe": {
+          "title": "V-ați dezabonat",
+          "description": "Nu veți mai primi mementouri de coș de la noi."
+        },
+        "accept_sms_checkbox_label": "Trimite-mi SMS cu noutăți și oferte",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Politica de confidențialitate",
+            "terms_of_service": "Termeni și condiții de serviciu",
+            "description_html": "Înregistrându-vă prin SMS, sunteți de acord să primiți mesaje de marketing automate, recurente, inclusiv mementouri pentru coș, la numărul de telefon desemnat. Consimțământul nu este o condiție de cumpărare. Răspunde STOP pentru a te dezabona. Răspundeți HELP pentru a solicita asistență. Frecvența mesajelor poate varia. Se pot aplica tarife pentru mesaje și date. Vizualizați %{privacy_policy_link} și %{terms_of_service_link}.",
+            "description_transactional_html": "Este posibil să primiți mesaje text privind confirmarea comenzii și actualizările de livrare. Răspunde STOP pentru a te dezabona. Răspundeți HELP pentru a solicita asistență. Frecvența mesajelor poate varia. Se pot aplica tarife pentru mesaje și date. Vedeți %{privacy_policy_modal_link} și %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Număr de telefon",
+          "get_offers_by_text": "Primiți oferte prin mesaj"
+        },
+        "post_accept_marketing_checkbox_label": "Te-ai înscris pentru a primi noutăți și oferte pe e-mail",
+        "pending_accept_marketing_checkbox_label": "Verificați-vă e-mailul pentru a vă confirma abonamentul la știri și oferte",
+        "accept_shop_pay_marketing_checkbox_label": "Înscrie-mă pentru a primi noutăți și oferte de la acest magazin",
+        "disclaimer": {
+          "privacy_policy": "Politica de confidențialitate",
+          "terms_of_service": "Termeni și condiții de serviciu"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Politica de rambursare",
+        "privacy_policy": "Politica de confidențialitate",
+        "terms_of_service": "Termeni și condiții de serviciu",
+        "legal_notice": "Aviz juridic",
+        "shipping_policy": "Politică de livrare",
+        "terms_of_sale": "Condiții de vânzare",
+        "subscription_policy": "Informații de înregistrare",
+        "purchase_options_policy": "Informații despre opțiunile de cumpărare",
+        "contact_information": "Detalii de contact",
+        "purchase_options_cancellation_policy": "Politica de anulare"
+      },
+      "notifications": {
+        "title": "Notificări"
       }
     },
     "store_availability": {
@@ -2085,7 +2203,23 @@
       "auto_complete_close_accessibility_label": "Închideți sugestiile",
       "auto_complete_title": "Sugestii",
       "billing_address": "Utilizați ca adresă de facturare",
-      "cancel": "Anulare"
+      "cancel": "Anulare",
+      "cancel_accessibility_label": "Anulați schimbarea adresei {{address}}",
+      "creation_success_notification": "Adresă adăugată",
+      "default_address": "Aceasta este adresa mea prestabilită",
+      "default_address_creation_success_notification": "Adresă implicită adăugată",
+      "default_address_update_success_notification": "Adresa implicită a fost actualizată",
+      "loading_add_form_accessibility_message": "Se încarcă formularul pentru noua adresă",
+      "loading_edit_form_accessibility_message": "Încărcarea formularului de modificare a adresei este în curs",
+      "loading_finished_accessibility_message": "Formularul de adresă a fost încărcat",
+      "save": "Salvați",
+      "save_accessibility_label": "Salvați adresa {{address}}",
+      "section_title_accessibility_label": "Adaugă adresă",
+      "update_success_notification": "Adresă actualizată",
+      "attention": "Destinatar",
+      "attention_help_text": "Numele unei persoane sau al departamentului",
+      "loading_form_accessibility_message": "Se încarcă formularul de adresă",
+      "attention_company": "Companie\/Destinatar"
     },
     "payment_method_brands": {
       "maestro": "Maestru",
@@ -2284,6 +2418,123 @@
       "expiration_warning_button_accessibility_label": "Afișați avertismentele de expirare pentru {{paymentMethodName}} care se termină cu {{lastDigits}}",
       "no_payment_methods_banner": "Nu au fost adăugate metode de plată",
       "default": "Mod implicit"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Numele companiei",
+        "company_card_section_accessibility_label": "Agenţie"
+      },
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_list_title": "oameni",
+        "contact_name": "Nume",
+        "contact_permissions": "Permisiuni",
+        "contact_phone_number": "Număr de telefon",
+        "location_picker_label": "Numele locatiei",
+        "net_payment_terms_description": "{{name}} : plăți estimate în {{numberOfDays}} zile",
+        "payment_details_title": "detaliile platii",
+        "payment_terms": "Termeni de plată",
+        "permissions_label": "Permisiunile dvs",
+        "permissions_title": "Permisiuni",
+        "section_title": "Site",
+        "shipping_address_required": "Adăugați o adresă de livrare la această locație pentru a începe să plasați comenzi.",
+        "tax_details_title": "Date fiscale",
+        "tax_id": "Cod de identificare fiscală",
+        "tax_exemptions": "Scutiri de impozite",
+        "multiple_tax_exemptions": "alte {{taxExemptionsCount}}",
+        "tax_exemptions_modal_close": "Închide",
+        "taxes_none": "Nici unul",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Vedeți toate scutirile fiscale",
+        "pagination": {
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe locații"
+        },
+        "staff_and_permissions_title": "Personal și permisiuni",
+        "location_picker_accessibility_label": "Nume locație: {{locationName}}"
+      },
+      "location_selection": {
+        "description": "Dacă aveți deja articole în coș, schimbarea locației poate afecta prețurile și cantitățile coșului.",
+        "list_accessibility_label": "Lista locațiilor",
+        "list_item_without_address_accessibility_label": "{{name}} : fără adresă",
+        "list_loading_accessibility_message": "Se încarcă lista locațiilor în curs",
+        "list_loading_address_accessibility_message": "Se încarcă adresa pentru {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lista locațiilor încărcate",
+        "loading_store_accessibility_message": "Te duci la magazin",
+        "selection_cancel_button": "Anulare",
+        "selection_confirmation_button": "Alegeți locația",
+        "title": "Pentru ce locatie cumperi?",
+        "continue_to_store": "Continuați spre magazin",
+        "no_location_title": "Numai comenzi personale",
+        "no_location_description": "Nu mai aveți permisiunea de a plasa comenzi pentru {{company}} . În continuare puteți plasa comenzi personale.",
+        "no_locations_found": "Nu au fost găsite locații",
+        "search": "Căutați o locație",
+        "clear_search": "Ștergeți căutarea",
+        "try_new_search": "Încercați o nouă căutare",
+        "search_location_title": "Selectați o locație"
+      },
+      "addresses": {
+        "add_billing_address_button": "Adăugați adresa de facturare",
+        "add_billing_address_section_accessibility_label": "Adăugați adresa de facturare",
+        "add_shipping_address_button": "Adăugați adresa de expediere",
+        "add_shipping_address_section_accessibility_label": "Adăugați adresa de expediere",
+        "billing_address_card_title": "Adresa de facturare",
+        "cancel_adding_billing_address_accessibility_label": "Anulați adăugarea adresei dvs. de facturare",
+        "cancel_adding_shipping_address_accessibility_label": "Anulați adăugarea adresei de expediere",
+        "save_new_billing_address_accessibility_label": "Salvați adresa de facturare",
+        "save_new_shipping_address_accessibility_label": "Salvați adresa de expediere",
+        "shipping_address_card_title": "Adresa de transport"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ascunde totul",
+          "show_all": "Arata tot",
+          "hide_all_accessibility_label": "Ascundeți toate comenzile aflate în curs de examinare",
+          "show_all_accessibility_label": "Afișează toate comenzile în curs de examinare",
+          "title": "In asteptarea",
+          "pagination": {
+            "nav_accessibility_label": "Butoane de navigare pentru comenzile în curs de examinare"
+          },
+          "show_all_orders_in_review": "Afișează toate comenzile în curs de examinare",
+          "show_less_orders_in_review": "Afișați mai puține comenzi în curs de examinare",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Nu aveți comenzi în așteptare",
+            "pending_orders": {
+              "one": "Aveți {{count}} comandă în așteptare",
+              "other": "Aveți {{count}} comenzi în așteptare",
+              "many": "Aveți {{count}} comenzi în așteptare"
+            },
+            "more_than_pagination_length": "Aveți mai mult de {{count}} comenzi în așteptare"
+          },
+          "pending_orders_count_more_than_pagination_length": "Mai mult de {{count}}"
+        },
+        "order_list_column_headers_location": "Site",
+        "order_list_column_headers_contact": "Contacte",
+        "removed_company_contact_tooltip": "Eliminare cu succes din companie"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmat pe {{date}} pentru comanda {{draftOrderName}}",
+        "loading": "Se încarcă detaliile comenzii",
+        "loading_finished_accessibility_message": "Detaliile comenzii au fost încărcate",
+        "payment_status": {
+          "draft": {
+            "description": "Detaliile de plată se stabilesc la confirmarea comenzii.",
+            "title": "Plata încă nu scade",
+            "in_review": {
+              "description": "Detaliile de plată se stabilesc la confirmarea comenzii.",
+              "title": "Plata încă nu scade"
+            },
+            "submitted": {
+              "description": "Trimiteți plata pentru a confirma comanda.",
+              "title": "Plătește pentru a confirma"
+            }
+          },
+          "paid": {
+            "description": "Comanda se achită integral.",
+            "title": "Plătit"
+          }
+        }
+      }
     }
   },
   "sections": {
