@@ -895,5 +895,252 @@
       "billing_address": "Utilizați ca adresă de facturare",
       "cancel": "Anulare"
     }
+  },
+  "sections": {
+    "cart": {
+      "headings": {
+        "quantity": "Cantitate"
+      },
+      "update": "Actualizați",
+      "login": {
+        "title": "Ai un cont?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Conectați-vă<\/a> pentru a verifica mai rapid."
+      },
+      "shipping_estimates": {
+        "heading": "Obțineți o cotație de livrare pentru comanda dvs",
+        "country": "Sat",
+        "province": "Provincie",
+        "zip": "Cod poștal",
+        "button": "Obține citate",
+        "error": "Greşeală",
+        "not_available": "Nu livrăm către această destinație."
+      }
+    },
+    "footer": {
+      "payment": "Metode de plata"
+    },
+    "featured_article": {
+      "view_all": "A vedea tot",
+      "onboarding_date": "ZZ LL AAAA",
+      "onboarding_title": "Postare pe blog",
+      "onboarding_content": "Oferă clienților tăi un rezumat al postării pe blog"
+    },
+    "featured_product": {
+      "heading": "În prim-plan"
+    },
+    "collection_list": {
+      "view_all": "A vedea tot",
+      "view": "A explora"
+    },
+    "collection_template": {
+      "apply": "A aplica",
+      "clear": "Gratuit",
+      "clear_all": "Șterge totul",
+      "empty": "Nu s-au găsit produse",
+      "from": "Din",
+      "filter_and_sort": "Filtrați și sortați",
+      "filter_by_label": "Filtru",
+      "filter_button": "A aplica",
+      "filter_cancel_button": "Anulare",
+      "filter_show_more": "Afișați mai multe",
+      "filter_show_less": "Arata mai putin",
+      "filters_selected": {
+        "one": "{{ count }} selectat",
+        "other": "{{ count }} selectat"
+      },
+      "max_price": "Cel mai mare preț este {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} din {{ count }} produs",
+        "other": "{{ product_count }} din {{ count }} produse"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} produs",
+        "other": "{{ count }} produse"
+      },
+      "reset": "Resetați",
+      "sort_button": "Triere",
+      "sort_by_label": "Filtrează după",
+      "title": "Colectie",
+      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Ștergeți tot<\/a>"
+    },
+    "video": {
+      "load_video": "Încărcați videoclipul: {{ description }}"
+    },
+    "contact": {
+      "name": "Nume",
+      "number": "Numar de contact",
+      "message": "Mesaj"
+    },
+    "localization": {
+      "language_label": "A FACE"
+    }
+  },
+  "general": {
+    "days": "Zile",
+    "hours": "Ore",
+    "password_page": {
+      "login_form_heading": "Intra in magazin cu parola:",
+      "login_password_button": "Introduceți parola",
+      "login_form_password_label": "Parola",
+      "login_form_password_placeholder": "Parola Dvs",
+      "login_form_error": "Parola gresita!",
+      "login_form_submit": "introduce",
+      "modal": "Parolă modală",
+      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"\/admin\" class=\"link underlined-link\">Autentifică-te aici<\/a>",
+      "powered_by_shopify_html": "Acest magazin va fi alimentat de {{ shopify }}",
+      "opening_soon": "A FACE"
+    },
+    "view_detail": "Vedeți detaliul",
+    "quick_view_heading": "Vizualizare rapidă",
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Distribuiți pe Facebook",
+        "share_on_twitter": "Distribuie pe X",
+        "share_on_pinterest": "Distribuie pe Pinterest"
+      },
+      "links": {
+        "twitter": "Stare de nervozitate",
+        "linkedin": "LinkedIn",
+        "tiktok": "TIC-tac"
+      }
+    },
+    "continue_shopping": "Continua cumparaturile",
+    "go_to_products": "Accesați produse",
+    "no_similar_found": "Ne pare rău, nu s-au găsit rezultate!",
+    "pagination": {
+      "label": "Paginare",
+      "page": "{{ number }}",
+      "next": "Pagina următoare",
+      "previous": "Pagina anterioară"
+    },
+    "search": {
+      "search": "Cercetare"
+    },
+    "video": {
+      "button": "Redare - Pauză"
+    },
+    "cart": {
+      "view": "Vizualizați coșul meu ( {{ count }} )",
+      "item_added": "Articol adăugat în coș"
+    },
+    "share": {
+      "close": "Pret de inchidere",
+      "copy_to_clipboard": "Copiați linkul",
+      "share_url": "Conexiune",
+      "success_message": "Link copiat în clipboard"
+    },
+    "socil": {
+      "links": {
+        "facebook": "A FACE",
+        "twitter": "A FACE",
+        "linkedin": "A FACE",
+        "instagram": "A FACE"
+      }
+    }
+  },
+  "date_formats": {
+    "month_year": "%DE"
+  },
+  "newsletter": {
+    "label": "Email-ul tau",
+    "success": "Mulțumesc pentru înscriere",
+    "button_label": "Abonati-va",
+    "email_placeholder": "Adresa de e-mail",
+    "popup_dont_show": "Nu mai arăta acest dialog din nou"
+  },
+  "customer": {
+    "recover_password": {
+      "success": "V-am trimis un e-mail cu un link pentru a vă actualiza parola."
+    },
+    "register": {
+      "title": "Creați un cont",
+      "subtext": "Dacă doriți să vă creați un cont la noi, vă rugăm să vă conectați.",
+      "full_name": "Numele și prenumele",
+      "first_name": "Nume",
+      "last_name": "Nume de familie",
+      "password": "Parola",
+      "submit": "Abonati-va",
+      "login_heading": "Ai deja un cont?",
+      "login_button": "Acces",
+      "login_subtext": "Înregistrarea pe acest site vă permite să accesați starea și istoricul comenzilor dvs. Vă vom pune să creați un cont nou în cel mai scurt timp. Din acest motiv, vă vom cere doar informațiile necesare pentru a face procesul de cumpărare mai rapid și mai ușor."
+    },
+    "reset_password": {
+      "title": "Resetați parola contului dvs",
+      "subtext": "Introduceți o nouă parolă pentru {{ email }}",
+      "password": "Parola",
+      "password_confirm": "Confirmați parola",
+      "submit": "reseteaza parola"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Iată cardul tău cadou de {{ value }} pentru {{ shop }} !",
+      "subtext": "Cardul dvs. cadou",
+      "gift_card_code": "Cod card cadou",
+      "shop_link": "Continua cumparaturile",
+      "remaining_html": "{{ balance }} rămas",
+      "add_to_apple_wallet": "Adăugați în portofelul Apple",
+      "qr_image_alt": "Cod QR: scanați pentru a valorifica cardul cadou",
+      "copy_code": "Copiați codul",
+      "expired": "Expirat",
+      "copy_code_success": "Cod copiat cu succes",
+      "print_gift_card": "presa"
+    }
+  },
+  "gj_calculator": {
+    "personalizzato": {
+      "energy-cost": "Costul energiei (c\/KWh)",
+      "pollution-rate": "Poluare pe litru (CO²g\/litru)",
+      "t_cold": "Temperatura (rece) (°C)",
+      "t_warm": "Temperatura (fierbinte) (°C)",
+      "cold-water-circuit": "Circuit de apă rece (€\/m³)",
+      "waste-water-cost": "Prețul apei uzate (€\/m³)",
+      "shower-duration": "Durata dușului (minute)",
+      "water-rate": "Debit de apă (l\/min)",
+      "close_popup": "Închide",
+      "GREENJET-l-min": "Economii GREENJET (L\/min)",
+      "GREENJET-saving-perc": "Economii GREENJET (%)"
+    },
+    "allgemein": {
+      "title": "Calculează-ți economiile la casă:",
+      "title_hotel": "Calculați economiile în compania dvs",
+      "inputs": "intrare:",
+      "duschen": "Averse:",
+      "anschluss": "Conexiuni:",
+      "brausekopf": "Cap de dus",
+      "regendusche": "Ploaie de ploaie",
+      "personen": "Membrii familiei:",
+      "personen_2": "oameni pentru duș",
+      "auslastung": "volumul de muncă",
+      "einsparung": "Economii",
+      "hotel": "han",
+      "fitnessstudio": "Sală de gimnastică",
+      "betrieb": "Operațiune",
+      "bad": "baie",
+      "besucher": "Vizitatori pe zi",
+      "termin": "Vom fi bucuroși să efectuăm o măsurătoare fără caracter obligatoriu la locația dvs. și să vă sfătuim:",
+      "termin_button": "Programează o întâlnire pentru consultație"
+    },
+    "heizmittel": {
+      "title": "Medii de încălzire:"
+    },
+    "berechnungsgrundlagen": {
+      "title": "Baza de calcul:",
+      "auslastung": "Capacitate de utilizare:",
+      "duschdauer": "Durata dus:",
+      "wasserdurchfluss": "Flux de apă:"
+    },
+    "result": {
+      "title": "Economii:",
+      "jahreseinsparung": "Economii anuale",
+      "wasser": "Litri de apă",
+      "co2": "Kilograme de CO₂",
+      "anschaffung": "Costuri unice de achiziție",
+      "stueck": "bucată",
+      "gesamt": "total",
+      "amortisationszeit": "Perioada de rambursare:",
+      "amortisation_satz": "Investiția în GREENJET se va amortiza în interior",
+      "ersparnis_10j": "ECONOMII DUPĂ 10 ANI"
+    }
   }
 }
