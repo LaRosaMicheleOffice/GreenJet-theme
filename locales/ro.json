@@ -2313,7 +2313,20 @@
         "replace_payment_method": "Înlocuiește metoda de plată",
         "checkout_card_banner": "Metoda de plată poate fi utilizată numai pentru plățile preautorizate. Nu va apărea la finalizarea comenzii dacă sunteți autentificat la magazin.",
         "default_checkbox": "Setați ca implicit",
-        "default_checkbox_accessibility_label": "Setați această metodă de plată ca prestabilită"
+        "default_checkbox_accessibility_label": "Setați această metodă de plată ca prestabilită",
+        "title": "Detalii metoda de plata",
+        "payment_method_expiring_on": "Expiră pe {{expiryDate}}",
+        "preauthorized_payments": "Plăți preautorizate",
+        "close_payment_modal": "Închide",
+        "close_payment_modal_accessibility_label": "Închideți fereastra modală a detaliilor metodei de plată",
+        "payment_method_not_found_error": "Metoda de plată nu a putut fi găsită",
+        "payment_details_loading": "Se încarcă detaliile metodei de plată",
+        "pre_authorized_payments": "Plăți preautorizate",
+        "total_amount_of_subscription_line_items_left": "și alții {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "total de {{totalItems}} articole, afișând {{totalItemsToDisplay}} articole.",
+        "next_payment_due": "Următoarea plată scade până la {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Editați | ×",
+        "edit_payment_method_button_accessibility_label": "Schimbați metoda de plată care se termină cu {{lastDigits}}"
       },
       "delete_payment_method_button": "Șterge",
       "delete_payment_method_button_accessibility_label": "Ștergeți {{paymentMethodName}}",
@@ -2417,7 +2430,9 @@
       "edit_payment_method_brand_button_accessibility_label": "Editați {{paymentMethodName}}",
       "expiration_warning_button_accessibility_label": "Afișați avertismentele de expirare pentru {{paymentMethodName}} care se termină cu {{lastDigits}}",
       "no_payment_methods_banner": "Nu au fost adăugate metode de plată",
-      "default": "Mod implicit"
+      "default": "Mod implicit",
+      "title": "Metode de plata",
+      "add_payment_method_button": "Adăugați o metodă de plată"
     },
     "B2B": {
       "account_information": {
@@ -2531,10 +2546,147 @@
           },
           "paid": {
             "description": "Comanda se achită integral.",
-            "title": "Plătit"
-          }
+            "title": "Plătit",
+            "title_with_date": "Plătit pe {{date}}"
+          },
+          "pay_now": "Plătește acum",
+          "title": "Starea plății",
+          "pending": {
+            "banner_overdue": {
+              "one": "Plata dvs. întârzie cu {{count}} zi",
+              "other": "Plata dvs. are {{count}} zile întârziere",
+              "many": "Plata dvs. are {{count}} zile întârziere"
+            },
+            "banner_due": {
+              "one": "Plata se face în {{count}} zi",
+              "other": "Plata expiră în {{count}} zile",
+              "many": "Plata expiră în {{count}} zile"
+            },
+            "banner_due_today": "Plata se datorează astăzi",
+            "title": "Plată datorată",
+            "title_with_date": "Plata scadenta pe {{date}}",
+            "description_overdue": "Plata întârzie.",
+            "description_partially_paid": "Comanda a fost parțial plătită. Mai ai un sold rămas.",
+            "description_authorized": "Metoda dvs. de plată va fi taxată la data scadenței; alternativ poți plăti acum.",
+            "title_due_on_receipt": "Plata încă nu scade",
+            "description_due_on_receipt": "Veți primi o factură când plata este scadentă.",
+            "title_due_on_fulfillment": "Plata din cauza evaziunii",
+            "description_due_on_fulfillment": "Plata este datorată atunci când toate articolele din această comandă sunt procesate.",
+            "description_waiting_for_manual_payment": "Comanda va fi marcată ca plătită la primirea plății.",
+            "description_due_on_receipt_partially_paid": "Comanda a fost parțial plătită. Mai ai un sold rămas. Veți primi o factură când plata este scadentă.",
+            "description_due_on_fulfillment_partially_paid": "Comanda a fost parțial plătită. Mai ai un sold rămas. Plata este datorată atunci când toate articolele din această comandă sunt procesate."
+          },
+          "refund": {
+            "title": "Rambursat",
+            "title_with_date": "Rambursat pe {{date}}",
+            "description_full_refund": "Ați primit o rambursare completă pentru această comandă.",
+            "description_single_refund": "Ați primit o rambursare parțială pentru această comandă.",
+            "description_multiple_refunds": "Ați primit rambursări parțiale pentru această comandă."
+          },
+          "canceled": {
+            "title": "Plata anulată",
+            "description": "Nu ați fost taxat."
+          },
+          "pay_now_accessibility_label": "Plătiți acum comanda {{orderName}}"
+        },
+        "subtitle": "Postat pe {{date}}",
+        "title": "Comanda {{name}}",
+        "order_timeline": {
+          "expand_events_label": "Arata detaliile",
+          "expand_events_accessibility_label": "Afișați detaliile comenzilor preliminare",
+          "hide_events_label": "Ascunde detaliile",
+          "hide_events_accessibility_label": "Ascundeți detaliile comenzilor nefinalizate"
         }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Această metodă de plată nu va mai fi disponibilă pentru achizițiile viitoare din această locație.",
+          "description_with_replacement": "Ștergerea acestei metode de plată va afecta plățile preautorizate pentru această locație. Înlocuiți-l cu o metodă alternativă de plată pentru a continua să primiți comenzi viitoare."
+        },
+        "payment_details": {
+          "order_label": "Comanda {{name}}",
+          "draft_label": "Ciornă de comandă {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Adăugați numărul comenzii de achiziție",
+        "add_modal_title": "Adăugați numărul comenzii de achiziție",
+        "cancel": "Anulare",
+        "close_modal_accessibility_label": "Închideți numărul de comandă modal",
+        "discard": "Elimina",
+        "discard_changes_modal_title": "Doriți să eliminați modificările?",
+        "edit_accessibility_label": "Schimbați numărul comenzii de achiziție",
+        "edit_modal_title": "Schimbați numărul comenzii de achiziție",
+        "empty_state": "Fără număr de comandă",
+        "modal_po_number_input_label": "Numărul de ordine de cumpărare",
+        "modal_po_number_input_max_length_error": "Numerele comenzii de achiziție au maximum {{maxLength}} caractere.",
+        "save": "Salvați",
+        "title": "Comanda de achiziție cu numărul {{poNumber}}"
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "A apărut o problemă la ștergerea acestei adrese. Vă rugăm să încercați din nou mai târziu sau să reîmprospătați pagina."
+      },
+      "addresses_loading_issue": {
+        "description": "Eroare de conexiune. Verificați conexiunea la internet și încercați din nou."
+      },
+      "banner_title": {
+        "one": "A apărut o eroare {{count}}",
+        "other": "Au apărut {{count}} erori",
+        "many": "Au apărut {{count}} erori"
+      },
+      "failed_address_creation": {
+        "description": "A apărut o problemă la crearea adresei. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet."
+      },
+      "failed_address_update": {
+        "description": "A apărut o problemă la actualizarea adresei. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Conectați-vă la alt cont",
+        "description": "Nu sunteți înregistrat ca client B2B la {{shopName}}",
+        "title": "Fără acces"
+      },
+      "no_access_to_locations": {
+        "description": "Nu aveți acces la nicio locație"
+      },
+      "not_found": {
+        "description": "Verificați adresa URL sau încercați din nou peste câteva minute.",
+        "title": "A apărut o problemă la încărcarea acestei pagini"
+      },
+      "order_not_found": {
+        "description": "Această comandă nu există sau nu aveți permisiunea de a o vizualiza.",
+        "title": "Comanda nu a fost găsită"
+      },
+      "profile_update_error": {
+        "description": "A apărut o problemă la actualizarea profilului dvs. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet."
+      },
+      "retry_action_label": "Încearcă din nou",
+      "load_orders_error": {
+        "title": "Nu se pot încărca comenzile",
+        "description": "Vă rugăm să încercați din nou sau să reveniți mai târziu.",
+        "retry_button": "Încearcă din nou"
+      },
+      "load_paypal_error": {
+        "description": "A apărut o problemă la încărcarea PayPal. Încearcă din nou."
+      },
+      "load_extension_error": {
+        "title": "Greşeală",
+        "description": "Vă rugăm să reîmprospătați pagina sau încercați din nou peste câteva minute.",
+        "refresh_button": "Reîmprospătare pagină"
+      },
+      "logout_everywhere": {
+        "description": "A apărut o eroare la deconectare. Încearcă din nou."
+      }
+    },
+    "shop_policies": {
+      "legal_notice": "Informații legale",
+      "privacy_policy": "Politica de confidențialitate",
+      "refund_policy": "Politica de rambursare",
+      "shipping_policy": "Informații despre livrare",
+      "subscription_policy": "Informații despre abonament",
+      "terms_of_sale": "Termeni si conditii de vanzare",
+      "terms_of_service": "Termeni și condiții de serviciu"
     }
   },
   "sections": {
