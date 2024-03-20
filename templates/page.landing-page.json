@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "settings": {
+        "bgcolor": "#f5efec",
+        "textcolor": "#181818"
+      }
+    }
+  },
+  "order": [
+    "main-page"
+  ]
+}
