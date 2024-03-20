@@ -610,7 +610,27 @@
       },
       "payment_gateway": {
         "fixed_payment_label": "Plata este așteptată pe {{dueDate}} .",
-        "fixed_direct_payment_terms": "Cardul dvs. va fi debitat pe {{dueDate}} ."
+        "fixed_direct_payment_terms": "Cardul dvs. va fi debitat pe {{dueDate}} .",
+        "credit_card_label": "Card de credit",
+        "bank_deposit_label": "depozit bancar",
+        "cash_on_delivery_label": "marcă",
+        "money_order_label": "ordin postal",
+        "debit_card_label": "ATM",
+        "deferred_payment_label": "Alegeți metoda de plată mai târziu",
+        "generic_payment_terms": "Ați acceptat termenii {{translatedName}} . Plata dvs. va fi scadentă pe {{dueDate}} .",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} la un cont cu acces la această locație pentru a adăuga sau a utiliza metodele de plată salvate.",
+            "link": "Log in"
+          }
+        },
+        "direct_payment_terms": "Ați acceptat termenii {{translatedName}} . Cardul dvs. va fi debitat pe {{dueDate}} .",
+        "order_due_on_fulfillment_choose_later": "Plata va fi datorată după procesarea comenzii.",
+        "order_due_on_fulfillment_payment": "Cardul dumneavoastră va fi taxat după procesarea comenzii.",
+        "draft_order_payment_due_later_no_terms": "Plata va fi datorată după confirmarea comenzii dumneavoastră.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Cardul dumneavoastră va fi taxat după confirmarea comenzii.",
+        "draft_order_payment_due_later_terms": "Veți accepta termenii {{translatedName}} odată ce comanda dvs. este confirmată.",
+        "draft_order_payment_due_on_fulfillment": "Plata va fi datorată după confirmarea și procesarea comenzii."
       },
       "thank_you": {
         "title": "Multumesc pentru cumparaturile facute!",
@@ -1133,6 +1153,108 @@
         "footer": {
           "heading": "Nu actualizați această pagină: actualizarea va avea loc automat."
         }
+      },
+      "payment_errors": {
+        "payment_processing": "Plata dvs. nu a putut fi procesată din motive tehnice. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "paypal_zero_amount": "Nu puteți utiliza PayPal pentru %{amount} comenzi. Verificați dacă comanda dvs. este corectă și verificați fără PayPal.",
+        "paypal_invalid_token": "PayPal nu este disponibil. Vă rugăm să încercați din nou sau să utilizați o altă opțiune de plată.",
+        "pay_later_failed": "A apărut o eroare la procesarea plății dvs. Plătiți mai târziu. Vă rugăm să alegeți o altă metodă de plată și să încercați din nou.",
+        "three_d_secure_failed": "Nu se poate verifica plata. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "three_d_secure_throttled": "Prea multe incercari; vă rugăm să așteptați înainte de a încerca din nou",
+        "subscription_agreement_blank": "Pentru a achiziționa un abonament este necesar să salvați informațiile de plată. Pentru a continua, acordați-vă consimțământul sau eliminați abonamentele din comandă.",
+        "three_d_secure_failed_duplicate": "Autentificarea cardului de credit 3D Secure a eșuat, deoarece o alta este deja în desfășurare.",
+        "insufficient_funds": "Plata facturii a fost respinsă din cauza fondurilor insuficiente. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "payment_processing_no_retry": "Plata dvs. nu a putut fi procesată din motive tehnice. Încercați o altă metodă de plată.",
+        "checkout_amount_changed": "Plata dvs. nu poate fi procesată deoarece suma datorată la finalizare s-a modificat. Vă rugăm să verificați comanda și să încercați din nou.",
+        "deferred_payment_not_allowed": "Plățile amânate nu sunt permise. Vă rugăm să verificați comanda și să încercați din nou.",
+        "deferred_payment_required": "Această comandă necesită plata amânată. Vă rugăm să verificați comanda și să încercați din nou.",
+        "deferred_amount_changed": "Plata dvs. nu poate fi procesată deoarece suma plății amânate s-a modificat. Vă rugăm să verificați comanda și să încercați din nou.",
+        "deferred_date_changed": "Plata dvs. nu poate fi procesată deoarece data plății amânate s-a schimbat. Vă rugăm să verificați comanda și să încercați din nou.",
+        "multiple_deferred_payment_not_allowed": "Este permisă o singură plată amânată per cerere. Verificați solicitarea și încercați din nou.",
+        "shipping_must_match_billing": "Adresa de facturare trebuie să se potrivească cu adresa de expediere. Vă rugăm să utilizați o altă metodă de plată.",
+        "decision_rule_block": "A apărut o problemă la procesarea plății dvs. Contactați proprietarul magazinului.",
+        "pick_up_card": "Cardul tău a fost refuzat. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "cannot_verify": "Nu se pot verifica informațiile de plată. Vă rugăm să verificați detaliile cardului dvs. și să încercați din nou.",
+        "invalid_number": "Vă rugăm să introduceți un număr valid de card",
+        "invalid_expiry_date": "Va rugam introduceti o Data de expirare valida",
+        "invalid_cvc": "Vă rugăm să introduceți un cod de securitate valid",
+        "expired_card": "Cardul a expirat. Vă rugăm să utilizați o altă metodă de plată.",
+        "card_declined": "Cardul tău a fost refuzat. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "processing_error": "A apărut o problemă la procesarea plății dvs. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "call_issuer": "Cardul tău a fost refuzat. Utilizați o altă metodă de plată sau contactați banca pentru mai multe informații.",
+        "test_mode_live_card": "Acest magazin nu poate accepta comenzi sau plăți reale.",
+        "transient_error": "A apărut o problemă la procesarea plății dvs. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
+        "missing_shipping_address": "Plata dvs. nu a putut fi procesată deoarece adresa dvs. de expediere lipsește. Adăugați adresa și încercați din nou.",
+        "invalid_shipping_address": "Plata dvs. nu a putut fi procesată deoarece nu am putut găsi adresa dvs. de expediere. Vă rugăm să verificați adresa și să încercați din nou.",
+        "successful_offsite_with_gift_card_error": "A apărut o problemă la procesarea plății cu cardul cadou. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "development_store_order_limit_reached": "Ați atins limita de comenzi în magazinul de dezvoltare cu acest furnizor de plăți. Pentru a plasa o altă comandă, va trebui să utilizați un canal de plată de testare. Aflați mai multe la %{development_store_order_testing_docs_link}.",
+        "development_store_with_order_limit": "Pentru a plasa o comandă de testare, va trebui să utilizați un canal de plată de testare. Aflați mai multe la %{development_store_order_testing_docs_link}.",
+        "development_store_order_testing_docs_link": "testarea comenzilor în magazinele de dezvoltare",
+        "method_not_available": "Metoda de plată solicitată nu este disponibilă.",
+        "available_methods_updated": "Metodele de plată disponibile au fost actualizate.",
+        "selected_payment_method": "A apărut o problemă cu metoda de plată selectată. Nu ați fost taxat. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+        "payment_method_billing_address": "Există o problemă cu adresa de facturare a metodei de plată selectate. Nu ai fost taxat cu nimic. Vă rugăm să vă verificați adresa și să încercați din nou sau să utilizați o altă metodă de plată.",
+        "processing_error_checkout_as_guest": "A apărut o problemă la procesarea plății dvs. Vă rugăm să încercați din nou cu o altă metodă de plată sau {{checkout_as_guest_link}} .",
+        "amount_too_small": "Suma minimă de plată trebuie să fie mai mare de 0,50 USD. Vă rugăm să încercați din nou cu o sumă mai mare."
+      },
+      "shipping_errors": {
+        "shipping_method": "Opțiunile de livrare pentru comanda dumneavoastră s-au schimbat. Verificați selecția dvs. și încercați din nou.",
+        "shipping_method_not_available": "Coșul tău a fost actualizat și articolele adăugate nu pot fi expediate la adresa ta. Eliminați articole pentru a finaliza comanda.",
+        "shipping_method_not_available_generic": {
+          "one": "Comanda nu poate fi expediată la adresa selectată. Verificați adresa pentru a vă asigura că este corectă și încercați din nou sau selectați o altă adresă.",
+          "other": "Unele articole din coșul dvs. nu pot fi expediate la adresa pe care ați introdus-o. Verificați adresa pentru a vă asigura că este corectă și încercați din nou sau selectați o altă adresă.",
+          "many": "Unele articole din coșul dvs. nu pot fi expediate la adresa pe care ați introdus-o. Verificați adresa pentru a vă asigura că este corectă și încercați din nou sau selectați o altă adresă."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Articolul adăugat nu este expediat la locația dvs. Scoateți-l pentru a verifica sau contacta magazinul.",
+          "other": "Unul sau mai multe articole adăugate nu sunt expediate în locația dvs. Eliminați-le pentru a verifica sau contacta magazinul.",
+          "many": "Unul sau mai multe articole adăugate nu sunt expediate în locația dvs. Eliminați-le pentru a verifica sau contacta magazinul."
+        },
+        "payment_method_not_supported": "Nu puteți utiliza această metodă de plată pentru: %{country}. Vă rugăm să utilizați o altă metodă de plată pentru a expedia în această țară.",
+        "empty_state": "Pentru a vedea metodele de livrare disponibile, introduceți adresa dvs. de expediere.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Articolele din coșul dvs. nu îndeplinesc cerințele de preț sau greutate pentru a fi expediate. Actualizați-vă coșul și încercați din nou.",
+        "title": "Livrarea nu este disponibilă"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Checkout rapid",
+        "or": "SAU",
+        "show_more_options": "Afișați mai multe opțiuni",
+        "hide_more_options": "Ascunde mai multe opțiuni"
+      },
+      "processing": {
+        "redirecting_page_title": "Se redirecționează…",
+        "redirecting_title": "Se redirecționează…",
+        "redirecting_notice": "Așteptați finalizarea redirecționării.",
+        "complete_your_purchase_title": "Finalizați achiziția",
+        "continue_to_payment_gateway_notice": "Treceți la finalizare pentru a adăuga informațiile dvs. de plată.",
+        "continue_to_payment_gateway_button_label": "Treci la plată",
+        "complete_your_purchase_title_error": "Corectați informațiile de plată",
+        "continue_to_payment_gateway_notice_error": "Nu se pot verifica informațiile de plată.",
+        "continue_to_payment_gateway_button_label_error": "Actualizați informațiile de plată",
+        "page_title": "Procesarea comenzilor",
+        "title": "Procesarea comenzilor",
+        "your_order_has_been_received_title": "Vă mulțumim pentru comandă",
+        "you_will_receive_confirmation": "Primim o mulțime de comenzi în acest moment. Ar trebui să primiți confirmarea prin e-mail sau mesaj în scurt timp. Dacă nu îl primiți într-o oră, vă rugăm să ne anunțați.",
+        "wait": {
+          "short": "Comanda dvs. este in curs de procesare.",
+          "medium": {
+            "one": "Comanda dvs. este in curs de procesare. Timp de așteptare estimat: %{count} minut.",
+            "other": "Comanda dvs. este in curs de procesare. Timp de așteptare estimat: %{count} minute.",
+            "many": "Comanda dvs. este in curs de procesare. Timp de așteptare estimat: %{count} minute."
+          },
+          "long": "Veți primi un e-mail imediat ce comanda dumneavoastră este procesată. În prezent există un volum mare de comenzi.",
+          "no_auto_refresh_html": "Dacă nu sunteți redirecționat automat, %{link}.",
+          "refresh_this_page": "reincarca Pagina"
+        },
+        "you_will_not_be_charged": "Deocamdată nu vei fi taxat",
+        "action_required": "Actiune ceruta"
+      },
+      "failed_payment": {
+        "page_title": "Nu se poate procesa plata",
+        "title": "Nu se poate procesa plata",
+        "payment_not_processed_title": "Nu se poate procesa plata",
+        "payment_not_processed_text": "Nu ai fost taxat. Întoarceți-vă la coș pentru a finaliza achiziția.",
+        "return_to_cart_button_label": "Întoarce-te la coș"
       }
     },
     "store_availability": {
