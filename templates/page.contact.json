@@ -3,17 +3,17 @@
     "main-page": {
       "type": "main-page",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/y8f5e2up.png",
+        "banner": "shopify:\/\/shop_images\/vlc_uvN1Fotgqg.png",
         "bgcolor": "#f5fcff",
-        "textcolor": "#e3eff5"
+        "textcolor": "#fff"
       }
     },
     "main": {
       "type": "contact-page-template",
       "settings": {
         "contact_heading": "Contatti",
-        "phone_heading": "",
-        "phone_number": "",
+        "phone_heading": "Nr telefono",
+        "phone_number": "+39 379 136 5940",
         "email_heading": "email",
         "email": "info@emcconsulting.it",
         "address_heading": "",
