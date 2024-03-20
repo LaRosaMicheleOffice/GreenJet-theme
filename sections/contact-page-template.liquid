@@ -42,6 +42,19 @@
                   {%- endif -%}
                 </div>
               </div>
+              <div class="field">
+                <input
+                type="text"
+                name="customer[Number]"
+                id="RegisterForm-Number"
+                {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
+                autocomplete="family-name"
+                placeholder="Phone Number"
+                >
+                <label for="RegisterForm-Number">
+                Phone Number
+                </label>
+              </div>
               <div class="col-md-12 col-lg-12">
                 <label for="ContactForm-body">{{ 'sections.contact.message' | t }}</label>
                 <div class="form-group">
