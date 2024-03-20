@@ -444,21 +444,6 @@
         "bottom_space_mobile": 30
       }
     },
-    "16571143161c273279": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "frontpage",
-        "products_count": 3,
-        "heading": "I nostri prodotti",
-        "subheading": "Risparmia sulle spese di spedizione!",
-        "collection_heading": "",
-        "collection_desc": "",
-        "top_space_desktop": 80,
-        "bottom_space_desktop": 75,
-        "top_space_mobile": 40,
-        "bottom_space_mobile": 20
-      }
-    },
     "16624469807973c962": {
       "type": "vergleichstabelle",
       "blocks": {
@@ -763,7 +748,6 @@
     "1708540102fade48e6",
     "1662196963c246b272",
     "166265254429354889",
-    "16571143161c273279",
     "16624469807973c962",
     "166219685159fd8837",
     "16622702436ef5b6c3"
