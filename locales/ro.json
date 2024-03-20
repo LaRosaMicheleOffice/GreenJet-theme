@@ -1490,7 +1490,13 @@
         "zero_to_two_hours": "De obicei, gata în 2 ore",
         "two_to_four_hours": "De obicei gata în 4 ore",
         "immediately": "Gata acum pentru colectare",
-        "next_day": "Gata de colectare a doua zi"
+        "next_day": "Gata de colectare a doua zi",
+        "one_hour": "De obicei, gata în 1 oră",
+        "two_hours": "De obicei, gata în 2 ore",
+        "four_hours": "De obicei gata în 4 ore",
+        "twenty_four_hours": "De obicei, gata în 24 de ore",
+        "two_to_four_days": "De obicei, gata în 2-4 zile",
+        "five_or_more_days": "De obicei gata în 5 sau mai multe zile"
       }
     },
     "filters": {
@@ -1683,7 +1689,143 @@
         },
         "transaction_status": {
           "success": "S-a întâmplat",
-          "pending": "In asteptarea"
+          "pending": "In asteptarea",
+          "failure": "A eșuat",
+          "error": "Greşeală"
+        },
+        "cancel_reason": {
+          "declined": "Plata refuzata",
+          "inventory": "Articole nu sunt disponibile",
+          "fraud": "Comanda frauduloasa",
+          "customer": "Comanda modificată\/anulată de către client",
+          "other": "Alte",
+          "many": "Alte",
+          "staff": "Eroare de personal"
+        },
+        "cash_on_delivery": "Ramburs la livrare (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Puteți adăuga numai %{count} %{name} în coș.",
+        "too_many_items_in_cart": "Nu puteți adăuga mai mult %{name} în coș.",
+        "all_items_in_cart": "Toate %{count} %{name} sunt în coș.",
+        "empty_update": "nu puteți actualiza un coș gol",
+        "missing_parameters": "ID de linie sau parametri nevalidi",
+        "generic_error": "Eroare la coș",
+        "too_many_line_items_error": "Coșul nu poate conține mai mult de %{max} articole.",
+        "link_expired": "Linkul a expirat",
+        "link_no_longer_exists": "Link-ul nu mai există.",
+        "stock_problems_html": "Unul sau mai multe articole selectate nu mai sunt disponibile. Aveți la dispoziție un <a href=\"%{link}\">coș de cumpărături actualizat<\/a> .",
+        "changed": "Coșul modificat",
+        "items_changed": "Unul sau mai multe elemente s-au schimbat.",
+        "product_sold_out": "Produsul „%{name}” este deja epuizat.",
+        "variant_not_found": "Nu se poate găsi o variantă",
+        "variant_requires_selling_plan": "O variantă poate fi achiziționată doar cu un plan de vânzări.",
+        "shipping_address_not_required": "Acest coș nu necesită transport",
+        "shipping_address_invalid": "A apărut o problemă la calcularea tarifelor de expediere. Vă rugăm să treceți la finalizarea comenzii pentru a alege o rată de livrare înainte de a finaliza comanda.",
+        "selling_plan_not_applicable": "Imposibil de aplicat planul de vânzări variantei",
+        "selling_plan_not_available_for_company_locations": "O singură achiziție este disponibilă pentru comenzile B2B",
+        "digital_product_not_available_for_company_locations": "Acest articol nu poate fi adăugat la o comandă B2B",
+        "product_not_available": "Produsul nu este disponibil",
+        "less_than_minimum": "Acest articol are un minim de %{min}.",
+        "more_than_maximum": "Acest articol are maximum %{max}.",
+        "not_respect_step": "Puteți adăuga acest articol numai în trepte de %{step}.",
+        "bundle_requires_components": "Nu se poate adăuga pachetul de produse „%{name}” în coș.",
+        "gift_card_with_components_not_supported": "Nu se poate adăuga pachetul de produse „%{name}” în coș.",
+        "bundle_products_not_supported_for_b2b_draft": "Articolele din pachete nu pot fi adăugate la comenzile B2B pentru această locație.",
+        "view_lines_limit_reached": "Rândurile trebuie să fie mai mici de %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "A apărut o eroare în coșul dvs."
+        },
+        "gift_card_price_must_be_greater_than_zero": "Nu se poate adăuga pachetul de produse „%{name}” în coș."
+      },
+      "storefront": {
+        "invalid_password": "Parolă incorectă. Vă rugăm să încercați din nou."
+      },
+      "tags": {
+        "add_articles": "Restricționați căutarea la articolele care conțin și eticheta %{tag}",
+        "add_products": "Limitați selecția la produsele care se potrivesc cu eticheta %{tag}",
+        "remove_articles": "Extindeți-vă căutarea la articole care nu sunt etichetate cu eticheta %{tag}",
+        "remove_products": "Eliminați eticheta %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "S-a adăugat %{delta}",
+          "increment_item": "S-a adăugat %{delta}",
+          "decrement_item": "%{delta} din %{total} eliminat",
+          "decrement_fulfilled_line_item": "%{delta} din %{total} returnat",
+          "decrement_return_line_item": "S-a eliminat %{delta} din returnare"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "Produse",
+      "shopping_cart": "Coșul tău",
+      "account": "Conturi",
+      "create_account": "Creați un cont",
+      "reset_account": "Resetează contul",
+      "addresses": "Adrese",
+      "order": "Comanda %{name}",
+      "search": "Aproape",
+      "collections": "Colecții",
+      "not_found": "Eroare 404 pagina nu a fost găsită",
+      "challenge": "Provocare",
+      "checkpoint": "Puncte de control",
+      "search_results": {
+        "one": "Căutare: %{count} rezultat găsit pentru „%{terms}”",
+        "other": "Căutare: %{count} rezultate găsite pentru „%{terms}”",
+        "many": "Căutare: %{count} rezultate găsite pentru „%{terms}”"
+      },
+      "blog_or_article_with_error": "Eroare: %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "Au fost aplicate %{count} reduceri"
+    },
+    "challenge": {
+      "message": "Pentru a continua, vă rugăm să ne informați că nu sunteți un robot.",
+      "error": "Răspunsul dvs. a fost incorect, vă rugăm să încercați din nou.",
+      "submit_button_text": "Trimite"
+    },
+    "checkpoint": {
+      "message": "Rezolvați Captcha pentru a continua",
+      "error": "Validarea Captcha a eșuat",
+      "submit_button_text": "Trimite"
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Vă mulțumim că v-ați alăturat listei noastre de corespondență.",
+        "disclaimer": "Vă puteți dezabona în orice moment.",
+        "unsubscribe": "Dezabonați-vă"
+      },
+      "unsubscribed": {
+        "confirmation": "V-ați dezabonat de pe lista noastră de corespondență.",
+        "disclaimer": "Nu veți mai primi actualizări de marketing de la noi. Vă puteți înscrie din nou în orice moment.",
+        "preview": "Previzualizați ce vor vedea clienții când se dezabonează."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Ați fost de acord să urmăriți deschiderile de e-mail.<\/b>",
+          "visibility": "Ratele de deschidere a e-mailurilor vor fi raportate anonim. Vom vedea dacă ați deschis un e-mail doar ca parte a ratei generale de deschidere a e-mailului.",
+          "opt_out_html": "Dacă nu doriți să partajați aceste informații, puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">renunța<\/a> la urmărirea deschisă prin e-mail.",
+          "preview_bar": "Previzualizați ce vor vedea clienții atunci când se înscriu pentru a trimite prin e-mail urmărirea deschisă."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Ați ales să renunțați la urmărirea deschiderii e-mailului.<\/b>",
+          "visibility": "Nu vom vedea dacă ne-ați deschis e-mailurile.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Vă înscrieți<\/a> pentru ca deschiderile de e-mail să fie urmărite.",
+          "preview_bar": "Previzualizați ce vor vedea clienții când renunță la urmărirea deschisă a e-mailului."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nu mai urmărim deschiderile de e-mail.<\/b>",
+          "privacy_policy": "De când am trimis acest e-mail, ne-am actualizat politica de confidențialitate și nu mai urmărim deschiderile de e-mail."
+        },
+        "track": {
+          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.<\/b>",
+          "visibility": "Vom vedea dacă ați deschis e-mailul numai în limita totală a ratei de deschidere a e-mailului."
+        },
+        "updated_policy": {
+          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.<\/b>",
+          "visibility": "Ne-am actualizat politica și acum se deschide e-mailul de urmărire. Ratele de deschidere a e-mailurilor vor fi raportate anonim. Vom vedea dacă ați deschis un e-mail numai în limita ratei totale de deschidere a e-mailului.",
+          "opt_out_html": "Dacă nu doriți să partajați aceste informații, vă puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">dezabona<\/a> ."
         }
       }
     }
