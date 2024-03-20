@@ -1056,12 +1056,92 @@
       "auto_complete_title": "Sugestii",
       "billing_address": "Utilizați ca adresă de facturare",
       "cancel": "Anulare"
+    },
+    "payment_method_brands": {
+      "maestro": "Maestru"
+    },
+    "enable_javascript": "Pentru a vă vizualiza contul, activați JavaScript în setările browserului sau conectați-vă prin alt browser.",
+    "ui_components": {
+      "closeNotification": "Închide",
+      "expandNotification": "Vezi mai mult",
+      "closeModal": "Închide",
+      "submit": "Trimite",
+      "processing": "In prelucrare…",
+      "increase": "Creșteți {{type}}",
+      "decrease": "Reduceți {{type}}",
+      "minimumReached": "S-a atins minimul de {{value}}",
+      "maximumReached": "Maximul de {{value}} a fost atins",
+      "january": "ianuarie",
+      "february": "februarie",
+      "march": "Martie",
+      "april": "Aprilie",
+      "may": "Mai",
+      "june": "iunie",
+      "july": "iulie",
+      "august": "August",
+      "september": "Septembrie",
+      "october": "octombrie",
+      "november": "noiembrie",
+      "december": "decembrie",
+      "monday": "luni",
+      "tuesday": "marţi",
+      "wednesday": "miercuri",
+      "thursday": "joi",
+      "friday": "vineri",
+      "saturday": "sâmbătă",
+      "sunday": "duminică",
+      "wednesdayAbbreviation": "mier",
+      "thursdayAbbreviation": "joi",
+      "fridayAbbreviation": "vineri",
+      "saturdayAbbreviation": "sat",
+      "sundayAbbreviation": "Soare",
+      "showNextMonth": "Afișați luna viitoare, {{month}} {{year}}",
+      "showPreviousMonth": "Afișați luna anterioară, {{month}} {{year}}",
+      "rangeStart": "Începutul intervalului",
+      "inRange": "Interval",
+      "rangeEnd": "Sfârșitul intervalului",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} articol disponibil",
+        "other": "{{count}} articole disponibile",
+        "many": "{{count}} articole disponibile"
+      },
+      "removeItem": "Eliminați {{label}}",
+      "removeTag": "Eliminați etichetele",
+      "month": {
+        "one": "lună",
+        "other": "luni",
+        "many": "luni"
+      }
+    },
+    "profile_preview_bar": {
+      "customize_button": "Personalizați",
+      "hide_bar": "Ascunde bara",
+      "navigate_to_admin": "Accesați panoul de control",
+      "previewing": "Previzualizați:",
+      "saved_at": "Se salvează: {{date}} la {{time}}",
+      "viewing": "Vizionați:",
+      "not_available": "Datele de profil nu sunt disponibile",
+      "close_preview": "Închide previzualizarea",
+      "actions_button": "Acțiuni"
+    },
+    "settings": {
+      "title": "Setări",
+      "log_out_everywhere": {
+        "title": "Deconectați-vă de la toate sesiunile",
+        "description": "Dacă ați pierdut un dispozitiv sau aveți o problemă de securitate, vă rugăm să deconectați-vă de la toate sesiunile pentru a vă proteja securitatea contului.",
+        "button": "Deconectați-vă de la toate sesiunile",
+        "warning_message": "Acest dispozitiv va fi, de asemenea, deconectat."
+      },
+      "loading_accessibility_message": "Se încarcă pagina de setări"
     }
   },
   "sections": {
     "cart": {
       "headings": {
-        "quantity": "Cantitate"
+        "quantity": "Cantitate",
+        "product": "Produs",
+        "price": "Preț",
+        "total": "Total"
       },
       "update": "Actualizați",
       "login": {
@@ -1076,7 +1156,29 @@
         "button": "Obține citate",
         "error": "Greşeală",
         "not_available": "Nu livrăm către această destinație."
-      }
+      },
+      "title": "Coșul tău",
+      "heading_html": "În geantă <span data-cart-item-count=\"\">{{itemCount}}<\/span> articole",
+      "caption": "Articole din coș",
+      "price_detail": "Detalii pret",
+      "remove_title": "Eliminați {{ title }}",
+      "remove": "A sterge",
+      "subtotal": "Total",
+      "discount": "Reducere",
+      "discount_label": "Cod cupon",
+      "new_subtotal": "Subtotal",
+      "note": "Instrucțiuni speciale pentru vânzător",
+      "note_heading": "Lăsați o notă cu comanda dvs",
+      "checkout": "Câștiguri",
+      "empty": "Căruciorul este gol",
+      "view_cart": "Cart",
+      "payment": "Metode de plata",
+      "cart_error": "A apărut o eroare la actualizarea coșului. Vă rugăm să încercați din nou.",
+      "cart_quantity_error_html": "Puteți adăuga în coș numai {{ quantity }} din acest articol.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">transportul<\/a> sunt calculate la finalizare",
+      "taxes_included_but_shipping_at_checkout": "Taxa inclusă și transportul calculat la finalizare",
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Livrare<\/a> calculată la checkout.",
+      "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la finalizare"
     },
     "footer": {
       "payment": "Metode de plata"
@@ -1135,6 +1237,17 @@
     },
     "localization": {
       "language_label": "A FACE"
+    },
+    "announcement": {
+      "heading": "Anunţ",
+      "close": "Anunț de închidere"
+    },
+    "header": {
+      "menu": "Meniul",
+      "cart_count": {
+        "one": "{{ count }} articol",
+        "other": "{{ count }} articole"
+      }
     }
   },
   "general": {
