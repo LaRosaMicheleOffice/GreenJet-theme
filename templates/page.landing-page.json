@@ -189,6 +189,55 @@
         "bottom_space_mobile": 30
       }
     },
+    "image_with_text_dVmMtA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PTFmGh": {
+          "type": "heading",
+          "settings": {
+            "heading": "È stato dichiarato lo stato di calamità naturale"
+          }
+        },
+        "text_6U6TaD": {
+          "type": "text",
+          "settings": {
+            "content": "<p>In risposta alla grave siccità che ha colpito l'intero Paese, la nostra tecnologia innovativa consente di <strong>risparmiare fino al 66%<\/strong> dell'acqua che altrimenti andrebbe sprecata.<\/p>"
+          }
+        },
+        "icon_with_text_xxpq8p": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "global",
+            "svg_url": "",
+            "heading": "L'emergenza di agire",
+            "content": "<p>L'importanza della gestione dell'acqua non è mai stata così critica. Le comunità di tutta Italia ne risentono, dovendo affrontare sfide anche per quanto riguarda la disponibilità di acqua potabile. È chiaro: <strong>OGNI GOCCIA CONTA<\/strong>. GREENJET è la nostra risposta a questa urgente richiesta di conservare l'acqua, offrendo una soluzione pratica e immediata per tutte le famiglie.<\/p>"
+          }
+        },
+        "icon_with_text_HWGqPQ": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shipping",
+            "svg_url": "",
+            "heading": "Come richiedere il tuo greenjet",
+            "content": "<p>To provide clients insight into your brand, pair words with any image to introduce a new campaign.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PTFmGh",
+        "text_6U6TaD",
+        "icon_with_text_xxpq8p",
+        "icon_with_text_HWGqPQ"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/npfe8p54.png",
+        "image_alignment": "left",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
     "1657114306ddec8d35": {
       "type": "featured-product",
       "blocks": {
@@ -722,6 +771,7 @@
     "slider_PwkFpW",
     "1657114339018f27d3",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
+    "image_with_text_dVmMtA",
     "1657114306ddec8d35",
     "1708540102fade48e6",
     "1662195553963b460f",
