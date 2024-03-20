@@ -1,0 +1,367 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " Și ",
+      "last_word_connector": "Și "
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Verifică",
+        "error_page_title": "Greşeală",
+        "skip_to_content": "Sari la conținut",
+        "breadcrumb": "Calea de navigare",
+        "continue_button_label": "Continuă",
+        "complete_purchase_button_label": "Comanda completa",
+        "pay_now_button_label": "Plătește acum",
+        "authenticate_purchase_button_label": "Autentificați plata",
+        "edit_link_label": "Editați | ×",
+        "all_rights_reserved": "Toate drepturile rezervate %{shop_name}",
+        "print_policies_link_label": "presa",
+        "cart": "Cart",
+        "close_modal_label": "Închide",
+        "close_notice_label": "Închide",
+        "expand_notice_label": "Vezi mai mult",
+        "continue_to_shipping_method": "Du-te la expediere",
+        "continue_to_payment_method": "Treci la plată",
+        "continue_to_review": "verifica-ti comanda",
+        "back_to_cart": "Întoarce-te la coș",
+        "back_to_contact_information": "Înapoi la informații",
+        "back_to_shipping_method": "Înapoi la expediere",
+        "back_to_payment_method": "Întoarcerea la plată",
+        "choose_shipping_method": "Alegeți o metodă de livrare",
+        "choose_payment_method": "Alegeți o metodă de plată",
+        "choose_billing_address": "Alegeți adresa dvs. de facturare",
+        "contact_us_html": "Schimbați adresa de facturare",
+        "autocomplete_title": "Sugestii",
+        "autocomplete_single_item": "1 articol disponibil",
+        "autocomplete_multi_item": "{{number}} articole disponibile",
+        "autocomplete_close": "Închideți sugestiile",
+        "forwarding_indicator": {
+          "new_window": "Se deschide într-o fereastră nouă.",
+          "external": "Deschide un site extern.",
+          "external_and_new_window": "Deschide un site extern într-o fereastră nouă."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Verificați"
+        },
+        "tooltip_accessibility_label": "Mai multe informatii",
+        "errors": {
+          "session_identifier_not_unique_error": "A apărut o eroare la comanda dvs., vă rugăm să încercați să verificați din nou.",
+          "line_item_limit_reached": "Numărul maxim de intrări atins.",
+          "only_empty_terms_accepted": "Această politică acceptă doar termeni necompleți.",
+          "session_is_already_finished": "Această sesiune de plată a fost deja finalizată.",
+          "merchandise": {
+            "only_value_constraint": "În introducerea mărfurilor sunt permise doar valori exacte.",
+            "merchandise_not_found": "Produsul nu a fost găsit.",
+            "merchandise_variant_not_found": "Varianta de produs nu a fost găsită.",
+            "merchandise_not_applicable": "Nu se poate achiziționa varianta de produs.",
+            "bundle_products_not_supported_for_b2b": "Articolele din pachete nu pot fi adăugate la comenzile B2B pentru această locație.",
+            "gift_card_quantity_mismatch": "Când specificați codurile cardului cadou, cantitatea articolului și numărul codurilor cardului cadou trebuie să se potrivească.",
+            "gift_card_not_supported": "Cardurile cadou nu sunt acceptate la această casă.",
+            "gift_card_not_unique": "Voucherul cadou cu codul {{code}} este prezent de mai multe ori în această casă. Codurile sunt formatate înainte de comparare.",
+            "gift_card_used": "Codul cardului cadou {{code}} este deja atribuit unui card cadou. Codurile sunt formatate înainte de comparare.",
+            "gift_card_invalid": "Codul cardului cadou {{code}} este nevalid.",
+            "gift_card_code_changed": "Codul cardului cadou {{proposed_code}} a fost modificat în {{formatted_code}} pentru a respecta regulile de formatare.",
+            "gift_card_with_attributes_not_supported": "Cardurile cadou cu atribute personalizate nu sunt acceptate la această finalizare.",
+            "gift_card_with_components_not_supported": "Cardurile cadou cu componente nu sunt acceptate la această casă.",
+            "selling_plan_mismatch": "Abonamentul dvs. a fost actualizat.",
+            "selling_plan_not_supported": "Abonamentele nu sunt acceptate.",
+            "selling_plan_not_supported_b2b": "Abonamentele nu sunt acceptate pentru plata B2B.",
+            "price_mismatch": "Prețul propus anterior pentru acest produs a fost nevalid și a fost actualizat.",
+            "inventory_not_found": "Nu s-a găsit stoc pentru această marfă.",
+            "product_not_published": "Produs nepublicat.",
+            "duplicated_stable_id": "Această intrare de marfă are același ID stabil ca o altă intrare.",
+            "minimum_quantity_not_met": "Cantitatea acestor bunuri nu îndeplinește cantitatea minimă de {{min}} necesară.",
+            "maximum_quantity_exceeded": "Cantitatea acestei mărfuri nu întrunește cantitatea maximă permisă de {{max}} .",
+            "quantity_increment_not_met": "Trebuie să aplicați creșterea cantității de {{increment}} acestui produs.",
+            "quantity_rules_not_met": "Cantitate nevalidă de mărfuri.",
+            "bundle_requires_components": "Acest produs ambalat nu are componente.",
+            "title_too_long": "Titlul mărfurilor este prea lung.",
+            "title_empty": "Titlul mărfurilor este necompletat."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Contactul companiei nu are acces la companie.",
+            "customer_account_required": "Clientul trebuie să se autentifice pentru a continua.",
+            "contact_info_does_not_match_customer_account": "Informațiile specificate despre client trebuie să se potrivească cu contul de client conectat.",
+            "phone_number_does_not_match_expected_pattern": "Numărul de telefon specificat nu se potrivește cu modelul așteptat.",
+            "email_required": "Când mărfurile sunt achiziționate folosind un abonament, este necesar un e-mail.",
+            "email_domain_is_invalid": "Domeniul specificat nu a putut fi rezolvat.",
+            "missing_contact_method": "Metoda de contact validă lipsește.",
+            "checkout_completion_target_is_missing": "Lipsește obiectivul de finalizare a plății.",
+            "invalid_customer_profile": "Profilul de client furnizat este nevalid.",
+            "customer_profile_access_restricted": "Checkout nu are permisiunea de a accesa profilul clientului.",
+            "checkout_completion_target_is_invalid_proc": "Destinație de finalizare a comenzii nevalidă."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Coșul trebuie să aibă un singur articol de livrare.",
+            "wrong_number_of_delivery_lines": "Trebuie specificat un articol de livrare pentru fiecare grup de marfuri.",
+            "external_delivery_promise_error": "Eroare la preluarea unei promisiuni de livrare externă.",
+            "options_instructions_invalid": "Instrucțiunile specificate nu se potrivesc cu modelul așteptat.",
+            "destination_address_required": "Pentru a continua, este necesară o adresă de destinație.",
+            "pickup_points_unavailable": "Punctele de preluare sunt momentan indisponibile.",
+            "local_pickup_delivery_line_detail_changed": "Pentru a continua este necesar să se schimbe strategia actuală de livrare cu colectare locală.",
+            "local_pickup_no_delivery_strategy_available": "Nu s-au găsit strategii locale de livrare pentru ridicare.",
+            "origin_location_id_required": "ID-ul locației de origine este necesar atunci când solicitați metoda de livrare RETAIL.",
+            "invalid_origin_location_id": "Imposibil de găsit o locație care să se potrivească cu ID-ul locației de origine.",
+            "origin_location_id_not_allowed": "Metodele de livrare solicitate nu acceptă un ID de locație sursă.",
+            "auto_fulfill_not_allowed": "Această sesiune nu este autorizată să înlocuiască comportamentul de evaziune.",
+            "auto_fulfill_required": "Îndeplinirea automată este obligatorie atunci când se solicită metoda de livrare RETAIL.",
+            "prefetch_shipping_rates_used": "Tarifele de expediere prestabilite nu trebuie să returneze niciodată tarifele.",
+            "fulfillment_constraints_not_satisfied": "Una sau mai multe constrângeri de îndeplinire nu au fost respectate.",
+            "must_fulfill_from_constraint_not_satisfied": "Constrângerile de îndeplinire nu au fost îndeplinite deoarece articolele nu au putut fi îndeplinite din locațiile solicitate.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Constrângerile de îndeplinire nu au fost respectate deoarece articolele nu pot fi îndeplinite din aceeași locație.",
+            "delivery_strategy_conditions_not_satisfied": "Sunt disponibile strategii de livrare pentru această locație, dar condițiile acestora nu sunt îndeplinite.",
+            "out_of_stock_at_origin_location": "Fără escorte la locul de origine.",
+            "invalid_signature": "Semnătura nu este valabilă pentru reducere."
+          }
+        },
+        "choose_delivery_strategy": "Alegeți o metodă de livrare",
+        "autocomplete_zero_item": "Nu există articole disponibile",
+        "autocomplete_powered_by_google": "Funcționat de tehnologia {{brandName}}",
+        "submit": "Trimite",
+        "processing": "In prelucrare…",
+        "stepper": {
+          "increase": "Creșteți {{type}}",
+          "decrease": "Reduceți {{type}}",
+          "minimum_reached": "S-a atins minimul de {{value}}",
+          "maximum_reached": "Maximul de {{value}} a fost atins"
+        },
+        "remove_item": "Eliminați %{label}",
+        "remove_tag": "Eliminați etichetele",
+        "dates": {
+          "weekdays": {
+            "monday": "luni",
+            "tuesday": "marţi",
+            "wednesday": "miercuri",
+            "thursday": "joi",
+            "friday": "vineri",
+            "saturday": "sâmbătă",
+            "sunday": "duminică"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "mier",
+            "thursday": "joi",
+            "friday": "vineri",
+            "saturday": "sat",
+            "sunday": "Soare"
+          },
+          "months": {
+            "january": "ianuarie",
+            "february": "februarie",
+            "march": "Martie",
+            "april": "Aprilie",
+            "june": "iunie",
+            "july": "iulie",
+            "august": "August",
+            "september": "Septembrie",
+            "october": "octombrie",
+            "november": "noiembrie",
+            "december": "decembrie"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Afișați luna anterioară, {{month}} {{year}}",
+          "show_next_month": "Afișați luna viitoare, {{month}} {{year}}",
+          "range_start": "Începutul intervalului",
+          "in_range": "Interval",
+          "range_end": "Sfârșitul intervalului"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Evidențiator de grupare {{number}}",
+            "other": "Se grupează {{number}} elemente de evidențiere",
+            "many": "Se grupează {{number}} elemente de evidențiere"
+          }
+        }
+      },
+      "contact": {
+        "title": "informație",
+        "address_title": "Abordare",
+        "delivery_option_title": "Metoda de livrare",
+        "contact_method_title": "Contacte",
+        "email_label": "E-mail",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "E-mail sau număr de telefon mobil",
+        "email_or_phone_placeholder": "E-mail sau număr de telefon mobil",
+        "stored_addresses_label": "Adrese stocate",
+        "new_address_label": "Utilizați o nouă adresă",
+        "first_name_label": "Nume",
+        "optional_first_name_label": "Nume (opțional)",
+        "last_name_label": "Nume de familie",
+        "company_label": "Agenţie",
+        "optional_company_label": "companie (optional)",
+        "address1_label": "Abordare",
+        "address2_label": "Intern",
+        "optional_address2_label": "Interior, scara etc. (optional)",
+        "city_label": "Oraș",
+        "country_label": "Țara\/Regiune",
+        "country_code": "Cod de țară\/regiune",
+        "province_label": "Provincie",
+        "province_placeholder": "Provincie",
+        "county_label": "judetul",
+        "county_placeholder": "judetul",
+        "state_label": "Stat",
+        "state_placeholder": "Stat",
+        "region_label": "Zona geografica",
+        "region_placeholder": "Zona geografica",
+        "prefecture_label": "Prefectura",
+        "prefecture_placeholder": "Prefectura",
+        "governorate_label": "Guvernator",
+        "governorate_placeholder": "Guvernator",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "state_and_territory_label": "Stat\/Teritoriu",
+        "state_and_territory_placeholder": "Stat\/Teritoriu",
+        "phone_label": "Telefon",
+        "optional_phone_label": "Telefon (optional)",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "În cazul în care trebuie să vă contactăm cu privire la comanda dumneavoastră",
+        "zip_code_label": "COD POȘTAL",
+        "zip_code_placeholder": "COD POȘTAL",
+        "postal_code_label": "COD POȘTAL",
+        "postal_code_placeholder": "COD POȘTAL",
+        "postcode_label": "Cod poștal",
+        "postcode_placeholder": "Cod poștal",
+        "pincode_label": "Cod PIN",
+        "pincode_placeholder": "Cod PIN",
+        "region_none": "Nimic selectat",
+        "civic_number_warning": "Adăugați un număr de casă, dacă există",
+        "optional_last_name_label": "Nume (opțional)",
+        "optional_recipient_label": "În atenția (opțional)",
+        "different_shipping_address_label": "Expediați la o altă adresă",
+        "different_shipping_address_text": "Vă rugăm să utilizați adresa temporară pentru această comandă"
+      },
+      "order_summary": {
+        "group_title_label": "Parte din „%{group_title}”",
+        "discount_title_stacking": {
+          "one": "Reducere",
+          "other": "Reduceri",
+          "many": "Reduceri"
+        },
+        "discount_order_stacking": {
+          "one": "Reducere la comanda",
+          "other": "Reduceri la comanda",
+          "many": "Reduceri la comanda"
+        },
+        "price_per_item": {
+          "accessibility_label": "%{price} per articol",
+          "label": "%{pretul fiecaruia"
+        },
+        "updated_shipping_method": "Actualizați metoda de expediere: %{shipping_method}",
+        "discount_not_found": "Nu se poate găsi o reducere validă care să se potrivească cu codul introdus",
+        "total_savings": "economii totale",
+        "return_restocking_fee_label": "Taxă de restocare",
+        "return_shipping_fee_label": "Transport de retur",
+        "enter_shipping_address": "Introdu adresa de livrare",
+        "shipping_discount_title": "Reducere de transport",
+        "discount_code_applied": "Cod de reducere aplicat",
+        "gift_card_applied": "Voucher cadou aplicat",
+        "duties_included_label": "Suma totală include toate taxele și taxele vamale aplicabile, fără costuri suplimentare la livrare"
+      },
+      "shipping": {
+        "title": "Livrare",
+        "shipping_method_title": "Metode de expediere",
+        "waiting_on_rate_notice": "Tarifele de expediere disponibile sunt în curs de recuperare...",
+        "waiting_on_pickup_location_notice": "Achiziția locurilor de colectare disponibile este în curs...",
+        "no_rates_for_cart_or_destination_notice": "Nu există metode de livrare disponibile pentru coșul sau adresa dvs",
+        "no_pickup_location_notice": "Cel puțin unul dintre produsele dvs. nu este disponibil pentru colectare",
+        "no_rates_for_country_notice": "Nu s-au găsit tarife de expediere pentru această adresă.",
+        "no_rates_contact_notice": "Contactați-ne pentru mai multe informații",
+        "free_rate_label": "Gratuit",
+        "cheapest_rate_label": "Cele mai ieftine",
+        "please_enter_your_shipping_information_notice": "Introduceți informațiile de expediere.",
+        "estimated_delivery_date": {
+          "one": "%{count} zi lucrătoare",
+          "other": "%{count} zile lucrătoare",
+          "many": "%{count} zile lucrătoare"
+        },
+        "estimated_delivery_date_range": "De la %{minimum} la %{maximum} zile lucrătoare",
+        "shipping_line_phone_label": "Număr de mobil (câmp obligatoriu)",
+        "shipping_line_phone": "Acest număr poate fi folosit de curier pentru a vă contacta",
+        "other_method": {
+          "zero": "Alte metode de expediere nu sunt disponibile",
+          "one": "%{count} altă metodă disponibilă a",
+          "other": "%{count} alte metode disponibile începând de la",
+          "many": "%{count} alte metode disponibile începând de la"
+        },
+        "shipping_rate_discounted_amount": "Înainte: %{original_amount}. Acum: %{amount}",
+        "shipping_line_delivery_phone": "Ei vă pot contacta pentru a vă oferi actualizări privind livrarea.",
+        "optional_shipping_line_delivery_instructions_label": "Instructiuni de livrare (optional)",
+        "shipping_line_delivery_phone_label": "Număr de telefon",
+        "shipping_line_delivery_instructions": "Introduceți informațiile necesare, cum ar fi codurile de deschidere a ușilor sau instrucțiunile de livrare.",
+        "local_delivery": "Livrare locală",
+        "subscription_shipping": "Livrare prin abonament",
+        "shipping_method_one_time_purchase_group_title": "Achiziție unică",
+        "shipping_method_subscription_group_title": "Abonament",
+        "one_time_purchase_shipping": "Livrare unică",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "pentru %{count} livrare",
+            "other": "pentru %{count} livrări",
+            "many": "pentru %{count} livrări"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "în fiecare zi",
+              "other": "la fiecare %{count} zile",
+              "many": "la fiecare %{count} zile"
+            },
+            "week": {
+              "one": "în fiecare săptămână",
+              "other": "la fiecare %{count} săptămâni",
+              "many": "la fiecare %{count} săptămâni"
+            },
+            "month": {
+              "one": "in fiecare luna",
+              "other": "la fiecare %{count} luni",
+              "many": "la fiecare %{count} luni"
+            },
+            "year": {
+              "one": "in fiecare an",
+              "other": "la fiecare %{count} ani",
+              "many": "la fiecare %{count} ani"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per livrare",
+          "prepaid_shipping_price_label": "%{shipping_price} per livrare pentru %{delivery_interval_count}",
+          "initial_order_discounted": "Primul cost de expediere %{discounted_shipping_cost}, apoi %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primul cost de livrare %{discounted_shipping_price}\/%{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency}, apoi %{shipping_price}\/%{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), apoi %{shipping_price}\/%{billing_cycle}",
+          "shipping_price_included": "Inclus",
+          "recurring_order_shipping_price": "urmat de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Inclus pentru prima comandă, după prețul de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pentru livrare), după prețul de %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Prima comandă gratuită",
+            "other": "Primele %{count} comenzi gratuite",
+            "many": "Primele %{count} comenzi gratuite"
+          },
+          "free_for_first_n_order": {
+            "one": "Pentru prima comandă",
+            "other": "Pentru primele %{count} comenzi",
+            "many": "Pentru primele %{count} comenzi"
+          }
+        },
+        "estimated_delivery_time": "Livrare estimată la %{time}",
+        "estimated_delivery_time_range": "Interval de livrare estimat: %{min_time}–%{max_time}",
+        "arrives_time": "Sosește la %{time}",
+        "arrives_time_range": "Interval de sosire: %{min_time}–%{max_time}",
+        "estimated_time": "Livrare estimată: %{time}",
+        "estimated_time_range": "Livrare estimată: %{min_time} - %{max_time}",
+        "subscription_local_delivery": "Livrare abonament local",
+        "subscription_pickup": "Retragerea abonamentului",
+        "delivery_today": "Livrare în aceeași zi: %{time}",
+        "delivery_tomorrow": "Livrare în ziua următoare: %{time}",
+        "two_day_delivery": "Livrare în două zile %{time}",
+        "delivery": "Timpul de livrare}",
+        "address2_add_label": "Adăugați interior, scară etc.",
+        "duties_and_taxes_title": "Taxe și impozite",
+        "shipping_information_required_notice": "Sunt necesare informații de livrare. {{link}} .",
+        "shipping_information_redirect_link": "Introduceți informațiile dvs. aici",
+        "loading_progressive_rates": "Se caută alte tarife în curs..."
+      }
+    }
+  }
+}
