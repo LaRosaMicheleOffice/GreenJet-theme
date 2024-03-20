@@ -796,7 +796,141 @@
     "collections": {
       "sorting": {
         "manual": "În prim-plan",
-        "best_selling": "cel mai vândut"
+        "best_selling": "cel mai vândut",
+        "az": "În ordine alfabetică, AZ",
+        "za": "În ordine alfabetică, ZA",
+        "price_ascending": "Preț în creștere",
+        "price_descending": "Preț în scădere",
+        "date_ascending": "Data, de la cel mai puțin la cel mai recent",
+        "date_descending": "Data, de la cea mai recentă la cea mai puțin recentă"
+      }
+    },
+    "errors": {
+      "blank": "nu poate rămâne goală",
+      "credit_card_session_expired": "Autorizarea cardului dvs. de credit a expirat, vă rugăm să reintroduceți informațiile de plată. Nu a fost debitat nimic de pe cardul dvs.",
+      "empty": "nu poate rămâne goală",
+      "invalid_email": "adresa de e-mail trebuie să fie validă",
+      "discount_disabled": "Acest cod de reducere a fost dezactivat",
+      "discount_expired": "Acest cod de reducere nu mai este valabil",
+      "discount_limit_reached": "Acest cod de reducere a atins limita de utilizare",
+      "discount_not_found": "Nu se poate găsi o reducere validă care să se potrivească cu codul introdus",
+      "customer_already_used_once_per_customer_discount_notice": "Acest cod de reducere a atins limita de utilizare",
+      "gift_card_already_applied": "Codul a fost deja aplicat plății",
+      "gift_card_code_invalid": "Cod invalid",
+      "gift_card_currency_mismatch": "Cardul dvs. cadou este în %{gift_card_currency}. Contactați-ne pentru a-l reemite în %{checkout_currency}.",
+      "gift_card_depleted": "Nu mai există fonduri în acest card cadou",
+      "gift_card_disabled": "Cardul cadou nu este valabil",
+      "gift_card_expired": "Voucherul cadou a expirat",
+      "invalid": "nu este valabil",
+      "bad_domain": "conține un nume de domeniu nevalid",
+      "taken": "a fost deja ales",
+      "contains_html_tags": "nu poate conține etichete HTML",
+      "too_short": "este prea scurt (trebuie să conțină cel puțin %{count} caractere)",
+      "too_long": "este prea lung (trebuie să conțină maximum %{count} caractere)",
+      "password_mismatch": "trebuie să fie identică cu parola deja introdusă",
+      "contains_spaces": "începe sau se termină cu spații.",
+      "email_domain_invalid": "furnizorul nu este acceptat",
+      "invalid_for_country": "nu este valabil în %{country}",
+      "invalid_for_country_and_province": "nu este valabil pentru provincia %{province} din %{country}",
+      "invalid_province_in_country": "provincie nevalidă în %{country}",
+      "invalid_state_in_country": "stare nevalidă în %{country}",
+      "invalid_region_in_country": "zonă geografică nevalidă în %{country}",
+      "less_than_or_equal_to": "trebuie să fie mai mic sau egal cu %{count}",
+      "not_supported": "nu este suportat",
+      "full_name_required": "Introduceți numele și prenumele dvs",
+      "invalid_for_card_type": "nu este valabil",
+      "invalid_type": "Ne pare rău, dar nu acceptăm carduri de acest tip",
+      "invalid_format": "formatul este invalid",
+      "expired": "expirat",
+      "invalid_start_date_or_issue_number_for_debit": "Trebuie să introduceți o dată de începere validă sau un număr de emisiune",
+      "invalid_expiry_year": "nu este valabil ca an de expirare",
+      "reset_password_html": "Această adresă de e-mail este deja asociată unui cont. Dacă contul este al tău, îți poți <a href=\"\/account\/login#recover\">reseta parola<\/a>",
+      "verify_email": "Am trimis un e-mail către %{customer_email} - trebuie să faceți clic pe linkul inclus pentru a vă verifica adresa de e-mail.",
+      "blocked_address": "Această locație nu este acceptată.",
+      "product_not_available": "produsul nu a fost publicat pentru acest client.",
+      "shop_404": {
+        "title": "Creează un site de comerț electronic și vinde online! Software de comerț electronic de la Shopify",
+        "heros": {
+          "store_unavailable": "Ne pare rău, acest magazin nu este disponibil momentan.",
+          "store_not_exist": "Acest magazin nu există.",
+          "no_storefront": "Acest magazin nu are încă un site web."
+        },
+        "links": {
+          "explore_other_stores": "Explorați alte magazine",
+          "start_free_trial": "Începe perioada gratuită de testare"
+        },
+        "owner_ctas": {
+          "header": "Sunteți proprietarul magazinului?",
+          "fix_domain": "Finalizați configurarea noii adrese web, accesați %{domain_settings_link}. Faceți clic pe „Conectați domeniul” și introduceți: %{domain}.<br> Dacă întâmpinați probleme la conectarea la magazinul dvs., încercați pagina %{forgot_your_store_link}.",
+          "fix_domain_link_text": "setările domeniului",
+          "forgot_your_store_link_text": "ai uitat magazinul",
+          "add_storefront": "Vă puteți configura site-ul web adăugând canalul magazinului online în %{admin_link}. Dacă întâmpinați probleme la conectarea la magazinul dvs., încercați pagina %{forgot_your_store_link}.",
+          "admin_link_text": "panou de control"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vinde personal",
+            "caption": "Obțineți funcțiile de care aveți nevoie pentru a vă gestiona magazinul fizic, indiferent dacă ați început sau vă extindeți.",
+            "link_text": "Începe perioada gratuită de testare"
+          },
+          "open_a_store": {
+            "header": "Deschideți un nou magazin Shopify",
+            "caption": "Începeți o perioadă de încercare gratuită de trei zile, apoi continuați cu 1 USD\/lună pentru următoarele trei luni.",
+            "link_text": "Abonează-te acum"
+          },
+          "editions": {
+            "header": "Consultați edițiile Shopify",
+            "caption": "Cu peste 100 de actualizări ale produselor, veți avea mai multă productivitate, creativitate și eficiență în afaceri decât credeați că este posibil.",
+            "link_text": "Explorați cele mai recente ediții"
+          },
+          "store_owner": {
+            "header": "Sunteți proprietarul magazinului?",
+            "caption": "Întâmpinați probleme la conectarea la magazinul dvs.? Încercați funcția %{forgot_your_store_link}. Dacă doriți să vă reactivați magazinul, contactați %{shopify_support_link}.",
+            "shopify_support_link_text": "Asistență Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Eroare la resetarea parolei",
+        "no_account_found": "Nu a fost găsit niciun cont cu această adresă de e-mail.",
+        "invalid_credentials": "Adresă de e-mail sau parolă incorecte.",
+        "denylisted_reset_password": "Nu ați putut să vă accesați contul deoarece parola dvs. actuală nu este sigură. Veți primi un e-mail pentru a-l actualiza.",
+        "signup_disabled": "Crearea contului de client a fost dezactivată."
+      },
+      "address": {
+        "updated": "Adresa a fost actualizată cu succes.",
+        "error_updating": "Eroare la actualizarea adresei",
+        "created": "Adresă creată cu succes",
+        "error_creating": "Eroare la crearea adresei.\"",
+        "deleted": "Adresa a fost ștearsă cu succes",
+        "error_deleting": "Eroare la ștergerea adresei."
+      },
+      "order": {
+        "not_available": "Această comandă nu este disponibilă",
+        "financial_status": {
+          "authorized": "Autorizat",
+          "pending": "In asteptarea",
+          "paid": "Plătit",
+          "unpaid": "Neplatit",
+          "voided": "Anulat",
+          "partially_paid": "Plătit parțial",
+          "partially_refunded": "Rambursat parțial",
+          "refunded": "Rambursat",
+          "expired": "Expirat"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Scăpat",
+          "complete": "Complet",
+          "partial": "Parțial",
+          "unfulfilled": "Neîmplinit",
+          "restocked": "Reaprovizionat"
+        },
+        "transaction_status": {
+          "success": "S-a întâmplat",
+          "pending": "In asteptarea"
+        }
       }
     }
   },
