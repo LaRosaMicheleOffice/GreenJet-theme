@@ -219,7 +219,7 @@
             "icon": "shipping",
             "svg_url": "",
             "heading": "Come richiedere il tuo greenjet",
-            "content": "<p>To provide clients insight into your brand, pair words with any image to introduce a new campaign.<\/p>"
+            "content": "<p>A causa della forte domanda e dell'urgente necessità di adottare misure di conservazione dell'acqua, GREENJET è attualmente disponibile attraverso una procedura di candidatura. Questo ci consente di stabilire le priorità di distribuzione in modo efficace e di portare questa tecnologia vitale nelle case che ne hanno più bisogno, in tempi rapidi.<br\/><br\/><\/p>"
           }
         }
       },
@@ -233,9 +233,9 @@
         "image1": "shopify:\/\/shop_images\/npfe8p54.png",
         "image_alignment": "left",
         "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
+        "bottom_space_desktop": 0,
         "top_space_mobile": 30,
-        "bottom_space_mobile": 30
+        "bottom_space_mobile": 0
       }
     },
     "1657114306ddec8d35": {
@@ -250,12 +250,6 @@
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
-          }
-        },
-        "text_NbqLYd": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>pagala in 3 rate da 25,99 € con paypal, il risparmio mensile copre praticamente il costo.<b> È come averla gratis! <\/b>\n<\/h6>"
           }
         },
         "a20b855c-cdfe-44a5-a665-f62729f5f63f": {
@@ -290,7 +284,6 @@
       "block_order": [
         "16571143051ab3d9d8-0",
         "d283f17c-5f5d-4dae-be58-7e12e52d51e8",
-        "text_NbqLYd",
         "a20b855c-cdfe-44a5-a665-f62729f5f63f",
         "16571143051ab3d9d8-5",
         "da466d58-3029-4450-a25d-06911a908d5e",
@@ -303,25 +296,6 @@
         "bottom_space_desktop": 70,
         "top_space_mobile": 40,
         "bottom_space_mobile": 0
-      }
-    },
-    "1708540102fade48e6": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_all_reviews_text_AXKfQT": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_all_reviews_text_AXKfQT"
-      ],
-      "settings": {
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
       }
     },
     "1662195553963b460f": {
@@ -367,6 +341,25 @@
       "settings": {
         "image1": "shopify:\/\/shop_images\/9j2u5v3m.png",
         "image_alignment": "right",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "1708540102fade48e6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_AXKfQT": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_AXKfQT"
+      ],
+      "settings": {
         "top_space_desktop": 30,
         "bottom_space_desktop": 30,
         "top_space_mobile": 30,
@@ -773,8 +766,8 @@
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "image_with_text_dVmMtA",
     "1657114306ddec8d35",
-    "1708540102fade48e6",
     "1662195553963b460f",
+    "1708540102fade48e6",
     "1662196963c246b272",
     "166265254429354889",
     "16571143161c273279",
