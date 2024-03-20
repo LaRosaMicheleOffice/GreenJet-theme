@@ -1428,7 +1428,12 @@
         },
         "last_checked": "(Ultima verificare la: {{time}} )",
         "footer": {
-          "heading": "Nu actualizați această pagină: actualizarea va avea loc automat."
+          "heading": "Nu actualizați această pagină: actualizarea va avea loc automat.",
+          "body": "Articolele din coșul dvs. nu sunt rezervate până la finalizarea comenzii."
+        },
+        "too_many_attempts": {
+          "message": "Prea multe incercari",
+          "description": "Vă rugăm să încercați din nou în câteva minute"
         }
       },
       "payment_errors": {
@@ -1601,6 +1606,166 @@
       },
       "notifications": {
         "title": "Notificări"
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "A apărut o problemă la procesarea solicitării dvs., vă rugăm să contactați proprietarul magazinului."
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Nicio livrare disponibilă pentru %{count} articol",
+            "other": "Nicio livrare disponibilă pentru %{count} articole",
+            "many": "Nicio livrare disponibilă pentru %{count} articole"
+          },
+          "message": {
+            "one": "Acest articol va fi eliminat din coș, deoarece nu există metode de livrare disponibile pentru adresa dvs.",
+            "other": "Aceste articole vor fi eliminate din coș, deoarece nu există metode de livrare disponibile pentru adresa dvs.",
+            "many": "Aceste articole vor fi eliminate din coș, deoarece nu există metode de livrare disponibile pentru adresa dvs."
+          },
+          "label": "Fără livrare"
+        }
+      },
+      "no_address_location": {
+        "title": "Sediu fără adresă",
+        "header": "Nu aveți o adresă de expediere pentru această locație",
+        "message": "Contactați-ne pentru a adăuga o adresă pentru această locație pentru a finaliza finalizarea plății.",
+        "email_us_button_label": "Trimite-ne un e-mail",
+        "alt_header": "Lipsește adresa de expediere"
+      },
+      "order_errors": {
+        "creation_failure": "A apărut o problemă la crearea comenzii. Vă rugăm să încercați din nou sau să ne contactați pentru mai multe detalii.",
+        "network_failure": "Comanda nu a putut fi trimisă din cauza unei erori de rețea. Verificați conexiunea și încercați din nou.",
+        "inventory_reservation_failure": "Unele articole nu mai sunt disponibile."
+      },
+      "session_errors": {
+        "session_not_unique": "A apărut o problemă la procesarea comenzii dvs. Actualizează pagina pentru a reveni la magazin.",
+        "session_already_finished": "Această comandă a fost deja trimisă. Îl puteți returna la magazin pentru a începe o nouă comandă."
+      },
+      "pickup_point": {
+        "location_is_currently_closed": "Închis",
+        "business_hours": "Ore de deschidere",
+        "title": "Punct de ridicare",
+        "or": "sau",
+        "search_button": "Aproape",
+        "selector_tabs": "Selector de punct de ridicare",
+        "selector_tab_map": "Hartă",
+        "selector_tab_list": "Listă",
+        "could_not_resolve_address": "Adresa nu a putut fi localizată. Vă rugăm să încercați din nou sau să utilizați o altă adresă",
+        "no_pickup_points_near_you": "Nu s-au găsit puncte de colectare lângă adresa selectată",
+        "no_pickup_points_near_location": "Nu s-au găsit puncte de colectare în apropierea dvs",
+        "no_pickup_points_found": "Nu s-au găsit puncte de ridicare",
+        "paginator": {
+          "next_accessibility_label": "Pagina următoare",
+          "previous_accessibility_label": "Pagina anterioară",
+          "header": {
+            "one": "%{first} - %{last} din %{count} punct afișat",
+            "other": "%{first} - %{last} din %{count} puncte afișate",
+            "many": "%{first} - %{last} din %{count} puncte afișate"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} din %{count} punct",
+            "other": "%{pickup_point_index} din %{count} puncte",
+            "many": "%{pickup_point_index} din %{count} puncte"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} din %{count} punct",
+            "other": "%{first} - %{last} din %{count} puncte",
+            "many": "%{first} - %{last} din %{count} puncte"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} puncte de colectare din apropiere",
+          "other": "%{count} puncte de colectare din apropiere",
+          "many": "%{count} de puncte de colectare din apropiere"
+        },
+        "change": "Editați | ×",
+        "waiting_on_pickup_point_location_notice": "Se caută punct de colectare...",
+        "geolocation": {
+          "shared_location_button": "Folosește-mi biroul",
+          "errors": {
+            "unsuported_by_browser": "Geolocalizarea nu este acceptată de browser. Vă rugăm să încercați din nou sau să utilizați un alt browser.",
+            "permission_not_allowed": "Permiteți partajarea locației.",
+            "permission_denied": "Nu s-a putut obține locația. Încearcă din nou."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "A apărut o problemă la verificarea",
+          "message": "Vă rugăm să reîmprospătați pagina sau încercați din nou peste câteva minute",
+          "action": {
+            "cta": "Reîmprospătare pagină"
+          },
+          "request_id": "ID cerere: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Întoarce-te la coș",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} pentru a actualiza cantitățile",
+        "subscription_changed": "Unul dintre abonamentele dvs. s-a schimbat.",
+        "company_location_changed": "Cosul tau a fost actualizat. Verificați comanda înainte de a o trimite.",
+        "violations_title": "{{violation}} lipsă sau invalid",
+        "individual_violations_title": {
+          "DeliveryViolations": "Adresa de transport",
+          "PaymentViolations": "Adresa de facturare",
+          "OtherViolations": "Date despre comanda",
+          "UnhandledViolations": "Datele comenzii"
+        },
+        "all_violations_content": "Sunați-ne sau contactați-ne prin {{emailLink}} pentru a actualiza aceste informații și a finaliza comanda:",
+        "all_violations_email_link": "e-mail",
+        "editable_shipping_address_violations_message_title": "Adăugați aceste informații pentru a finaliza comanda:",
+        "editable_shipping_address_violations_message_footer": "Pentru a actualiza permanent adresa acestei locații, {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "contactaţi-ne",
+        "company_location_changed_product_removed": "Coșul dvs. a fost actualizat deoarece unele produse nu sunt disponibile pentru această locație. Verificați comanda înainte de a o trimite.",
+        "shipping_address_incomplete_title": "Adresa de livrare este incompletă",
+        "calculating_shipping": "Calculul transportului este încă în curs. Vă rugăm să încercați din nou peste câteva momente. Nu ai fost taxat.",
+        "calculating_taxes": "Calculul taxelor este încă în curs. Vă rugăm să încercați din nou peste câteva momente. Nu ai fost taxat."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "link_label": "Termenii și condițiile {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "Aveti vreo intrebare? Vorbeste cu noi"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "Există un magazin %{count} cu stoc disponibil lângă %{address}",
+          "other": "Există %{count} magazine cu stoc disponibil lângă %{address}",
+          "many": "Există %{count} magazine cu stoc disponibil lângă %{address}"
+        },
+        "toggle_location": "Schimbați-mi locația",
+        "or": "SAU",
+        "cancel": "Anulare",
+        "your_location": "sediul dvs",
+        "search_button": "Caută magazine",
+        "no_stores_found": "Nu s-au găsit magazine",
+        "could_not_resolve_address": "Adresa nu a putut fi localizată. Vă rugăm să încercați din nou sau să utilizați o altă adresă",
+        "paginator": {
+          "accessibility_label": "Aspectul colecției locale",
+          "previous": "Pagina anterioară",
+          "next": "Pagina următoare",
+          "label": {
+            "one": "%{first} - %{last} din %{count} magazin",
+            "other": "%{first} - %{last} din %{count} magazine",
+            "many": "%{first} - %{last} din %{count} magazine"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Afișați încă %{count} locație",
+          "other": "Afișați mai multe %{count} locații",
+          "many": "Afișați mai multe %{count} locații"
+        }
+      },
+      "captcha": {
+        "title": "Completați CAPTCHA pentru a continua",
+        "errors": {
+          "not_solved": "Completați CAPTCHA pentru a continua"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "Comanda nu poate fi procesată deoarece codul dvs. de reducere nu mai este disponibil. Verificați totalul comenzii și încercați din nou."
       }
     },
     "store_availability": {
