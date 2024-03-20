@@ -608,6 +608,127 @@
         "pick_up_in_store_marker": {
           "current": "Locația curentă a livrării"
         }
+      },
+      "wallets": {
+        "return_to_store": "Întoarce-te la magazin",
+        "redirect_hint": "Vi se va cere să vă conectați utilizând {{walletName}} .",
+        "logged_in": "Conectat la {{email}}",
+        "shipping_line_label": "Transport",
+        "payment_in_progress_title": "Plata in curs",
+        "payment_in_progress_body": "Plata dvs. este în curs de procesare. Comanda va fi finalizată în curând.",
+        "call_to_action": "Plătiți cu {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} nu este disponibil",
+            "description": "{{walletName}} nu este disponibil. Utilizați o altă metodă de plată sau încercați din nou mai târziu.",
+            "instructions": "A apărut o problemă cu Cumpărați cu {{walletName}} . Reveniți la magazin pentru a încerca din nou sau verificați cu o altă metodă."
+          },
+          "generic": "Există o problemă cu {{walletName}} . Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+          "terminal": "Există o problemă cu {{walletName}} . Utilizați o altă metodă de plată.",
+          "detour": {
+            "stock_problems": "Unele articole nu mai sunt disponibile. Închideți {{walletName}} și încercați din nou.",
+            "price_change": "Prețul unor articole s-a schimbat. Închideți {{walletName}} pentru a vă verifica comanda și încercați din nou.",
+            "queue": "Ați fost la coadă pentru a verifica. Închideți {{walletName}} pentru a continua."
+          },
+          "unsupported": {
+            "address": "Comerciantul nu poate livra la adresa de expediere selectată.",
+            "postal_code": "Această locație nu este acceptată"
+          },
+          "outdated": {
+            "shipping_method": "Opțiunile de livrare pentru comanda dumneavoastră s-au schimbat. Verificați selecția dvs."
+          },
+          "invalid": {
+            "shipping_address": "Vă rugăm să introduceți o adresă de expediere validă",
+            "billing_address": "Vă rugăm să introduceți o adresă de facturare validă",
+            "shipping_option": "Vă rugăm să alegeți o opțiune de livrare validă",
+            "email": "Introduceți o adresă de email validă",
+            "zone": "Vă rugăm să introduceți un stat\/province validă",
+            "postal_code": "Vă rugăm să introduceți un cod poștal valid",
+            "reduction_code": "Introduceți un cod de reducere sau un voucher cadou valid",
+            "billing_must_match_shipping": "Trebuie să se potrivească cu adresa de expediere"
+          },
+          "missing": {
+            "first_name": "Introdu numele tau",
+            "last_name": "Introduceți numele dvs. de familie",
+            "address1": "Introdu adresa",
+            "address2": "Introduceți scara, interiorul etc.",
+            "city": "Intră în oraș",
+            "province": "Selectați un stat\/provinție",
+            "country": "Selectați o țară\/regiune",
+            "zip": "Introdu codul poștal",
+            "phone": "Introduceti un numar de telefon"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eliminați emoji-ul din numele dvs",
+            "postal_code_contains_emoji": "Ștergeți emoji-ul din codul poștal",
+            "first_name_too_long": "Numele conține prea multe litere",
+            "last_name_too_long": "Numele de familie conține prea multe litere"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Adresa de livrare este nevalidă. Selectați o altă adresă sau utilizați una nouă."
+        },
+        "redirection_notice": "După ce faceți clic pe „ {{buttonLabel}} ”, veți fi redirecționat către {{walletName}} pentru a finaliza achiziția în siguranță."
+      },
+      "markets": {
+        "invalid_market_manager_error": "Vă rugăm să vă verificați informațiile de contact înainte de a finaliza plata"
+      },
+      "store_credit_errors": {
+        "generic_error": "A apărut o problemă cu creditul din magazin. Vă rugăm să încercați din nou sau să reîncărcați pagina."
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduceți dimensiunea notei la maximum 5000 de caractere."
+      },
+      "billing": {
+        "billing_address_title": "Destinatarul facturii",
+        "same_as_shipping": "La fel ca adresa de expediere",
+        "add_address": "Vă rugăm să utilizați o altă adresă",
+        "edit": "Editați | ×",
+        "delete": "Șterge",
+        "address_more": "Alte acțiuni pentru această adresă",
+        "address_edit": "Schimba adresa",
+        "address_delete": "Ștergeți adresa",
+        "address_confirm": "Sigur doriți să ștergeți această adresă din contul dvs.?",
+        "address_form": {
+          "add_address": "Adaugă adresă",
+          "save": "Salvați",
+          "cancel": "Anulare"
+        }
+      },
+      "address_management": {
+        "confirm_address_deletion": "Sigur doriți să ștergeți adresa {{address}} ?"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "Voucherul cadou a fost deja aplicat comenzii tale",
+          "insufficient_funds": "Acest card cadou nu mai are fonduri",
+          "expired": "Acest voucher cadou a expirat",
+          "not_available": "Acest voucher cadou nu mai este disponibil",
+          "invalid": "Vă rugăm să introduceți un card cadou valid",
+          "currency_mismatch": "Sunt acceptate numai tichetele cadou în %{shop_currency}",
+          "generic": "Nu se poate adăuga cardul cadou la finalizarea comenzii",
+          "throttle_limit_exceeded": "Ați depășit numărul maxim de încercări. Încercați mai târziu."
+        }
+      },
+      "vaulted": {
+        "change_button": "Editați | ×"
+      },
+      "shop_pay_external": {
+        "errors": {
+          "problem_loading": "A apărut o problemă la încărcarea Shop Pay",
+          "try_again_later": "Verificați-vă conexiunea sau închideți această fereastră și încercați din nou peste câteva minute.",
+          "checkout_has_expired": "Ora dvs. de plată este întârziată. Închideți fereastra și încercați să verificați din nou la {{shopName}} ."
+        },
+        "return_to_store": "Reveniți la {{shopName}}"
+      },
+      "company_location": {
+        "location_title": "Locație"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Prețul cardului cadou trebuie să fie mai mare de 0.",
+            "subtotal_limit_reached": "Valoarea maximă a intrărilor a fost atinsă."
+          }
+        }
       }
     },
     "store_availability": {
@@ -635,6 +756,47 @@
         "relevance": "Relevanţă",
         "price_ascending": "Preț în creștere",
         "price_descending": "Preț în scădere"
+      }
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Ca urmare a"
+    },
+    "links": {
+      "powered_by_shopify": "Produs de Shopify",
+      "learn_more": "Mai multe informatii"
+    },
+    "feed": {
+      "more": "Alte"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "parola",
+      "password_confirmation": "Confirmarea parolei",
+      "first_name": "Nume",
+      "last_name": "nume de familie",
+      "body": "text",
+      "signature": "Abordare"
+    },
+    "addresses": {
+      "zip_code": "COD POȘTAL",
+      "postal_code": "COD POȘTAL",
+      "postcode": "COD POȘTAL",
+      "pincode": "COD POȘTAL",
+      "region": "Zona geografica",
+      "prefecture": "Prefectura",
+      "province": "Provincie",
+      "state": "Stat",
+      "state_and_territory": "Stat\/Teritoriu",
+      "county": "judetul",
+      "emirate": "Emirat",
+      "governorate": "Guvernator",
+      "confirm": "Sigur doriți să ștergeți această adresă?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "În prim-plan",
+        "best_selling": "cel mai vândut"
       }
     }
   },
