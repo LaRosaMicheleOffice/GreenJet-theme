@@ -1718,7 +1718,10 @@
       "cancel": "Anulare"
     },
     "payment_method_brands": {
-      "maestro": "Maestru"
+      "maestro": "Maestru",
+      "mastercard": "MasterCard",
+      "shoppay": "ShopPay",
+      "discover": "Descoperi"
     },
     "enable_javascript": "Pentru a vă vizualiza contul, activați JavaScript în setările browserului sau conectați-vă prin alt browser.",
     "ui_components": {
@@ -1793,6 +1796,124 @@
         "warning_message": "Acest dispozitiv va fi, de asemenea, deconectat."
       },
       "loading_accessibility_message": "Se încarcă pagina de setări"
+    },
+    "payment_methods": {
+      "payment_details": {
+        "credit_card_details_accessibility_label": "se termină cu {{lastDigits}}",
+        "billing_title": "Adresa de facturare",
+        "card_info_title": "Datele cardului",
+        "payment_method_expired_on": "Expiră pe {{expiryDate}}",
+        "loading_shop_pay": "Se încarcă Shop Pay",
+        "invalid_payment_method": "Metodă de plată nevalidă",
+        "invalid_payment_method_message": "Utilizați un nou card de credit pentru a continua să primiți comenzile primite.",
+        "replace_payment_method": "Înlocuiește metoda de plată",
+        "checkout_card_banner": "Metoda de plată poate fi utilizată numai pentru plățile preautorizate. Nu va apărea la finalizarea comenzii dacă sunteți autentificat la magazin.",
+        "default_checkbox": "Setați ca implicit",
+        "default_checkbox_accessibility_label": "Setați această metodă de plată ca prestabilită"
+      },
+      "delete_payment_method_button": "Șterge",
+      "delete_payment_method_button_accessibility_label": "Ștergeți {{paymentMethodName}}",
+      "back_button": "Înapoi",
+      "back_button_accessibility_label": "Reveniți la {{paymentMethodStepTitle}}",
+      "generic_card": "Hârtie",
+      "payment_delete": {
+        "title": "Ștergeți metoda de plată",
+        "description_without_replacement": "Această metodă de plată nu va mai fi disponibilă pentru achiziții viitoare.",
+        "description_with_replacement": "Ștergerea acestei metode de plată va afecta plățile preautorizate. Alternativ, îl puteți înlocui cu o altă metodă de plată pentru a continua să primiți comenzi viitoare.",
+        "payment_method_selector_placeholder": "Selectați o metodă de plată înlocuitoare (opțional)",
+        "replace_method_with_new_method_description": "{{currentPaymentMethodName}} va fi șters și înlocuit cu {{newPaymentMethodName}} .",
+        "error_when_deleting": "Ne cerem scuze, dar a apărut o eroare și această metodă de plată nu a putut fi ștearsă. Încercați din nou mai târziu sau reîmprospătați pagina.",
+        "delete_and_replace_button": "Ștergeți și înlocuiți",
+        "delete_and_replace_button_accessibility_label": "Ștergeți {{currentPaymentMethodName}} și înlocuiți-l cu {{newPaymentMethodName}} .",
+        "deleted_successfully": "Metoda de plată a fost ștearsă.",
+        "payment_method_selector_no_alternative_payment": "Nicio metodă înlocuitoare",
+        "loading_available_payment_methods_accessibility_label": "Se încarcă metodele de plată disponibile....",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Ștergerea acestei metode de plată va afecta plățile preautorizate. Această metodă de plată va fi în continuare taxată pentru soldurile restante ale comenzilor existente, cu excepția cazului în care selectați o metodă de plată alternativă. Dacă selectați o metodă alternativă de plată, veți putea primi comenzile de abonament primite fără întrerupere.",
+          "with_pending_orders": "Dacă ștergeți această metodă de plată, aceasta va fi eliminată din contul dvs. și nu va mai fi disponibilă pentru achiziții viitoare. Veți fi taxat în continuare pentru orice sold restant al comenzilor existente, cu excepția cazului în care selectați o metodă de plată alternativă.",
+          "with_subscriptions": "Ștergerea acestei metode de plată va afecta plățile preautorizate. Înlocuiți-l cu o metodă alternativă de plată pentru a continua să primiți comenzi viitoare."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Ștergerea acestei metode de plată va afecta plățile preautorizate. Această metodă de plată va fi în continuare taxată pentru soldurile restante ale comenzilor existente, dar nu veți primi comenzi de abonament primite. Adăugați o metodă de plată alternativă pentru a continua să primiți comenzi de abonament.",
+          "with_pending_orders": "Dacă ștergeți această metodă de plată, aceasta va fi eliminată din contul dvs. și nu va mai fi disponibilă pentru achiziții viitoare. Veți fi taxat în continuare pentru orice sold restant al comenzilor existente.",
+          "with_subscriptions": "Ștergerea acestei metode de plată va afecta plățile preautorizate. Adăugați o metodă de plată alternativă pentru a continua să primiți comenzile primite."
+        }
+      },
+      "edit_payment_method": {
+        "title": "Schimbați metoda de plată",
+        "save_payment_method_button": "Salvați",
+        "cancel_edit_payment_method_button": "Anulare",
+        "payment_method_updated_toast": "Metodă de plată actualizată",
+        "billing_address": "Adresa de facturare",
+        "billing_address_add_new": "Adăuga nou",
+        "billing_address_choose_from_list": "Alege din listă",
+        "future_purchases_notice": "Această metodă de plată va fi salvată pentru achiziții viitoare.",
+        "generic_error": "A apărut o problemă la actualizare. Încercați mai târziu."
+      },
+      "card_fields": {
+        "card_number_label": "Numărul de card",
+        "card_number_placeholder": "Numărul de card",
+        "name_on_card_label": "Numele de pe card",
+        "name_on_card_placeholder": "Numele de pe card",
+        "card_expiry_label": "Data expirării (LL\/AA)",
+        "card_expiry_placeholder": "Data expirării (LL\/AA)",
+        "card_verification_value_label": "Cod de securitate",
+        "card_verification_value_placeholder": "Cod de securitate",
+        "card_start_label": "Data emiterii (LL\/AA)",
+        "card_start_placeholder": "Data emiterii (LL\/AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Mai multe informatii",
+          "card_verification_value_explanation_amex": "Cod de securitate din 4 cifre pe partea din față a cardului",
+          "card_verification_value_explanation_other": "Cod de securitate din 3 cifre pe spatele cardului",
+          "card_verification_value_explanation": "Codul de securitate din 3 cifre afișat de obicei pe spatele cardului. Cardurile American Express au un cod din 4 cifre situat pe partea din față.",
+          "card_security_notice": "Toate tranzacțiile sunt securizate și criptate."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Introduceți numele dvs. exact așa cum apare pe card",
+          "credit_card_number_invalid": "Vă rugăm să introduceți un număr valid de card",
+          "credit_card_expiry_invalid": "Vă rugăm să introduceți o dată validă de expirare a cardului",
+          "credit_card_verification_value_blank": "Introduceți CVV sau codul de securitate al cardului dvs"
+        }
+      },
+      "add_payment_method": {
+        "title": "Adăugați o metodă de plată",
+        "payment_method_added_confirmation": "A fost adăugată metoda de plată",
+        "billing_address": {
+          "title": "Adresa de facturare",
+          "add_billing_address_button": "Adăuga nou",
+          "add_billing_address_button_accessibility_label": "Adăugați o nouă adresă de facturare",
+          "choose_billing_address_from_list_button": "Alege din listă",
+          "choose_billing_address_from_list_button_accessibility_label": "Alegeți adresa de facturare din listă",
+          "missing_billing_address_error_message": "Specificați o adresă de facturare",
+          "default_checkbox": "Setați ca metodă de plată prestabilită"
+        }
+      },
+      "expires_soon": "Acest card este pe cale să expire",
+      "expired": "Acest card este expirat",
+      "card_update_consent": "Această metodă de plată va fi salvată pentru achiziții viitoare.",
+      "digital_wallet_title": "Portofel digital",
+      "credit_or_debit_card_title": "Card de Credit \/ Card de Debit",
+      "google_pay": {
+        "errors": {
+          "generic": "A apărut o problemă cu Google Pay. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+          "missing_billing_address": "Google Pay necesită o adresă de facturare. Adăugați unul în contul dvs."
+        },
+        "loading": "Se încarcă Google Pay"
+      },
+      "apple_pay": {
+        "loading": "Se încarcă Apple Pay",
+        "errors": {
+          "generic": "Există o problemă cu Apple Pay. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
+          "not_available": "Apple Pay nu este disponibil pe acest dispozitiv.",
+          "missing_billing_address": "Apple Pay necesită o adresă de facturare. Adăugați unul în contul dvs."
+        }
+      },
+      "add_payment_method_banner": "Adăugați o metodă de plată pentru a accelera finalizarea comenzii sau pentru a activa serviciile preautorizate",
+      "edit_payment_method_button_accessibility_label": "Modificați {{paymentMethodName}} care se termină cu {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Editați {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Afișați avertismentele de expirare pentru {{paymentMethodName}} care se termină cu {{lastDigits}}",
+      "no_payment_methods_banner": "Nu au fost adăugate metode de plată",
+      "default": "Mod implicit"
     }
   },
   "sections": {
