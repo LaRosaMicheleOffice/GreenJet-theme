@@ -609,6 +609,291 @@
           "current": "Locația curentă a livrării"
         }
       }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "zero_to_two_hours": "De obicei, gata în 2 ore",
+        "two_to_four_hours": "De obicei gata în 4 ore",
+        "immediately": "Gata acum pentru colectare",
+        "next_day": "Gata de colectare a doua zi"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Disponibil",
+          "out_of_stock": "Uzat"
+        }
+      },
+      "boolean": {
+        "true_label": "da",
+        "false_label": "Nu"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevanţă",
+        "price_ascending": "Preț în creștere",
+        "price_descending": "Preț în scădere"
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ascunde meniul contului",
+        "label": "Conturi",
+        "show_accessibility_label": "Afișează meniul contului",
+        "nav_accessibility_label": "Navigare în cont",
+        "open_menu_accessibility_label": "Deschideți navigarea în cont",
+        "close_menu_accessibility_label": "Închideți navigarea în cont",
+        "loading_message": "Se încarcă navigarea în contul dvs"
+      },
+      "action_menu_accessibility_label": "Alte actiuni",
+      "close_menu_accessibility_label": "Închide meniul principal",
+      "contact_email_subject": "Contactați magazinul online {{shopName}}",
+      "contact_link": "Contactaţi-ne",
+      "delete_confirmation": {
+        "cancel": "Anulare",
+        "delete": "Șterge"
+      },
+      "document_title": "{{sectionName}} - {{shopName}} - Cont",
+      "go_to_store_link": "Mergi la magazin",
+      "loading_message": "Se încarcă",
+      "log_out_link": "Deconectați-vă",
+      "logout_overlay_label": "Se deconectează...",
+      "nav_label_accessibility_label": "Meniu principal",
+      "navigation_accessibility_message": "Sunteți în secțiunea {{sectionName}}",
+      "open_menu_accessibility_label": "Deschide meniul principal",
+      "orders_link_label": "Comenzi",
+      "shop_logo_accessibility_label": "Sigla {{shopName}}",
+      "subscriptions_link_label": "Abonamente",
+      "settings_link": "Setări"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Se încarcă informații despre cont",
+      "loading_finished_accessibility_message": "Informații despre cont încărcate",
+      "profile_card": {
+        "cancel": "Anulare",
+        "cancel_accessibility_label": "Anulați editarea profilului",
+        "edit": "Editați | ×",
+        "edit_accessibility_label": "Editează profilul",
+        "email_help_text": "Nu se poate schimba adresa de e-mail folosită pentru autentificare",
+        "first_name": "Nume",
+        "last_name": "Nume de familie",
+        "phone_number_help_text": "Nu se poate schimba numărul de telefon utilizat pentru autentificare",
+        "save": "Salvați",
+        "save_accessibility_label": "Salveaza profilul",
+        "title": "Profil",
+        "no_name_provided_accessibility_label": "Nu s-au adăugat nume"
+      },
+      "profile_update_confirmation_message": "profil actualizat",
+      "title": "Profil",
+      "people": {
+        "pagination": {
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe subiecte",
+          "loading_accessibility_label": "Se încarcă subiecte"
+        }
+      },
+      "add_button": "adăuga"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opțiuni de aspect",
+      "list_title": "Comenzi",
+      "order_list": {
+        "column_headers": {
+          "total": "Total",
+          "items": "Articole",
+          "order": "Ordin"
+        },
+        "delivered": "Livrat pe {{date}}",
+        "empty_state_order_source_description": "Doar comenzile plasate până la {{email}} vor fi afișate aici.",
+        "empty_state_subtitle": "Mergeți la magazin pentru a plasa o comandă.",
+        "empty_state_title": "Încă nu există comenzi",
+        "estimated_delivery": "Livrare programată pentru {{date}}",
+        "items": {
+          "one": "{{count}} articol",
+          "other": "{{count}} articole",
+          "many": "{{count}} articole"
+        },
+        "list_view": "Afișează vizualizarea listă",
+        "order_link": "Vizualizați comanda {{name}}",
+        "order_number": "Comanda {{name}}",
+        "orders_title": "Confirmat",
+        "pagination": {
+          "nav_accessibility_label": "Comanda butoane de navigare",
+          "next": "Ca urmare a",
+          "next_accessibility_label": "Comenzile ulterioare",
+          "previous": "Anterior",
+          "previous_accessibility_label": "Comenzi anterioare",
+          "load_more": "Incarca mai mult",
+          "load_more_accessibility_label": "Încărcați mai multe comenzi"
+        },
+        "sort_by": "Sortați după: {{option}}",
+        "sort_hide_options_accessibility_label": "Ascundeți opțiunile de sortare pentru comenzile confirmate.",
+        "sort_show_options_accessibility_label": "Afișați opțiunile de sortare pentru comenzile confirmate.",
+        "sort_title": "Ordin",
+        "sort": {
+          "date": {
+            "newest": "De la cel mai recent la cel mai vechi",
+            "oldest": "De la cel mai vechi la cel mai recent"
+          },
+          "location": {
+            "ascending": "Sediul central (AZ)",
+            "descending": "Sediul central (ZA)"
+          },
+          "order_number": {
+            "ascending": "Număr de comandă (crescător)",
+            "descending": "Număr de comandă (descrescător)"
+          },
+          "order_total": {
+            "ascending": "Total comandă (crescător)",
+            "descending": "Total comandă (descrescător)"
+          }
+        },
+        "table_view": "Afișează vizualizarea tabelului",
+        "one_images_accessibility_label": "Comanda include {{lineItemName1}}",
+        "two_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Comanda include {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "no_filtered_results_description": "Eliminați sau ajustați filtrele pentru a vă vedea comenzile",
+        "no_filtered_results_title": "Niciun rezultat filtrat"
+      }
+    },
+    "order_details": {
+      "returns": {
+        "ineligible_return_message_when_returned": "Articolele suplimentare din această comandă nu sunt eligibile pentru returnare."
+      },
+      "request_return_failed": "A apărut o problemă la procesarea solicitării dvs. Încearcă din nou.",
+      "mobile_summary_toggle_button": {
+        "open": "Afișați rezumatul comenzii",
+        "closed": "Ascunde rezumatul comenzii"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Arata detaliile",
+        "expand_events_accessibility_label": "Afișați detaliile de livrare a comenzii",
+        "hide_events_label": "Ascunde detaliile",
+        "hide_events_accessibility_label": "Ascundeți detaliile de livrare a comenzii"
+      },
+      "show_order_summary": "Afișați rezumatul comenzii",
+      "hide_order_summary": "Ascunde rezumatul comenzii",
+      "company": "Agenţie",
+      "no_data_provided_accessibility_label": "{{fieldName}} este gol",
+      "marketing_section_title": "Noutăți și oferte",
+      "marketing_description": "Veți primi e-mailuri de marketing. Vă puteți dezabona în orice moment.",
+      "marketing_checkbox_label": "Trimite-mi e-mailuri cu noutăți și oferte",
+      "marketing_checkmark_label": "Te-ai înscris pentru a primi noutăți și oferte pe e-mail",
+      "image_gallery": {
+        "product_name_and_quantity": "Cantitatea de {{productName}} : {{quantity}}",
+        "next": "Afișați articolele următoare",
+        "previous": "Afișați articolele anterioare"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descărcați Magazin pentru a vă urmări pachetul",
+        "track_order_with_shop": "Urmăriți comanda cu Shop",
+        "title_header": "Scanați cu telefonul dvs",
+        "real_time_delivery_updates": "Magazinul vă va trimite actualizări de livrare în timp real odată ce comanda dvs. a fost expediată."
+      },
+      "shop_pay": {
+        "order_completed_with": "Comanda finalizata cu",
+        "learn_more": "Mai multe informatii"
+      },
+      "edit_summary": {
+        "added": "Adăugat",
+        "added_with_quantity": "{{quantity}} adăugată",
+        "removed": "Îndepărtat",
+        "removed_with_quantity": "{{quantity}} eliminat",
+        "updated_at": "Comanda dvs. a fost actualizată pe {{date}}",
+        "returned": "Retur completat",
+        "returned_with_quantities": "{{delta}} din {{total}} returnate",
+        "removed_with_quantities": "{{delta}} din {{total}} eliminate",
+        "return_line_item_removed": "Scos din retur",
+        "return_line_item_removed_with_quantities": "S-a eliminat {{delta}} din retur"
+      },
+      "pickup": {
+        "pickup": "Retrage",
+        "pickup_location": "Locația de ridicare",
+        "pickup_point": "Punct de ridicare"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Plata efectuată cu Shop Pay rate",
+        "description": "Rămâneți la curent cu programul de plată cu mementouri în aplicația Shop.",
+        "payment_reminders_button": "Primiți mementouri de plată",
+        "desktop_qr_code_content": {
+          "title": "Scanați mementouri",
+          "description": "Primiți mementouri de rate cu Shop."
+        }
+      },
+      "order_details": "Comanda Detalii",
+      "contact_information": "Detalii de contact",
+      "login_to_view_all_order_details": "Conectați-vă pentru a vedea toate detaliile comenzii.",
+      "log_in": "Log in",
+      "paid_amount": "Plătit",
+      "remaining_amount": "Reziduu",
+      "order_details_skeleton_accessibility_label": "Conectați-vă pentru a vedea toate detaliile comenzii.",
+      "tip": "Bacsis",
+      "logged_in_account_no_permission_to_order": "Sunteți conectat ca {{email}} . Acest cont nu are permisiunea de a gestiona această comandă.",
+      "log_in_to_a_different_account": "Conectați-vă la alt cont",
+      "duties": "Atribuțiile",
+      "ok_duties_tooltip": "Deoarece această comandă este expediată din altă țară, s-au aplicat taxe la totalul comenzii.",
+      "error_duties_tooltip": "Această comandă este expediată dintr-o altă țară, așa că se pot aplica taxe și taxe la livrare.",
+      "zero_duties_tooltip": "Această comandă este expediată din altă țară. Nu se percep taxe pentru comenzile de această valoare.",
+      "group_title_label": "Parte din: {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Taxă de restocare",
+        "return_shipping_fee": "Transport de retur"
+      }
+    },
+    "addresses": {
+      "add_button": "Adaugă adresă",
+      "address_deleted_notification": "Adresa a fost ștearsă",
+      "cancel_adding_address_accessibility_label": "Anulați adăugarea adresei",
+      "cancel_deletion_button": "Anulare",
+      "cancel_deletion_button_accessibility_label": "Anulați ștergerea {{address}}",
+      "default_address": {
+        "title": "Adresă implicită",
+        "title_accessibility_label": "Adresă implicită: {{address}}"
+      },
+      "delete_button": "Șterge",
+      "delete_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_button": "Ștergeți adresa",
+      "delete_confirmation_button_accessibility_label": "Ștergeți {{address}}",
+      "delete_confirmation_message": "Ștergeți adresa? Comenzile existente nu vor fi afectate.",
+      "edit_button": "Editați | ×",
+      "edit_button_accessibility_label": "Editați {{address}}",
+      "edit_section_accessibility_label": "Editați {{address}}",
+      "loading_accessibility_message": "Se încarcă adresa în curs",
+      "loading_addresses_accessibility_message": "Se încarcă adrese",
+      "loading_billing_accessibility_message": "Se încarcă adresa de facturare",
+      "loading_finished_accessibility_message": "S-a încărcat o nouă pagină de adresă",
+      "loading_shipping_accessibility_message": "Se încarcă adresa de expediere",
+      "pagination": {
+        "load_more": "Incarca mai mult",
+        "load_more_accessibility_label": "Încărcați mai multe adrese"
+      },
+      "save_new_address_accessibility_label": "Salvați adresa",
+      "title": "Adrese",
+      "delete_confirmation_title": "Ștergeți adresa?",
+      "delete_confirmation_description": "Comenzile existente nu vor fi afectate.",
+      "edit_modal_title": {
+        "default": "Schimba adresa",
+        "billing": "Schimbați adresa de facturare",
+        "shipping": "schimbă adresa livrăii"
+      },
+      "add_address_banner": "Adăugați adrese pe care să le utilizați atunci când faceți check-out",
+      "billing_address_dropdown_placeholder": "Adresa de facturare",
+      "add_button_text": "adăuga",
+      "add_button_accessibility_label": "Adaugă adresă",
+      "back_button": "Înapoi",
+      "back_button_accessibility_label": "Reveniți la schimbarea adresei {{address}}",
+      "no_addresses_banner": "Nu au fost adăugate adrese"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Închideți sugestiile",
+      "auto_complete_title": "Sugestii",
+      "billing_address": "Utilizați ca adresă de facturare",
+      "cancel": "Anulare"
     }
   }
 }
