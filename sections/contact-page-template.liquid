@@ -44,10 +44,11 @@
               </div>
               <div class="col-md-12 col-lg-12">
                 <div class="form-group">
-                  <label for="RegisterForm-Number">{{ 'sections.contact.number' | t }}</label>
-                  <input type="text" class="form-control" id="RegisterForm-Number" name="customer[Number]" placeholder="{{ 'sections.contact.number' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} autocomplete="family-name" required>
+                  <label for="ContactForm-phone">{{ 'sections.contact.phone' | t }}</label>
+                  <input type="text" class="form-control" id="ContactForm-phone" name="contact[phone]" placeholder="{{ 'sections.contact.phone' | t }}" autocomplete="tel" required>
                 </div>
               </div>
+
 
               <div class="col-md-12 col-lg-12">
                 <label for="ContactForm-body">{{ 'sections.contact.message' | t }}</label>
