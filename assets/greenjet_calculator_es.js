@@ -26,7 +26,7 @@ let default_visible_values = {
     "duration": 11, // Minutes
     "flow": 13.1, //l per Minute
     "greenjet_flow": 8.2, //l per Minute
-    "price_unit": 98.00 // € per Unit
+    "price_unit": 78.00 // € per Unit
 }
 
 let default_temperature_values = {
