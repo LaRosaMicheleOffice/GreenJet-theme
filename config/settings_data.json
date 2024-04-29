@@ -59,7 +59,7 @@
         "settings": {
           "header_style": "header2",
           "show_search": false,
-          "show_localization": true,
+          "show_localization": false,
           "enable_sticky_header": false,
           "logo": "shopify:\/\/shop_images\/Logo_GREENJET.svg",
           "logo_width": 170,
