@@ -59,7 +59,7 @@
         "settings": {
           "header_style": "header2",
           "show_search": false,
-          "show_localization": false,
+          "show_localization": true,
           "enable_sticky_header": false,
           "logo": "shopify:\/\/shop_images\/Logo_GREENJET.svg",
           "logo_width": 170,
@@ -153,12 +153,6 @@
       },
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "3847134708050210359": {
-        "type": "shopify:\/\/apps\/transcy\/blocks\/switcher_embed_block\/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
         "disabled": false,
         "settings": {
         }
