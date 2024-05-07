@@ -80,7 +80,7 @@
         "gallery_style": "stacked",
         "show_description": true,
         "width": "full",
-        "style": "tabs",
+        "style": "accordion",
         "heading_produktfotos": "Produktfotos",
         "content_heading": "Kalkulator",
         "content": ""
