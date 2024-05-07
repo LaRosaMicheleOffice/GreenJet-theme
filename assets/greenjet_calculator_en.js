@@ -338,7 +338,6 @@ function setupEventExplanation(local_view_id){
 })
 }
 
-alert("MERGE")
 
 
 function setExplanation(energy, local_view_id){
