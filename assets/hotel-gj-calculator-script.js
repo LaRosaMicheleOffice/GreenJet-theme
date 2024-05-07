@@ -147,7 +147,7 @@ function setupElements(local_view_id) {
 
   el = document.getElementById(`custom-select-gj-calc-personalized-settings-icon${local_view_id}`);
   el.style.display = "none";
-  // el.style.visibility = "hidden";
+  el.style.visibility = "hidden";
 
   el = document.getElementById(`custom-select-gj-calc-params${local_view_id}`);
   el.style.position = "absolute";
@@ -157,12 +157,12 @@ function setupElements(local_view_id) {
     settings_icon_clicked = event.target.closest(`#custom-select-gj-calc-personalized-settings-icon${local_view_id}`);
     box_clicked = event.target.closest(`#custom-select-gj-calc-params${local_view_id}`)
     if( settings_icon_clicked || box_clicked ){
-      // newel.style.visibility = "visible";
+      newel.style.visibility = "visible";
       newel.style.display="flex";
       newel.style.zIndex="100";
       newel.style.position="relative";
     } else {
-      // newel.style.visibility = "hidden";
+      newel.style.visibility = "hidden";
       newel.style.display="none";
 
     }
@@ -171,7 +171,7 @@ function setupElements(local_view_id) {
   document.querySelector(`#gj-pers-close-popup${local_view_id}`).addEventListener("click", function() {
     console.log("clicking");
     newel = document.getElementById(`custom-select-gj-calc-params${local_view_id}`);
-    // newel.style.visibility = "hidden";
+    newel.style.visibility = "hidden";
     newel.style.display="none";
   });
 
@@ -241,10 +241,10 @@ function toggle_personalizzato_gear(show, local_id_view){
   el = document.getElementById(`custom-select-gj-calc-personalized-settings-icon${local_id_view}`);
 
   if( ! show ) {
-    // el.style.visibility = "hidden";
+    el.style.visibility = "hidden";
     el.style.display = "none";
   } else {
-    // el.style.visibility = "visible";
+    el.style.visibility = "visible";
     el.style.display = "inline-block";
   }
 }
