@@ -193,6 +193,9 @@ let calc_values = {
 
 initializeUserInput();
 
+
+alert("MERGE");
+
 function initializeUserInput(){
     [...document.getElementsByClassName("user-input")].forEach(input_field => {
         user_input[input_field.id] = input_field.value;
