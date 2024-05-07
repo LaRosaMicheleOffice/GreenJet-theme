@@ -79,7 +79,7 @@
       "settings": {
         "gallery_style": "stacked",
         "show_description": true,
-        "width": "half",
+        "width": "full",
         "style": "tabs",
         "heading_produktfotos": "Produktfotos",
         "content_heading": "",
