@@ -99,6 +99,8 @@ function checkSelectbox(local_view_id){
     }
 }
 
+alert("MERGE");
+
 function createNewSelectElement(check_select, local_view_id){
 
     let select_box_placeholder = document.getElementById(`select-selected-id${local_view_id}`)
