@@ -330,7 +330,7 @@ function setupEventExplanation(local_view_id){
     explanation.addEventListener("click", function(){
     let visibility = document.getElementById(`calculation_explanation${local_view_id}`).style.visibility;
     if(visibility == "" || visibility == "hidden"){
-        document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "visible"
+        document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "visible";
     }
     else {
         document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "hidden";
