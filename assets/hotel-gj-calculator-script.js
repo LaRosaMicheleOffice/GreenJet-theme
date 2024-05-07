@@ -147,7 +147,7 @@ function setupElements(local_view_id) {
 
   el = document.getElementById(`custom-select-gj-calc-personalized-settings-icon${local_view_id}`);
   el.style.display = "none";
-  el.style.visibility = "hidden";
+  // el.style.visibility = "hidden";
 
   el = document.getElementById(`custom-select-gj-calc-params${local_view_id}`);
   el.style.position = "absolute";
