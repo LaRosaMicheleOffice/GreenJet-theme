@@ -77,13 +77,13 @@
         "e1d06aa1-2be2-434b-8d5e-855d40839ba9"
       ],
       "settings": {
-        "gallery_style": "slider",
+        "gallery_style": "gallery",
         "show_description": true,
         "width": "full",
-        "style": "accordion",
+        "style": "tabs",
         "heading_produktfotos": "Produktfotos",
         "content_heading": "Kalkulator",
-        "content": "dwadwa"
+        "content": ""
       }
     },
     "166264624639b819bd": {
