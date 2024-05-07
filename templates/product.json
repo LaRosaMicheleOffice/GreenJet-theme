@@ -79,7 +79,7 @@
       "settings": {
         "gallery_style": "gallery",
         "show_description": true,
-        "width": "full",
+        "width": "half",
         "style": "tabs",
         "heading_produktfotos": "Produktfotos",
         "content_heading": "Kalkulator",
