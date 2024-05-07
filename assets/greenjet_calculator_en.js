@@ -129,14 +129,14 @@ togglePopUpVisibility("-mob");
 function togglePopUpVisibility(local_view_id){
     document.addEventListener("click", function(event) {
         if (event.target.closest(".select-selected-gj-calc") || event.target.closest(".custom-select-gj-calc")){
-            document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "hidden";
+            document.getElementById(`calculation_explanation${local_view_id}`).style.display = "none";
             return  
         } else if(event.target.closest(".user-input-description")){
             destroySelectElements(document.getElementsByClassName("select-selected-gj-calc"));
             return
         }
         destroySelectElements(document.getElementsByClassName("select-selected-gj-calc"));
-        document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "hidden";
+        document.getElementById(`calculation_explanation${local_view_id}`).style.display = "none";
 
     })
 }
@@ -328,12 +328,12 @@ function setupEventExplanation(local_view_id){
     
     let explanation = document.getElementById(`calculation_headline${local_view_id}`);
     explanation.addEventListener("click", function(){
-    let visibility = document.getElementById(`calculation_explanation${local_view_id}`).style.visibility;
-    if(visibility == "" || visibility == "hidden"){
-        document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "visible";
+    let visibility = document.getElementById(`calculation_explanation${local_view_id}`).style.display;
+    if(visibility == "" || visibility == "none"){
+        document.getElementById(`calculation_explanation${local_view_id}`).style.display = "flex";
     }
     else {
-        document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "hidden";
+        document.getElementById(`calculation_explanation${local_view_id}`).style.display = "none";
     }
 })
 }
