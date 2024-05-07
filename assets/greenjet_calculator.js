@@ -123,6 +123,9 @@ function createNewSelectElement(check_select, local_view_id){
     });
 }
 
+
+console.log("MERGE")
+
 togglePopUpVisibility("");
 togglePopUpVisibility("-mob");
 
