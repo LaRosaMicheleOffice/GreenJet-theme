@@ -20,6 +20,8 @@ function setBubble(range, bubble) {
   bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
 }
 
+alert("MERGE");
+
 // Default Value Handling
 let default_visible_values = {
     "utilization": 95, // in %
