@@ -329,7 +329,7 @@ function setupEventExplanation(local_view_id){
     let explanation = document.getElementById(`calculation_headline${local_view_id}`);
     explanation.addEventListener("click", function(){
     let visibility = document.getElementById(`calculation_explanation${local_view_id}`).style.visibility;
-    if(visibility == "" || visibility == "none"){
+    if(visibility == "" || visibility == "hidden"){
         document.getElementById(`calculation_explanation${local_view_id}`).style.visibility = "visible"
     }
     else {
