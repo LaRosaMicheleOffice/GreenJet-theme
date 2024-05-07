@@ -77,7 +77,7 @@
         "e1d06aa1-2be2-434b-8d5e-855d40839ba9"
       ],
       "settings": {
-        "gallery_style": "gallery",
+        "gallery_style": "slider",
         "show_description": true,
         "width": "half",
         "style": "tabs",
