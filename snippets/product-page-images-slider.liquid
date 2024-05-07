@@ -24,7 +24,7 @@
     </div>
         {% endfor %}
     {% elsif request.locale.iso_code == 'it' %} 
-      {%- for media in product.metafields.custom.italienische_bildgallerie.value -%}
+      <!-- {%- for media in product.media -%}
         <div class="yv-product-slider-item yv-product-image-item flickity-slider-item" id="media-main-{{ media.id }}">
       <div class="image-wrapper"  style="padding-bottom:{{ 1 | divided_by : media.preview_image.aspect_ratio | times: 100 }}%">
       {%- assign mediaId = 'yv-product-image-item-' | append: media.id -%}
@@ -35,7 +35,8 @@
       </a>
     </div>
     </div>
-        {% endfor %}
+        {% endfor %} -->
+    
     {% elsif request.locale.iso_code == 'es' %} 
       {%- for media in product.metafields.custom.spanische_bildgallerie.value -%}
         <div class="yv-product-slider-item yv-product-image-item flickity-slider-item" id="media-main-{{ media.id }}">
