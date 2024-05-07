@@ -20,6 +20,7 @@
     "social_instagram_link": "https:\/\/www.instagram.com\/greenjet_italia\/",
     "enable_cart_drawer": true,
     "enable_preorder": false,
+    "variant_image": false,
     "saved_amount_style": "currency",
     "show_quick_view": false,
     "show_similar": false,
