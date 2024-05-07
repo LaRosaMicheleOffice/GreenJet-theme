@@ -77,9 +77,9 @@
         "e1d06aa1-2be2-434b-8d5e-855d40839ba9"
       ],
       "settings": {
-        "gallery_style": "slider",
+        "gallery_style": "stacked",
         "show_description": true,
-        "width": "half",
+        "width": "full",
         "style": "tabs",
         "heading_produktfotos": "Produktfotos",
         "content_heading": "Kalkulator",
