@@ -159,5 +159,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "* {transition: none !important;}"
+    ]
   }
 }
