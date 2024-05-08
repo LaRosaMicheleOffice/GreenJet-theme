@@ -179,20 +179,6 @@
         "bottom_space_mobile": 30
       }
     },
-    "166281115660554f37": {
-      "type": "video-section",
-      "settings": {
-        "videofile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1ea7f8a959474756b261d502ac492c19.mov",
-        "poster": "shopify:\/\/shop_images\/niklas.png",
-        "fullwidth": true,
-        "autoplay": false,
-        "title": "",
-        "subtitle": "",
-        "title_color": "#ffffff",
-        "subtitle_color": "#ffffff",
-        "btn_color": "#ffffff"
-      }
-    },
     "16622702436ef5b6c3": {
       "type": "montageanleitung",
       "blocks": {
@@ -263,7 +249,6 @@
     "main-product",
     "166264624639b819bd",
     "1662802161d63a84ff",
-    "166281115660554f37",
     "16622702436ef5b6c3",
     "product_recommendations"
   ]
