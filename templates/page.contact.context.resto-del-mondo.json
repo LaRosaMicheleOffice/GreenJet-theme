@@ -1,8 +1,0 @@
-{
-  "parent": "page.contact.json",
-  "context": {
-    "market": "resto-del-mondo"
-  },
-  "sections": {
-  }
-}
