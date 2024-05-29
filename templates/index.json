@@ -220,7 +220,7 @@
         "button_jhTjqP": {
           "type": "button",
           "settings": {
-            "dynamic_checkout_btn": true
+            "dynamic_checkout_btn": false
           }
         }
       },
