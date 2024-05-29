@@ -233,75 +233,8 @@
         "button_jhTjqP"
       ],
       "settings": {
-        "heading": "Featured",
+        "heading": "OFFERTA LIMITATA",
         "product": "greenjet-kit-salvalacqua",
-        "top_space_desktop": 70,
-        "bottom_space_desktop": 70,
-        "top_space_mobile": 40,
-        "bottom_space_mobile": 0
-      }
-    },
-    "1657114306ddec8d35": {
-      "type": "featured-product",
-      "blocks": {
-        "16571143051ab3d9d8-0": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "d283f17c-5f5d-4dae-be58-7e12e52d51e8": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}"
-          }
-        },
-        "text_NbqLYd": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>pagala in 3 rate da 25,99 € con paypal, il risparmio mensile copre praticamente il costo.<b> È come averla gratis! <\/b>\n<\/h6>"
-          }
-        },
-        "a20b855c-cdfe-44a5-a665-f62729f5f63f": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "",
-            "custom_html": "<div class=\"icon-and-text\">\n        <span class=\"icon icon--inventory\"><\/span>\n        <span style=\"color:#7cb39e;min-width: 60px;\">Disponibile<\/span> - in 24\/48 ore lavorative<\/div>"
-          }
-        },
-        "16571143051ab3d9d8-5": {
-          "type": "button",
-          "settings": {
-            "dynamic_checkout_btn": false
-          }
-        },
-        "da466d58-3029-4450-a25d-06911a908d5e": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% render 'payment-icons' %}",
-            "custom_html": ""
-          }
-        },
-        "4316dc4c-2a57-4475-9c76-7af386090b23": {
-          "type": "custom_liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "<span style=\"padding-top:20px\" class=\"page-viewers icon-and-text\">\n  <div><span style=\"padding-right:2px;\">🔥 Es sehen sich gerade \n <\/span>\n  <span class=\"js-page-viewers\"  style=\"font-weight:bold;\" data-min=\"39\" data-max=\"49\" data-duration=\"{{\"5\" | times:1000}}\"><\/span>\n  <span style=\"padding-left:2px;\"> <b>Personen<\/b> dieses Produkt an!<\/span><\/div>\n<\/span>\n\n\n<script src=\"https:\/\/code.jquery.com\/jquery-3.6.0.slim.min.js\"\n  integrity=\"sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=\" crossorigin=\"anonymous\"><\/script>\n<script>\nwindow.onload = function() {\n  var $fakeViewClass = $('.js-page-viewers'),\n      minValue = $fakeViewClass.data('min'),\n      maxValue = $fakeViewClass.data('max'),\n      duration = $fakeViewClass.data('duration');\n  function randomInRange(start,end){\n    var value = Math.floor(Math.random() * (end - start + 1) + start);\n    $fakeViewClass.text(value);\n  }\n\n  if (minValue !== undefined && maxValue !== undefined){\n    randomInRange(minValue,maxValue);\n    setInterval(function() {\n      randomInRange(minValue,maxValue);\n    },duration);\n  }\n\n};\n<\/script>",
-            "custom_html": ""
-          }
-        }
-      },
-      "block_order": [
-        "16571143051ab3d9d8-0",
-        "d283f17c-5f5d-4dae-be58-7e12e52d51e8",
-        "text_NbqLYd",
-        "a20b855c-cdfe-44a5-a665-f62729f5f63f",
-        "16571143051ab3d9d8-5",
-        "da466d58-3029-4450-a25d-06911a908d5e",
-        "4316dc4c-2a57-4475-9c76-7af386090b23"
-      ],
-      "settings": {
-        "heading": "Bestseller",
-        "product": "greenjet-doccia",
         "top_space_desktop": 70,
         "bottom_space_desktop": 70,
         "top_space_mobile": 40,
@@ -311,14 +244,15 @@
     "1708540102fade48e6": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_all_reviews_text_AXKfQT": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "judge_me_reviews_review_widget_homepage_wzGXwE": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
+            "product": "greenjet-kit-salvalacqua"
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_all_reviews_text_AXKfQT"
+        "judge_me_reviews_review_widget_homepage_wzGXwE"
       ],
       "settings": {
         "top_space_desktop": 30,
@@ -775,7 +709,6 @@
     "1657114339018f27d3",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "featured_product_caLaVy",
-    "1657114306ddec8d35",
     "1708540102fade48e6",
     "1662195553963b460f",
     "1662196963c246b272",
