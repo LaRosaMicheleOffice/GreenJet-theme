@@ -189,6 +189,58 @@
         "bottom_space_mobile": 30
       }
     },
+    "featured_product_caLaVy": {
+      "type": "featured-product",
+      "blocks": {
+        "title_HEpwVf": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "review_star_T3Pxch": {
+          "type": "review-star",
+          "settings": {
+          }
+        },
+        "price_iY3kQx": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_aCFUz8": {
+          "type": "variant",
+          "settings": {
+          }
+        },
+        "quantity_pxQDRb": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "button_jhTjqP": {
+          "type": "button",
+          "settings": {
+            "dynamic_checkout_btn": true
+          }
+        }
+      },
+      "block_order": [
+        "title_HEpwVf",
+        "review_star_T3Pxch",
+        "price_iY3kQx",
+        "variant_aCFUz8",
+        "quantity_pxQDRb",
+        "button_jhTjqP"
+      ],
+      "settings": {
+        "heading": "Featured",
+        "product": "greenjet-kit-salvalacqua",
+        "top_space_desktop": 70,
+        "bottom_space_desktop": 70,
+        "top_space_mobile": 40,
+        "bottom_space_mobile": 0
+      }
+    },
     "1657114306ddec8d35": {
       "type": "featured-product",
       "blocks": {
@@ -722,6 +774,7 @@
     "slider_PwkFpW",
     "1657114339018f27d3",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
+    "featured_product_caLaVy",
     "1657114306ddec8d35",
     "1708540102fade48e6",
     "1662195553963b460f",
