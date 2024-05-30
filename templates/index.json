@@ -261,6 +261,92 @@
         "bottom_space_mobile": 30
       }
     },
+    "16571143161c273279": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "frontpage",
+        "products_count": 3,
+        "heading": "I nostri prodotti",
+        "subheading": "Risparmia sulle spese di spedizione!",
+        "collection_heading": "",
+        "collection_desc": "",
+        "top_space_desktop": 80,
+        "bottom_space_desktop": 75,
+        "top_space_mobile": 40,
+        "bottom_space_mobile": 20
+      }
+    },
+    "166219685159fd8837": {
+      "type": "faq-section",
+      "blocks": {
+        "3d616203-50f9-44e3-984b-96f87e923c12": {
+          "type": "faq",
+          "settings": {
+            "heading": "Come funziona GREENJET?",
+            "answer": "<p>La forma complessa della parte interna crea una forte pressione negativa, che porta ad un elevato effetto di aspirazione. Il cosiddetto effetto Venturi, utilizzato ad esempio in Formula 1 per generare carico aerodinamico.<\/p><p>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Il <strong>getto d'acqua è così ottimamente racchiuso nell'aria<\/strong> .<\/p>"
+          }
+        },
+        "1662196851d081d4cc-0": {
+          "type": "faq",
+          "settings": {
+            "heading": "Come funziona l'assemblaggio?",
+            "answer": "<p>GREENJET si <strong>integra facilmente e rapidamente in qualsiasi doccia<\/strong> .<\/p><p>​GREENJET è fissato al raccordo come adattatore intermedio. Il tubo della doccia viene quindi avvitato e inizia il risparmio idrico ed energetico. Nelle docce a pioggia, GREENJET è montato sopra il soffione.<\/p><p>Anche in questo caso, durante lo sviluppo è stata prestata attenzione per garantire che GREENJET possa essere installato rapidamente e facilmente da chiunque.<\/p><p><\/p><p>Qui troverai istruzioni dettagliate su come installare il prodotto nella tua doccia:<\/p><p><strong>1. Controllo del soffione della doccia<\/strong><\/p><p>Controlla se il tuo soffione doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il filtro (utilizzando una pinza) o <span style=\"text-decoration:underline\">pulirlo accuratamente<\/span> . Un filtro che ha una guarnizione integrata (spesso in caso di pioggia) dovrebbe essere assolutamente pulito ma non rimosso.<\/p><p><\/p><p><strong>2. Smontare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Staccare<\/span> il flessibile della doccia dal raccordo o il soffione a pioggia dal <span style=\"text-decoration:underline\">tubo di collegamento<\/span> . Se il tubo o la doccia a pioggia non possono essere staccati a mano, è meglio usare guanti da lavoro o pinze (con un panno o una pinza di gomma per evitare graffi).<\/p><p><\/p><p><strong>3. Monta Greenjet<\/strong><\/p><p><span style=\"text-decoration:underline\">Attaccare ora Greenjet al raccordo o al tubo di collegamento<\/span> . È sufficiente montare Greenjet a mano, non sono necessarie pinze. In caso di danni causati da pinze, non possiamo più ritirare il prodotto!<\/p><p><\/p><p><strong>4. Installare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Ora monta il flessibile doccia<\/span> o il soffione a pioggia su Greenjet e inizia il risparmio idrico ed energetico!<\/p>"
+          }
+        },
+        "1662196851d081d4cc-1": {
+          "type": "faq",
+          "settings": {
+            "heading": "Quanto costa la spedizione?",
+            "answer": "<p>I costi di spedizione vengono calcolati al momento dell'acquisto.<\/p><p>Puoi restituire il prodotto a tue spese entro 14 giorni senza fornire una motivazione e ti rimborseremo l'intero importo.<br\/>Si prega di notare che non possiamo emettere un rimborso per <strong>danni visibili<\/strong> (causati da pinze o simili) al nostro prodotto!<\/p>"
+          }
+        },
+        "1662196851d081d4cc-2": {
+          "type": "faq",
+          "settings": {
+            "heading": "Quanta acqua posso risparmiare?",
+            "answer": "<p>Con GREENJET tutti possono dare un importante contributo alla tutela dell'ambiente e allo stesso tempo ridurre sensibilmente i costi.<\/p><p>I risparmi sono individuali e dipendono dalla pressione dell'acqua. In media, i risparmi sono compresi tra il 30 e il 66%.<\/p>"
+          }
+        },
+        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4": {
+          "type": "faq",
+          "settings": {
+            "heading": "La pressione cambia quando fai la doccia?",
+            "answer": "<p>I tradizionali soffioni doccia economici presentano un grosso svantaggio: meno acqua significa anche meno comfort durante la doccia.<\/p><p>Con la tecnologia GREENJET abbiamo la soluzione:<br\/>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Pertanto, il getto d'acqua viene avvolto in modo ottimale dall'aria e più morbido.<\/p><p>E la parte migliore:<br\/><strong>Con GREENJET, nulla ostacola il piacere della doccia!<\/strong><\/p>"
+          }
+        },
+        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5": {
+          "type": "faq",
+          "settings": {
+            "heading": "Greenjet mi fa risparmiare denaro?",
+            "answer": "<p>SÌ! Meno consumo di acqua (calda) significa minori costi per energia, acqua potabile e fognature. In media, una famiglia di quattro persone risparmia circa 440 euro all'anno.<\/p><p>Una <strong>famiglia media di 3 persone<\/strong> risparmia <strong>340 € di acqua ed energia e 520 kg di CO₂<\/strong> all'anno<\/p><p><a href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\" target=\"_blank\" title=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><strong>Al calcolatore di Risparmio -&gt;<\/strong><\/a><\/p>"
+          }
+        },
+        "5a43b8fc-e472-4b11-ace0-aa7f654c3376": {
+          "type": "faq",
+          "settings": {
+            "heading": "L'acqua dura è un problema?",
+            "answer": "<p>Il calcare non è un problema per GREENJET, poiché i 9 fori d'aria aspirano solo aria attraverso i fori e quindi non si potrà mai depositare calcare.<\/p><p>In caso di depositi di calcare, Greenjet può essere inserito in un qualsiasi anticalcare disponibile in commercio e riutilizzato sotto la doccia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3d616203-50f9-44e3-984b-96f87e923c12",
+        "1662196851d081d4cc-0",
+        "1662196851d081d4cc-1",
+        "1662196851d081d4cc-2",
+        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4",
+        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5",
+        "5a43b8fc-e472-4b11-ace0-aa7f654c3376"
+      ],
+      "settings": {
+        "heading": "Domande frequenti",
+        "image": "shopify:\/\/shop_images\/t3lfo7pk.png",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
     "1662195553963b460f": {
       "type": "image-with-text",
       "blocks": {
@@ -393,21 +479,6 @@
         "bottom_space_desktop": 30,
         "top_space_mobile": 30,
         "bottom_space_mobile": 30
-      }
-    },
-    "16571143161c273279": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "frontpage",
-        "products_count": 3,
-        "heading": "I nostri prodotti",
-        "subheading": "Risparmia sulle spese di spedizione!",
-        "collection_heading": "",
-        "collection_desc": "",
-        "top_space_desktop": 80,
-        "bottom_space_desktop": 75,
-        "top_space_mobile": 40,
-        "bottom_space_mobile": 20
       }
     },
     "16624469807973c962": {
@@ -573,77 +644,6 @@
         "image": "shopify:\/\/shop_images\/bm858g34.png"
       }
     },
-    "166219685159fd8837": {
-      "type": "faq-section",
-      "blocks": {
-        "3d616203-50f9-44e3-984b-96f87e923c12": {
-          "type": "faq",
-          "settings": {
-            "heading": "Come funziona GREENJET?",
-            "answer": "<p>La forma complessa della parte interna crea una forte pressione negativa, che porta ad un elevato effetto di aspirazione. Il cosiddetto effetto Venturi, utilizzato ad esempio in Formula 1 per generare carico aerodinamico.<\/p><p>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Il <strong>getto d'acqua è così ottimamente racchiuso nell'aria<\/strong> .<\/p>"
-          }
-        },
-        "1662196851d081d4cc-0": {
-          "type": "faq",
-          "settings": {
-            "heading": "Come funziona l'assemblaggio?",
-            "answer": "<p>GREENJET si <strong>integra facilmente e rapidamente in qualsiasi doccia<\/strong> .<\/p><p>​GREENJET è fissato al raccordo come adattatore intermedio. Il tubo della doccia viene quindi avvitato e inizia il risparmio idrico ed energetico. Nelle docce a pioggia, GREENJET è montato sopra il soffione.<\/p><p>Anche in questo caso, durante lo sviluppo è stata prestata attenzione per garantire che GREENJET possa essere installato rapidamente e facilmente da chiunque.<\/p><p><\/p><p>Qui troverai istruzioni dettagliate su come installare il prodotto nella tua doccia:<\/p><p><strong>1. Controllo del soffione della doccia<\/strong><\/p><p>Controlla se il tuo soffione doccia\/doccia a pioggia ha un filtro. In tal caso, rimuovere il filtro (utilizzando una pinza) o <span style=\"text-decoration:underline\">pulirlo accuratamente<\/span> . Un filtro che ha una guarnizione integrata (spesso in caso di pioggia) dovrebbe essere assolutamente pulito ma non rimosso.<\/p><p><\/p><p><strong>2. Smontare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Staccare<\/span> il flessibile della doccia dal raccordo o il soffione a pioggia dal <span style=\"text-decoration:underline\">tubo di collegamento<\/span> . Se il tubo o la doccia a pioggia non possono essere staccati a mano, è meglio usare guanti da lavoro o pinze (con un panno o una pinza di gomma per evitare graffi).<\/p><p><\/p><p><strong>3. Monta Greenjet<\/strong><\/p><p><span style=\"text-decoration:underline\">Attaccare ora Greenjet al raccordo o al tubo di collegamento<\/span> . È sufficiente montare Greenjet a mano, non sono necessarie pinze. In caso di danni causati da pinze, non possiamo più ritirare il prodotto!<\/p><p><\/p><p><strong>4. Installare il flessibile della doccia\/la doccia a pioggia<\/strong><\/p><p><span style=\"text-decoration:underline\">Ora monta il flessibile doccia<\/span> o il soffione a pioggia su Greenjet e inizia il risparmio idrico ed energetico!<\/p>"
-          }
-        },
-        "1662196851d081d4cc-1": {
-          "type": "faq",
-          "settings": {
-            "heading": "Quanto costa la spedizione?",
-            "answer": "<p>I costi di spedizione vengono calcolati al momento dell'acquisto.<\/p><p>Puoi restituire il prodotto a tue spese entro 14 giorni senza fornire una motivazione e ti rimborseremo l'intero importo.<br\/>Si prega di notare che non possiamo emettere un rimborso per <strong>danni visibili<\/strong> (causati da pinze o simili) al nostro prodotto!<\/p>"
-          }
-        },
-        "1662196851d081d4cc-2": {
-          "type": "faq",
-          "settings": {
-            "heading": "Quanta acqua posso risparmiare?",
-            "answer": "<p>Con GREENJET tutti possono dare un importante contributo alla tutela dell'ambiente e allo stesso tempo ridurre sensibilmente i costi.<\/p><p>I risparmi sono individuali e dipendono dalla pressione dell'acqua. In media, i risparmi sono compresi tra il 30 e il 66%.<\/p>"
-          }
-        },
-        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4": {
-          "type": "faq",
-          "settings": {
-            "heading": "La pressione cambia quando fai la doccia?",
-            "answer": "<p>I tradizionali soffioni doccia economici presentano un grosso svantaggio: meno acqua significa anche meno comfort durante la doccia.<\/p><p>Con la tecnologia GREENJET abbiamo la soluzione:<br\/>L'aria viene aspirata attraverso i 3 fori all'esterno e immessa in una camera all'interno. Nella camera, l'aria viene quindi fornita all'acqua in modo circolare attraverso 6 fori. Pertanto, il getto d'acqua viene avvolto in modo ottimale dall'aria e più morbido.<\/p><p>E la parte migliore:<br\/><strong>Con GREENJET, nulla ostacola il piacere della doccia!<\/strong><\/p>"
-          }
-        },
-        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5": {
-          "type": "faq",
-          "settings": {
-            "heading": "Greenjet mi fa risparmiare denaro?",
-            "answer": "<p>SÌ! Meno consumo di acqua (calda) significa minori costi per energia, acqua potabile e fognature. In media, una famiglia di quattro persone risparmia circa 440 euro all'anno.<\/p><p>Una <strong>famiglia media di 3 persone<\/strong> risparmia <strong>340 € di acqua ed energia e 520 kg di CO₂<\/strong> all'anno<\/p><p><a href=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\" target=\"_blank\" title=\"\/products\/greenjet-kit-salvalacqua#yv-product-feature-specification\"><strong>Al calcolatore di Risparmio -&gt;<\/strong><\/a><\/p>"
-          }
-        },
-        "5a43b8fc-e472-4b11-ace0-aa7f654c3376": {
-          "type": "faq",
-          "settings": {
-            "heading": "L'acqua dura è un problema?",
-            "answer": "<p>Il calcare non è un problema per GREENJET, poiché i 9 fori d'aria aspirano solo aria attraverso i fori e quindi non si potrà mai depositare calcare.<\/p><p>In caso di depositi di calcare, Greenjet può essere inserito in un qualsiasi anticalcare disponibile in commercio e riutilizzato sotto la doccia.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3d616203-50f9-44e3-984b-96f87e923c12",
-        "1662196851d081d4cc-0",
-        "1662196851d081d4cc-1",
-        "1662196851d081d4cc-2",
-        "52fbe5e7-4ac1-4af2-99c8-a5b4d29635a4",
-        "a1aa6d27-9651-45fc-8fdd-35721d6bd0a5",
-        "5a43b8fc-e472-4b11-ace0-aa7f654c3376"
-      ],
-      "settings": {
-        "heading": "Domande frequenti",
-        "image": "shopify:\/\/shop_images\/t3lfo7pk.png",
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      }
-    },
     "16622702436ef5b6c3": {
       "type": "montageanleitung",
       "blocks": {
@@ -710,12 +710,12 @@
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "featured_product_caLaVy",
     "1708540102fade48e6",
+    "16571143161c273279",
+    "166219685159fd8837",
     "1662195553963b460f",
     "1662196963c246b272",
     "166265254429354889",
-    "16571143161c273279",
     "16624469807973c962",
-    "166219685159fd8837",
     "16622702436ef5b6c3"
   ]
 }
