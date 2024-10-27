@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -16,8 +25,8 @@
     "type_header_spacing": "0",
     "type_base_font_family": "avenir_next_rounded_n4",
     "type_base_size": 12,
-    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61557094528357",
-    "social_instagram_link": "https:\/\/www.instagram.com\/greenjet_italia\/",
+    "social_facebook_link": "https://www.facebook.com/profile.php?id=61557094528357",
+    "social_instagram_link": "https://www.instagram.com/greenjet_italia/",
     "enable_cart_drawer": true,
     "enable_preorder": false,
     "variant_image": false,
@@ -27,8 +36,8 @@
     "show_similar_text": false,
     "enableScrollToTop": false,
     "show_scrollToTop_text": false,
-    "favicon": "shopify:\/\/shop_images\/Logo_GREENJET.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Logo_GREENJET.webp",
+    "favicon": "shopify://shop_images/Logo_GREENJET.png",
+    "checkout_logo_image": "shopify://shop_images/Logo_GREENJET.webp",
     "checkout_logo_size": "large",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#e3eff5",
@@ -62,7 +71,7 @@
           "show_search": false,
           "show_localization": true,
           "enable_sticky_header": false,
-          "logo": "shopify:\/\/shop_images\/Logo_GREENJET.svg",
+          "logo": "shopify://shop_images/Logo_GREENJET.svg",
           "logo_width": 170,
           "logo_position": "center",
           "menu": "main-menu",
@@ -105,9 +114,9 @@
           "footer-4"
         ],
         "settings": {
-          "svg_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0633\/5778\/0153\/files\/Logo_GREENJET.svg",
+          "svg_image": "https://cdn.shopify.com/s/files/1/0633/5778/0153/files/Logo_GREENJET.svg",
           "image_width": 130,
-          "subtext": "<p>risparmiare acqua ed energia per il nostro pianeta<\/p>",
+          "subtext": "<p><strong>Risparmiamo acqua ed energia per il nostro pianeta</strong></p>",
           "enable_language_selector": true,
           "enable_currency_selector": true,
           "payment_enable": true,
@@ -125,7 +134,7 @@
             "settings": {
               "heading": "Offer Titletes",
               "highlight_text": "Offer",
-              "link": "shopify:\/\/policies\/privacy-policy"
+              "link": "shopify://policies/privacy-policy"
             }
           }
         },
@@ -147,19 +156,19 @@
     ],
     "blocks": {
       "4015264832934714879": {
-        "type": "shopify:\/\/apps\/ecomsend-popups\/blocks\/app\/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "type": "shopify://apps/ecomsend-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
         "disabled": false,
         "settings": {
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "6615124273980966592": {
-        "type": "shopify:\/\/apps\/chatty-livechat-helpdesk\/blocks\/app-embed\/1c0e135d-e8e1-4fe2-86be-1c36def46675",
+        "type": "shopify://apps/chatty-livechat-helpdesk/blocks/app-embed/1c0e135d-e8e1-4fe2-86be-1c36def46675",
         "disabled": false,
         "settings": {
         }
