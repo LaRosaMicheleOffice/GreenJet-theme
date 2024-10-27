@@ -1,11 +1,20 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main-page": {
       "type": "main-page",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/vlc_uvN1Fotgqg.png",
+        "banner": "shopify://shop_images/vlc_uvN1Fotgqg.png",
         "bgcolor": "#f5fcff",
-        "textcolor": "#fff"
+        "textcolor": "#ffffff"
       }
     },
     "main": {
@@ -13,9 +22,9 @@
       "settings": {
         "contact_heading": "Contatti",
         "phone_heading": "Numero di telefono",
-        "phone_number": "+39 379 136 5940",
+        "phone_number": "+39 349 839 5287",
         "email_heading": "email",
-        "email": "info@emcconsulting.it",
+        "email": "info@greenitalytrade.it",
         "address_heading": "",
         "address": "",
         "form_heading": "Contattaci",
