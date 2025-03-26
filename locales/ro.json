@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "shopify": {
     "sentence": {
@@ -194,8 +203,8 @@
         "address2_label": "Intern",
         "optional_address2_label": "Interior, scara etc. (optional)",
         "city_label": "Oraș",
-        "country_label": "Țara\/Regiune",
-        "country_code": "Cod de țară\/regiune",
+        "country_label": "Țara/Regiune",
+        "country_code": "Cod de țară/regiune",
         "province_label": "Provincie",
         "province_placeholder": "Provincie",
         "county_label": "judetul",
@@ -210,8 +219,8 @@
         "governorate_placeholder": "Guvernator",
         "emirate_label": "Emirat",
         "emirate_placeholder": "Emirat",
-        "state_and_territory_label": "Stat\/Teritoriu",
-        "state_and_territory_placeholder": "Stat\/Teritoriu",
+        "state_and_territory_label": "Stat/Teritoriu",
+        "state_and_territory_placeholder": "Stat/Teritoriu",
         "phone_label": "Telefon",
         "optional_phone_label": "Telefon (optional)",
         "phone_placeholder": "Telefon",
@@ -259,11 +268,11 @@
         "duties_included_label": "Suma totală include toate taxele și taxele vamale aplicabile, fără costuri suplimentare la livrare",
         "gift_card_has_been_removed": "Cardul cadou a fost eliminat",
         "discount_already_applied": "La această comandă a fost deja aplicată o reducere, deci nu este posibilă adăugarea alta.",
-        "cart_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este valabil pentru articolele din coș",
-        "discount_requires_customer_notice": "Introduceți detaliile de expediere pentru a aplica codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
-        "customer_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este disponibil pentru dvs. în acest moment",
-        "shipping_information_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> nu este disponibil pentru adresa dvs. de expediere",
-        "customer_already_used_once_per_customer_discount_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}<\/strong> a fost deja folosit",
+        "cart_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu este valabil pentru articolele din coș",
+        "discount_requires_customer_notice": "Introduceți detaliile de expediere pentru a aplica codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu este disponibil pentru dvs. în acest moment",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> nu este disponibil pentru adresa dvs. de expediere",
+        "customer_already_used_once_per_customer_discount_notice": "Codul de reducere <strong style=\"text-transform:uppercase\">%{code}</strong> a fost deja folosit",
         "subtotal_label": "Subtotal",
         "shipping_label": "Transport",
         "tip_label": "Bacsis",
@@ -332,10 +341,10 @@
           "due_on_receipt": "Total datorat la primirea facturii",
           "total_paid": "Plata totala"
         },
-        "higher_value_discount_applied": "Nu se poate folosi <strong style=\"text-transform:uppercase\">%{code}<\/strong> cu reducerile existente.",
-        "maximum_discount_code_limit_reached": "Ați atins numărul maxim de coduri de reducere. Eliminați codul existent pentru a utiliza <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "higher_value_discount_applied": "Nu se poate folosi <strong style=\"text-transform:uppercase\">%{code}</strong> cu reducerile existente.",
+        "maximum_discount_code_limit_reached": "Ați atins numărul maxim de coduri de reducere. Eliminați codul existent pentru a utiliza <strong style=\"text-transform:uppercase\">%{code}</strong> .",
         "order_total_label": "Comanda totala",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nu funcționează momentan. Contactați-ne pentru asistență.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> nu funcționează momentan. Contactați-ne pentru asistență.",
         "due_on_fulfillment": "Din cauza evadării",
         "subscriptions": "Abonamente",
         "duties_label": "Atribuțiile",
@@ -436,10 +445,10 @@
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} per livrare",
           "prepaid_shipping_price_label": "%{shipping_price} per livrare pentru %{delivery_interval_count}",
           "initial_order_discounted": "Primul cost de expediere %{discounted_shipping_cost}, apoi %{frequency_description}",
-          "prepaid_initial_order_discounted": "Primul cost de livrare %{discounted_shipping_price}\/%{prepaid_delivery_frequency}",
-          "prepaid_initial_order_discounted_with_per_delivery_price": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
-          "prepaid_initial_order_discounted_with_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency}, apoi %{shipping_price}\/%{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primul cost de expediere %{discounted_shipping_price}\/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), apoi %{shipping_price}\/%{billing_cycle}",
+          "prepaid_initial_order_discounted": "Primul cost de livrare %{discounted_shipping_price}/%{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primul cost de expediere %{discounted_shipping_price}/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primul cost de expediere %{discounted_shipping_price}/%{prepaid_delivery_frequency}, apoi %{shipping_price}/%{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primul cost de expediere %{discounted_shipping_price}/%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), apoi %{shipping_price}/%{billing_cycle}",
           "shipping_price_included": "Inclus",
           "recurring_order_shipping_price": "urmat de %{recurring_order_shipping_price}",
           "first_order_shipping_price_included": "Inclus pentru prima comandă, după prețul de %{recurring_order_shipping_price}",
@@ -663,16 +672,16 @@
         "card_security_notice": "Toate tranzacțiile sunt securizate și criptate.",
         "name_on_card_label": "Numele de pe card",
         "name_on_card_placeholder": "Numele de pe card",
-        "card_expiry_label": "Data expirării (LL\/AA)",
-        "card_expiry_placeholder": "Data expirării (LL\/AA)",
+        "card_expiry_label": "Data expirării (LL/AA)",
+        "card_expiry_placeholder": "Data expirării (LL/AA)",
         "card_verification_value_label": "Cod de securitate",
         "card_verification_value_placeholder": "Cod de securitate",
         "card_expiry_date_explanation": "Data expirării cardului în formatul: lună, lună, an, an",
         "card_verification_value_explanation": "Codul de securitate din 3 cifre afișat de obicei pe spatele cardului dvs. Cardurile American Express au un cod din 4 cifre situat pe partea din față.",
         "card_verification_value_explanation_amex": "Cod de securitate din 4 cifre pe partea din față a cardului",
         "card_verification_value_explanation_other": "Cod de securitate din 3 cifre pe spatele cardului",
-        "card_start_label": "Data emiterii (LL\/AA)",
-        "card_start_placeholder": "Data emiterii (LL\/AA)",
+        "card_start_label": "Data emiterii (LL/AA)",
+        "card_start_placeholder": "Data emiterii (LL/AA)",
         "card_issue_number_label": "Număr de emitere",
         "card_issue_number_placeholder": "Număr de emitere",
         "card_change_label": "Schimbare",
@@ -682,7 +691,7 @@
         "pay_with_payment_method": "Plătiți cu %{payment_method}",
         "same_billing_address_label": "La fel ca adresa de expediere",
         "different_billing_address_label": "Vă rugăm să utilizați o adresă de facturare diferită",
-        "free_order_notice_html": "Comanda dvs. este <strong>gratuită<\/strong> . Nu este necesară nicio plată.",
+        "free_order_notice_html": "Comanda dvs. este <strong>gratuită</strong> . Nu este necesară nicio plată.",
         "express_checkout_free_order": "Nu veți fi taxat pentru comenzile gratuite.",
         "order_covered_by_gift_cards_notice": {
           "one": "Comanda dvs. este acoperită de cardul dvs. cadou.",
@@ -697,9 +706,9 @@
         "no_js_credit_card_fields_redirect_hint": "Veți fi redirecționat către o pagină pentru adăugarea informațiilor dvs. de plată.",
         "card_fields_container_prefix": "Caseta de câmp:",
         "card_fields_unavailable_html": {
-          "one": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină<\/a> sau să încercați din nou mai târziu.",
-          "other": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină<\/a> sau să încercați o altă metodă de plată.",
-          "many": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină<\/a> sau să încercați o altă metodă de plată."
+          "one": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină</a> sau să încercați din nou mai târziu.",
+          "other": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină</a> sau să încercați o altă metodă de plată.",
+          "many": "Plățile cu cardul de credit și debit nu sunt disponibile momentan.<br> <a href=\"%{current_url}\">Vă rugăm să reîmprospătați această pagină</a> sau să încercați o altă metodă de plată."
         },
         "card_fields_processing_error": "A apărut o problemă la procesarea plății dvs. Încercați să reîmprospătați pagina sau verificați-vă conexiunea la internet.",
         "technical_error": "În prezent, nu putem procesa plățile din cauza unei probleme tehnice. Vă rugăm să încercați din nou în câteva minute.",
@@ -720,7 +729,7 @@
         "billing_address_not_supported_for_payment_method_error": "Această metodă de plată nu este disponibilă pentru moneda și adresa dvs. de facturare. Încercați o altă metodă de plată.",
         "change_currency_section_description": "Selectați o opțiune de monedă",
         "no_real_orders_dev_store": "Acest magazin nu poate accepta comenzi reale sau plăți reale.",
-        "subscription_agreement_label_html": "Înțeleg că accept un abonament. Se va reînnoi la costul și frecvența indicate până la final sau\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulare<\/a> .\n",
+        "subscription_agreement_label_html": "Înțeleg că accept un abonament. Se va reînnoi la costul și frecvența indicate până la final sau\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">anulare</a> .\n",
         "waiting_on_payment_methods": "Căutăm metode de plată disponibile....",
         "apple_pay_payment_error": "Nu se poate finaliza plata. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
         "subscription_card_update_agreement_label": "Schimbarea metodei de plată va actualiza abonamentul și plățile recurente viitoare.",
@@ -747,8 +756,8 @@
         "credit_card_vaulting_sign_in_banner_title": "Salvează-ți cardul de credit",
         "credit_card_vaulting_sign_in_banner_info": "Conectați-vă sau creați un cont pentru a vă salva cardul de credit pentru achiziții viitoare.",
         "credit_card_vaulting_sign_in_banner_button_label": "Log in",
-        "expiry_long": "(Expirație: %{month}\/%{year})",
-        "expiry_short": "(EXP %{month}\/%{year})",
+        "expiry_long": "(Expirație: %{month}/%{year})",
+        "expiry_short": "(EXP %{month}/%{year})",
         "ftd_vault_credit_card_label": "Salvați acest card de credit în contul meu pentru o comandă mai rapidă",
         "delete_customer_mandate_modal_title": "Eliminați acest card de plată?",
         "delete_customer_mandate_modal_body": "Dacă eliminați cardul, va trebui să îl adăugați din nou înainte de a-l folosi pentru plăți.",
@@ -757,8 +766,8 @@
           "connect": "Faceți clic pentru a vă conecta la contul dvs. Google Pay",
           "error_authorizing": "Eroare la autorizarea plății"
         },
-        "mor_disclaimer_html": "Făcând clic mai jos și completând comanda, sunteți de acord să achiziționați articolele de la Global-e ca vânzător oficial\n pentru această tranzacție, în <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">termenii și condițiile<\/a>\n și <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politica de confidențialitate<\/a> a Global-e. Global-e este furnizor\n servicii internaționale de onorare pentru %{shop_name}\n",
-        "purchase_options_card_update_agreement_label_html": "Prin actualizarea metodei de plată, autorizați plăți pentru orice achiziție recurentă sau amânată, în conformitate cu <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">politica de anulare<\/a> a acestui magazin .",
+        "mor_disclaimer_html": "Făcând clic mai jos și completând comanda, sunteți de acord să achiziționați articolele de la Global-e ca vânzător oficial\n pentru această tranzacție, în <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">termenii și condițiile</a>\n și <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politica de confidențialitate</a> a Global-e. Global-e este furnizor\n servicii internaționale de onorare pentru %{shop_name}\n",
+        "purchase_options_card_update_agreement_label_html": "Prin actualizarea metodei de plată, autorizați plăți pentru orice achiziție recurentă sau amânată, în conformitate cu <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">politica de anulare</a> a acestui magazin .",
         "multibanco_label": "Multibank",
         "receiver_payment_experience_hint": "Veți primi detaliile de plată odată ce comanda dvs. a fost plasată. Plătiți online sau la Multibanco în %{due_days} zile.",
         "pending_payment": {
@@ -777,7 +786,7 @@
           "order_contains_subscriptions": "Abonament",
           "order_contains_fixed_selling_plans": "Totalul poate exclude taxele, taxele de transport amânate și unele reduceri. Continuați să verificați suma datorată astăzi."
         },
-        "purchase_options_agreement_label_html": "Înțeleg că unul sau mai multe articole din coșul meu constituie o achiziție recurentă sau amânată. Continuând, sunt de acord cu\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">legislatia de anulare<\/a>\n și autorizez ca metoda mea de plată să fie taxată la prețurile, frecvența și datele enumerate pe această pagină până când comanda mea este procesată sau o anulez, dacă este permis.\n",
+        "purchase_options_agreement_label_html": "Înțeleg că unul sau mai multe articole din coșul meu constituie o achiziție recurentă sau amânată. Continuând, sunt de acord cu\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">legislatia de anulare</a>\n și autorizez ca metoda mea de plată să fie taxată la prețurile, frecvența și datele enumerate pe această pagină până când comanda mea este procesată sau o anulez, dacă este permis.\n",
         "payment_method_saved": "Metoda de plată salvată",
         "card_vaulted_company_location": "Harta salvată pentru această locație",
         "order_covered_by_store_credit_notice": "Comanda dvs. este acoperită de creditul magazinului.",
@@ -821,7 +830,7 @@
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Sold curent %{amount}",
-        "credit_card_expires_on_notice": "Expiră în %{month}\/%{year}",
+        "credit_card_expires_on_notice": "Expiră în %{month}/%{year}",
         "express_payment_gateway_label": "Express (Rapid)",
         "manual_payment_gateway_label": "Manual",
         "billing_address_title": "Adresa de facturare",
@@ -1173,7 +1182,7 @@
             "billing_address": "Vă rugăm să introduceți o adresă de facturare validă",
             "shipping_option": "Vă rugăm să alegeți o opțiune de livrare validă",
             "email": "Introduceți o adresă de email validă",
-            "zone": "Vă rugăm să introduceți un stat\/province validă",
+            "zone": "Vă rugăm să introduceți un stat/province validă",
             "postal_code": "Vă rugăm să introduceți un cod poștal valid",
             "reduction_code": "Introduceți un cod de reducere sau un voucher cadou valid",
             "billing_must_match_shipping": "Trebuie să se potrivească cu adresa de expediere"
@@ -1184,8 +1193,8 @@
             "address1": "Introdu adresa",
             "address2": "Introduceți scara, interiorul etc.",
             "city": "Intră în oraș",
-            "province": "Selectați un stat\/provinție",
-            "country": "Selectați o țară\/regiune",
+            "province": "Selectați un stat/provinție",
+            "country": "Selectați o țară/regiune",
             "zip": "Introdu codul poștal",
             "phone": "Introduceti un numar de telefon"
           },
@@ -1387,19 +1396,19 @@
           "many": "Produsele nu sunt disponibile"
         },
         "products_not_available": {
-          "one": "Acest produs va fi eliminat din coș, deoarece nu este disponibil în țara\/regiunea dumneavoastră.",
-          "other": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara\/regiunea dvs.",
-          "many": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara\/regiunea dvs."
+          "one": "Acest produs va fi eliminat din coș, deoarece nu este disponibil în țara/regiunea dumneavoastră.",
+          "other": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara/regiunea dvs.",
+          "many": "Aceste produse vor fi eliminate din coș, deoarece nu sunt disponibile în țara/regiunea dvs."
         },
         "all_products_in_cart_unavailable": {
-          "one": "Acest produs nu este disponibil în țara\/regiunea dvs.",
-          "other": "Aceste produse nu sunt disponibile în țara\/regiunea dvs.",
-          "many": "Aceste produse nu sunt disponibile în țara\/regiunea dvs."
+          "one": "Acest produs nu este disponibil în țara/regiunea dvs.",
+          "other": "Aceste produse nu sunt disponibile în țara/regiunea dvs.",
+          "many": "Aceste produse nu sunt disponibile în țara/regiunea dvs."
         },
         "unavailable_label": "Nu este disponibil"
       },
       "change_cart_localization": {
-        "verify_shipping_address": "Țara\/regiunea dvs. a fost actualizată. Introdu adresa ta de expediere pentru a continua plata."
+        "verify_shipping_address": "Țara/regiunea dvs. a fost actualizată. Introdu adresa ta de expediere pentru a continua plata."
       },
       "throttle": {
         "line_to_check_out": "Sunteți la coadă pentru a verifica",
@@ -1830,7 +1839,7 @@
       "prefecture": "Prefectura",
       "province": "Provincie",
       "state": "Stat",
-      "state_and_territory": "Stat\/Teritoriu",
+      "state_and_territory": "Stat/Teritoriu",
       "county": "judetul",
       "emirate": "Emirat",
       "governorate": "Guvernator",
@@ -1887,7 +1896,7 @@
       "expired": "expirat",
       "invalid_start_date_or_issue_number_for_debit": "Trebuie să introduceți o dată de începere validă sau un număr de emisiune",
       "invalid_expiry_year": "nu este valabil ca an de expirare",
-      "reset_password_html": "Această adresă de e-mail este deja asociată unui cont. Dacă contul este al tău, îți poți <a href=\"\/account\/login#recover\">reseta parola<\/a>",
+      "reset_password_html": "Această adresă de e-mail este deja asociată unui cont. Dacă contul este al tău, îți poți <a href=\"/account/login#recover\">reseta parola</a>",
       "verify_email": "Am trimis un e-mail către %{customer_email} - trebuie să faceți clic pe linkul inclus pentru a vă verifica adresa de e-mail.",
       "blocked_address": "Această locație nu este acceptată.",
       "product_not_available": "produsul nu a fost publicat pentru acest client.",
@@ -1918,7 +1927,7 @@
           },
           "open_a_store": {
             "header": "Deschideți un nou magazin Shopify",
-            "caption": "Începeți o perioadă de încercare gratuită de trei zile, apoi continuați cu 1 USD\/lună pentru următoarele trei luni.",
+            "caption": "Începeți o perioadă de încercare gratuită de trei zile, apoi continuați cu 1 USD/lună pentru următoarele trei luni.",
             "link_text": "Abonează-te acum"
           },
           "editions": {
@@ -1980,7 +1989,7 @@
           "declined": "Plata refuzata",
           "inventory": "Articole nu sunt disponibile",
           "fraud": "Comanda frauduloasa",
-          "customer": "Comanda modificată\/anulată de către client",
+          "customer": "Comanda modificată/anulată de către client",
           "other": "Alte",
           "many": "Alte",
           "staff": "Eroare de personal"
@@ -1997,7 +2006,7 @@
         "too_many_line_items_error": "Coșul nu poate conține mai mult de %{max} articole.",
         "link_expired": "Linkul a expirat",
         "link_no_longer_exists": "Link-ul nu mai există.",
-        "stock_problems_html": "Unul sau mai multe articole selectate nu mai sunt disponibile. Aveți la dispoziție un <a href=\"%{link}\">coș de cumpărături actualizat<\/a> .",
+        "stock_problems_html": "Unul sau mai multe articole selectate nu mai sunt disponibile. Aveți la dispoziție un <a href=\"%{link}\">coș de cumpărături actualizat</a> .",
         "changed": "Coșul modificat",
         "items_changed": "Unul sau mai multe elemente s-au schimbat.",
         "product_sold_out": "Produsul „%{name}” este deja epuizat.",
@@ -2086,29 +2095,29 @@
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Ați fost de acord să urmăriți deschiderile de e-mail.<\/b>",
+          "opted_in_html": "<b>Ați fost de acord să urmăriți deschiderile de e-mail.</b>",
           "visibility": "Ratele de deschidere a e-mailurilor vor fi raportate anonim. Vom vedea dacă ați deschis un e-mail doar ca parte a ratei generale de deschidere a e-mailului.",
-          "opt_out_html": "Dacă nu doriți să partajați aceste informații, puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">renunța<\/a> la urmărirea deschisă prin e-mail.",
+          "opt_out_html": "Dacă nu doriți să partajați aceste informații, puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">renunța</a> la urmărirea deschisă prin e-mail.",
           "preview_bar": "Previzualizați ce vor vedea clienții atunci când se înscriu pentru a trimite prin e-mail urmărirea deschisă."
         },
         "opt_out": {
-          "opted_out_html": "<b>Ați ales să renunțați la urmărirea deschiderii e-mailului.<\/b>",
+          "opted_out_html": "<b>Ați ales să renunțați la urmărirea deschiderii e-mailului.</b>",
           "visibility": "Nu vom vedea dacă ne-ați deschis e-mailurile.",
-          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Vă înscrieți<\/a> pentru ca deschiderile de e-mail să fie urmărite.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Vă înscrieți</a> pentru ca deschiderile de e-mail să fie urmărite.",
           "preview_bar": "Previzualizați ce vor vedea clienții când renunță la urmărirea deschisă a e-mailului."
         },
         "no_longer_track": {
-          "status_html": "<b>Nu mai urmărim deschiderile de e-mail.<\/b>",
+          "status_html": "<b>Nu mai urmărim deschiderile de e-mail.</b>",
           "privacy_policy": "De când am trimis acest e-mail, ne-am actualizat politica de confidențialitate și nu mai urmărim deschiderile de e-mail."
         },
         "track": {
-          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.<\/b>",
+          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.</b>",
           "visibility": "Vom vedea dacă ați deschis e-mailul numai în limita totală a ratei de deschidere a e-mailului."
         },
         "updated_policy": {
-          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.<\/b>",
+          "status_html": "<b>Este raportată urmărirea deschiderii e-mailului.</b>",
           "visibility": "Ne-am actualizat politica și acum se deschide e-mailul de urmărire. Ratele de deschidere a e-mailurilor vor fi raportate anonim. Vom vedea dacă ați deschis un e-mail numai în limita ratei totale de deschidere a e-mailului.",
-          "opt_out_html": "Dacă nu doriți să partajați aceste informații, vă puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">dezabona<\/a> ."
+          "opt_out_html": "Dacă nu doriți să partajați aceste informații, vă puteți <a style=\"text-decoration:underline;\" href=\"%{link}\">dezabona</a> ."
         }
       }
     }
@@ -2384,7 +2393,7 @@
       "attention": "Destinatar",
       "attention_help_text": "Numele unei persoane sau al departamentului",
       "loading_form_accessibility_message": "Se încarcă formularul de adresă",
-      "attention_company": "Companie\/Destinatar"
+      "attention_company": "Companie/Destinatar"
     },
     "payment_method_brands": {
       "maestro": "Maestru",
@@ -2537,12 +2546,12 @@
         "card_number_placeholder": "Numărul de card",
         "name_on_card_label": "Numele de pe card",
         "name_on_card_placeholder": "Numele de pe card",
-        "card_expiry_label": "Data expirării (LL\/AA)",
-        "card_expiry_placeholder": "Data expirării (LL\/AA)",
+        "card_expiry_label": "Data expirării (LL/AA)",
+        "card_expiry_placeholder": "Data expirării (LL/AA)",
         "card_verification_value_label": "Cod de securitate",
         "card_verification_value_placeholder": "Cod de securitate",
-        "card_start_label": "Data emiterii (LL\/AA)",
-        "card_start_placeholder": "Data emiterii (LL\/AA)",
+        "card_start_label": "Data emiterii (LL/AA)",
+        "card_start_placeholder": "Data emiterii (LL/AA)",
         "tooltip": {
           "tooltip_accessibility_label": "Mai multe informatii",
           "card_verification_value_explanation_amex": "Cod de securitate din 4 cifre pe partea din față a cardului",
@@ -2574,7 +2583,7 @@
       "expired": "Acest card este expirat",
       "card_update_consent": "Această metodă de plată va fi salvată pentru achiziții viitoare.",
       "digital_wallet_title": "Portofel digital",
-      "credit_or_debit_card_title": "Card de Credit \/ Card de Debit",
+      "credit_or_debit_card_title": "Card de Credit / Card de Debit",
       "google_pay": {
         "errors": {
           "generic": "A apărut o problemă cu Google Pay. Vă rugăm să încercați din nou sau să utilizați o altă metodă de plată.",
@@ -2624,7 +2633,7 @@
         "multiple_tax_exemptions": "alte {{taxExemptionsCount}}",
         "tax_exemptions_modal_close": "Închide",
         "taxes_none": "Nici unul",
-        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemption_not_applicable": "N / A",
         "tax_exemptions_modal_button_accessibility_label": "Vedeți toate scutirile fiscale",
         "pagination": {
           "load_more": "Incarca mai mult",
@@ -2865,7 +2874,7 @@
       "update": "Actualizați",
       "login": {
         "title": "Ai un cont?",
-        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link underlined-link\">Conectați-vă<\/a> pentru a verifica mai rapid."
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">Conectați-vă</a> pentru a verifica mai rapid."
       },
       "shipping_estimates": {
         "heading": "Obțineți o cotație de livrare pentru comanda dvs",
@@ -2877,7 +2886,7 @@
         "not_available": "Nu livrăm către această destinație."
       },
       "title": "Coșul tău",
-      "heading_html": "În geantă <span data-cart-item-count=\"\">{{itemCount}}<\/span> articole",
+      "heading_html": "În geantă <span data-cart-item-count=\"\">{{itemCount}}</span> articole",
       "caption": "Articole din coș",
       "price_detail": "Detalii pret",
       "remove_title": "Eliminați {{ title }}",
@@ -2894,9 +2903,9 @@
       "payment": "Metode de plata",
       "cart_error": "A apărut o eroare la actualizarea coșului. Vă rugăm să încercați din nou.",
       "cart_quantity_error_html": "Puteți adăuga în coș numai {{ quantity }} din acest articol.",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">transportul<\/a> sunt calculate la finalizare",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxele și <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">transportul</a> sunt calculate la finalizare",
       "taxes_included_but_shipping_at_checkout": "Taxa inclusă și transportul calculat la finalizare",
-      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Livrare<\/a> calculată la checkout.",
+      "taxes_included_and_shipping_policy_html": "Taxe incluse. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Livrare</a> calculată la checkout.",
       "taxes_and_shipping_at_checkout": "Taxele și transportul sunt calculate la finalizare"
     },
     "footer": {
@@ -2944,7 +2953,7 @@
       "sort_button": "Triere",
       "sort_by_label": "Filtrează după",
       "title": "Colectie",
-      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">Ștergeți tot<\/a>"
+      "use_fewer_filters_html": "Folosiți mai puține filtre sau <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Ștergeți tot</a>"
     },
     "video": {
       "load_video": "Încărcați videoclipul: {{ description }}"
@@ -2980,7 +2989,7 @@
       "login_form_error": "Parola gresita!",
       "login_form_submit": "introduce",
       "modal": "Parolă modală",
-      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"\/admin\" class=\"link underlined-link\">Autentifică-te aici<\/a>",
+      "admin_link_html": "Sunteți proprietarul magazinului? <a href=\"/admin\" class=\"link underlined-link\">Autentifică-te aici</a>",
       "powered_by_shopify_html": "Acest magazin va fi alimentat de {{ shopify }}",
       "opening_soon": "A FACE"
     },
@@ -3094,9 +3103,9 @@
       "address1": "Adresa 1",
       "address2": "Adresa 2",
       "city": "Oraș",
-      "country": "Țara\/regiune",
+      "country": "Țara/regiune",
       "province": "Provincie",
-      "zip": "Cod poștal\/POZ",
+      "zip": "Cod poștal/POZ",
       "phone": "Telefon",
       "set_default": "Setați ca adresă implicită",
       "add": "Adaugă adresă",
@@ -3176,16 +3185,16 @@
   },
   "gj_calculator": {
     "personalizzato": {
-      "energy-cost": "Costul energiei (c\/KWh)",
-      "pollution-rate": "Poluare pe litru (CO²g\/litru)",
+      "energy-cost": "Costul energiei (c/KWh)",
+      "pollution-rate": "Poluare pe litru (CO²g/litru)",
       "t_cold": "Temperatura (rece) (°C)",
       "t_warm": "Temperatura (fierbinte) (°C)",
-      "cold-water-circuit": "Circuit de apă rece (€\/m³)",
-      "waste-water-cost": "Prețul apei uzate (€\/m³)",
+      "cold-water-circuit": "Circuit de apă rece (€/m³)",
+      "waste-water-cost": "Prețul apei uzate (€/m³)",
       "shower-duration": "Durata dușului (minute)",
-      "water-rate": "Debit de apă (l\/min)",
+      "water-rate": "Debit de apă (l/min)",
       "close_popup": "Închide",
-      "GREENJET-l-min": "Economii GREENJET (L\/min)",
+      "GREENJET-l-min": "Economii GREENJET (L/min)",
       "GREENJET-saving-perc": "Economii GREENJET (%)"
     },
     "allgemein": {
@@ -3231,6 +3240,12 @@
     }
   },
   "templates": {
+    "404": {
+      "tag": "Hopa!",
+      "title": "pagina nu a fost gasita",
+      "subtext_html": "Pagina solicitată nu există. Faceți clic <a href=\"/collections/all\">aici</a> pentru a continua cumpărăturile.",
+      "button_txt": "Accesați pagina principală"
+    },
     "cart": {
       "cart": "Cart"
     },
@@ -3243,12 +3258,6 @@
         "post_success": "Vă mulțumim că ne-ați contactat. Vă vom răspunde cât mai curând posibil.",
         "error_heading": "Ajustați următoarele:"
       }
-    },
-    "404": {
-      "tag": "Hopa!",
-      "title": "pagina nu a fost gasita",
-      "subtext_html": "Pagina solicitată nu există. Faceți clic <a href=\"\/collections\/all\">aici<\/a> pentru a continua cumpărăturile.",
-      "button_txt": "Accesați pagina principală"
     },
     "search": {
       "no_results": "Nu s-au găsit rezultate pentru „ {{ terms }} ”.",
@@ -3274,10 +3283,10 @@
   },
   "localization": {
     "update": "Actualizați",
-    "country_label": "Țara\/regiune",
+    "country_label": "Țara/regiune",
     "language_label": "Limbă",
     "update_language": "Actualizare de limbă",
-    "update_country": "Actualizați țara\/regiunea"
+    "update_country": "Actualizați țara/regiunea"
   },
   "accessibility": {
     "skip_to_text": "Sari la conținut",
@@ -3335,7 +3344,7 @@
       "size_chart_label": "Tabel de mărimi",
       "tax_included": "Taxe incluse e ",
       "shipping_policy": "Livrare calculată la checkout.",
-      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">transportul<\/a> este calculat la finalizare",
+      "shipping_policy_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">transportul</a> este calculat la finalizare",
       "media": {
         "open_featured_media": "Deschideți media recomandate în vizualizarea galeriei",
         "open_media": "Deschideți media {{ index }} în vizualizarea galeriei",
@@ -3354,8 +3363,8 @@
         "check_other_stores": "Verifica disponibilitatea in alte magazine",
         "pick_up_available": "Ridicare disponibilă",
         "pick_up_unavailable": "Ridicare indisponibilă momentan",
-        "pick_up_available_at_html": "Ridicare disponibilă la <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Momentan, ridicarea este indisponibilă la <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Ridicare disponibilă la <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Momentan, ridicarea este indisponibilă la <span class=\"color-foreground\">{{ location_name }}</span>",
         "unavailable": "Nu se poate încărca disponibilitatea ridicării",
         "refresh": "Actualizați"
       },
@@ -3389,6 +3398,51 @@
           }
         }
       }
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
