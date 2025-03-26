@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "days": "Giorni",
@@ -10,7 +19,7 @@
       "login_form_error": "Password sbagliata!",
       "login_form_submit": "Entrare",
       "modal": "Password modale",
-      "admin_link_html": "Lei è il proprietario del negozio? <a href=\"\/admin\" class=\"link underlined-link\">Accedi qui<\/a>",
+      "admin_link_html": "Lei è il proprietario del negozio? <a href=\"/admin\" class=\"link underlined-link\">Accedi qui</a>",
       "powered_by_shopify_html": "Questo negozio sarà alimentato da {{ shopify }}",
       "opening_soon": "TODO"
     },
@@ -140,7 +149,7 @@
       "size_chart_label": "Tabella delle dimensioni",
       "tax_included": "Tasse incluse e ",
       "shipping_policy": "Spedizione calcolata al momento del checkout.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">spedizione<\/a> calcolata al momento del pagamento",
+      "shipping_policy_html": "<a href=\"{{ link }}\">spedizione</a> calcolata al momento del pagamento",
       "media": {
         "open_featured_media": "Aprire i media in primo piano nella vista galleria",
         "open_media": "Media aperti {{ index }} nella vista della galleria",
@@ -159,8 +168,8 @@
         "check_other_stores": "Verifica la disponibilità presso altri punti vendita",
         "pick_up_available": "Ritiro disponibile",
         "pick_up_unavailable": "Ritiro attualmente non disponibile",
-        "pick_up_available_at_html": "Ritiro disponibile presso <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Il ritiro non è attualmente disponibile presso <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_available_at_html": "Ritiro disponibile presso <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Il ritiro non è attualmente disponibile presso <span class=\"color-foreground\">{{ location_name }}</span>",
         "unavailable": "Impossibile caricare la disponibilità di ritiro",
         "refresh": "Aggiornare"
       },
@@ -204,6 +213,12 @@
     }
   },
   "templates": {
+    "404": {
+      "tag": "Ops!",
+      "title": "Pagina non trovata",
+      "subtext_html": "La pagina richiesta non esiste. Cliccare <a href=\"/collections/all\">here</a> per continuare gli acquisti.",
+      "button_txt": "Vai alla homepage"
+    },
     "search": {
       "no_results": "Nessun risultato trovato per “{{ terms }}”.",
       "no_results_simple": "Nessun risultato trovato.",
@@ -238,12 +253,6 @@
         "post_success": "Grazie per averci contattato. Vi risponderemo al più presto.",
         "error_heading": "Regolare quanto segue:"
       }
-    },
-    "404": {
-      "tag": "Ops!",
-      "title": "Pagina non trovata",
-      "subtext_html": "La pagina richiesta non esiste. Cliccare <a href=\"\/collections\/all\">here<\/a> per continuare gli acquisti.",
-      "button_txt": "Vai alla homepage"
     }
   },
   "sections": {
@@ -260,7 +269,7 @@
     },
     "cart": {
       "title": "Il tuo carrello",
-      "heading_html": "Nella borsa <span data-cart-item-count=\"\">{{itemCount}}<\/span> articoli",
+      "heading_html": "Nella borsa <span data-cart-item-count=\"\">{{itemCount}}</span> articoli",
       "caption": "Articoli del carrello",
       "price_detail": "Dettagli sul prezzo",
       "remove_title": "Rimuovere {{ title }}",
@@ -277,9 +286,9 @@
       "payment": "Metodi di pagamento",
       "cart_error": "Si è verificato un errore durante l'aggiornamento del carrello. Si prega di riprovare.",
       "cart_quantity_error_html": "È possibile aggiungere solo {{ quantity }} di questo articolo nel carrello.",
-      "taxes_and_shipping_policy_at_checkout_html": "Tasse e <a href=\"{{ link }}\">spedizione<\/a> calcolato alla cassa",
+      "taxes_and_shipping_policy_at_checkout_html": "Tasse e <a href=\"{{ link }}\">spedizione</a> calcolato alla cassa",
       "taxes_included_but_shipping_at_checkout": "Tasse incluse e spedizione calcolata al momento del checkout",
-      "taxes_included_and_shipping_policy_html": "Tasse incluse. <a href=\"{{ link }}\">Shipping<\/a> calcolato alla cassa.",
+      "taxes_included_and_shipping_policy_html": "Tasse incluse. <a href=\"{{ link }}\">Shipping</a> calcolato alla cassa.",
       "taxes_and_shipping_at_checkout": "Tasse e spedizione calcolate al momento del checkout",
       "headings": {
         "product": "Prodotto",
@@ -290,7 +299,7 @@
       "update": "Aggiornamento",
       "login": {
         "title": "Avete un account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Accedi<\/a> per effettuare il check-out più velocemente."
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Accedi</a> per effettuare il check-out più velocemente."
       },
       "shipping_estimates": {
         "heading": "Ottenere un preventivo di spedizione per il vostro ordine",
@@ -348,7 +357,7 @@
       "sort_by_label": "Ordina per",
       "title": "Collezione",
       "to": "A",
-      "use_fewer_filters_html": "Utilizzare meno filtri o <a class=\"{{ class }}\" href=\"{{ link }}\">Cancella tutto<\/a>"
+      "use_fewer_filters_html": "Utilizzare meno filtri o <a class=\"{{ class }}\" href=\"{{ link }}\">Cancella tutto</a>"
     },
     "video": {
       "load_video": "Carica il video: {{ description }}"
@@ -365,10 +374,10 @@
   },
   "localization": {
     "update": "Aggiornamento",
-    "country_label": "Paese\/regione",
+    "country_label": "Paese/regione",
     "language_label": "Lingua",
     "update_language": "Aggiornamento della lingua",
-    "update_country": "Aggiornare paese\/regione"
+    "update_country": "Aggiornare paese/regione"
   },
   "customer": {
     "account": {
@@ -398,9 +407,9 @@
       "address1": "Indirizzo 1",
       "address2": "Indirizzo 2",
       "city": "Città",
-      "country": "Paese\/regione",
+      "country": "Paese/regione",
       "province": "Provincia",
-      "zip": "Codice postale\/ZIP",
+      "zip": "Codice postale/ZIP",
       "phone": "Telefono",
       "set_default": "Imposta come indirizzo predefinito",
       "add": "Aggiungi indirizzo",
@@ -507,16 +516,16 @@
   },
   "gj_calculator": {
     "personalizzato": {
-      "energy-cost": "Costo energia (c\/KWh)",
-      "pollution-rate": "Inquinamento al Litro (CO²g\/Liter)",
+      "energy-cost": "Costo energia (c/KWh)",
+      "pollution-rate": "Inquinamento al Litro (CO²g/Liter)",
       "t_cold": "Temperatura (fredda) (°C)",
       "t_warm": "Temperatura (calda) (°C)",
-      "cold-water-circuit": "Circuito dell'acqua fredda (€\/m³)",
-      "waste-water-cost": "Prezzo delle acque reflue (€\/m³)",
+      "cold-water-circuit": "Circuito dell'acqua fredda (€/m³)",
+      "waste-water-cost": "Prezzo delle acque reflue (€/m³)",
       "shower-duration": "Durata doccia (mins)",
-      "water-rate": "Flusso d'acqua (L\/min)",
+      "water-rate": "Flusso d'acqua (L/min)",
       "close_popup": "Chiudi",
-      "GREENJET-l-min": "Risparmio GREENJET (L\/min)",
+      "GREENJET-l-min": "Risparmio GREENJET (L/min)",
       "GREENJET-saving-perc": "Risparmio GREENJET (%)"
     },
     "allgemein": {
@@ -561,6 +570,51 @@
       "amortisationszeit": "Periodo di rimborso:",
       "amortisation_satz": "L'investimento in GREENJET si ripagherà entro",
       "ersparnis_10j": "RISPARMIO DOPO 10 ANNI"
+    }
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
     }
   }
 }
