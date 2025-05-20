@@ -124,18 +124,6 @@
         "bottom_space_mobile": 30
       }
     },
-    "custom_liquid_MTjGPx": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"d-none d-md-block\">{% render 'greenjet_calculator' %}</div>",
-        "content_alignment": "center",
-        "top_space_desktop": 30,
-        "bottom_space_desktop": 30,
-        "top_space_mobile": 30,
-        "bottom_space_mobile": 30
-      }
-    },
     "featured_product_caLaVy": {
       "type": "featured-product",
       "blocks": {
@@ -649,7 +637,6 @@
   "order": [
     "slider_PwkFpW",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
-    "custom_liquid_MTjGPx",
     "featured_product_caLaVy",
     "1708540102fade48e6",
     "16571143161c273279",
