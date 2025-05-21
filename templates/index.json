@@ -7,6 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
+ 
 {
   "sections": {
     "slider_PwkFpW": {
@@ -169,6 +170,28 @@
         "bottom_space_desktop": 70,
         "top_space_mobile": 40,
         "bottom_space_mobile": 0
+      }
+    },
+        "3247d0c6-4259-4f8e-9398-e9983217d0ef": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"d-none d-md-block\">{% render 'greenjet_calculator' %}</div>",
+        "content_alignment": "center",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "21e48a4b-8abd-436e-98b9-e9fd6dfb3eb5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"d-block d-md-none\">{% render 'greenjet_calculator_mobile' %}</div><style>.user-input-checkbox-mob,.user-input-checkbox {\n    display: none!important;\n}\n.container-gj-calc .range-wrapinput {padding:0;}\n.bubble {margin-top:0;} </style>",
+        "content_alignment": "center",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
       }
     },
     "1708540102fade48e6": {
@@ -638,6 +661,8 @@
     "slider_PwkFpW",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "featured_product_caLaVy",
+        "3247d0c6-4259-4f8e-9398-e9983217d0ef",
+    "21e48a4b-8abd-436e-98b9-e9fd6dfb3eb5",
     "1708540102fade48e6",
     "16571143161c273279",
     "166219685159fd8837",
