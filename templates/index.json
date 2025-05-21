@@ -7,7 +7,6 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- 
 {
   "sections": {
     "slider_PwkFpW": {
@@ -172,7 +171,7 @@
         "bottom_space_mobile": 0
       }
     },
-      "3247d0c6-4259-4f8e-9398-e9983217d0ef": {
+    "3247d0c6-4259-4f8e-9398-e9983217d0ef": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"d-none d-md-block\">{% render 'greenjet_calculator' %}</div>",
@@ -187,6 +186,18 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"d-block d-md-none\">{% render 'greenjet_calculator_mobile' %}</div><style>.user-input-checkbox-mob,.user-input-checkbox {\n    display: none!important;\n}\n.container-gj-calc .range-wrapinput {padding:0;}\n.bubble {margin-top:0;} </style>",
+        "content_alignment": "center",
+        "top_space_desktop": 30,
+        "bottom_space_desktop": 30,
+        "top_space_mobile": 30,
+        "bottom_space_mobile": 30
+      }
+    },
+    "custom_html_zLeUG7": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "custom_html": "<style>\n    /*Calculator Start */\n.container-gj-calc {\n  margin: 0 auto;\n  max-width: 1000px;\n  display: flex;\n  gap: 0%;\n  background-color: #fff;\n  justify-content: space-evenly;\n  border: solid 2px #2183a3;\n  position: relative;\noverflow: hidden;\n}\n\n.nav-gj-calc {\n    display: flex;\n    position: absolute;\n    width: 100%;\n}\n\n.nav-button-gj-calc {\n    padding: 0px 15px;\n    border: 1px solid #2183a3;\n    border-top: unset;\n    color: #2183a3;\n    cursor: pointer;\n}\n\n.nav-button-gj-calc-active {\n    background-color: #2183a3;\n    color: #E3EFF5;\n}\n\n.container-gj-calc p, .result-gj-calc > div:nth-child(11) .description-gj-calc {\n  color: #2183a3;\n  text-align:center;\n  text-transform: uppercase;\n  font-weight:bold;\n  padding-top:2px;\n}\n.result-gj-calc > div:nth-child(13) > div.value-gj-calc, .result-gj-calc > div:nth-child(11) .value-gj-calc {\n  font-family: var(--heading-font-family);\n  font-weight: bold;\n  font-size: 20px;\n  text-transform:uppercase;\n}\n.result-gj-calc > div:nth-child(11) {\n  flex-direction: column;\n  text-align: center;\n}\n\n.container-gj-calc hr {\n  margin: 0 0 1px 0;\n}\n.container-gj-calc input {\n  accent-color: #2183a3;\n}\n.container-gj-calc select {\n  color: #f2f7f5;\n  font-size: 1rem;\n  background-color: #2183a3;\n}\n\n.user-input-gj-calc {\n\n  margin-bottom: 2rem;\n  width:50%;\n  padding:20px;\npadding-top:50px;\n}\n.user-input-gj-calc div {\n  margin-bottom: 0.5rem;\n}\n\n.user-input-checkbox {\n  display: none;\n}\n\n.checkbox-option-gj-calc {\n  width: 50%;\n  display: flex;\n  align-items: center;\n  gap: 2%;\n  flex-direction: column;\n  padding: 5px 13px;\n  border-radius: 10px;\n  margin: 0px 3px;\n}\n.checkbox-option-gj-calc label {\n  cursor: pointer;\n  font-family:var(--font-family);\n  text-transform: none;\n}\n\n.checkbox-gj-calc img {\n  min-width: 2.5rem;\n  max-width: 2.5rem;\n}\n\n.checkbox-choosen {\n  color: #2183a3;\n}\n\n.shower-container {\n  display: flex;\n  gap: 2%;\n  align-items: center;\n}\n.shower-container input{\n  padding: 10px 15px;\n  border-radius: 5px;\n  border: 1px solid #2183a3;\n  text-align: center;\n}\n\n.shower-modifier {\n  font-size: 1.5rem;\n  color: #2183a3;\n  font-weight: bold;\n  cursor: pointer;\n  padding: 0px 10px;\n}\n\n.user-input-description label {\n  font-weight: bold;\n  font-family:var(--font-family)\n}\n#select-selected-id .select-selected-gj-calc:last-child {\n  border-radius: 0 0 5px 5px;\n}\n.info-panel-gj-calc {\n  display: flex;\n  justify-content: center;\n}\n\n.calculation-explanation {\n  position: absolute;\n  background-color: #E3EFF5;\n  border: 2px solid #2183a3;\n  visibility: hidden;\n  z-index:1;\n  padding: 10px 10px 0px 10px;\n}\n.calculation-explanation span, .calculation-explanation .info-panel-gj-calc {\n  margin: 0 10px;\n  justify-content: flex-start;\n}\n.calculation-explanation .info-panel-gj-calc div {\n  margin-bottom:0;\n}\n#expl_fuel {\n  font-weight:600;\n}\n#calculation_headline label {\n  font-weight: bold;\n  text-decoration: underline;\n}\n\n.custom-select-gj-calc {\n  position: relative;\n  border: 1px solid lightgrey;\n  border-radius: 5px;\n  border-left: 4px solid #2183a3;\n  padding: 7px 0;\n  margin-bottom: 0 !important;\n  cursor: pointer;\n}\n.custom-select-gj-calc select {\n  display: none;\n}\n\n.select-selected-gj-calc {\n  border: 1px solid #2183a3;\n  padding: 7px 0;\n  margin-bottom: 0 !important;\n  cursor: pointer;\n  background-color: #fff;\n}\n\n.select-selected-gj-calc:hover {\n  background-color: #E3EFF5;\n}\n\n.select-text-gj-calc {\n  margin-left: 10px;\n}\n\n#select-option-gj-calc {\n  margin-left: 10px;\n}\n\n#select-selected-id {\n  min-width: 185px;\n  max-width: 185px; \n  z-index: 100;\n  position: relative;\n  left: 28%;\n  bottom: 1%;\n\n}\n\n.range-wrap {\n  position: relative;\n  margin: 0 auto 3rem;\n}\n\n.range {\n  width: 100%;\n}\n\n.bubble {\n  background: #2183a3;\n  color: white;\n  padding: 4px 12px;\n  position: absolute;\n  border-radius: 4px;\n  left: 50%;\n  transform: translateX(-50%);\n  margin-top: 20px;\n  min-width: 40px;\n  text-align: center;\n}\n\n.bubble::after {\n  content: \"\";\n  position: absolute;\n  width: 2px;\n  height: 2px;\n  background: #2183a3;\n  top: -1px;\n  left: 50%;\n}\n.result-gj-calc {\n  width: 50%;\n  margin: 0 auto;\n  padding:20px;\n  background:#E3EFF5;\n}\n.gj-anschluesse {\n  display: flex;\n  flex-direction: row;\n}\n.checkbox-option-gj-calc.checkbox-choosen {\n  background:#2183a3;\n}\n.checkbox-option-gj-calc.checkbox-choosen .checkbox-choosen {\n  color:#fff;\n  padding:0;\n}\n#checkbox_wrapper_connection1 > div:nth-child(1), #checkbox_wrapper_connection1 > div:nth-child(2), #checkbox_wrapper_connection2 > div:nth-child(1), #checkbox_wrapper_connection2 > div:nth-child(2) {\n  margin-bottom:0;\n}\n#calculation_headline-mob .rich_text_button, #calculation_headline .rich_text_button {\n  color:inherit;\n  text-transform:none;\n  cursor:pointer;\n}\n\n\n@media screen and (max-width: 1110px) {\n  .container-gj-calc {\n    flex-direction: column;\n  }\n  .checkbox-gj-calc {\n    text-align: left;\n    display: flex;\n    flex-direction: column;\n    width: 70%;\n    margin: 0 auto;\n    justify-content: space-around;\n  }\n  .result-gj-calc {\n    width: 100%;\n    margin: 0 auto;\n  }\n  .range-wrap {\n    width: 100%;\n  }\n  .user-input-description {\n    max-width: 100%;\n    margin-right: 5px;\n  }\n  .user-input-gj-calc {\n    width:100%;\n    padding:10px;\npadding-top:50px;\n  }\n  .gj-calc-mobile-wrapper {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n  }\n  .gj-calc-mobile-wrapper .gj-anschluesse {\n    flex-direction: row;\n  }\n  .gj-calc-mobile-wrapper .gj-anschluesse .checkbox-option-gj-calc {\n    margin: 0px 3px;\n  }\n  .gj-calc-mobile-wrapper .custom-select-gj-calc {\n    min-width:50%;\n  }\n  #select-selected-id {\n    right:20px;\n  }\n}\n.gj-anschluesse  input.user-input-checkbox-mob {\n    display: none;\n}\n#select-option-gj-calc-mob {\n  padding-left:10px;\n}\n\n#container-gj-calc-mob {display:none;}\n@media screen and (max-width: 1110px) {\n#container-gj-calc-mob {display:block;}\n#container-gj-calc{display:none;}\n}\n.user-input-checkbox {\n    display: none!important;\n}\n.shower-container input {min-width:100px;}\n.anschaffungskosten, #user-input-description-fitness {display:none;}\n/* Calculator End */</style>",
         "content_alignment": "center",
         "top_space_desktop": 30,
         "bottom_space_desktop": 30,
@@ -676,8 +687,9 @@
     "slider_PwkFpW",
     "4354f16b-8940-4410-a5a4-5c7f166b733d",
     "featured_product_caLaVy",
-        "3247d0c6-4259-4f8e-9398-e9983217d0ef",
+    "3247d0c6-4259-4f8e-9398-e9983217d0ef",
     "21e48a4b-8abd-436e-98b9-e9fd6dfb3eb5",
+    "custom_html_zLeUG7",
     "0270419d-3094-4a9a-a438-4e92514a7079",
     "1708540102fade48e6",
     "16571143161c273279",
